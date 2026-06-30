@@ -1,0 +1,13 @@
+/* Blog-specific styles */
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.blog-container { max-width: 860px; margin: 0 auto; padding: 40px 20px; }
+.blog-container h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
+.blog-container h2 { font-size: 1.5rem; margin-top: 2rem; }
+.blog-container p { line-height: 1.8; color: #333; }
+.blog-meta { color: #666; font-size: 0.9rem; margin-bottom: 2rem; }
+.blog-list { list-style: none; padding: 0; }
+.blog-list li { border-bottom: 1px solid #eee; padding: 20px 0; }
+.blog-list a { text-decoration: none; color: #c8372d; font-size: 1.2rem; font-weight: 600; }
+.blog-list a:hover { text-decoration: underline; }
+.blog-list p { margin: 8px 0 0; color: #555; }
+.blog-back { display: inline-block; margin-bottom: 24px; color: #c8372d; text-decoration: none; font-weight: 600; }
