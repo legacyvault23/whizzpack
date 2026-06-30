@@ -1,7 +1,6 @@
 import Layout from '../../components/Layout';
 import { getAllPosts, getPost } from '../../lib/posts';
-import { remark } from 'remark';
-import remarkHtml from 'remark-html';
+import { marked } from 'marked';
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
@@ -48,8 +47,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const { slug } = params;
   const { frontmatter, content } = getPost(slug);
-  const processed = await remark().use(remarkHtml).process(content);
-  const contentHtml = processed.toString();
+  const contentHtml = marked(content);
   const navHtml = fs.readFileSync(path.join(process.cwd(), 'page-content/nav-sub.html'), 'utf8');
   const footerHtml = fs.readFileSync(path.join(process.cwd(), 'page-content/footer.html'), 'utf8');
   return { props: { frontmatter, contentHtml, navHtml, footerHtml, slug } };
