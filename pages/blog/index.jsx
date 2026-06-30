@@ -29,7 +29,7 @@ export default function BlogIndex({ posts, navHtml, footerHtml }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const posts = getAllPosts();
   const navHtml = fs.readFileSync(path.join(process.cwd(), 'page-content/nav-sub.html'), 'utf8');
   const footerHtml = fs.readFileSync(path.join(process.cwd(), 'page-content/footer.html'), 'utf8');

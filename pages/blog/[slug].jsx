@@ -1,5 +1,5 @@
 import Layout from '../../components/Layout';
-import { getAllPosts, getPost } from '../../lib/posts';
+import { getPost } from '../../lib/posts';
 import { marked } from 'marked';
 import fs from 'fs';
 import path from 'path';
@@ -36,19 +36,15 @@ export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml
   );
 }
 
-export async function getStaticPaths() {
-  const posts = getAllPosts();
-  return {
-    paths: posts.map(p => ({ params: { slug: p.slug } })),
-    fallback: false,
-  };
-}
-
-export async function getStaticProps({ params }) {
-  const { slug } = params;
-  const { frontmatter, content } = getPost(slug);
-  const contentHtml = marked(content);
-  const navHtml = fs.readFileSync(path.join(process.cwd(), 'page-content/nav-sub.html'), 'utf8');
-  const footerHtml = fs.readFileSync(path.join(process.cwd(), 'page-content/footer.html'), 'utf8');
-  return { props: { frontmatter, contentHtml, navHtml, footerHtml, slug } };
+export async function getServerSideProps({ params }) {
+  try {
+    const { slug } = params;
+    const { frontmatter, content } = getPost(slug);
+    const contentHtml = marked(content);
+    const navHtml = fs.readFileSync(path.join(process.cwd(), 'page-content/nav-sub.html'), 'utf8');
+    const footerHtml = fs.readFileSync(path.join(process.cwd(), 'page-content/footer.html'), 'utf8');
+    return { props: { frontmatter, contentHtml, navHtml, footerHtml, slug } };
+  } catch (e) {
+    return { notFound: true };
+  }
 }
