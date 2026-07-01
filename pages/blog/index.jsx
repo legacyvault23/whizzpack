@@ -13,17 +13,36 @@ export default function BlogIndex({ posts, navHtml, footerHtml }) {
       navHtml={navHtml}
       footerHtml={footerHtml}
     >
-      <div className="blog-container">
-        <h1>Packaging Insights</h1>
-        <p>Guides and resources for US &amp; UK importers sourcing packaging from India.</p>
-        <ul className="blog-list">
+      {/* Hero */}
+      <div className="blog-hero">
+        <div className="blog-hero-inner">
+          <h1>Packaging Insights</h1>
+          <p>Expert guides for US &amp; UK importers sourcing packaging from India</p>
+        </div>
+      </div>
+
+      {/* Card Grid */}
+      <div className="blog-grid-wrap">
+        <div className="blog-grid">
+          {posts.length === 0 && (
+            <div className="blog-empty">
+              <h2>Coming Soon</h2>
+              <p>Our first articles are on their way.</p>
+            </div>
+          )}
           {posts.map(post => (
-            <li key={post.slug}>
-              <Link href={`/blog/${post.slug}`}>{post.title}</Link>
-              <p>{post.excerpt}</p>
-            </li>
+            <Link href={`/blog/${post.slug}`} key={post.slug} className="blog-card">
+              <div className="blog-card-accent" />
+              <div className="blog-card-body">
+                <span className="blog-card-tag">Article</span>
+                <h2>{post.title}</h2>
+                <p>{post.excerpt}</p>
+                {post.date && <div className="blog-card-meta">{post.date}</div>}
+                <span className="blog-card-cta">Read More →</span>
+              </div>
+            </Link>
           ))}
-        </ul>
+        </div>
       </div>
     </Layout>
   );

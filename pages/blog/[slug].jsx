@@ -26,11 +26,23 @@ export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml
       navHtml={navHtml}
       footerHtml={footerHtml}
     >
-      <div className="blog-container">
-        <Link href="/blog" className="blog-back">← All Posts</Link>
-        <h1>{frontmatter.title}</h1>
-        <p className="blog-meta">{frontmatter.date}</p>
-        <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
+      <div className="blog-post-wrap">
+        {/* Post hero */}
+        <div className="blog-post-hero">
+          <div className="blog-post-hero-inner">
+            <Link href="/blog" className="blog-back">← All Posts</Link>
+            <h1>{frontmatter.title}</h1>
+            {frontmatter.date && <p className="blog-meta">{frontmatter.date}</p>}
+          </div>
+        </div>
+
+        {/* Article body */}
+        <div className="blog-article-wrap">
+          <article
+            className="blog-article"
+            dangerouslySetInnerHTML={{ __html: contentHtml }}
+          />
+        </div>
       </div>
     </Layout>
   );
