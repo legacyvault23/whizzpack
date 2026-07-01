@@ -442,4 +442,6 @@ nav .logo-img{height:46px}
 .blog-list{list-style:none;padding:0}
 .blog-list li{border-bottom:1px solid #eee;padding:20px 0}
 .blog-list a{text-decoration:none;color:#c8372d;font-size:1.2rem;font-weight:600}
-.blog-list a:hover{text-decor
+.blog-list a:hover{text-decoration:underline}
+.blog-list p{margin:8px 0 0;color:#555}
+.blog-back{display:inline-block;margin-bottom:24px;color:#c8372d;text-decoration:none;font-weight:600}
