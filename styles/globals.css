@@ -458,13 +458,13 @@ nav .logo-img{height:46px}
 /* ─── Blog post (article) ─── */
 .blog-post-wrap{background:#F4F6FA;min-height:100vh}
 .blog-post-hero{background:linear-gradient(135deg,#0F1F4B 0%,#1a2f6e 100%);padding:100px 20px 48px}
-.blog-post-hero-inner{max-width:760px;margin:0 auto}
+.blog-post-hero-inner{max-width:1140px;margin:0 auto}
 .blog-back{display:inline-flex;align-items:center;gap:6px;color:rgba(255,255,255,.75);text-decoration:none;font-size:.88rem;font-weight:600;margin-bottom:24px;transition:color .2s}
 .blog-back:hover{color:#F05A28}
 .blog-post-hero h1{color:#fff;font-size:clamp(1.5rem,3.5vw,2.2rem);font-weight:800;margin:0 0 14px;line-height:1.3;letter-spacing:-.02em}
 .blog-meta{color:rgba(255,255,255,.6);font-size:.85rem}
 
-.blog-article-wrap{max-width:760px;margin:0 auto;padding:40px 20px 80px}
+.blog-article-wrap{max-width:1140px;margin:0 auto;padding:40px 20px 80px}
 .blog-article{background:#fff;border-radius:16px;padding:clamp(24px,5vw,48px);box-shadow:0 4px 24px rgba(15,31,75,.07);border:1.5px solid #e5e8ef;line-height:1.85;color:#374151;font-size:.97rem}
 .blog-article h2{color:#0F1F4B;font-size:1.35rem;font-weight:700;margin:2.2em 0 .8em;padding-bottom:.4em;border-bottom:2px solid #F05A28;display:inline-block}
 .blog-article h3{color:#0F1F4B;font-size:1.1rem;font-weight:700;margin:1.8em 0 .6em}

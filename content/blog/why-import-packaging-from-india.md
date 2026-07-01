@@ -4,18 +4,18 @@ date: "2025-02-10"
 excerpt: "An honest, importer-focused guide covering what to expect, how to vet suppliers, and the common mistakes to avoid when sourcing corrugated boxes or cotton bags from India."
 ---
 
-If you've been thinking about sourcing packaging from India, you've probably already found plenty of supplier directories and vague promotional content — but not much that actually answers the questions keeping you up at night.
+If you've been thinking about sourcing packaging from India, you've probably already found plenty of supplier directories and vague promotional content, but not much that actually answers the questions keeping you up at night.
 
 Is the quality really there? What happens if something goes wrong? How long does it actually take?
 
 Here's an honest look at what the process is like for US and UK importers.
 
-![Cargo ships at a busy international port, representing sea freight from India](https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=900&auto=format&fit=crop&q=80)
+![Cargo ships at a busy international port, representing sea freight from India](https://images.unsplash.com/photo-MHXJ9p64Jw8?w=900&auto=format&fit=crop&q=80)
 *Sea freight from India to the US East Coast typically runs 25–30 days; to UK and Northern Europe, around 18–22 days.*
 
 ## Why Importers Are Looking at India
 
-The interest in Indian packaging manufacturers has grown steadily, and it's not just about cost. Indian factories — particularly in packaging hubs like Gujarat and Maharashtra — have invested heavily in modern production equipment. Many now run ISO-certified facilities with the same European machinery used by manufacturers in Germany or the Netherlands.
+The interest in Indian packaging manufacturers has grown steadily, and it's not just about cost. Indian factories, particularly in packaging hubs like Gujarat and Maharashtra, have invested heavily in modern production equipment. Many now run ISO-certified facilities with the same European machinery used by manufacturers in Germany or the Netherlands.
 
 What draws serious importers:
 
@@ -27,7 +27,7 @@ None of this is guaranteed. The manufacturer you choose makes all the difference
 
 ## How to Vet a Supplier Before You Commit
 
-This is where most first-time importers make mistakes — they jump straight to negotiation before establishing whether the manufacturer can actually deliver what's needed.
+This is where most first-time importers make mistakes, they jump straight to negotiation before establishing whether the manufacturer can actually deliver what's needed.
 
 Here's what matters more than price at the vetting stage:
 
@@ -39,7 +39,7 @@ Here's what matters more than price at the vetting stage:
 
 **Communication quality**: How they respond to your first few emails tells you a lot. Are they specific and responsive, or do they send a generic catalogue and wait?
 
-![Stacked corrugated boxes in a well-organised packing facility](https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=900&auto=format&fit=crop&q=80)
+![Cardboard boxes and packaging supplies in a warehouse](https://images.unsplash.com/photo-RVP3wAw9gJY?w=900&auto=format&fit=crop&q=80)
 *A well-organised facility with clear quality control processes is a strong indicator of a reliable export partner.*
 
 ## What the Timeline Actually Looks Like
@@ -72,9 +72,9 @@ Total time from first contact to goods at your warehouse: **3–5 months** for a
 
 Companies ordering meaningful volumes who need specifications that domestic suppliers won't accommodate tend to be the ones who benefit most from sourcing in India. The economics are compelling for repeatable orders, and the flexibility available from specialist manufacturers is often unavailable closer to home.
 
-The lowest-risk way to find out if it works for you is to request samples. No commitment, just a direct read on quality — which is the only thing that actually matters.
+The lowest-risk way to find out if it works for you is to request samples. No commitment, just a direct read on quality, which is the only thing that actually matters.
 
 [Explore our packaging range or request samples →](https://www.whizzpack.in/)
 
-![Business professionals reviewing packaging samples at a table](https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=900&auto=format&fit=crop&q=80)
-*The importers who succeed long-term treat supplier selection as a deliberate process — not just a price comparison.*
+![A large amount of shipping containers stacked at a port](https://images.unsplash.com/photo-Annl9CjEaEs?w=900&auto=format&fit=crop&q=80)
+*India handles a significant volume of packaging exports to the US and UK across multiple established sea freight routes.*
