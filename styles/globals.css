@@ -430,6 +430,9 @@ nav .logo-img{height:46px}
 .step-card{background:#fff;border-radius:14px;padding:28px;box-shadow:var(--sh);position:relative;counter-increment:stepcount;border:1.5px solid var(--border)}
 .step-card::before{content:counter(stepcount);position:absolute;top:-14px;left:24px;width:32px;height:32px;background:var(--orange);color:#fff;font-weight:800;font-size:.9rem;border-radius:50%;display:flex;align-items:center;justify-content:center;line-height:32px;text-align:center}
 
+/* ─── Blog: reveal animated elements (no scroll-JS on blog pages) ─── */
+.anim,.animl,.animr,.anims{opacity:1!important;transform:none!important}
+
 /* ─── Blog-specific styles ─── */
 .blog-container{max-width:860px;margin:0 auto;padding:40px 20px}
 .blog-container h1{font-size:2.2rem;margin-bottom:.5rem}
@@ -439,6 +442,4 @@ nav .logo-img{height:46px}
 .blog-list{list-style:none;padding:0}
 .blog-list li{border-bottom:1px solid #eee;padding:20px 0}
 .blog-list a{text-decoration:none;color:#c8372d;font-size:1.2rem;font-weight:600}
-.blog-list a:hover{text-decoration:underline}
-.blog-list p{margin:8px 0 0;color:#555}
-.blog-back{display:inline-block;margin-bottom:24px;color:#c8372d;text-decoration:none;font-weight:600}
+.blog-list a:hover{text-decor
