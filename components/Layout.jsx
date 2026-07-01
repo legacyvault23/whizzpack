@@ -115,6 +115,8 @@ export default function Layout({ children, title, description, canonical, schema
         <meta property="og:description" content={description} />
         <meta property="og:type" content="article" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
         {schema && (
           <script
             type="application/ld+json"
