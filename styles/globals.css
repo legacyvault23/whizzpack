@@ -457,7 +457,7 @@ nav .logo-img{height:46px}
 
 /* ─── Blog post (article) ─── */
 .blog-post-wrap{background:#F4F6FA;min-height:100vh}
-.blog-post-hero{background:linear-gradient(135deg,#0F1F4B 0%,#1a2f6e 100%);padding:60px 20px 40px}
+.blog-post-hero{background:linear-gradient(135deg,#0F1F4B 0%,#1a2f6e 100%);padding:100px 20px 48px}
 .blog-post-hero-inner{max-width:760px;margin:0 auto}
 .blog-back{display:inline-flex;align-items:center;gap:6px;color:rgba(255,255,255,.75);text-decoration:none;font-size:.88rem;font-weight:600;margin-bottom:24px;transition:color .2s}
 .blog-back:hover{color:#F05A28}
