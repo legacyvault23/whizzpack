@@ -4,6 +4,12 @@ import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
 
+function formatDate(dateStr) {
+  if (!dateStr) return '';
+  const d = new Date(dateStr + 'T00:00:00');
+  return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+}
+
 export default function BlogIndex({ posts, navHtml, footerHtml }) {
   return (
     <Layout
@@ -37,7 +43,10 @@ export default function BlogIndex({ posts, navHtml, footerHtml }) {
                 <span className="blog-card-tag">Article</span>
                 <h2>{post.title}</h2>
                 <p>{post.excerpt}</p>
-                {post.date && <div className="blog-card-meta">{post.date}</div>}
+                <div className="blog-card-meta">
+                  {post.author && <span>{post.author}</span>}
+                  {post.date && <span>{formatDate(post.date)}</span>}
+                </div>
                 <span className="blog-card-cta">Read More →</span>
               </div>
             </Link>

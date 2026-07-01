@@ -1,6 +1,8 @@
 ---
 title: "Sourcing Packaging from India: What US & UK Importers Actually Want to Know"
-date: "2025-02-10"
+date: "2026-06-20"
+author: "Jash B."
+tags: ["India packaging", "import guide", "corrugated boxes", "cotton bags", "US UK importers", "sourcing from India"]
 excerpt: "An honest, importer-focused guide covering what to expect, how to vet suppliers, and the common mistakes to avoid when sourcing corrugated boxes or cotton bags from India."
 ---
 
@@ -10,7 +12,7 @@ Is the quality really there? What happens if something goes wrong? How long does
 
 Here's an honest look at what the process is like for US and UK importers.
 
-![Cargo ships at a busy international port, representing sea freight from India](https://images.unsplash.com/photo-MHXJ9p64Jw8?w=900&auto=format&fit=crop&q=80)
+![Cargo ships at a busy international port, representing sea freight from India](https://images.unsplash.com/photo-1670121180530-cfcba4438038?w=900&auto=format&fit=crop&q=80)
 *Sea freight from India to the US East Coast typically runs 25–30 days; to UK and Northern Europe, around 18–22 days.*
 
 ## Why Importers Are Looking at India
@@ -39,7 +41,7 @@ Here's what matters more than price at the vetting stage:
 
 **Communication quality**: How they respond to your first few emails tells you a lot. Are they specific and responsive, or do they send a generic catalogue and wait?
 
-![Cardboard boxes and packaging supplies in a warehouse](https://images.unsplash.com/photo-RVP3wAw9gJY?w=900&auto=format&fit=crop&q=80)
+![Cardboard boxes and packaging supplies in a warehouse](https://images.unsplash.com/photo-1769355104335-acef3aa4c9b6?w=900&auto=format&fit=crop&q=80)
 *A well-organised facility with clear quality control processes is a strong indicator of a reliable export partner.*
 
 ## What the Timeline Actually Looks Like
@@ -76,5 +78,5 @@ The lowest-risk way to find out if it works for you is to request samples. No co
 
 [Explore our packaging range or request samples →](https://www.whizzpack.in/)
 
-![A large amount of shipping containers stacked at a port](https://images.unsplash.com/photo-Annl9CjEaEs?w=900&auto=format&fit=crop&q=80)
+![A large amount of shipping containers stacked at a port](https://images.unsplash.com/photo-1678182451047-196f22a4143e?w=900&auto=format&fit=crop&q=80)
 *India handles a significant volume of packaging exports to the US and UK across multiple established sea freight routes.*

@@ -1,6 +1,8 @@
 ---
 title: "Corrugated Boxes from India: A Practical Guide for US & UK Buyers"
-date: "2025-02-05"
+date: "2026-06-12"
+author: "Jash B."
+tags: ["corrugated boxes", "cardboard packaging", "India import", "packaging specs", "buyer guide", "box grades"]
 excerpt: "What US and UK buyers need to understand before importing corrugated boxes from India, specifications, quality standards, what to ask, and how to find a reliable manufacturer."
 ---
 
@@ -8,7 +10,7 @@ Corrugated boxes are one of the most frequently imported packaging products from
 
 But for buyers new to Indian imports, there's a learning curve. This guide cuts through it.
 
-![Rows of open brown corrugated cardboard boxes ready for dispatch](https://images.unsplash.com/photo-gthSas4oYC0?w=900&auto=format&fit=crop&q=80)
+![Rows of open brown corrugated cardboard boxes ready for dispatch](https://images.unsplash.com/photo-1700165644892-3dd6b67b25bc?w=900&auto=format&fit=crop&q=80)
 *Indian corrugated box manufacturers offer a wide range of flute types, board grades, and custom print options for international buyers.*
 
 ## Know What You Need Before You Start
@@ -37,7 +39,7 @@ For corrugated boxes, two tests tell you what you need to know:
 
 Ask any prospective manufacturer for current test reports. If they export regularly to the US or UK, these should be standard documentation. FEFCO box style codes are internationally recognised, specifying your requirement by FEFCO code eliminates ambiguity in communication.
 
-![Workers at a modern manufacturing facility producing packaging materials](https://images.unsplash.com/photo-XBWF6_TEsFM?w=900&auto=format&fit=crop&q=80)
+![Workers at a modern manufacturing facility producing packaging materials](https://images.unsplash.com/photo-1700727448686-b314cb5f9948?w=900&auto=format&fit=crop&q=80)
 *Modern corrugated box facilities in India use European production equipment and employ quality control processes aligned with international export standards.*
 
 ## A Simple Checklist for Evaluating a Manufacturer
@@ -64,5 +66,5 @@ Importers who struggle with Indian suppliers typically skipped this documentatio
 
 [Request a sample or discuss your requirements with our team →](https://www.whizzpack.in/)
 
-![A large cargo ship loaded with containers at sea representing freight from India to US and UK ports](https://images.unsplash.com/photo-WqZwkrBuZIE?w=900&auto=format&fit=crop&q=80)
+![A large cargo ship loaded with containers at sea representing freight from India to US and UK ports](https://images.unsplash.com/photo-1634638022845-1ab614a94128?w=900&auto=format&fit=crop&q=80)
 *Sea freight from India: roughly 25–30 days to the US East Coast and 18–22 days to UK ports.*

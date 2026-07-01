@@ -5,6 +5,12 @@ import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
 
+function formatDate(dateStr) {
+  if (!dateStr) return '';
+  const d = new Date(dateStr + 'T00:00:00');
+  return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+}
+
 export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml, slug }) {
   const schema = JSON.stringify({
     "@context": "https://schema.org",
@@ -12,10 +18,13 @@ export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml
     "headline": frontmatter.title,
     "description": frontmatter.excerpt,
     "datePublished": frontmatter.date,
-    "author": { "@type": "Organization", "name": "Whizzpack" },
+    "author": { "@type": "Person", "name": frontmatter.author || "Whizzpack" },
     "publisher": { "@type": "Organization", "name": "Whizzpack", "url": "https://www.whizzpack.in" },
+    "keywords": (frontmatter.tags || []).join(', '),
     "mainEntityOfPage": `https://www.whizzpack.in/blogs/${slug}`
   });
+
+  const tags = frontmatter.tags || [];
 
   return (
     <Layout
@@ -32,7 +41,21 @@ export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml
           <div className="blog-post-hero-inner">
             <Link href="/blogs" className="blog-back">← All Posts</Link>
             <h1>{frontmatter.title}</h1>
-            {frontmatter.date && <p className="blog-meta">{frontmatter.date}</p>}
+            <div className="blog-post-meta">
+              {frontmatter.author && (
+                <span className="blog-post-author">By {frontmatter.author}</span>
+              )}
+              {frontmatter.date && (
+                <span className="blog-post-date">{formatDate(frontmatter.date)}</span>
+              )}
+            </div>
+            {tags.length > 0 && (
+              <div className="blog-post-tags">
+                {tags.map(tag => (
+                  <span key={tag} className="blog-tag">{tag}</span>
+                ))}
+              </div>
+            )}
           </div>
         </div>
 
