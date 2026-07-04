@@ -120,8 +120,6 @@ nav .logo-img{height:46px}
   .policy-cta{flex-direction:column;text-align:center}
 }
   
-/* Privacy policy: show all content immediately, no animation dependencies */
-.anim,.animl,.animr,.anims{opacity:1!important;transform:none!important;transition:none!important}
 </style>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-W8N0CSLMYZ"></script>
@@ -283,10 +281,14 @@ document.querySelectorAll('a,button').forEach(function(el){
   el.addEventListener('mouseenter',function(){if(csr)csr.classList.add('lg');if(csrf)csrf.classList.add('lg');});
   el.addEventListener('mouseleave',function(){if(csr)csr.classList.remove('lg');if(csrf)csrf.classList.remove('lg');});
 });
+var animEls=document.querySelectorAll('.anim,.animl,.animr,.anims');
 var obs=new IntersectionObserver(function(entries){
   entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');obs.unobserve(e.target);}});
-},{threshold:.1,rootMargin:'0px 0px -20px 0px'});
-document.querySelectorAll('.anim,.animl').forEach(function(el){obs.observe(el);});
+},{threshold:.05,rootMargin:'0px 0px -10px 0px'});
+animEls.forEach(function(el){obs.observe(el);});
+function revealInView(){animEls.forEach(function(el){if(!el.classList.contains('on')){var r=el.getBoundingClientRect();if(r.top<window.innerHeight+80)el.classList.add('on');}});}
+document.addEventListener('visibilitychange',function(){if(!document.hidden)revealInView();});
+setTimeout(revealInView,250);
 (function(){
   var nav=document.getElementById('nav');
   function upNav(){if(nav)nav.classList.toggle('sc',(window.scrollY||document.documentElement.scrollTop)>50);}

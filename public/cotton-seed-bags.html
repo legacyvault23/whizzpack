@@ -1021,10 +1021,14 @@ document.querySelectorAll('a,button,.pc,.ic,.tc2,.wc,.cm').forEach(function(el){
 });
 
 // 4. SCROLL REVEAL (IntersectionObserver only - no GSAP opacity changes)
+var animEls=document.querySelectorAll('.anim,.animl,.animr,.anims');
 var obs=new IntersectionObserver(function(entries){
   entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');obs.unobserve(e.target);}});
-},{threshold:.1,rootMargin:'0px 0px -20px 0px'});
-document.querySelectorAll('.anim,.animl,.animr,.anims').forEach(function(el){obs.observe(el);});
+},{threshold:.05,rootMargin:'0px 0px -10px 0px'});
+animEls.forEach(function(el){obs.observe(el);});
+function revealInView(){animEls.forEach(function(el){if(!el.classList.contains('on')){var r=el.getBoundingClientRect();if(r.top<window.innerHeight+80)el.classList.add('on');}});}
+document.addEventListener('visibilitychange',function(){if(!document.hidden)revealInView();});
+setTimeout(revealInView,250);
 
 // 7. MAGNETIC BUTTONS
 (function(){
