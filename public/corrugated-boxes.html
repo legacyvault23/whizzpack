@@ -19,7 +19,8 @@
   <link rel="apple-touch-icon" href="/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -1011,75 +1012,4 @@ setTimeout(revealInView,250);
     e.preventDefault();
     var valid=true;
     form.querySelectorAll('[required]').forEach(function(f){
-      if(!f.value.trim()){f.style.borderColor='#F05A28';valid=false;}
-      else f.style.borderColor='';
-    });
-    if(!valid)return;
-
-    var btn=form.querySelector('button[type="submit"]');
-    var fe=document.getElementById('fe');
-    var fs=document.getElementById('fs');
-    if(fe)fe.style.display='none';
-    if(btn){btn.disabled=true;btn.textContent='Sending...';}
-
-    var fd=new FormData(form);
-    var cat=fd.get('product_category')||'';
-    var payload={
-      _subject:'New Export Enquiry from '+(fd.get('name')||'Unknown')+' | Whizzpack',
-      _cc:'jash.bavishi1@gmail.com,info.whizzpack@yahoo.com',
-      _captcha:'false',
-      _template:'table',
-      _replyto: fd.get('email')||'',
-      'Product Category': cat,
-      Name: fd.get('name')||'',
-      Company: fd.get('company')||'',
-      Country: fd.get('country')||'',
-      Email: fd.get('email')||'',
-      Phone: fd.get('phone')||'',
-      Quantity: fd.get('quantity')||'',
-      Message: fd.get('message')||''
-    };
-    if(cat==='Corrugated Boxes'){
-      payload['Box Type']=fd.get('box_type')||'';
-      payload['Print Preference']=fd.get('print_preference')||'';
-    }
-    if(cat==='Cotton Seed Bags'){
-      payload['Bag Type']=fd.get('bag_type')||'';
-      payload['Seed Type']=fd.get('seed_type')||'';
-      payload['Fabric Weight']=fd.get('fabric_weight')||'';
-    }
-
-    fetch('https://formsubmit.co/ajax/parthashara58@gmail.com',{
-      method:'POST',
-      headers:{'Content-Type':'application/json','Accept':'application/json'},
-      body:JSON.stringify(payload)
-    })
-    .then(function(r){return r.json();})
-    .then(function(data){
-      if(data.success==='true'||data.success===true){
-        form.style.display='none';
-        if(fs)fs.style.display='block';
-      } else {
-        throw new Error('failed');
-      }
-    })
-    .catch(function(err){
-      console.error('Form error:',err);
-      if(btn){btn.disabled=false;btn.textContent='Send Enquiry';}
-      if(fe)fe.style.display='block';
-    });
-  });
-})();
-
-// 16. PRIVACY MODAL
-(function(){
-  var pl=document.getElementById('pl'),pm=document.getElementById('pm'),pmc=document.getElementById('pmc');
-  if(!pl||!pm)return;
-  pl.addEventListener('click',function(e){e.preventDefault();pm.classList.add('open');});
-  if(pmc)pmc.addEventListener('click',function(){pm.classList.remove('open');});
-  pm.addEventListener('click',function(e){if(e.target===pm)pm.classList.remove('open');});
-})();
-
-})();
-</script>
-</body></html>
+      if(!f.value.trim()){f.style.borderColor='#F05A28';valid=false
