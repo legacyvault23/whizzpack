@@ -1236,4 +1236,11 @@ setTimeout(revealInView,250);
   var pl=document.getElementById('pl'),pm=document.getElementById('pm'),pmc=document.getElementById('pmc');
   if(!pl||!pm)return;
   pl.addEventListener('click',function(e){e.preventDefault();pm.classList.add('open');});
-  if(pmc)pmc.addEventListener('click',function(){pm.classList.remove('open');
+  if(pmc)pmc.addEventListener('click',function(){pm.classList.remove('open');});
+  pm.addEventListener('click',function(e){if(e.target===pm)pm.classList.remove('open');});
+})();
+
+})();
+</script>
+</body>
+</html>
