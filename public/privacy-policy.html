@@ -163,7 +163,7 @@ nav .logo-img{height:46px}
 <main>
 <section class="pg-policy">
   <div class="wrap">
-    <div class="policy-inner anim">
+    <div class="policy-inner">
       <span class="stag">Legal</span>
       <h1>Privacy Policy</h1>
       <p class="meta">Last updated: July 2026 &nbsp;&bull;&nbsp; Whizzpack Packing Solutions, Rajkot, India</p>
@@ -297,6 +297,11 @@ document.querySelectorAll('.anim,.animl').forEach(function(el){obs.observe(el);}
   document.querySelectorAll('.mlink').forEach(function(l){l.addEventListener('click',function(){mm.classList.remove('open');hb.classList.remove('active');});});
 })();
 })();
+
+// Ensure animated sections are always visible
+setTimeout(function(){
+  document.querySelectorAll('.anim,.animl').forEach(function(el){el.classList.add('on');});
+}, 800);
 </script>
 </body>
 </html>
