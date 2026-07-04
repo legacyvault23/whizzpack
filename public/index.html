@@ -22,7 +22,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
@@ -1085,33 +1084,38 @@ setTimeout(revealInView,250);
   co.observe(hst);
 })();
 
-// 10. THREE.JS PARTICLES
+// 10. THREE.JS PARTICLES (lazy-loaded after page renders)
 (function(){
   var canvas=document.getElementById('heroCanvas');
-  if(!canvas||typeof THREE==='undefined')return;
-  var W=canvas.parentElement.offsetWidth||window.innerWidth;
-  var H=canvas.parentElement.offsetHeight||600;
-  var scene=new THREE.Scene();
-  var cam=new THREE.PerspectiveCamera(60,W/H,.1,1000);
-  cam.position.z=5;
-  var renderer=new THREE.WebGLRenderer({canvas:canvas,alpha:true,antialias:true});
-  renderer.setSize(W,H);renderer.setPixelRatio(Math.min(window.devicePixelRatio,2));
-  var n=140,geo=new THREE.BufferGeometry();
-  var pos=new Float32Array(n*3),col=new Float32Array(n*3);
-  for(var i=0;i<n;i++){
-    pos[i*3]=(Math.random()-.5)*14;pos[i*3+1]=(Math.random()-.5)*9;pos[i*3+2]=(Math.random()-.5)*3;
-    if(Math.random()>.5){col[i*3]=.94;col[i*3+1]=.35;col[i*3+2]=.16;}
-    else{col[i*3]=.06;col[i*3+1]=.12;col[i*3+2]=.3;}
-  }
-  geo.setAttribute('position',new THREE.BufferAttribute(pos,3));
-  geo.setAttribute('color',new THREE.BufferAttribute(col,3));
-  var mat=new THREE.PointsMaterial({size:.042,vertexColors:true,transparent:true,opacity:.48});
-  var pts=new THREE.Points(geo,mat);scene.add(pts);
-  var pmx=0,pmy=0;
-  document.addEventListener('mousemove',function(e){pmx=e.clientX/window.innerWidth-.5;pmy=e.clientY/window.innerHeight-.5;});
-  var clk=0;
-  (function loop(){requestAnimationFrame(loop);clk+=.004;pts.rotation.y=Math.sin(clk*.18)*.32+pmx*.28;pts.rotation.x=Math.cos(clk*.12)*.18+(-pmy*.22);renderer.render(scene,cam);})();
-  window.addEventListener('resize',function(){var nW=canvas.parentElement.offsetWidth,nH=canvas.parentElement.offsetHeight;cam.aspect=nW/nH;cam.updateProjectionMatrix();renderer.setSize(nW,nH);});
+  if(!canvas)return;
+  var s=document.createElement('script');
+  s.src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js';
+  s.onload=function(){
+    var W=canvas.parentElement.offsetWidth||window.innerWidth;
+    var H=canvas.parentElement.offsetHeight||600;
+    var scene=new THREE.Scene();
+    var cam=new THREE.PerspectiveCamera(60,W/H,.1,1000);
+    cam.position.z=5;
+    var renderer=new THREE.WebGLRenderer({canvas:canvas,alpha:true,antialias:true});
+    renderer.setSize(W,H);renderer.setPixelRatio(Math.min(window.devicePixelRatio,2));
+    var n=140,geo=new THREE.BufferGeometry();
+    var pos=new Float32Array(n*3),col=new Float32Array(n*3);
+    for(var i=0;i<n;i++){
+      pos[i*3]=(Math.random()-.5)*14;pos[i*3+1]=(Math.random()-.5)*9;pos[i*3+2]=(Math.random()-.5)*3;
+      if(Math.random()>.5){col[i*3]=.94;col[i*3+1]=.35;col[i*3+2]=.16;}
+      else{col[i*3]=.06;col[i*3+1]=.12;col[i*3+2]=.3;}
+    }
+    geo.setAttribute('position',new THREE.BufferAttribute(pos,3));
+    geo.setAttribute('color',new THREE.BufferAttribute(col,3));
+    var mat=new THREE.PointsMaterial({size:.042,vertexColors:true,transparent:true,opacity:.48});
+    var pts=new THREE.Points(geo,mat);scene.add(pts);
+    var pmx=0,pmy=0;
+    document.addEventListener('mousemove',function(e){pmx=e.clientX/window.innerWidth-.5;pmy=e.clientY/window.innerHeight-.5;});
+    var clk=0;
+    (function loop(){requestAnimationFrame(loop);clk+=.004;pts.rotation.y=Math.sin(clk*.18)*.32+pmx*.28;pts.rotation.x=Math.cos(clk*.12)*.18+(-pmy*.22);renderer.render(scene,cam);})();
+    window.addEventListener('resize',function(){var nW=canvas.parentElement.offsetWidth,nH=canvas.parentElement.offsetHeight;cam.aspect=nW/nH;cam.updateProjectionMatrix();renderer.setSize(nW,nH);});
+  };
+  document.head.appendChild(s);
 })();
 
 // 11. TICKER CLONE
