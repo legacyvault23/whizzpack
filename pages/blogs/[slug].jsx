@@ -11,7 +11,13 @@ function formatDate(dateStr) {
   return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 }
 
+function extractFirstImage(html) {
+  const match = html.match(/<img[^>]+src="([^"]+)"/);
+  return match ? match[1].split('?')[0] + '?w=1200&auto=format&fit=crop&q=80' : null;
+}
+
 export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml, slug }) {
+  const ogImage = frontmatter.ogImage || extractFirstImage(contentHtml) || 'https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1200&auto=format&fit=crop&q=80';
   const schema = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -32,6 +38,7 @@ export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml
       description={frontmatter.excerpt}
       canonical={`https://www.whizzpack.in/blogs/${slug}`}
       schema={schema}
+      ogImage={ogImage}
       navHtml={navHtml}
       footerHtml={footerHtml}
     >

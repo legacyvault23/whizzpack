@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { useEffect } from 'react';
 
-export default function Layout({ children, title, description, canonical, schema, navHtml, footerHtml }) {
+export default function Layout({ children, title, description, canonical, schema, ogImage, navHtml, footerHtml }) {
 
   useEffect(() => {
     // ── 1. CURSOR ──────────────────────────────────────────────────────────
@@ -114,6 +114,11 @@ export default function Layout({ children, title, description, canonical, schema
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:type" content="article" />
+        {ogImage && <meta property="og:image" content={ogImage} />}
+        {ogImage && <meta property="og:image:width" content="1200" />}
+        {ogImage && <meta property="og:image:height" content="630" />}
+        {ogImage && <meta name="twitter:card" content="summary_large_image" />}
+        {ogImage && <meta name="twitter:image" content={ogImage} />}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <link rel="apple-touch-icon" href="/favicon.png" />

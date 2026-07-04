@@ -2,6 +2,12 @@
 const nextConfig = {
   trailingSlash: false,
   images: { unoptimized: true },
+  async redirects() {
+    return [
+      { source: '/blog', destination: '/blogs', permanent: true },
+      { source: '/blog/:slug*', destination: '/blogs/:slug*', permanent: true },
+    ];
+  },
   async rewrites() {
     return [
       { source: '/', destination: '/index.html' },
