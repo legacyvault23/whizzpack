@@ -489,7 +489,27 @@ nav .logo-img{height:46px}
   <link rel="sitemap" type="application/xml" href="/sitemap.xml">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-W8N0CSLMYZ"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-W8N0CSLMYZ');</script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-W8N0CSLMYZ');
+// Fix: hero animations restart if tab was hidden during initial load
+(function(){
+  var heroAnims=['.hbadge','.ht','.hs','.hst','.hctab','.hstat'];
+  var started=false;
+  function restartAnims(){
+    if(started)return;started=true;
+    heroAnims.forEach(function(sel){
+      document.querySelectorAll(sel).forEach(function(el){
+        el.style.animation='none';
+        el.offsetHeight;
+        el.style.animation='';
+      });
+    });
+  }
+  if(!document.hidden){restartAnims();}
+  document.addEventListener('visibilitychange',function(){
+    if(!document.hidden)restartAnims();
+  });
+})();
+</script>
 </head>
 
 <body>
