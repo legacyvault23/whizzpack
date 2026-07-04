@@ -119,7 +119,10 @@ nav .logo-img{height:46px}
   .pg-policy{padding:110px 0 60px}
   .policy-cta{flex-direction:column;text-align:center}
 }
-  </style>
+  
+/* Privacy policy: show all content immediately, no animation dependencies */
+.anim,.animl,.animr,.anims{opacity:1!important;transform:none!important;transition:none!important}
+</style>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-W8N0CSLMYZ"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-W8N0CSLMYZ');</script>
@@ -298,10 +301,6 @@ document.querySelectorAll('.anim,.animl').forEach(function(el){obs.observe(el);}
 })();
 })();
 
-// Ensure animated sections are always visible
-setTimeout(function(){
-  document.querySelectorAll('.anim,.animl').forEach(function(el){el.classList.add('on');});
-}, 800);
 </script>
 </body>
 </html>
