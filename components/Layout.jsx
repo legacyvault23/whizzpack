@@ -128,6 +128,9 @@ export default function Layout({ children, title, description, canonical, schema
             dangerouslySetInnerHTML={{ __html: schema }}
           />
         )}
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-W8N0CSLMYZ" />
+        <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-W8N0CSLMYZ');` }} />
       </Head>
 
       {/* Cursor */}
