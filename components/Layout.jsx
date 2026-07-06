@@ -147,7 +147,15 @@ export default function Layout({ children, title, description, canonical, schema
 
       {/* Mobile menu */}
       <div className="mm" id="mm">
-        <a href="/#products" className="mlink">Products</a>
+        <div>
+          <button className="mm-dd-btn" onClick={function(e){var m=e.currentTarget.nextElementSibling;m.classList.toggle('open');e.currentTarget.querySelector('.mm-arr').textContent=m.classList.contains('open')?'▴':'▾';}}>
+            Products <span className="mm-arr" style={{color:'var(--gray)',fontSize:'.85rem'}}>▾</span>
+          </button>
+          <div className="mm-dd-menu">
+            <a href="/corrugated-boxes" className="mlink">&#128230; Corrugated Boxes</a>
+            <a href="/cotton-seed-bags" className="mlink">&#127807; Cotton Seed Bags</a>
+          </div>
+        </div>
         <a href="/#about"    className="mlink">About</a>
         <a href="/#ind"      className="mlink">Industries</a>
         <a href="/#fac"      className="mlink">Factory</a>

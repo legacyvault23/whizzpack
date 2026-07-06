@@ -365,7 +365,7 @@ footer{background:var(--navy);color:rgba(255,255,255,.62);padding:64px 0 0}
   .hi{grid-template-columns:1fr}.hv{order:-1}
   .bscene{width:230px;height:230px}.ibox{width:190px;height:190px}
   .itop{width:150px;height:75px;left:20px}.ileft{width:110px;height:115px}.iright{width:110px;height:115px}
-  .pgrid{grid-template-columns:1fr}.ic{flex:0 0 calc(50% - 8px)}.wgrid{grid-template-columns:1fr}
+  .pgrid{grid-template-columns:1fr}.ic{flex:0 0 calc(50% - 8px);min-width:0}.wgrid{grid-template-columns:1fr}
   .mbi{grid-template-columns:1fr}.mbv{order:-1}.boximg{width:300px}
   .facg{grid-template-columns:1fr}
   .psteps{grid-template-columns:1fr 1fr;gap:24px}.psteps::before{display:none}
@@ -414,6 +414,12 @@ nav .logo-img{height:46px}
 .prod-toggle span{display:inline-block;padding:10px 20px;border:2px solid #dde2ee;border-radius:8px;font-weight:600;font-size:.9rem;color:#4a5568;transition:all .2s;user-select:none}
 .prod-toggle input:checked + span{border-color:#0F1F4B;background:#0F1F4B;color:#fff}
 .prod-toggle:hover span{border-color:#0F1F4B;color:#0F1F4B}
+.mm-dd-btn{width:100%;background:none;border:none;cursor:pointer;padding:11px 0;font-weight:600;color:var(--navy);font-family:inherit;font-size:.93rem;text-align:left;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border)}
+.mm-dd-btn:hover{color:var(--orange)}
+.mm-dd-menu{display:none}
+.mm-dd-menu.open{display:block}
+.mm-dd-menu a.mlink{padding-left:20px;font-size:.88rem;color:#6b7280;font-weight:500}
+.mm a.btn{display:flex;justify-content:center;text-align:center}
 </style>
 
   <link rel="alternate" hreflang="en" href="https://www.whizzpack.in/corrugated-boxes" />
@@ -455,12 +461,19 @@ nav .logo-img{height:46px}
   </div>
 </nav>
 <div class="mm" id="mm">
-  <a href="/#products" class="mlink">Products</a>
+  <div>
+    <button class="mm-dd-btn" onclick="var m=this.nextElementSibling;m.classList.toggle('open');this.querySelector('.mm-arr').textContent=m.classList.contains('open')?'▴':'▾'">Products <span class="mm-arr" style="color:var(--gray);font-size:.85rem">▾</span></button>
+    <div class="mm-dd-menu">
+      <a href="/corrugated-boxes" class="mlink">&#128230; Corrugated Boxes</a>
+      <a href="/cotton-seed-bags" class="mlink">&#127807; Cotton Seed Bags</a>
+    </div>
+  </div>
   <a href="/#about" class="mlink">About</a>
   <a href="/#ind" class="mlink">Industries</a>
   <a href="/#fac" class="mlink">Factory</a>
   <a href="/#testi" class="mlink">Testimonials</a>
-  <a href="/blogs" class="mlink">Blogs</a><a href="#contact" class="btn bp mlink">Get a Quote</a>
+  <a href="/blogs" class="mlink">Blogs</a>
+  <a href="#contact" class="btn bp mlink">Get a Quote</a>
 </div>
 <style>
 /* ── PAGE: corrugated-boxes.html specific ── */
