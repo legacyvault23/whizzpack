@@ -1,7 +1,8 @@
 ---
-title: "Sourcing Packaging from India: What US & UK Importers Actually Want to Know"
+title: "Sourcing Packaging from India: A Guide for US & UK Importers"
 date: "2026-06-20"
 author: "Jash B."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
 tags: ["India packaging", "import guide", "corrugated boxes", "cotton bags", "US UK importers", "sourcing from India"]
 excerpt: "An honest, importer-focused guide covering what to expect, how to vet suppliers, and the common mistakes to avoid when sourcing corrugated boxes or cotton bags from India."
 ---

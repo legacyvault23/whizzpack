@@ -72,6 +72,15 @@ export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml
             className="blog-article"
             dangerouslySetInnerHTML={{ __html: contentHtml }}
           />
+          {frontmatter.authorBio && (
+            <div className="blog-author-box">
+              <div className="blog-author-icon" aria-hidden="true">&#9997;</div>
+              <div>
+                <p className="blog-author-name">About the author: {frontmatter.author}</p>
+                <p className="blog-author-bio">{frontmatter.authorBio}</p>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </Layout>

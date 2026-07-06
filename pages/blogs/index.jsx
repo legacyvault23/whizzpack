@@ -20,12 +20,27 @@ export default function BlogIndex({ posts, navHtml, footerHtml, totalPages, curr
     router.push(page === 1 ? '/blogs' : `/blogs?page=${page}`);
   }
 
+  const itemListSchema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Packaging Insights Blog",
+    "description": "Expert guides for US and UK importers sourcing packaging from India.",
+    "url": "https://www.whizzpack.in/blogs",
+    "itemListElement": posts.map((post, idx) => ({
+      "@type": "ListItem",
+      "position": idx + 1,
+      "url": `https://www.whizzpack.in/blogs/${post.slug}`,
+      "name": post.title
+    }))
+  });
+
   return (
     <Layout
-      title={currentPage > 1 ? `Packaging Insights Blog — Page ${currentPage} | Whizzpack` : "Packaging Insights Blog | Whizzpack"}
+      title={currentPage > 1 ? `Packaging Insights for US & UK Importers — Page ${currentPage} | Whizzpack` : "Packaging Insights for US & UK Importers | Whizzpack"}
       description="Expert guides on importing corrugated boxes and cotton seed bags from India. Resources for US and UK buyers sourcing bulk packaging."
       canonical={currentPage > 1 ? `https://www.whizzpack.in/blogs?page=${currentPage}` : "https://www.whizzpack.in/blogs"}
       ogImage="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1200&auto=format&fit=crop&q=80"
+      schema={itemListSchema}
       navHtml={navHtml}
       footerHtml={footerHtml}
     >

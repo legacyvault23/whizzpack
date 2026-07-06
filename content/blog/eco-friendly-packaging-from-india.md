@@ -1,14 +1,15 @@
 ---
-title: "Eco-Friendly Packaging from India: What US and UK Buyers Need to Know"
+title: "Eco-Friendly Packaging from India: Guide for US & UK Buyers"
 date: "2026-07-04"
 author: "Jash B."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
 tags: ["sustainable packaging", "eco-friendly boxes", "cotton bags", "green supply chain", "India export", "recycled corrugated"]
 excerpt: "Demand for sustainable packaging is rising fast among US and UK importers. Here is what India actually offers, how to verify eco claims, and what to ask before placing an order."
 ---
 
 Sustainability is no longer a differentiator for most importers -- it is a baseline requirement. Retailers, distributors, and end consumers in the US and UK increasingly expect packaging that is recyclable, responsibly sourced, or certified. For buyers who source packaging from India, the good news is that the options are genuinely strong. The less obvious news is that not every supplier will volunteer the right information unless you ask.
 
-This guide covers what eco-friendly packaging from India actually looks like, which certifications matter, and how to evaluate a supplier's sustainability claims before committing to an order.
+This guide covers what eco-friendly packaging from India actually looks like, which certifications matter, and how to evaluate a supplier's sustainability claims before committing to an order. If you're still in the early stages of evaluating Indian suppliers, our [guide to sourcing packaging from India](/blogs/why-import-packaging-from-india) covers the broader vetting process first.
 
 ![Stacked brown corrugated boxes in a bright warehouse ready for sustainable packaging dispatch](https://images.unsplash.com/photo-1553413077-190dd305871c?w=900&auto=format&fit=crop&q=80)
 *Corrugated cardboard is one of the most recycled materials in the world. The key is verifying the recycled content percentage and the source of the raw fibre.*
@@ -71,6 +72,8 @@ None of these are exotic requests for a serious Indian manufacturer. They are pa
 Eco-certified materials can add 5-10 days to sampling lead times versus standard materials, as the supplier may need to order specific certified inputs. Factor this into your timeline if you are running sustainability claims past a compliance team or need to submit samples to a retailer before placing a full order.
 
 Standard lead time for production runs -- corrugated boxes or cotton bags -- remains 25-35 days sea freight to the US East Coast and 18-22 days to UK ports once production is complete.
+
+For product-specific details, see our full guides on [importing corrugated boxes from India](/blogs/how-to-import-corrugated-boxes-from-india) and [sourcing cotton seed bags from India](/blogs/cotton-seed-bags-sourcing-guide-usa-uk).
 
 [Request samples or ask about certified material options](/cotton-seed-bags)
 

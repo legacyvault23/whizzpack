@@ -23,7 +23,13 @@ const nextConfig = {
   trailingSlash: false,
   images: { unoptimized: true },
   async headers() {
-    return [{ source: '/(.*)', headers: securityHeaders }];
+    return [
+      { source: '/(.*)', headers: securityHeaders },
+      {
+        source: '/(|corrugated-boxes|cotton-seed-bags|privacy-policy)',
+        headers: [{ key: 'Cache-Control', value: 's-maxage=86400, stale-while-revalidate=604800' }],
+      },
+    ];
   },
   async redirects() {
     return [

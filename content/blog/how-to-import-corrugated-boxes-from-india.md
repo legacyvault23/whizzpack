@@ -1,14 +1,15 @@
 ---
-title: "Corrugated Boxes from India: A Practical Guide for US & UK Buyers"
+title: "Corrugated Boxes from India: Buyer Guide for US & UK Importers"
 date: "2026-06-12"
 author: "Jash B."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
 tags: ["corrugated boxes", "cardboard packaging", "India import", "packaging specs", "buyer guide", "box grades"]
 excerpt: "What US and UK buyers need to understand before importing corrugated boxes from India, specifications, quality standards, what to ask, and how to find a reliable manufacturer."
 ---
 
 Corrugated boxes are one of the most frequently imported packaging products from India, and for good reason. Indian manufacturers offer wide customisation across board grades, flute configurations, and print options, often at specifications that are difficult to source domestically without long lead times or high minimums.
 
-But for buyers new to Indian imports, there's a learning curve. This guide cuts through it.
+But for buyers new to Indian imports, there's a learning curve. This guide cuts through it. If you're still deciding whether India is the right sourcing market for your business, our [general guide to sourcing packaging from India](/blogs/why-import-packaging-from-india) covers the full picture.
 
 ![Rows of open brown corrugated cardboard boxes ready for dispatch](https://images.unsplash.com/photo-1700165644892-3dd6b67b25bc?w=900&auto=format&fit=crop&q=80)
 *Indian corrugated box manufacturers offer a wide range of flute types, board grades, and custom print options for international buyers.*
@@ -63,6 +64,8 @@ If this applies to your use case, ask specifically about moisture-resistant boar
 Your first order from a new supplier will require more communication and longer lead time than subsequent ones. That's normal. Use it to document everything, exact dimensions, board grade, flute type, print files, finish, so that repeat orders can be confirmed against a clear specification sheet.
 
 Importers who struggle with Indian suppliers typically skipped this documentation step early on. The solution is clarity at the start, not switching suppliers.
+
+If your requirements include cotton bags alongside corrugated boxes, see our guide on [sourcing cotton seed bags from India](/blogs/cotton-seed-bags-sourcing-guide-usa-uk) for the same practical approach applied to fabric packaging.
 
 [Request a sample or discuss your requirements with our team →](https://www.whizzpack.in/)
 
