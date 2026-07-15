@@ -1273,4 +1273,61 @@ setTimeout(revealInView,250);
     var fd=new FormData(form);
     var cat=fd.get('product_category')||'';
     var payload={
-      _subject:'New Export Enquiry from '+(fd.get('name')||'
+      _subject:'New Export Enquiry from '+(fd.get('name')||'Unknown')+' | Whizzpack',
+      _cc:'jash.bavishi1@gmail.com,info.whizzpack@yahoo.com',
+      _captcha:'false',
+      _template:'table',
+      _replyto: fd.get('email')||'',
+      'Product Category': cat,
+      Name: fd.get('name')||'',
+      Company: fd.get('company')||'',
+      Country: fd.get('country')||'',
+      Email: fd.get('email')||'',
+      Phone: fd.get('phone')||'',
+      Quantity: fd.get('quantity')||'',
+      Message: fd.get('message')||''
+    };
+    if(cat==='Corrugated Boxes'){
+      payload['Box Type']=fd.get('box_type')||'';
+      payload['Print Preference']=fd.get('print_preference')||'';
+    }
+    if(cat==='Cotton Seed Bags'){
+      payload['Bag Type']=fd.get('bag_type')||'';
+      payload['Seed Type']=fd.get('seed_type')||'';
+      payload['Fabric Weight']=fd.get('fabric_weight')||'';
+    }
+
+    fetch('https://formsubmit.co/ajax/parthashara58@gmail.com',{
+      method:'POST',
+      headers:{'Content-Type':'application/json','Accept':'application/json'},
+      body:JSON.stringify(payload)
+    })
+    .then(function(r){return r.json();})
+    .then(function(data){
+      if(data.success==='true'||data.success===true){
+        window.location.href='/thank-you';
+      } else {
+        throw new Error('failed');
+      }
+    })
+    .catch(function(err){
+      console.error('Form error:',err);
+      if(btn){btn.disabled=false;btn.textContent='Send Enquiry';}
+      if(fe)fe.style.display='block';
+    });
+  });
+})();
+
+// 16. PRIVACY MODAL
+(function(){
+  var pl=document.getElementById('pl'),pm=document.getElementById('pm'),pmc=document.getElementById('pmc');
+  if(!pl||!pm)return;
+  pl.addEventListener('click',function(e){e.preventDefault();pm.classList.add('open');});
+  if(pmc)pmc.addEventListener('click',function(){pm.classList.remove('open');});
+  pm.addEventListener('click',function(e){if(e.target===pm)pm.classList.remove('open');});
+})();
+
+})();
+</script>
+</body>
+</html>
