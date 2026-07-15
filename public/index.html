@@ -1265,8 +1265,7 @@ setTimeout(revealInView,250);
     .then(function(r){return r.json();})
     .then(function(data){
       if(data.success==='true'||data.success===true){
-        form.style.display='none';
-        if(fs)fs.style.display='block';
+        window.location.href='/thank-you';
       } else {
         throw new Error('failed');
       }
