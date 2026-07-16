@@ -43,6 +43,7 @@ const nextConfig = {
       { source: '/corrugated-boxes', destination: '/corrugated-boxes.html' },
       { source: '/cotton-seed-bags', destination: '/cotton-seed-bags.html' },
       { source: '/privacy-policy', destination: '/privacy-policy.html' },
+      { source: '/thank-you', destination: '/thank-you.html' },
     ];
   },
 };
