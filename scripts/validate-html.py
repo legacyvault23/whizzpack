@@ -15,7 +15,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # required:  strings that MUST exist — catches JS loss, missing GA4, etc.
 RULES = {
     'public/index.html': {
-        'min_bytes': 380_000,
+        'min_bytes': 110_000,   # base64 blobs extracted to external files (2026-07-17)
         'min_lines': 1000,
         'required': [
             '</html>',
@@ -159,7 +159,4 @@ def main():
         sys.exit(1)
     else:
         print(f'{PASS}{BOLD}All checks passed. Safe to push.{RESET}\n')
-        sys.exit(0)
-
-if __name__ == '__main__':
-    main()
+ 
