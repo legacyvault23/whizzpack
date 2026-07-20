@@ -1,0 +1,172 @@
+import Head from 'next/head';
+import { useEffect } from 'react';
+
+export default function Layout({ children, title, description, canonical, schema, ogImage, navHtml, footerHtml }) {
+
+  useEffect(() => {
+    // ── 1. CURSOR ──────────────────────────────────────────────────────────
+    var csr  = document.getElementById('csr');
+    var csrf = document.getElementById('csrf');
+    var mx = window.innerWidth / 2, my = window.innerHeight / 2, cx = mx, cy = my;
+
+    function onMouseMove(e) {
+      mx = e.clientX; my = e.clientY;
+      if (csr)  { csr.style.left = mx + 'px'; csr.style.top = my + 'px'; }
+      var ml = document.getElementById('mlight');
+      if (ml) { ml.style.left = mx + 'px'; ml.style.top = my + 'px'; }
+    }
+    document.addEventListener('mousemove', onMouseMove);
+
+    (function mc() {
+      cx += (mx - cx) * 0.1;
+      cy += (my - cy) * 0.1;
+      if (csrf) { csrf.style.left = cx + 'px'; csrf.style.top = cy + 'px'; }
+      requestAnimationFrame(mc);
+    })();
+
+    document.querySelectorAll('a, button, .blog-card').forEach(function(el) {
+      el.addEventListener('mouseenter', function() {
+        if (csr)  csr.classList.add('lg');
+        if (csrf) csrf.classList.add('lg');
+      });
+      el.addEventListener('mouseleave', function() {
+        if (csr)  csr.classList.remove('lg');
+        if (csrf) csrf.classList.remove('lg');
+      });
+    });
+
+    // ── 2. SCROLL REVEAL ───────────────────────────────────────────────────
+    var obs = new IntersectionObserver(function(entries) {
+      entries.forEach(function(e) {
+        if (e.isIntersecting) { e.target.classList.add('on'); obs.unobserve(e.target); }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -10px 0px' });
+
+    document.querySelectorAll('.anim, .animl, .animr, .anims').forEach(function(el) {
+      obs.observe(el);
+    });
+
+    // ── 3. NAV SCROLL ──────────────────────────────────────────────────────
+    var nav = document.getElementById('nav');
+    function onScroll() {
+      if (nav) nav.classList.toggle('sc', window.scrollY > 50);
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+
+    // ── 4. HAMBURGER ───────────────────────────────────────────────────────
+    var hb = document.getElementById('hb');
+    var mm = document.getElementById('mm');
+    if (hb && mm) {
+      hb.addEventListener('click', function() {
+        mm.classList.toggle('open');
+        hb.classList.toggle('active');
+      });
+      document.querySelectorAll('.mlink').forEach(function(l) {
+        l.addEventListener('click', function() {
+          mm.classList.remove('open');
+          hb.classList.remove('active');
+        });
+      });
+    }
+
+    // ── 5. SMOOTH ANCHOR ───────────────────────────────────────────────────
+    document.querySelectorAll('a[href^="#"]').forEach(function(a) {
+      a.addEventListener('click', function(e) {
+        var t = document.querySelector(this.getAttribute('href'));
+        if (!t) return;
+        e.preventDefault();
+        t.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+
+    // ── 6. NAV DROPDOWN ────────────────────────────────────────────────────
+    var ddToggle = document.querySelector('.nav-dd-toggle');
+    var ddMenu   = document.querySelector('.dd-menu');
+    if (ddToggle && ddMenu) {
+      ddToggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        var isOpen = ddMenu.classList.contains('dd-open');
+        ddMenu.classList.toggle('dd-open', !isOpen);
+        ddMenu.style.display = isOpen ? '' : 'block';
+      });
+      document.addEventListener('click', function(e) {
+        if (!ddToggle.contains(e.target) && !ddMenu.contains(e.target)) {
+          ddMenu.classList.remove('dd-open');
+          ddMenu.style.display = '';
+        }
+      });
+    }
+
+    return function cleanup() {
+      document.removeEventListener('mousemove', onMouseMove);
+      window.removeEventListener('scroll', onScroll);
+      obs.disconnect();
+    };
+  }, []);
+
+  return (
+    <>
+      <Head>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href={canonical} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="article" />
+        {ogImage && <meta property="og:image" content={ogImage} />}
+        {ogImage && <meta property="og:image:width" content="1200" />}
+        {ogImage && <meta property="og:image:height" content="630" />}
+        {ogImage && <meta name="twitter:card" content="summary_large_image" />}
+        {ogImage && <meta name="twitter:image" content={ogImage} />}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" /></noscript>
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
+        {schema && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: schema }}
+          />
+        )}
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-W8N0CSLMYZ" />
+        <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-W8N0CSLMYZ');` }} />
+      </Head>
+
+      {/* Cursor */}
+      <div id="csr"></div>
+      <div id="csrf"></div>
+      <div id="mlight"></div>
+
+      {/* Nav */}
+      {navHtml && <div dangerouslySetInnerHTML={{ __html: navHtml }} />}
+
+      {/* Mobile menu */}
+      <div className="mm" id="mm">
+        <div>
+          <button className="mm-dd-btn" onClick={function(e){var m=e.currentTarget.nextElementSibling;m.classList.toggle('open');e.currentTarget.querySelector('.mm-arr').textContent=m.classList.contains('open')?'▴':'▾';}}>
+            Products <span className="mm-arr" style={{color:'var(--gray)',fontSize:'.85rem'}}>▾</span>
+          </button>
+          <div className="mm-dd-menu">
+            <a href="/corrugated-boxes" className="mlink">&#128230; Corrugated Boxes</a>
+            <a href="/cotton-seed-bags" className="mlink">&#127807; Cotton Seed Bags</a>
+          </div>
+        </div>
+        <a href="/#about"    className="mlink">About</a>
+        <a href="/#ind"      className="mlink">Industries</a>
+        <a href="/#fac"      className="mlink">Factory</a>
+        <a href="/#testi"    className="mlink">Testimonials</a>
+        <a href="/blogs"     className="mlink">Blogs</a>
+        <a href="/#contact"  className="btn bp mlink">Get a Quote</a>
+      </div>
+
+      <main>{children}</main>
+
+      {footerHtml && <div dangerouslySetInnerHTML={{ __html: footerHtml }} />}
+    </>
+  );
+}
