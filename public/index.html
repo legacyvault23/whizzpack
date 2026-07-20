@@ -953,14 +953,15 @@ nav .logo-img{height:46px}
             <label style="display:block;font-weight:600;margin-bottom:10px;color:#0F1F4B">I am interested in</label>
             <div style="display:flex;gap:12px;flex-wrap:wrap">
               <label class="prod-toggle" for="pc-box">
-                <input type="radio" id="pc-box" name="product_category" value="Corrugated Boxes" required>
+                <input type="checkbox" id="pc-box" name="product_category" value="Corrugated Boxes">
                 <span>&#128230; Corrugated Boxes</span>
               </label>
               <label class="prod-toggle" for="pc-bag">
-                <input type="radio" id="pc-bag" name="product_category" value="Cotton Seed Bags">
+                <input type="checkbox" id="pc-bag" name="product_category" value="Cotton Seed Bags">
                 <span>&#127807; Cotton Seed Bags</span>
               </label>
             </div>
+            <p id="prod-err" style="display:none;color:#F05A28;font-size:.83rem;margin-top:6px;font-weight:500">Please select at least one product to continue.</p>
           </div>
 
           <div class="fgrid">
@@ -1240,15 +1241,16 @@ setTimeout(revealInView,250);
 
 // Product category toggle for contact form
 (function(){
-  var radios=document.querySelectorAll('input[name="product_category"]');
-  function toggleFields(val){
-    document.querySelectorAll('.pf-box').forEach(function(el){el.style.display=val==='Corrugated Boxes'?'':'none';});
-    document.querySelectorAll('.pf-bag').forEach(function(el){el.style.display=val==='Cotton Seed Bags'?'':'none';});
-    document.querySelectorAll('.pf-shared').forEach(function(el){el.style.display=val?'':'none';});
+  var checkboxes=document.querySelectorAll('input[name="product_category"]');
+  function toggleFields(){
+    var checked=Array.from(document.querySelectorAll('input[name="product_category"]:checked')).map(function(c){return c.value;});
+    var hasBox=checked.indexOf('Corrugated Boxes')>=0;
+    var hasBag=checked.indexOf('Cotton Seed Bags')>=0;
+    document.querySelectorAll('.pf-box').forEach(function(el){el.style.display=hasBox?'':'none';});
+    document.querySelectorAll('.pf-bag').forEach(function(el){el.style.display=hasBag?'':'none';});
+    document.querySelectorAll('.pf-shared').forEach(function(el){el.style.display=(hasBox||hasBag)?'':'none';});
   }
-  radios.forEach(function(r){
-    r.addEventListener('change',function(){toggleFields(this.value);});
-  });
+  checkboxes.forEach(function(r){r.addEventListener('change',toggleFields);});
 })();
 
 // 15. FORM - sends to 3 inboxes via Formsubmit.co
@@ -1262,6 +1264,9 @@ setTimeout(revealInView,250);
       if(!f.value.trim()){f.style.borderColor='#F05A28';valid=false;}
       else f.style.borderColor='';
     });
+    var pe=document.getElementById('prod-err');
+    var productChecked=form.querySelectorAll('input[name="product_category"]:checked').length>0;
+    if(!productChecked){if(pe)pe.style.display='block';valid=false;}else{if(pe)pe.style.display='none';}
     if(!valid)return;
 
     var btn=form.querySelector('button[type="submit"]');
@@ -1271,7 +1276,7 @@ setTimeout(revealInView,250);
     if(btn){btn.disabled=true;btn.textContent='Sending...';}
 
     var fd=new FormData(form);
-    var cat=fd.get('product_category')||'';
+    var cats=fd.getAll('product_category');var cat=cats.join(', ')||'';
     var payload={
       _subject:'New Export Enquiry from '+(fd.get('name')||'Unknown')+' | Whizzpack',
       _cc:'jash.bavishi1@gmail.com,info.whizzpack@yahoo.com',
@@ -1287,11 +1292,11 @@ setTimeout(revealInView,250);
       Quantity: fd.get('quantity')||'',
       Message: fd.get('message')||''
     };
-    if(cat==='Corrugated Boxes'){
+    if(cats.indexOf('Corrugated Boxes')>=0){
       payload['Box Type']=fd.get('box_type')||'';
       payload['Print Preference']=fd.get('print_preference')||'';
     }
-    if(cat==='Cotton Seed Bags'){
+    if(cats.indexOf('Cotton Seed Bags')>=0){
       payload['Bag Type']=fd.get('bag_type')||'';
       payload['Seed Type']=fd.get('seed_type')||'';
       payload['Fabric Weight']=fd.get('fabric_weight')||'';
