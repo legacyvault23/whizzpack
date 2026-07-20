@@ -1,1 +1,0 @@
-export default function Ping() { return <p>ok</p>; }
