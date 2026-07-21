@@ -131,6 +131,8 @@ We handle custom specifications including printed and unprinted boxes, B-flute a
 
 If you are evaluating Indian suppliers for pizza box imports, we are happy to provide samples, share our export documentation, and discuss your volume and timeline. You can reach us through the [contact form on our website](/#contact).
 
+For broader box sourcing beyond pizza, see our guides on [cardboard shipping boxes in bulk](/blogs/cardboard-shipping-boxes-bulk-guide) and [custom printed boxes with your logo](/blogs/custom-printed-boxes-with-logo-buyers-guide).
+
 ---
 
 *Whizzpack is a factory-direct packaging manufacturer in Rajkot, India, supplying corrugated boxes and cotton seed bags to importers across the US and UK. We do not act as a broker or trading company. Every order is produced in our own facility.*
