@@ -5,14 +5,14 @@ author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
 tags: ["double wall corrugated boxes", "single wall boxes", "heavy duty shipping boxes", "box strength guide", "corrugated packaging", "wholesale boxes"]
 excerpt: "Choosing between single wall and double wall corrugated boxes affects cost, protection, and freight efficiency. Here is a practical guide to picking the right construction for your products."
-ogImage: "https://images.unsplash.com/photo-1553413077-190dd305871c?w=1200&auto=format&fit=crop&q=80"
+ogImage: "https://images.unsplash.com/photo-1607166452427-7e4477079cb9?w=1200&auto=format&fit=crop&q=80"
 ---
 
 One of the first questions any bulk box buyer has to answer is deceptively simple: single wall or double wall? Get it right and your products arrive intact with no wasted material cost. Get it wrong in one direction and you pay for strength you never use. Get it wrong in the other direction and you deal with crushed cartons, damaged goods, and freight claims.
 
 This guide explains the practical difference between single wall and double wall corrugated construction, when each one makes sense, and how to specify the right board grade when ordering cardboard shipping boxes in bulk from a manufacturer.
 
-![Stacked brown corrugated boxes in a bright warehouse showing single wall construction](https://images.unsplash.com/photo-1553413077-190dd305871c?w=900&auto=format&fit=crop&q=80)
+![Plain kraft corrugated box showing standard single wall board construction](https://images.unsplash.com/photo-1607166452427-7e4477079cb9?w=900&auto=format&fit=crop&q=80)
 *Single wall corrugated handles the majority of shipping applications. The question is knowing where its limits are.*
 
 ## What the Walls Actually Mean
@@ -55,7 +55,7 @@ Double wall cardboard boxes cost more per unit and weigh more in freight. They e
 
 **Long or repeated handling chains.** Every touch point, from factory floor to port to destination warehouse to final delivery, is an opportunity for impact. More handling means more accumulated damage, and double wall absorbs it better.
 
-![Heavy duty double wall shipping boxes stacked on pallets for export](https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=900&auto=format&fit=crop&q=80)
+![Palletised cartons stacked high on warehouse racking showing the compression load boxes must carry](https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=900&auto=format&fit=crop&q=80)
 *Pallet stacking height and journey length are the two biggest factors pushing buyers from single wall to double wall construction.*
 
 ## The Specification That Matters More Than Wall Count
@@ -89,7 +89,7 @@ A capable manufacturer will ask for your product weight, dimensions, stacking pl
 
 If you are earlier in the process and still comparing sourcing options, our guides on [how to import corrugated boxes from India](/blogs/how-to-import-corrugated-boxes-from-india) and [why import packaging from India](/blogs/why-import-packaging-from-india) walk through the full process from specification to delivery.
 
-![Aerial view of a cargo ship carrying export containers across the sea](https://images.unsplash.com/photo-1534430480872-3498386e7856?w=900&auto=format&fit=crop&q=80)
+![Fully loaded container ship at sea showing the transit conditions export boxes endure](https://images.unsplash.com/photo-1605745341112-85968b19335b?w=900&auto=format&fit=crop&q=80)
 *Export transit is the single biggest factor that pushes a specification from single wall to double wall.*
 
 ## Frequently Asked Questions

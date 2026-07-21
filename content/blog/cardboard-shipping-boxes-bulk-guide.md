@@ -5,14 +5,14 @@ author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
 tags: ["cardboard shipping boxes", "bulk shipping boxes", "wholesale boxes", "shipping boxes bulk", "corrugated boxes USA", "packaging sourcing"]
 excerpt: "Buying cardboard shipping boxes in bulk is one of the fastest ways to cut packaging cost per unit. Here is how US businesses source bulk boxes, what affects the price, and when importing factory-direct makes sense."
-ogImage: "https://images.unsplash.com/photo-1553413077-190dd305871c?w=1200&auto=format&fit=crop&q=80"
+ogImage: "https://images.unsplash.com/photo-1565891741441-64926e441838?w=1200&auto=format&fit=crop&q=80"
 ---
 
 For any business that ships physical products, cardboard boxes are a recurring cost that never goes away. Every growth milestone means more boxes. And the difference between buying them retail, buying them wholesale, and buying them factory-direct compounds with every order you ship.
 
 This guide is for US businesses that have outgrown buying shipping boxes from office supply stores or marketplace sellers and want to understand how bulk box sourcing actually works, what drives the cost, and when it makes sense to go directly to a manufacturer.
 
-![Bulk cardboard shipping boxes stacked in a distribution warehouse](https://images.unsplash.com/photo-1553413077-190dd305871c?w=900&auto=format&fit=crop&q=80)
+![Aerial view of a distribution facility with trucks loading bulk freight shipments](https://images.unsplash.com/photo-1565891741441-64926e441838?w=900&auto=format&fit=crop&q=80)
 *At bulk volume, small per-box differences in specification and sourcing multiply into significant annual amounts.*
 
 ## The Three Ways to Buy Shipping Boxes
@@ -53,7 +53,7 @@ US businesses increasingly import corrugated boxes directly from manufacturers i
 
 India's corrugated industry is well developed, with export-experienced factories concentrated in Gujarat and other manufacturing states. Factories that regularly serve US and UK buyers handle export documentation, quality certifications, and pre-shipment inspection as routine. Our detailed guide on [how to import corrugated boxes from India](/blogs/how-to-import-corrugated-boxes-from-india) walks through the entire process, and [why import packaging from India](/blogs/why-import-packaging-from-india) covers the broader sourcing case.
 
-![Aerial view of a container ship transporting bulk export freight across the ocean](https://images.unsplash.com/photo-1534430480872-3498386e7856?w=900&auto=format&fit=crop&q=80)
+![Container port with cranes loading export freight bound for the US](https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=900&auto=format&fit=crop&q=80)
 *A container of flat-packed boxes turns ocean freight into a small per-unit cost. The math improves as volume grows.*
 
 ## How to Run a Bulk Box Sourcing Exercise

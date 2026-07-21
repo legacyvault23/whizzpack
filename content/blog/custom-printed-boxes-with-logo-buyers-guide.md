@@ -5,14 +5,14 @@ author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
 tags: ["custom printed boxes", "boxes with logo", "branded packaging", "flexo printing", "custom corrugated boxes", "packaging import"]
 excerpt: "Custom printed boxes turn every shipment into a branding opportunity. This guide covers printing methods, artwork requirements, minimums, and how to order branded boxes directly from a manufacturer."
-ogImage: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&auto=format&fit=crop&q=80"
+ogImage: "https://images.unsplash.com/photo-1595246140625-573b715d11dc?w=1200&auto=format&fit=crop&q=80"
 ---
 
 Every box you ship is seen by warehouse staff, delivery drivers, retail workers, and finally your customer. A plain brown carton does the job. A custom printed box with your logo does the job and builds your brand at the same time, at a surprisingly small premium when you order at volume directly from a manufacturer.
 
 This guide explains how custom box printing actually works, what you need to prepare, and how to get branded boxes made to your exact specification from an Indian factory.
 
-![Custom printed corrugated boxes with branding stacked in a warehouse](https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=900&auto=format&fit=crop&q=80)
+![Kraft boxes with clean minimal logo branding showing custom printed packaging design](https://images.unsplash.com/photo-1595246140625-573b715d11dc?w=900&auto=format&fit=crop&q=80)
 *Custom printing turns necessary packaging spend into a branding asset that travels with every order.*
 
 ## Why Buyers Choose Custom Printed Boxes
@@ -53,7 +53,7 @@ Getting your logo onto a box requires artwork in the right format. Prepare these
 
 A good manufacturer will send you a dieline (the flattened technical drawing of your box) with your artwork placed on it for approval before anything is manufactured. Review this carefully. What you approve on the dieline is what prints.
 
-![Cardboard boxes moving through a printing and converting production line](https://images.unsplash.com/photo-1544816155-12df9643f363?w=900&auto=format&fit=crop&q=80)
+![Forklift moving finished cartons through a production warehouse after printing](https://images.unsplash.com/photo-1616401784845-180882ba9ba8?w=900&auto=format&fit=crop&q=80)
 *Flexographic plates are a one-time setup. Once made, repeat orders print your branding identically every time.*
 
 ## Minimums, Lead Times, and Samples
