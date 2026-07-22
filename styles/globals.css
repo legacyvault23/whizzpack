@@ -497,7 +497,7 @@ nav .logo-img{height:46px}
 /* ─── Blog responsive ─── */
 @media(max-width:640px){
   .blog-grid{grid-template-columns:1fr}
-  .blog-hero{padding:60px 20px 44px}
+  .blog-hero{padding:104px 20px 44px}
   .blog-post-hero{padding:44px 20px 28px}
 }
 
