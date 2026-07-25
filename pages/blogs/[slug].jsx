@@ -24,10 +24,30 @@ export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml
     "headline": frontmatter.title,
     "description": frontmatter.excerpt,
     "datePublished": frontmatter.date,
-    "author": { "@type": "Person", "name": frontmatter.author || "Whizzpack" },
-    "publisher": { "@type": "Organization", "name": "Whizzpack", "url": "https://www.whizzpack.in" },
+    "dateModified": frontmatter.date,
+    "image": { "@type": "ImageObject", "url": ogImage, "width": 1200, "height": 630 },
+    "author": {
+      "@type": "Person",
+      "name": frontmatter.author || "Whizzpack",
+      "url": "https://www.linkedin.com/company/whizzpack/",
+      "description": frontmatter.authorBio || "Packaging export specialist at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags.",
+      "worksFor": { "@type": "Organization", "name": "Whizzpack", "url": "https://www.whizzpack.in" }
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Whizzpack",
+      "url": "https://www.whizzpack.in",
+      "logo": { "@type": "ImageObject", "url": "https://www.whizzpack.in/favicon.png", "width": 512, "height": 512 },
+      "sameAs": [
+        "https://www.linkedin.com/company/whizzpack/",
+        "https://www.instagram.com/whizz_pack/",
+        "https://www.facebook.com/profile.php?id=61591832156946"
+      ]
+    },
     "keywords": (frontmatter.tags || []).join(', '),
-    "mainEntityOfPage": `https://www.whizzpack.in/blogs/${slug}`
+    "mainEntityOfPage": { "@type": "WebPage", "@id": `https://www.whizzpack.in/blogs/${slug}` },
+    "about": { "@type": "Thing", "name": "Packaging export from India" },
+    "inLanguage": "en-US"
   });
 
   const tags = frontmatter.tags || [];
