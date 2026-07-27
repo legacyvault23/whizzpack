@@ -39,7 +39,7 @@
   </url>
   <url>
     <loc>https://www.whizzpack.in/blogs</loc>
-    <lastmod>2026-07-25</lastmod>
+    <lastmod>2026-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -100,6 +100,12 @@
   <url>
     <loc>https://www.whizzpack.in/blogs/sourcing-cotton-seed-bags-from-india</loc>
     <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.whizzpack.in/blogs/bulk-cotton-seed-bags-commercial-farms</loc>
+    <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
