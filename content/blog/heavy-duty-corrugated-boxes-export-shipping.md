@@ -5,7 +5,6 @@ date: "2026-07-28"
 tags: ["heavy duty corrugated boxes", "triple wall boxes", "export packaging", "industrial boxes", "corrugated boxes India"]
 ---
 
-# Heavy-Duty Corrugated Boxes for Export Shipping: Triple-Wall, Burst Strength, and What to Specify
 
 Standard single-wall corrugated boxes work well for e-commerce parcels and light retail goods. But when you are shipping heavy machinery components, dense agricultural products, industrial tools, or goods that need to survive multiple handling events across a long sea freight journey, you need something fundamentally stronger.
 
