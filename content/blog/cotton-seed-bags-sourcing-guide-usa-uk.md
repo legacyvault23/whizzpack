@@ -156,4 +156,3 @@ Woven cotton fabric has natural dimensional variability, and bags can vary by 1 
 
 ![Pile of cardboard boxes stacked in an organised storage area representing reliable dispatch from India](https://images.unsplash.com/photo-1773125929765-99d4d67e831d?w=900&auto=format&fit=crop&q=80)
 *Reliable Indian manufacturers maintain well-organised production and dispatch operations to meet international export schedules.*
-      

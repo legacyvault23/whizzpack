@@ -46,6 +46,8 @@ The more specific your specification, the faster and more accurate the quotation
 
 **What happens:** Before committing to bulk production, most buyers request pre-production samples. The manufacturer produces a small quantity (typically 20 to 100 units) to the specified dimensions, construction, and print requirements, then ships them for your approval.
 
+
+![Workers at an Indian packaging manufacturing facility producing goods for export to USA and UK](https://images.unsplash.com/photo-1473181488821-2d23e06d7d5f?w=1200&q=80&auto=format&fit=crop)
 **Realistic timeline:**
 - Sample production: 7 to 14 days after specification is confirmed
 - Sample shipment to USA/UK: 5 to 10 days by courier (DHL, FedEx)
@@ -98,6 +100,8 @@ For established suppliers with multiple completed orders and a quality track rec
 
 **What happens:** After production is complete and inspected, the manufacturer arranges export packing, palletisation, and documentation. The goods are transported from the factory to the port, cleared through Indian export customs, and loaded onto the vessel.
 
+
+![Cargo containers stacked at an Indian export port ready for sea freight departure](https://images.unsplash.com/photo-1547050605-0f2f6e8c1ad7?w=1200&q=80&auto=format&fit=crop)
 **Key documents for USA and UK imports:**
 - Commercial invoice
 - Packing list

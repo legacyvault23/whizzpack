@@ -12,7 +12,6 @@ For any business that ships physical products, cardboard boxes are a recurring c
 
 This guide is for US businesses that have outgrown buying shipping boxes from office supply stores or marketplace sellers and want to understand how bulk box sourcing actually works, what drives the cost, and when it makes sense to go directly to a manufacturer.
 
-![Aerial view of a distribution facility with trucks loading bulk freight shipments](https://images.unsplash.com/photo-1565891741441-64926e441838?w=900&auto=format&fit=crop&q=80)
 *At bulk volume, small per-box differences in specification and sourcing multiply into significant annual amounts.*
 
 ## The Three Ways to Buy Shipping Boxes
@@ -43,6 +42,8 @@ Understanding the cost structure helps you buy intelligently regardless of the c
 
 US businesses increasingly import corrugated boxes directly from manufacturers in India. The economics work for a specific profile of buyer:
 
+
+![Raw corrugated board material and paper rolls at an Indian cardboard packaging plant](https://images.unsplash.com/photo-1526367790999-0150786686a2?w=1200&q=80&auto=format&fit=crop)
 **You order at container scale.** A 20-foot or 40-foot container of flat-packed boxes represents tens of thousands of units depending on size. If your annual volume supports at least a few container loads, the per-unit savings from Indian manufacturing labour costs and factory-direct pricing outweigh the freight and lead time.
 
 **Your demand is predictable.** Importing works on a planning cycle: production takes 15 to 20 days and sea freight to the US East Coast adds roughly 25 to 35 days. Businesses with steady, forecastable box consumption place rolling orders and hold a buffer stock. If your volume is highly volatile, a domestic backup source alongside imports is the practical answer.
@@ -60,6 +61,8 @@ India's corrugated industry is well developed, with export-experienced factories
 
 If you are evaluating suppliers for bulk cardboard shipping boxes, run the process like any strategic purchase:
 
+
+![Corrugated packaging supply chain showing raw board materials and finished export cartons at an Indian factory](https://images.unsplash.com/photo-1493946740644-2d8a1f1a6aff?w=1200&q=80&auto=format&fit=crop)
 **1. Document your real requirement.** List every box SKU you use: internal dimensions, board construction, monthly volume, and printing. Note which SKUs cause damage problems and which feel overbuilt. This document is what serious suppliers quote against.
 
 **2. Get quotes on identical specifications.** Distributors and factories quote differently. Force comparability by specifying exact dimensions, board grade (ask for GSM and ply), and print requirements, then compare landed cost per unit: box price plus freight plus duties for imports.

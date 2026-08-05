@@ -61,6 +61,8 @@ The lower lignin content means cotton is more flexible and less prone to brittle
 
 ### Jute Wins for Raw Tensile Strength
 
+
+![Jute sacks and woven natural fibre material showing texture comparison with cotton bags](https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=1200&q=80&auto=format&fit=crop)
 Jute outperforms cotton in raw tensile strength at comparable fabric weights. A 400 GSM jute sack will bear a heavier load than a 400 GSM cotton sack before the fabric fails.
 
 For high-volume commodity seed applications (wheat, corn, sorghum) where bags are filled to 25 to 50 kg and handled with hooks, forklifts, and mechanical conveyors, jute's higher load capacity is a genuine advantage.

@@ -31,6 +31,8 @@ The use of cotton seed bags in organic farming is driven by two factors: regulat
 
 Not all cotton bags are suitable for organic farming applications. The key material specifications to confirm:
 
+
+![Unbleached natural cotton fabric rolls used for organic-certified seed bag production in India](https://images.unsplash.com/photo-1560493676-04071c5f467b?w=1200&q=80&auto=format&fit=crop)
 ### Unbleached vs Bleached Cotton
 
 **Unbleached (natural/greige) cotton** is the standard for organic farming use. Unbleached cotton retains its natural off-white or cream colour. It has not been treated with chlorine bleach, optical brighteners, or peroxide bleaching agents  -  all of which can leave residual chemicals in the fabric.
@@ -115,6 +117,8 @@ Custom dimensions are available from Indian suppliers with no significant price 
 
 Cotton bags for seed storage are typically woven from natural cotton muslin or canvas:
 
+
+![Natural cotton drawstring bags filled with seeds for organic farm storage](https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=1200&q=80&auto=format&fit=crop)
 **Muslin (100–150 GSM):** Lightweight, breathable, low cost. Suitable for short-term seed storage, retail packaging, and lightweight seed varieties. Not suitable for heavy seeds or rough handling.
 
 **Canvas (250–350 GSM):** Heavier woven cotton. Better durability, abrasion resistance, and load capacity. Suitable for bulk seed storage (5 kg and above), repeated use, and commercial farm operations. The increased fabric weight provides better protection against moisture ingress.

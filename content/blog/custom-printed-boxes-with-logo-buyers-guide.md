@@ -12,7 +12,6 @@ Every box you ship is seen by warehouse staff, delivery drivers, retail workers,
 
 This guide explains how custom box printing actually works, what you need to prepare, and how to get branded boxes made to your exact specification from an Indian factory.
 
-![Kraft boxes with clean minimal logo branding showing custom printed packaging design](https://images.unsplash.com/photo-1595246140625-573b715d11dc?w=900&auto=format&fit=crop&q=80)
 *Custom printing turns necessary packaging spend into a branding asset that travels with every order.*
 
 ## Why Buyers Choose Custom Printed Boxes
@@ -43,6 +42,8 @@ For a typical importer ordering branded shipping cartons in bulk, flexo covers t
 
 Getting your logo onto a box requires artwork in the right format. Prepare these before you approach a manufacturer:
 
+
+![Custom-printed corrugated shipping box with brand logo showing flexographic print quality](https://images.unsplash.com/photo-1612831457842-4d8f17e8c3b2?w=1200&q=80&auto=format&fit=crop)
 **Vector artwork.** Your logo should be supplied as a vector file (AI, EPS, SVG, or vector PDF). Vector art scales to any size without losing sharpness. A photo or screenshot of your logo cannot be used directly for plate making.
 
 **Pantone (PMS) colour references.** Flexo printing works with specific ink colours. If brand colour accuracy matters to you, provide Pantone codes rather than approximate descriptions. If you only have RGB or HEX values, the factory can convert them, but confirm the match on a physical sample.
@@ -60,6 +61,8 @@ A good manufacturer will send you a dieline (the flattened technical drawing of 
 
 Custom printing changes the economics of small orders because of plate setup, which is why minimum order quantities exist. Here is what to expect when ordering factory-direct from India:
 
+
+![Flexographic printing press producing branded corrugated boxes with multi-colour logo artwork](https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=1200&q=80&auto=format&fit=crop)
 **Minimum order quantity.** At Whizzpack, custom printed corrugated boxes start at 5,000 units. This spreads the plate cost across enough units that the printing premium per box becomes small.
 
 **Plates are reusable.** Your first order carries the plate setup. Repeat orders of the same design print from existing plates, which improves repeat-order economics. This rewards consolidating your box designs rather than making frequent small artwork changes.

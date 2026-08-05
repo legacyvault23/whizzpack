@@ -12,7 +12,6 @@ Walk into any independent garden centre in the US or UK and you will find seed p
 
 This guide is for seed companies, distributors, and importers who are evaluating drawstring cotton seed bags for the first time or switching suppliers. It covers what the construction and fabric choices actually mean, what to look for in a supplier, and when factory-direct importing from India makes commercial sense.
 
-![Close-up of natural cotton fabric texture showing the breathable weave structure ideal for seed storage](https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=900&auto=format&fit=crop&q=80)
 *Breathable cotton weave allows air circulation that keeps seeds viable without chemical treatment.*
 
 ## Why Drawstring Cotton Bags Are the Standard for Seed Packaging
@@ -51,6 +50,8 @@ Fabric weight determines durability, print quality, and cost. A lighter muslin p
 
 Seed bag sizing is typically given as width x height in inches or centimetres, measured flat. The usable volume is less than the flat measurement suggests because the bag takes a rounded shape when filled.
 
+
+![Cotton plant with open bolls showing natural white fibre ready for textile production](https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=1200&q=80&auto=format&fit=crop)
 Common size ranges for seed applications:
 
 **Small pouches (3x4 to 4x6 inches):** Retail herb and flower seed packets. Displayed on hooks or in bins at garden centres. Usually 4 to 6 oz muslin with a short cord.
@@ -67,6 +68,8 @@ A capable supplier will work with your exact dimensions rather than selling from
 
 Different seeds have different packaging requirements. Matching the bag spec to the seed type prevents quality problems:
 
+
+![Close-up of natural cotton drawstring bag closure showing quality stitching and organic cord detail](https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=1200&q=80&auto=format&fit=crop)
 **Fine seeds (herbs, flowers, small vegetables):** Need tighter weave to prevent seed escape through the fabric. 6 oz or heavier muslin is usually right. Drawstring closure must be secure enough to prevent spillage in transit.
 
 **Oily seeds (sunflower, flax, chia):** Oils can migrate into fabric over time. Natural unbleached cotton is preferable to bleached cotton for oily seeds, as bleaching chemicals can interact with seed chemistry. Avoid synthetic liners unless specifically required for the seed type.

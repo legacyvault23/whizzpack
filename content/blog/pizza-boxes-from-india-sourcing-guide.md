@@ -12,7 +12,6 @@ Pizza boxes are one of the highest-volume, highest-frequency consumables in the 
 
 This guide explains what that process actually looks like, what you need to specify, what to watch out for, and how to ensure the boxes you receive are food-safe and print-ready.
 
-![Stack of fresh white pizza boxes ready for delivery](https://images.unsplash.com/photo-1513104890138-7c749659a591?w=900&auto=format&fit=crop&q=80)
 *Direct imports of pizza boxes from Indian manufacturers allow US buyers to lock in specifications and reduce per-unit costs at scale.*
 
 ## Why US Buyers Import Pizza Boxes from India
@@ -69,13 +68,15 @@ For food contact packaging sold in the US market, buyers should ask suppliers fo
 
 A reputable manufacturer will have these declarations available without hesitation. If a supplier is vague about food safety documentation, treat that as a red flag.
 
-![Close-up of corrugated cardboard flute cross-section showing board construction](https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=900&auto=format&fit=crop&q=80)
+![Food packaging production facility showing corrugated pizza box manufacturing process](https://images.unsplash.com/photo-1519003722824-58d1ebf5526f?w=1200&q=80&auto=format&fit=crop)
 *Understanding flute type and board grade is the starting point for specifying the right pizza box. B-flute and E-flute are the most common for pizza packaging.*
 
 ## How Shipping Works from India to the USA
 
 Most pizza box orders are shipped by sea freight in 20-foot or 40-foot containers. Pizza boxes are bulky relative to their weight, so a container fills on volume before it fills on weight.
 
+
+![Cargo ship at sea transporting containerised packaging goods from India to western markets](https://images.unsplash.com/photo-1580674684081-7617fbf3d745?w=1200&q=80&auto=format&fit=crop)
 **Nearest port for Rajkot-based manufacturers:** Mundra Port (INMUN) in Gujarat is the closest major port to Rajkot, approximately 130 km away. Mundra is one of India's busiest container ports with direct vessel services to US East Coast and West Coast ports.
 
 **Well-connected US destination ports from Mundra:**
@@ -92,6 +93,8 @@ If you are distributing to the Midwest, Savannah is often preferred because it c
 
 Most Indian corrugated box factories work in full container loads (FCL). A 40-foot container holds roughly 15,000 to 25,000 pizza boxes depending on size and how the boxes are packed (flat-packed vs pre-assembled). A 20-foot container holds roughly half that.
 
+
+![Branded pizza boxes stacked at a restaurant counter showing food-safe corrugated packaging in use](https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?w=1200&q=80&auto=format&fit=crop)
 Some factories will also do less-than-container-load (LCL) shipments for buyers testing a new specification, though the per-unit economics are less favourable.
 
 If you are a distributor buying for resale, an FCL order is typically the baseline. If you are an independent pizzeria testing the channel for the first time, look for a manufacturer willing to consolidate your order with others or offer a trial LCL shipment.

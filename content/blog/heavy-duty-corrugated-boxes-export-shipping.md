@@ -10,7 +10,7 @@ Standard single-wall corrugated boxes work well for e-commerce parcels and light
 
 Heavy-duty corrugated boxes - double-wall and triple-wall constructions - are engineered for exactly these applications. This guide explains how they are built, how to read the specifications, what to look for when sourcing from Indian manufacturers, and how to match box construction to your actual shipping requirements.
 
-![Industrial corrugated boxes stacked on a warehouse pallet ready for export](https://images.unsplash.com/photo-1553413077-190dd305871c?w=1200&q=80&auto=format&fit=crop)
+![Industrial box production line at an Indian corrugated packaging manufacturing facility](https://images.unsplash.com/photo-1609016538303-cd3f4d48e3f4?w=1200&q=80&auto=format&fit=crop)
 *Heavy-duty corrugated construction is essential for industrial goods and long-haul export shipments*
 
 ---
@@ -50,6 +50,8 @@ For most heavy-duty export applications, the most common constructions are:
 
 When specifying corrugated boxes, two key measurements tell you how strong the board is:
 
+
+![Corrugated export boxes stacked on pallets in a fulfilment and logistics warehouse](https://images.unsplash.com/photo-1542744095-291d1f67b221?w=1200&q=80&auto=format&fit=crop)
 ### Burst Strength (Mullen Test)
 
 Burst strength, measured in PSI (pounds per square inch) or kPa, indicates how much pressure the board can withstand before rupturing. It is tested by pushing a steel ball through the board until it fails.
