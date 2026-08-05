@@ -10,7 +10,7 @@ Corrugated boxes are not all the same. Two boxes that look identical on the outs
 
 This guide covers the key variables  -  grades, sizes, flute types, and standard dimensions  -  in practical terms for USA and UK importers.
 
-![Stack of corrugated boxes of varying sizes in a warehouse ready for export](https://images.unsplash.com/photo-1598103442097-8b74394b95c8?w=1200&q=80&auto=format&fit=crop)
+![Stack of corrugated boxes of varying sizes in a warehouse ready for export](https://images.unsplash.com/photo-1640193698858-31565d448f90?w=1200&q=80&auto=format&fit=crop)
 *Standard and custom corrugated box sizes for every application, manufactured in India for export*
 
 ---
@@ -42,7 +42,7 @@ For export shipments to the USA and UK, the most common grades are **150/120/150
 The flute  -  the wave-shaped corrugated layer  -  determines how the box handles compression, cushioning, and stacking load. The main flute profiles used in export packaging:
 
 
-![Corrugated board cross-section showing B, C and E flute profiles used in export packaging from India](https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=1200&q=80&auto=format&fit=crop)
+![Corrugated board cross-section showing B, C and E flute profiles used in export packaging from India](https://images.unsplash.com/photo-1772920908589-d6264e5d987f?w=1200&q=80&auto=format&fit=crop)
 **B-flute (3mm thick):** Smaller, tighter flutes. Good flat crush resistance and puncture resistance. Common for retail packaging, printed boxes, and goods where the box walls need to be relatively thin. B-flute is the standard for most printed shipping boxes.
 
 **C-flute (4mm thick):** The most widely used flute type globally. Balances cushioning, stacking strength, and printability. If you are ordering general-purpose corrugated boxes from India, you are most likely getting C-flute unless specified otherwise.

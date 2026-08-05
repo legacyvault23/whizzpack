@@ -43,7 +43,7 @@ For a typical importer ordering branded shipping cartons in bulk, flexo covers t
 Getting your logo onto a box requires artwork in the right format. Prepare these before you approach a manufacturer:
 
 
-![Custom-printed corrugated shipping box with brand logo showing flexographic print quality](https://images.unsplash.com/photo-1612831457842-4d8f17e8c3b2?w=1200&q=80&auto=format&fit=crop)
+![Custom-printed corrugated shipping box with brand logo showing flexographic print quality](https://images.unsplash.com/photo-1684695749267-233af13276d0?w=1200&q=80&auto=format&fit=crop)
 **Vector artwork.** Your logo should be supplied as a vector file (AI, EPS, SVG, or vector PDF). Vector art scales to any size without losing sharpness. A photo or screenshot of your logo cannot be used directly for plate making.
 
 **Pantone (PMS) colour references.** Flexo printing works with specific ink colours. If brand colour accuracy matters to you, provide Pantone codes rather than approximate descriptions. If you only have RGB or HEX values, the factory can convert them, but confirm the match on a physical sample.

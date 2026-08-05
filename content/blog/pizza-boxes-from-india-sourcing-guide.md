@@ -68,7 +68,7 @@ For food contact packaging sold in the US market, buyers should ask suppliers fo
 
 A reputable manufacturer will have these declarations available without hesitation. If a supplier is vague about food safety documentation, treat that as a red flag.
 
-![Food packaging production facility showing corrugated pizza box manufacturing process](https://images.unsplash.com/photo-1519003722824-58d1ebf5526f?w=1200&q=80&auto=format&fit=crop)
+![Food packaging production facility showing corrugated pizza box manufacturing process](https://images.unsplash.com/photo-1605960224189-e0010ea15ca0?w=1200&q=80&auto=format&fit=crop)
 *Understanding flute type and board grade is the starting point for specifying the right pizza box. B-flute and E-flute are the most common for pizza packaging.*
 
 ## How Shipping Works from India to the USA

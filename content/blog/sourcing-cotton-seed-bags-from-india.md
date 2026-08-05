@@ -65,7 +65,7 @@ Due diligence on an Indian supplier does not require an in-person visit for init
 For a first import of cotton seed bags from India, here is a realistic timeline and process:
 
 
-![Indian factory workers packing and labelling cotton seed bags for export shipment to USA and UK](https://images.unsplash.com/photo-1493912936-7c7e2af3db8d?w=1200&q=80&auto=format&fit=crop)
+![Indian factory workers packing and labelling cotton seed bags for export shipment to USA and UK](https://images.unsplash.com/photo-1457414104202-9d4b4908f285?w=1200&q=80&auto=format&fit=crop)
 **Week 1 to 2: Inquiry and specification.** Send your requirement to the supplier: bag sizes, fabric weight preference, quantities per SKU, printing requirements, and any certification requirements. Receive quotes and ask questions to confirm the factory understands your spec.
 
 **Week 2 to 3: Samples.** Supplier sends pre-production samples by air courier (typically 3 to 5 working days from dispatch). Review, provide feedback, and approve the spec. For printed bags, a digital proof for your approval precedes the physical sample.

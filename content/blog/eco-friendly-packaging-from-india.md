@@ -40,7 +40,7 @@ The environmental calculus does require context, though. Cotton is water-intensi
 
 **Recycled cotton**: Some manufacturers offer bags made from recycled cotton fibre, typically sourced from textile industry offcuts. Recycled cotton uses significantly less water than growing new fibre and diverts textile waste from landfill.
 
-![Container ship loaded with eco-friendly packaging cargo crossing the Indian Ocean](https://images.unsplash.com/photo-1570000819120-ef0bf2dfeacc?w=1200&q=80&auto=format&fit=crop)
+![Container ship loaded with eco-friendly packaging cargo crossing the Indian Ocean](https://images.unsplash.com/photo-1648587456176-4969b0124b12?w=1200&q=80&auto=format&fit=crop)
 *Natural cotton bags are biodegradable and built for reuse -- two qualities that matter to sustainability-conscious buyers in the US and UK.*
 
 ## How to Verify Eco Claims Before You Order

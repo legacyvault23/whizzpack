@@ -10,7 +10,7 @@ If you sell seeds under your own brand, your packaging is part of your product. 
 
 This guide covers everything retail seed companies, farm shops, and garden brands need to know about ordering custom printed cotton seed bags from India: minimum order quantities, design specifications, print methods, lead times, and what to expect from the process.
 
-![Custom-printed cotton bags displayed for retail packaging with natural fabric construction](https://images.unsplash.com/photo-1416706396836-d4f8aa9d1da0?w=1200&q=80&auto=format&fit=crop)
+![Custom-printed cotton bags displayed for retail packaging with natural fabric construction](https://images.unsplash.com/photo-1615485737442-7d6ab9f64db9?w=1200&q=80&auto=format&fit=crop)
 *Custom printed cotton bags elevate retail seed packaging from functional to brand-building*
 
 ---
@@ -72,7 +72,7 @@ For most retail seed brands, **screen printing** in one to two colours gives the
 When supplying artwork for screen printing on cotton bags, most Indian manufacturers will ask for:
 
 
-![Close-up of a natural cotton drawstring closure on an organic seed storage bag](https://images.unsplash.com/photo-1605000797498-28eb0ebb8d0d?w=1200&q=80&auto=format&fit=crop)
+![Close-up of a natural cotton drawstring closure on an organic seed storage bag](https://images.unsplash.com/photo-1530496216518-a53d24e99c31?w=1200&q=80&auto=format&fit=crop)
 - **File format:** Vector file (AI, EPS, or PDF). Raster images (JPG, PNG) are acceptable only if supplied at 300 DPI or above at the intended print size.
 - **Colours:** Specified in Pantone (PMS) or CMYK values. RGB colours cannot be accurately reproduced on fabric.
 - **Print size:** Maximum print area is typically the full face of the bag minus a 1 to 2 cm margin. Confirm with your supplier.

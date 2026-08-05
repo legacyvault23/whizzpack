@@ -5,7 +5,7 @@ author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
 tags: ["drawstring cotton seed bags", "cotton seed bags", "seed packaging", "canvas seed bags", "cotton bags for seeds", "seed bag exporter India"]
 excerpt: "Drawstring cotton seed bags are the packaging of choice for seed companies that want breathable, biodegradable, and brandable pouches. Here is what to look for when sourcing them from a manufacturer."
-ogImage: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1200&auto=format&fit=crop&q=80"
+ogImage: "https://images.unsplash.com/photo-1562575493-c8ca9010d9e2?w=1200&auto=format&fit=crop&q=80"
 ---
 
 Walk into any independent garden centre in the US or UK and you will find seed packets on display. Walk into the back room and you will find the bulk cotton bags those seeds arrived in. The retail packet is marketing. The cotton drawstring bag is what keeps the seed alive during storage, transit, and handling.
