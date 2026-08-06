@@ -5,6 +5,7 @@ import Link from 'next/link';
 
 const PAGES = {
   'drawstring': {
+    ctaTitle: 'Ready to Order Drawstring Cotton Seed Bags?',
     title: 'Drawstring Cotton Seed Bags Manufacturer India | Muslin Pouches | Whizzpack',
     description: 'Factory-direct drawstring cotton seed bags from Rajkot, India. 100-400 GSM cotton, flat drawstring and tunnel cord closure, custom sizes. OEKO-TEX compliant. MOQ 5,000 units.',
     h1: 'Drawstring Cotton Seed Bags',
@@ -71,6 +72,7 @@ const PAGES = {
   },
 
   'organic': {
+    ctaTitle: 'Ready to Order Organic Cotton Seed Bags?',
     title: 'Organic Cotton Seed Bags India | GOTS Certified Cotton Packaging | Whizzpack',
     description: 'GOTS certified organic cotton seed bags from Rajkot, India. Natural undyed, OEKO-TEX safe, fully biodegradable. Ideal for organic farms, sustainable retail, and eco-conscious seed brands. MOQ 5,000 units.',
     h1: 'Organic Cotton Seed Bags',
@@ -137,6 +139,7 @@ const PAGES = {
   },
 
   'custom-printed': {
+    ctaTitle: 'Ready to Order Custom Printed Cotton Seed Bags?',
     title: 'Custom Printed Cotton Seed Bags India | Branded Fabric Bags Manufacturer | Whizzpack',
     description: 'Factory-direct custom printed cotton seed bags from Rajkot, India. Screen print, rubber stamp, heat transfer, and embroidery options. Eco-friendly inks. MOQ 5,000 units. Export to USA and UK.',
     h1: 'Custom Printed Cotton Seed Bags',
@@ -447,7 +450,7 @@ export default function CottonSeedBagVariant({ navHtml, footerHtml, page, slug }
       {/* CTA */}
       <section className="vp-cta-section">
         <div className="wrap">
-          <h2>Ready to Source {page.tag}?</h2>
+          <h2>{page.ctaTitle}</h2>
           <p>
             Factory-direct from our Rajkot facility. Full export documentation, OEKO-TEX compliance, and GOTS certification available. Serving importers in the USA, UK, and worldwide.
           </p>
