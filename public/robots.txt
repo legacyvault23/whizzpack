@@ -6,6 +6,7 @@ Allow: /
 Disallow: /?s=
 Disallow: /*?s=
 Sitemap: https://www.whizzpack.in/sitemap.xml
+Sitemap: https://www.whizzpack.in/image-sitemap.xml
 
 # Allow all search engine crawlers including Googlebot, Bingbot, Yandex
 User-agent: Googlebot

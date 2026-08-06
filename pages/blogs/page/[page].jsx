@@ -1,5 +1,7 @@
-import Layout from '../../components/Layout';
-import { getAllPosts } from '../../lib/posts';
+// Clean pagination URLs: /blogs/page/2, /blogs/page/3, etc.
+// Renders the same component as the blog index, with proper canonical for each page.
+import Layout from '../../../components/Layout';
+import { getAllPosts } from '../../../lib/posts';
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
@@ -13,22 +15,23 @@ function formatDate(dateStr) {
   return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 }
 
-export default function BlogIndex({ posts, navHtml, footerHtml, totalPages, currentPage }) {
+export default function BlogPage({ posts, navHtml, footerHtml, totalPages, currentPage }) {
   const router = useRouter();
 
   function goToPage(page) {
-    router.push(page === 1 ? '/blogs' : `/blogs/page/${page}`);
+    if (page === 1) router.push('/blogs');
+    else router.push(`/blogs/page/${page}`);
   }
 
   const itemListSchema = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Packaging Insights Blog",
+    "name": `Packaging Insights Blog - Page ${currentPage}`,
     "description": "Expert guides for US and UK importers sourcing packaging from India.",
-    "url": "https://www.whizzpack.in/blogs",
+    "url": `https://www.whizzpack.in/blogs/page/${currentPage}`,
     "itemListElement": posts.map((post, idx) => ({
       "@type": "ListItem",
-      "position": idx + 1,
+      "position": (currentPage - 1) * POSTS_PER_PAGE + idx + 1,
       "url": `https://www.whizzpack.in/blogs/${post.slug}`,
       "name": post.title
     }))
@@ -36,9 +39,9 @@ export default function BlogIndex({ posts, navHtml, footerHtml, totalPages, curr
 
   return (
     <Layout
-      title={currentPage > 1 ? `Packaging Insights for US & UK Importers — Page ${currentPage} | Whizzpack` : "Packaging Insights for US & UK Importers | Whizzpack"}
+      title={`Packaging Insights for US & UK Importers - Page ${currentPage} | Whizzpack`}
       description="Expert guides on importing corrugated boxes and cotton seed bags from India. Resources for US and UK buyers sourcing bulk packaging."
-      canonical={currentPage > 1 ? `https://www.whizzpack.in/blogs?page=${currentPage}` : "https://www.whizzpack.in/blogs"}
+      canonical={`https://www.whizzpack.in/blogs/page/${currentPage}`}
       ogImage="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1200&auto=format&fit=crop&q=80"
       ogType="website"
       schema={itemListSchema}
@@ -56,12 +59,6 @@ export default function BlogIndex({ posts, navHtml, footerHtml, totalPages, curr
       {/* Card Grid */}
       <div className="blog-grid-wrap">
         <div className="blog-grid">
-          {posts.length === 0 && (
-            <div className="blog-empty">
-              <h2>Coming Soon</h2>
-              <p>Our first articles are on their way.</p>
-            </div>
-          )}
           {posts.map(post => (
             <Link href={`/blogs/${post.slug}`} key={post.slug} className="blog-card">
               <div className="blog-card-accent" />
@@ -104,15 +101,25 @@ export default function BlogIndex({ posts, navHtml, footerHtml, totalPages, curr
   );
 }
 
-export async function getServerSideProps({ query }) {
+export async function getServerSideProps({ params }) {
+  const pageNum = parseInt(params.page);
+
+  // Page 1 should be at /blogs, not /blogs/page/1
+  if (!pageNum || pageNum < 2 || isNaN(pageNum)) {
+    return { redirect: { destination: '/blogs', permanent: true } };
+  }
+
   const allPosts = getAllPosts();
-  const currentPage = Math.max(1, parseInt(query.page) || 1);
   const totalPages = Math.max(1, Math.ceil(allPosts.length / POSTS_PER_PAGE));
-  const safePage = Math.min(currentPage, totalPages);
-  const start = (safePage - 1) * POSTS_PER_PAGE;
+
+  if (pageNum > totalPages) {
+    return { redirect: { destination: '/blogs', permanent: false } };
+  }
+
+  const start = (pageNum - 1) * POSTS_PER_PAGE;
   const posts = allPosts.slice(start, start + POSTS_PER_PAGE);
 
   const navHtml = fs.readFileSync(path.join(process.cwd(), 'page-content/nav-sub.html'), 'utf8');
   const footerHtml = fs.readFileSync(path.join(process.cwd(), 'page-content/footer.html'), 'utf8');
-  return { props: { posts, navHtml, footerHtml, totalPages, currentPage: safePage } };
+  return { props: { posts, navHtml, footerHtml, totalPages, currentPage: pageNum } };
 }
