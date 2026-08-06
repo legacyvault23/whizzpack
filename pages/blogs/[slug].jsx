@@ -50,6 +50,7 @@ export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml
     "author": {
       "@type": "Person",
       "name": frontmatter.author || "Whizzpack Editorial Team",
+      "url": frontmatter.author === "Jash B." ? "https://www.whizzpack.in/authors/jash-b" : "https://www.whizzpack.in/about",
       "description": frontmatter.authorBio || "Packaging export specialist at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags.",
       "worksFor": { "@type": "Organization", "name": "Whizzpack", "url": "https://www.whizzpack.in" }
     },
@@ -92,7 +93,11 @@ export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml
             <h1>{frontmatter.title}</h1>
             <div className="blog-post-meta">
               {frontmatter.author && (
-                <span className="blog-post-author">By {frontmatter.author}</span>
+                <span className="blog-post-author">By{' '}
+                  {frontmatter.author === 'Jash B.' ? (
+                    <Link href="/authors/jash-b" style={{color:'inherit',textDecoration:'underline'}}>{frontmatter.author}</Link>
+                  ) : frontmatter.author}
+                </span>
               )}
               {frontmatter.date && (
                 <span className="blog-post-date">{formatDate(frontmatter.date)}</span>
