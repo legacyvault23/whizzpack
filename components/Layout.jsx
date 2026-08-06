@@ -126,6 +126,7 @@ export default function Layout({ children, title, description, canonical, schema
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://images.unsplash.com" crossOrigin="anonymous" />
         <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
         <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" /></noscript>
         <link rel="icon" type="image/png" href="/favicon.png" />
