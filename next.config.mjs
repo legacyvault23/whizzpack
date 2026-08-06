@@ -36,9 +36,6 @@ const nextConfig = {
     return [
       { source: '/blog', destination: '/blogs', permanent: true },
       { source: '/blog/:slug*', destination: '/blogs/:slug*', permanent: true },
-      // Redirect old query-param pagination to clean URLs
-      { source: '/blogs', destination: '/blogs/page/:page', permanent: true,
-        has: [{ type: 'query', key: 'page', value: '(?!1$)([2-9]|[1-9][0-9]+)' }] },
     ];
   },
   async rewrites() {

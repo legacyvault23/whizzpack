@@ -38,7 +38,7 @@ export default function BlogIndex({ posts, navHtml, footerHtml, totalPages, curr
     <Layout
       title={currentPage > 1 ? `Packaging Insights for US & UK Importers — Page ${currentPage} | Whizzpack` : "Packaging Insights for US & UK Importers | Whizzpack"}
       description="Expert guides on importing corrugated boxes and cotton seed bags from India. Resources for US and UK buyers sourcing bulk packaging."
-      canonical={currentPage > 1 ? `https://www.whizzpack.in/blogs?page=${currentPage}` : "https://www.whizzpack.in/blogs"}
+      canonical="https://www.whizzpack.in/blogs"
       ogImage="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1200&auto=format&fit=crop&q=80"
       ogType="website"
       schema={itemListSchema}
@@ -105,11 +105,16 @@ export default function BlogIndex({ posts, navHtml, footerHtml, totalPages, curr
 }
 
 export async function getServerSideProps({ query }) {
+  // Redirect ?page=N (N>1) to clean /blogs/page/N URL
+  const pageParam = parseInt(query.page) || 1;
+  if (pageParam > 1) {
+    return { redirect: { destination: `/blogs/page/${pageParam}`, permanent: true } };
+  }
+
   const allPosts = getAllPosts();
-  const currentPage = Math.max(1, parseInt(query.page) || 1);
+  const currentPage = 1;
   const totalPages = Math.max(1, Math.ceil(allPosts.length / POSTS_PER_PAGE));
-  const safePage = Math.min(currentPage, totalPages);
-  const start = (safePage - 1) * POSTS_PER_PAGE;
+  const start = 0;
   const posts = allPosts.slice(start, start + POSTS_PER_PAGE);
 
   const navHtml = fs.readFileSync(path.join(process.cwd(), 'page-content/nav-sub.html'), 'utf8');
