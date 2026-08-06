@@ -62,7 +62,7 @@ Double wall cardboard boxes cost more per unit and weigh more in freight. They e
 Two boxes can both be "double wall" and perform completely differently. The full specification includes:
 
 
-![Cross-section comparison of single-wall and double-wall corrugated board showing flute layer differences](https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=1200&q=80&auto=format&fit=crop)
+![Cross-section comparison of single-wall and double-wall corrugated board showing flute layer differences](https://images.unsplash.com/photo-1577702312572-5bb9328a9f15?w=1200&q=80&auto=format&fit=crop)
 **GSM (grams per square metre) of each layer.** This is the paper weight. A double wall box made from low-GSM paper can be weaker than a well-made single wall box using heavy kraft liners. When you request quotes, ask for the GSM of every liner and fluting layer, not just the ply count.
 
 **Flute profile.** The letter grades describe the height and density of the wave. B flute is thin and stiff with good print surface. C flute is the general-purpose standard with better cushioning. BC double wall combines both and is the most common heavy duty export specification. E flute is very fine, used where print quality and slim profile matter more than stacking strength.

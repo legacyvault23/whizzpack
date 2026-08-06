@@ -118,7 +118,7 @@ Custom dimensions are available from Indian suppliers with no significant price 
 Cotton bags for seed storage are typically woven from natural cotton muslin or canvas:
 
 
-![Natural cotton drawstring bags filled with seeds for organic farm storage](https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=1200&q=80&auto=format&fit=crop)
+![Natural cotton drawstring bags filled with seeds for organic farm storage](https://images.unsplash.com/photo-1761724191503-2b129c31a2d6?w=1200&q=80&auto=format&fit=crop)
 **Muslin (100–150 GSM):** Lightweight, breathable, low cost. Suitable for short-term seed storage, retail packaging, and lightweight seed varieties. Not suitable for heavy seeds or rough handling.
 
 **Canvas (250–350 GSM):** Heavier woven cotton. Better durability, abrasion resistance, and load capacity. Suitable for bulk seed storage (5 kg and above), repeated use, and commercial farm operations. The increased fabric weight provides better protection against moisture ingress.

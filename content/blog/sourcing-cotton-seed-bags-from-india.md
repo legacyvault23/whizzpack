@@ -5,7 +5,7 @@ author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
 tags: ["cotton seed bags exporter India", "seeds bag exporters", "cotton pouches for seeds", "cotton seed bags manufacturer Gujarat", "import cotton bags India", "seed packaging supplier India"]
 excerpt: "India is the world's leading source of cotton seed bags for bulk importers. This guide covers how US and UK seed companies find and vet Indian suppliers, what the process looks like from inquiry to delivery, and what makes Gujarat the centre of the trade."
-ogImage: "https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=1200&auto=format&fit=crop&q=80"
+ogImage: "https://images.unsplash.com/photo-1647694472532-8fa457ef2732?w=1200&auto=format&fit=crop&q=80"
 ---
 
 The global cotton seed bag trade flows mostly from one place: India. The country combines domestic cotton production, a well-developed garment and textile manufacturing base, low labour costs relative to Western markets, and decades of experience exporting to the US, UK, Europe, and Australia. For seed companies and agricultural distributors looking to source cotton bags at scale, India is not one option among many. It is the primary option, and understanding how to navigate it efficiently separates buyers who get excellent value from those who get expensive headaches.
@@ -47,7 +47,7 @@ The right supplier depends on your order size, how much hand-holding you need, a
 Due diligence on an Indian supplier does not require an in-person visit for initial orders, but it does require a systematic approach:
 
 
-![Aerial view of an Indian industrial estate with packaging factories exporting to USA and UK](https://images.unsplash.com/photo-1455849318743-b2233052fcff?w=1200&q=80&auto=format&fit=crop)
+![Aerial view of an Indian industrial estate with packaging factories exporting to USA and UK](https://images.unsplash.com/photo-1680183787027-8ee317b77f45?w=1200&q=80&auto=format&fit=crop)
 **Factory verification.** Ask for the factory's GST registration number (India's business tax identifier), import-export code (IEC), and a verifiable factory address. Any legitimate factory will provide these without hesitation. Cross-check the address via Google Maps to confirm a factory, not a residential address or office.
 
 **Samples before any payment.** A capable manufacturer will send you samples of the specific bag you intend to order: fabric weight, size, seam construction, cord type, and if applicable a printed proof. Review these physically. The sample is your benchmark for what the full production run should deliver. If a supplier refuses to send samples or asks you to pay for them without any promise of crediting the cost to your order, treat this as a warning sign.

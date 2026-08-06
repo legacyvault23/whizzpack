@@ -43,7 +43,7 @@ Understanding the cost structure helps you buy intelligently regardless of the c
 US businesses increasingly import corrugated boxes directly from manufacturers in India. The economics work for a specific profile of buyer:
 
 
-![Raw corrugated board material and paper rolls at an Indian cardboard packaging plant](https://images.unsplash.com/photo-1526367790999-0150786686a2?w=1200&q=80&auto=format&fit=crop)
+![Raw corrugated board material and paper rolls at an Indian cardboard packaging plant](https://images.unsplash.com/photo-1609143739217-01b60dad1c67?w=1200&q=80&auto=format&fit=crop)
 **You order at container scale.** A 20-foot or 40-foot container of flat-packed boxes represents tens of thousands of units depending on size. If your annual volume supports at least a few container loads, the per-unit savings from Indian manufacturing labour costs and factory-direct pricing outweigh the freight and lead time.
 
 **Your demand is predictable.** Importing works on a planning cycle: production takes 15 to 20 days and sea freight to the US East Coast adds roughly 25 to 35 days. Businesses with steady, forecastable box consumption place rolling orders and hold a buffer stock. If your volume is highly volatile, a domestic backup source alongside imports is the practical answer.

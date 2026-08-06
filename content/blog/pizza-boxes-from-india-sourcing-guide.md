@@ -76,7 +76,7 @@ A reputable manufacturer will have these declarations available without hesitati
 Most pizza box orders are shipped by sea freight in 20-foot or 40-foot containers. Pizza boxes are bulky relative to their weight, so a container fills on volume before it fills on weight.
 
 
-![Cargo ship at sea transporting containerised packaging goods from India to western markets](https://images.unsplash.com/photo-1580674684081-7617fbf3d745?w=1200&q=80&auto=format&fit=crop)
+![Cargo ship at sea transporting containerised packaging goods from India to western markets](https://images.unsplash.com/photo-1634055789731-c73fbbe3e0dc?w=1200&q=80&auto=format&fit=crop)
 **Nearest port for Rajkot-based manufacturers:** Mundra Port (INMUN) in Gujarat is the closest major port to Rajkot, approximately 130 km away. Mundra is one of India's busiest container ports with direct vessel services to US East Coast and West Coast ports.
 
 **Well-connected US destination ports from Mundra:**
@@ -94,7 +94,7 @@ If you are distributing to the Midwest, Savannah is often preferred because it c
 Most Indian corrugated box factories work in full container loads (FCL). A 40-foot container holds roughly 15,000 to 25,000 pizza boxes depending on size and how the boxes are packed (flat-packed vs pre-assembled). A 20-foot container holds roughly half that.
 
 
-![Branded pizza boxes stacked at a restaurant counter showing food-safe corrugated packaging in use](https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?w=1200&q=80&auto=format&fit=crop)
+![Branded pizza boxes stacked at a restaurant counter showing food-safe corrugated packaging in use](https://images.unsplash.com/photo-1630466913899-31fb06c6110e?w=1200&q=80&auto=format&fit=crop)
 Some factories will also do less-than-container-load (LCL) shipments for buyers testing a new specification, though the per-unit economics are less favourable.
 
 If you are a distributor buying for resale, an FCL order is typically the baseline. If you are an independent pizzeria testing the channel for the first time, look for a manufacturer willing to consolidate your order with others or offer a trial LCL shipment.

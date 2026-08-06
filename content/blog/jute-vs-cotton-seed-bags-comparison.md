@@ -10,7 +10,7 @@ When buyers decide to move away from synthetic polypropylene seed bags, they typ
 
 This guide compares jute and cotton seed bags across the factors that actually matter: fibre properties, durability, breathability, moisture resistance, available certifications, sustainability credentials, and import cost. Use it to make a confident decision for your specific seed type, storage environment, and customer base.
 
-![Natural fibre bags - jute and cotton side by side on a rustic wooden surface](https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&q=80&auto=format&fit=crop)
+![Natural fibre bags - jute and cotton side by side on a rustic wooden surface](https://images.unsplash.com/photo-1565273975221-fe8dc98dba50?w=1200&q=80&auto=format&fit=crop)
 *Jute and cotton are both natural fibre alternatives to synthetic seed bags, but with different performance profiles*
 
 ---
@@ -62,7 +62,7 @@ The lower lignin content means cotton is more flexible and less prone to brittle
 ### Jute Wins for Raw Tensile Strength
 
 
-![Jute sacks and woven natural fibre material showing texture comparison with cotton bags](https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=1200&q=80&auto=format&fit=crop)
+![Jute sacks and woven natural fibre material showing texture comparison with cotton bags](https://images.unsplash.com/photo-1586168619437-3ff44ffe51af?w=1200&q=80&auto=format&fit=crop)
 Jute outperforms cotton in raw tensile strength at comparable fabric weights. A 400 GSM jute sack will bear a heavier load than a 400 GSM cotton sack before the fabric fails.
 
 For high-volume commodity seed applications (wheat, corn, sorghum) where bags are filled to 25 to 50 kg and handled with hooks, forklifts, and mechanical conveyors, jute's higher load capacity is a genuine advantage.
@@ -184,7 +184,7 @@ For operations running both retail and bulk seed programmes, the practical answe
 
 ---
 
-![Natural cotton seed bags displayed in a retail garden shop setting](https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=1200&q=80&auto=format&fit=crop)
+![Natural cotton seed bags displayed in a retail garden shop setting](https://images.unsplash.com/photo-1654378555129-e7c5a773c0c0?w=1200&q=80&auto=format&fit=crop)
 *Cotton seed bags are increasingly the material of choice for premium retail seed brands in the USA and UK*
 
 For detailed guidance on buying cotton seed bags specifically, see our [bulk cotton seed bags guide for commercial farms](/blogs/bulk-cotton-seed-bags-commercial-farms) and our [drawstring cotton seed bags buyer's guide](/blogs/drawstring-cotton-seed-bags-guide).

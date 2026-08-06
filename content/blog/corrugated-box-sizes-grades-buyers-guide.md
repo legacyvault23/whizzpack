@@ -99,7 +99,7 @@ For pallet efficiency, choose box dimensions that divide evenly into your pallet
 The vast majority of corrugated shipping boxes worldwide are **RSC (Regular Slotted Cartons)**  -  the familiar box where all four flaps on top and bottom meet at the centre when closed. RSC is the most cost-efficient style to manufacture and palletise.
 
 
-![Pallets of corrugated export boxes of various sizes stacked in a warehouse ready for sea freight](https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=1200&q=80&auto=format&fit=crop)
+![Pallets of corrugated export boxes of various sizes stacked in a warehouse ready for sea freight](https://images.unsplash.com/photo-1783700697522-fb6c760dae82?w=1200&q=80&auto=format&fit=crop)
 Other styles you may encounter:
 
 **HSC (Half Slotted Container):** An RSC with no top flaps, used with a separate lid. Common for heavier goods packed from above, or where frequent access to the box contents is required.
