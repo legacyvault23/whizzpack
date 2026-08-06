@@ -29,7 +29,17 @@ function extractFirstImage(html) {
 
 export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml, slug }) {
   const ogImage = frontmatter.ogImage || extractFirstImage(contentHtml) || 'https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1200&auto=format&fit=crop&q=80';
-  const schema = JSON.stringify({
+  const schema = JSON.stringify([
+    {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.whizzpack.in/" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.whizzpack.in/blogs" },
+      { "@type": "ListItem", "position": 3, "name": frontmatter.title, "item": `https://www.whizzpack.in/blogs/${slug}` }
+    ]
+  },
+  {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "headline": frontmatter.title,
@@ -58,7 +68,8 @@ export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml
     "mainEntityOfPage": { "@type": "WebPage", "@id": `https://www.whizzpack.in/blogs/${slug}` },
     "about": { "@type": "Thing", "name": "Packaging export from India" },
     "inLanguage": "en-US"
-  });
+  }
+  ]);
 
   const tags = frontmatter.tags || [];
 
