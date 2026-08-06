@@ -40,6 +40,7 @@ export default function BlogIndex({ posts, navHtml, footerHtml, totalPages, curr
       description="Expert guides on importing corrugated boxes and cotton seed bags from India. Resources for US and UK buyers sourcing bulk packaging."
       canonical={currentPage > 1 ? `https://www.whizzpack.in/blogs?page=${currentPage}` : "https://www.whizzpack.in/blogs"}
       ogImage="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1200&auto=format&fit=crop&q=80"
+      ogType="website"
       schema={itemListSchema}
       navHtml={navHtml}
       footerHtml={footerHtml}

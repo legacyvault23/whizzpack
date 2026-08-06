@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { useEffect } from 'react';
 
-export default function Layout({ children, title, description, canonical, schema, ogImage, navHtml, footerHtml }) {
+export default function Layout({ children, title, description, canonical, schema, ogImage, ogType, navHtml, footerHtml }) {
 
   useEffect(() => {
     // ── 1. CURSOR ──────────────────────────────────────────────────────────
@@ -111,9 +111,13 @@ export default function Layout({ children, title, description, canonical, schema
         <meta name="description" content={description} />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href={canonical} />
+        {canonical && <link rel="alternate" hreflang="en" href={canonical} />}
+        {canonical && <link rel="alternate" hreflang="en-US" href={canonical} />}
+        {canonical && <link rel="alternate" hreflang="en-GB" href={canonical} />}
+        {canonical && <link rel="alternate" hreflang="x-default" href={canonical} />}
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
-        <meta property="og:type" content="article" />
+        <meta property="og:type" content={ogType || 'website'} />
         {ogImage && <meta property="og:image" content={ogImage} />}
         {ogImage && <meta property="og:image:width" content="1200" />}
         {ogImage && <meta property="og:image:height" content="630" />}
@@ -156,7 +160,7 @@ export default function Layout({ children, title, description, canonical, schema
             <a href="/cotton-seed-bags" className="mlink">&#127807; Cotton Seed Bags</a>
           </div>
         </div>
-        <a href="/#about"    className="mlink">About</a>
+        <a href="/about"    className="mlink">About</a>
         <a href="/#ind"      className="mlink">Industries</a>
         <a href="/#fac"      className="mlink">Factory</a>
         <a href="/#testi"    className="mlink">Testimonials</a>

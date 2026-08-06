@@ -32,6 +32,16 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.whizzpack.in/cotton-seed-bags"/>
   </url>
   <url>
+    <loc>https://www.whizzpack.in/about</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.whizzpack.in/about"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.whizzpack.in/about"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.whizzpack.in/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.whizzpack.in/about"/>
+  </url>
+  <url>
     <loc>https://www.whizzpack.in/privacy-policy</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>yearly</changefreq>

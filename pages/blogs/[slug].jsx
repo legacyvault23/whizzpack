@@ -5,6 +5,17 @@ import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
 
+// Custom renderer: add width/height to images to prevent CLS
+marked.use({
+  renderer: {
+    image(href, title, text) {
+      const alt = text || '';
+      const titleAttr = title ? ` title="${title}"` : '';
+      return `<img src="${href}" alt="${alt}"${titleAttr} width="900" height="600" loading="lazy" style="max-width:100%;height:auto;border-radius:8px">`;
+    }
+  }
+});
+
 function formatDate(dateStr) {
   if (!dateStr) return '';
   const d = new Date(dateStr + 'T00:00:00');
@@ -28,8 +39,7 @@ export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml
     "image": { "@type": "ImageObject", "url": ogImage, "width": 1200, "height": 630 },
     "author": {
       "@type": "Person",
-      "name": frontmatter.author || "Whizzpack",
-      "url": "https://www.linkedin.com/company/whizzpack/",
+      "name": frontmatter.author || "Whizzpack Editorial Team",
       "description": frontmatter.authorBio || "Packaging export specialist at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags.",
       "worksFor": { "@type": "Organization", "name": "Whizzpack", "url": "https://www.whizzpack.in" }
     },
@@ -57,6 +67,7 @@ export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml
       title={`${frontmatter.title} | Whizzpack`}
       description={frontmatter.excerpt}
       canonical={`https://www.whizzpack.in/blogs/${slug}`}
+      ogType="article"
       schema={schema}
       ogImage={ogImage}
       navHtml={navHtml}

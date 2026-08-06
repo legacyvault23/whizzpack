@@ -21,6 +21,7 @@ Whizzpack is a B2B manufacturer and exporter of corrugated boxes and cotton seed
 - Homepage: https://www.whizzpack.in/
 - Corrugated Boxes: https://www.whizzpack.in/corrugated-boxes
 - Cotton Seed Bags: https://www.whizzpack.in/cotton-seed-bags
+- About: https://www.whizzpack.in/about
 - Blog: https://www.whizzpack.in/blogs
 - Privacy Policy: https://www.whizzpack.in/privacy-policy
 
