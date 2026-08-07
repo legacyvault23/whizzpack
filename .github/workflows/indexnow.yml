@@ -1,0 +1,99 @@
+name: IndexNow — Submit URLs on Deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  submit-urls:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Collect changed URLs
+        id: urls
+        run: |
+          CHANGED=$(git diff --name-only HEAD~1 HEAD)
+          echo "Changed files:"
+          echo "$CHANGED"
+          URLS=""
+
+          # ── public/**/*.html → static pages
+          # index.html → /    corrugated-boxes.html → /corrugated-boxes   etc.
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            rel="${f#public/}"          # strip leading public/
+            path="${rel%.html}"         # strip .html extension
+            [ "$path" = "index" ] && path=""
+            URLS="$URLS https://www.whizzpack.in/${path}"
+          done < <(echo "$CHANGED" | grep "^public/.*\.html$")
+
+          # ── content/blog/*.md → /blogs/<slug>  +  /blogs index
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            SLUG=$(basename "$f" .md)
+            URLS="$URLS https://www.whizzpack.in/blogs/$SLUG https://www.whizzpack.in/blogs"
+          done < <(echo "$CHANGED" | grep "^content/blog/.*\.md$")
+
+          # ── pages/**/*.jsx|tsx → Next.js routes
+          # Skips: _app _document _error  |  api/ routes  |  dynamic [param] routes
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            path=$(echo "$f" | sed 's|^pages/||; s|\.[jt]sx\?$||')
+            echo "$path" | grep -qE "^_|^api/|\[" && continue
+            path=$(echo "$path" | sed 's|/index$||; s|^index$||')
+            URLS="$URLS https://www.whizzpack.in/${path}"
+          done < <(echo "$CHANGED" | grep "^pages/.*\.[jt]sx\?$")
+
+          # ── Always include sitemap when any content changes
+          [ -n "$(echo "$CHANGED" | tr -d '[:space:]')" ] && \
+            URLS="$URLS https://www.whizzpack.in/sitemap.xml"
+
+          # Deduplicate and clean
+          URLS=$(printf "%s\n" $URLS | grep "^https" | sort -u | tr '\n' ' ')
+          echo "URLs to submit: $URLS"
+          echo "urls=$URLS" >> $GITHUB_OUTPUT
+
+      - name: Submit to IndexNow (api.indexnow.org + Bing)
+        if: steps.urls.outputs.urls != ''
+        env:
+          SUBMIT_URLS: ${{ steps.urls.outputs.urls }}
+        run: |
+          python3 << 'PYEOF'
+          import json, subprocess, os
+
+          urls = [u.strip() for u in os.environ["SUBMIT_URLS"].split()
+                  if u.strip().startswith("https")]
+
+          if not urls:
+              print("No URLs to submit")
+              exit(0)
+
+          payload = json.dumps({
+              "host": "www.whizzpack.in",
+              "key": "8249d520fb029e61ad839dfdd862ff69",
+              "keyLocation": "https://www.whizzpack.in/8249d520fb029e61ad839dfdd862ff69.txt",
+              "urlList": urls
+          })
+
+          print(f"Submitting {len(urls)} URLs:")
+          for u in urls:
+              print(f"  {u}")
+
+          for endpoint in [
+              "https://api.indexnow.org/indexnow",
+              "https://www.bing.com/indexnow"
+          ]:
+              result = subprocess.run(
+                  ["curl", "-s", "-w", "\nHTTP %{http_code}",
+                   "-X", "POST", endpoint,
+                   "-H", "Content-Type: application/json; charset=utf-8",
+                   "-d", payload],
+                  capture_output=True, text=True
+              )
+              print(f"\n→ {endpoint}")
+              print(result.stdout or result.stderr)
+          PYEOF
