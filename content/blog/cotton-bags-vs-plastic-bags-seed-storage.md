@@ -68,7 +68,7 @@ Plastic is not without merit. There are specific contexts where it remains the b
 
 **OEKO-TEX Standard 100:** For seed products that contact food, OEKO-TEX certified cotton fabric verifies the bag contains no harmful chemicals at contact levels. This matters for edible seed varieties.
 
-![A young green plant growing in dark fertile soil representing the agricultural purpose of breathable cotton seed bags and sustainable farming](https://images.unsplash.com/photo-1592079927431?w=900&auto=format&fit=crop&q=80)
+![A large cotton field under a clear blue sky, representing the agricultural context for breathable cotton seed bags and sustainable farming](https://images.unsplash.com/photo-1648908833245-86fe424f47a0?w=900&auto=format&fit=crop&q=80)
 *The packaging choice affects what the farmer receives at the moment of planting. Higher germination rates from well-stored seeds mean better crop yields and fewer replanting costs.*
 
 ---
@@ -121,7 +121,7 @@ For most commercial seed distributors in the US and UK, a cotton bag specificati
 
 For full product specifications on drawstring bags, organic cotton options, and custom printed cotton seed bags, see our [cotton seed bags pages](/cotton-seed-bags). You can also explore specific types: [drawstring cotton seed bags](/cotton-seed-bags/drawstring), [organic cotton seed bags](/cotton-seed-bags/organic), and [custom printed cotton seed bags](/cotton-seed-bags/custom-printed).
 
-![Organic cotton plants growing in a field, the sustainable raw material source for GOTS-certified cotton seed bags used in eco-conscious farming](https://images.unsplash.com/photo-1625246333195?w=900&auto=format&fit=crop&q=80)
+![A field of cotton plants in bloom, the natural raw material for GOTS-certified organic cotton seed bags used in eco-conscious farming supply chains](https://images.unsplash.com/photo-1502395809857-fd80069897d0?w=900&auto=format&fit=crop&q=80)
 *Organic cotton, certified under GOTS, is grown without synthetic pesticides or fertilisers - making GOTS-certified cotton seed bags a natural fit for organic farming supply chains.*
 
 ---

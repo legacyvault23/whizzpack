@@ -100,7 +100,7 @@ Understanding the supply chain helps you ask better questions of potential suppl
 
 This integrated supply chain in India produces muslin bags at a fraction of the cost of equivalent manufacturing in the UK or US, even after sea freight and import duties.
 
-![A row of industrial weaving looms in a textile mill in India producing plain-weave cotton muslin fabric for export](https://images.unsplash.com/photo-1675176785803?w=900&auto=format&fit=crop&q=80)
+![A row of industrial weaving looms in a textile mill in India producing plain-weave cotton muslin fabric for export](https://images.unsplash.com/photo-1675176785803-bffbbb0cd2f4?w=900&auto=format&fit=crop&q=80)
 *Muslin is a plain-weave fabric - the simplest weave structure - woven on power looms in Gujarat and other cotton-producing states in India.*
 
 ---
@@ -151,7 +151,7 @@ Request a quote with your specifications for accurate pricing. Always compare qu
 
 Whizzpack manufactures cotton bags at our factory in Rajkot, including muslin and canvas specifications for agricultural, retail, and promotional applications. We export to wholesale buyers across the US and UK with full ECT and GSM documentation.
 
-![A textile worker at a weaving machine in India producing cotton muslin fabric for wholesale bag manufacturing and export](https://images.unsplash.com/photo-1638310533874?w=900&auto=format&fit=crop&q=80)
+![Industrial looms with large spools of white cotton thread used to produce plain-weave muslin fabric for wholesale bag manufacturing and export](https://images.unsplash.com/photo-1758270804188-8ca0b6d254bc?w=900&auto=format&fit=crop&q=80)
 *Printed muslin bags serve double duty as packaging and marketing material. A well-designed bag carries your brand through every use the customer finds for it.*
 
 Visit our [cotton seed bags page](/cotton-seed-bags) to start a conversation about muslin bag specifications. We supply both agricultural formats and retail-grade bags, with printing and certification options available. Related product pages: [drawstring cotton seed bags](/cotton-seed-bags/drawstring) and [custom printed cotton seed bags](/cotton-seed-bags/custom-printed).
