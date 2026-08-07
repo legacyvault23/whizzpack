@@ -42,6 +42,11 @@ const ALL_URLS = [
   'https://www.whizzpack.in/blogs/corrugated-box-sizes-grades-buyers-guide',
   'https://www.whizzpack.in/blogs/cotton-seed-bags-organic-farming-guide',
   'https://www.whizzpack.in/blogs/india-packaging-lead-times-shipping-guide',
+  'https://www.whizzpack.in/blogs/b-flute-vs-c-flute-vs-e-flute-corrugated-boxes',
+  'https://www.whizzpack.in/blogs/amazon-fba-corrugated-boxes-india',
+  'https://www.whizzpack.in/blogs/cotton-bags-vs-plastic-bags-seed-storage',
+  'https://www.whizzpack.in/blogs/muslin-bags-wholesale-india',
+  'https://www.whizzpack.in/blogs/corrugated-box-manufacturer-india-guide',
 ];
 
 async function pingIndexNow(urls) {
