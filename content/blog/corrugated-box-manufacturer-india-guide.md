@@ -11,7 +11,7 @@ India has thousands of corrugated box manufacturers. The industry is concentrate
 
 This guide gives you the framework to evaluate corrugated box manufacturers in India before committing to an order.
 
-![Aerial view of a large corrugated box manufacturing facility with rows of production machinery](https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=900&auto=format&fit=crop&q=80)
+![A corrugated box factory in India filled with production machinery and stacks of finished boxes ready for export](https://images.unsplash.com/photo-1734357310900?w=900&auto=format&fit=crop&q=80)
 *A genuine corrugated box manufacturer will have visible production capacity - corrugator lines, die-cutting machines, and stitching/gluing lines. Ask to see the factory.*
 
 ---
@@ -86,7 +86,7 @@ Corrugated box export from India requires Phytosanitary certification (for woode
 "Can you provide references from US or UK buyers?"
 This is a reasonable request for any significant order. A manufacturer with no willingness to provide references should be treated with caution.
 
-![A quality control inspector examining corrugated board samples on a production floor in a manufacturing facility](https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=900&auto=format&fit=crop&q=80)
+![A worker performing quality inspection on finished corrugated boxes inside an Indian packaging factory](https://images.unsplash.com/photo-1681726267019?w=900&auto=format&fit=crop&q=80)
 *Quality control at the board level - checking GSM, burst strength, and ECT - determines whether the finished boxes will perform in transit. Ask for test reports with every sample order.*
 
 ---
@@ -157,7 +157,7 @@ Confirm what export documents are provided and who arranges freight.
 
 For reference on specific box types and specifications, see our pages on [RSC corrugated boxes](/corrugated-boxes/rsc-boxes), [double wall corrugated boxes](/corrugated-boxes/double-wall), and our broader [corrugated boxes sourcing guide](/corrugated-boxes).
 
-![A shipping container being lifted by a crane at a busy Indian port facility representing the export stage of the manufacturing supply chain](https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=900&auto=format&fit=crop&q=80)
+![A crane lifting shipping containers at an Indian port, the final step in the export supply chain to the USA and UK](https://images.unsplash.com/photo-1706499856012?w=900&auto=format&fit=crop&q=80)
 *The final stage of the manufacturing supply chain is sea freight from an Indian port. Rajkot-based manufacturers typically use Mundra Port (Kutch) for container shipping to the US and UK.*
 
 ---

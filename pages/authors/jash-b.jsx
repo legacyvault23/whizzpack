@@ -207,7 +207,7 @@ export default function JashBAuthorPage({ navHtml, footerHtml, posts }) {
 
         {/* CTA */}
         <div className="author-cta">
-          <h2>Source Packaging Factory-Direct from India</h2>
+          <h2 style={{ color: '#fff' }}>Source Packaging Factory-Direct from India</h2>
           <p>Get in touch with our team to discuss your corrugated box or cotton seed bag requirements.</p>
           <a href="/#contact" className="author-cta-btn">Contact Whizzpack</a>
         </div>

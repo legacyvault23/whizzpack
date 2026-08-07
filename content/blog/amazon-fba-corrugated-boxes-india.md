@@ -11,7 +11,7 @@ Amazon FBA has strict packaging and labelling requirements. Sellers who source t
 
 This guide walks through Amazon's FBA corrugated box requirements, how to translate them into a factory specification, and what to ask an Indian manufacturer before placing your first order.
 
-![Corrugated boxes on a conveyor belt in a modern fulfilment warehouse setting](https://images.unsplash.com/photo-1553413077-190dd305871c?w=900&auto=format&fit=crop&q=80)
+![A large warehouse filled with pallets of corrugated boxes ready for Amazon FBA fulfilment and distribution](https://images.unsplash.com/photo-1679207751072?w=900&auto=format&fit=crop&q=80)
 *Amazon fulfilment centres receive millions of boxes every week. Getting the specification right before production saves costly returns and compliance failures.*
 
 ---
@@ -56,7 +56,7 @@ The FBA requirements above translate into specific corrugated box characteristic
 
 **Plain brown vs. printed:** FBA boxes can be plain kraft brown or printed. If you want your brand visible on the outside, specify one-colour or two-colour flexographic printing. Avoid printing that covers the entire panel if you need the FBA label area to remain clean white/kraft.
 
-![Brown corrugated RSC boxes stacked in rows in a warehouse storage facility](https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=900&auto=format&fit=crop&q=80)
+![Open brown corrugated RSC boxes ready for packing in a fulfilment warehouse - the standard Amazon FBA box format](https://images.unsplash.com/photo-1700165644892?w=900&auto=format&fit=crop&q=80)
 *RSC boxes are the standard Amazon FBA format. The four flaps on each end meet at the centre, providing a clean, secure closure that seals easily with standard tape.*
 
 ---
@@ -133,7 +133,7 @@ For sellers who want to make a verified sustainability claim, look for:
 
 For detailed corrugated specifications by box type, see our pages on [RSC corrugated boxes](/corrugated-boxes/rsc-boxes), [double wall corrugated boxes](/corrugated-boxes/double-wall), and [custom printed corrugated boxes](/corrugated-boxes/custom-printed).
 
-![A cargo container being loaded at a port with a cargo ship visible in the background](https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=900&auto=format&fit=crop&q=80)
+![A large stack of shipping containers at an Indian port representing sea freight export for Amazon FBA box orders](https://images.unsplash.com/photo-1678182451047?w=900&auto=format&fit=crop&q=80)
 *Most FBA box orders from India ship via sea freight in 20ft or 40ft containers. Transit time from Indian ports to the US East Coast is 22 to 28 days.*
 
 ---

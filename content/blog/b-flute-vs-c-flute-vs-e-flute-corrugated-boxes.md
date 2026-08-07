@@ -66,8 +66,8 @@ C flute is the most widely used corrugated profile in global shipping. Its talle
 
 If you are specifying your first corrugated box from India and are unsure where to start, C flute is the safe, proven starting point. It handles the widest range of products and transit conditions without modification.
 
-![Stacked corrugated export boxes in a manufacturing facility ready for sea freight shipping](https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=900&auto=format&fit=crop&q=80)
-*C flute cartons stacked in a production facility. Most export orders from India to the USA and UK use C or BC flute board.*
+![Corrugated box manufacturing facility in India with production machinery and finished boxes ready for export](https://images.unsplash.com/photo-1739863305972?w=900&auto=format&fit=crop&q=80)
+*A corrugated box manufacturing facility in India. Most export orders to the USA and UK use C or BC flute board.*
 
 ---
 
@@ -146,7 +146,7 @@ Flute type determines the board's structural profile, but liner grade determines
 
 A manufacturer who only asks for box dimensions without asking about liner grade or required strength is not asking the right questions. A well-specified corrugated box order will always include: dimensions (L x W x H), flute type, liner grade (or strength requirement), ply count, and printing specification.
 
-![A cargo ship fully loaded with containers on open sea representing the transit conditions corrugated boxes must survive](https://images.unsplash.com/photo-1605745341112-85968b19335b?w=900&auto=format&fit=crop&q=80)
+![A large cargo ship docked at port for loading containers on sea freight from India to the USA and UK](https://images.unsplash.com/photo-1670121180530?w=900&auto=format&fit=crop&q=80)
 *Sea freight from India to the USA or UK takes 22 to 30 days. The flute type and liner grade combination determines whether your boxes arrive intact.*
 
 ---
