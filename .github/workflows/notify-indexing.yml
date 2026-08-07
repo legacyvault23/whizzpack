@@ -1,0 +1,37 @@
+name: Notify Google Indexing API
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:   # allows manual trigger from GitHub UI
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2   # need previous commit to diff
+
+      - name: Get changed files
+        id: changed
+        run: |
+          git diff --name-only HEAD~1 HEAD > changed_files.txt
+          echo "Changed files:"
+          cat changed_files.txt
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install google-auth requests -q
+
+      - name: Notify Google Indexing API + IndexNow
+        env:
+          GOOGLE_INDEXING_KEY: ${{ secrets.GOOGLE_INDEXING_KEY }}
+        run: python scripts/notify-changed-urls.py changed_files.txt
