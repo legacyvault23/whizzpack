@@ -119,5 +119,5 @@ export async function getServerSideProps({ query }) {
 
   const navHtml = fs.readFileSync(path.join(process.cwd(), 'page-content/nav-sub.html'), 'utf8');
   const footerHtml = fs.readFileSync(path.join(process.cwd(), 'page-content/footer.html'), 'utf8');
-  return { props: { posts, navHtml, footerHtml, totalPages, currentPage: safePage } };
+  return { props: { posts, navHtml, footerHtml, totalPages, currentPage } };
 }
