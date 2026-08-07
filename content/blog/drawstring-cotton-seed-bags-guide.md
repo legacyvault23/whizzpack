@@ -134,4 +134,6 @@ Yes. Seed variety names, planting instructions, barcode formats (EAN, UPC), coun
 
 Whizzpack manufactures custom drawstring cotton seed bags at our factory in Rajkot, Gujarat, from 4 oz muslin to 14 oz heavy canvas, with full custom printing, GOTS and OEKO-TEX options, and factory-direct export to the US and UK.
 
+For complete specifications, size ranges, and closure options, see our [drawstring cotton seed bags page](/cotton-seed-bags/drawstring).
+
 [Request samples and a quote for your cotton seed bag specification](/cotton-seed-bags)

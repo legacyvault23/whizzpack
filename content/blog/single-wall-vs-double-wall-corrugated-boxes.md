@@ -107,4 +107,6 @@ Share your product weight, box dimensions, and stacking plan with the manufactur
 **What is the minimum order for custom double wall boxes?**
 At Whizzpack, minimum order quantity is 5,000 units for both single wall and double wall corrugated boxes, with custom sizing and printing available from MOQ.
 
+For a full breakdown of double wall specifications, BCT ratings, and applications, see our [double wall corrugated boxes guide](/corrugated-boxes/double-wall). For RSC carton specs, see our [RSC boxes page](/corrugated-boxes/rsc-boxes).
+
 [Discuss your box specification with our export team and request free samples](/corrugated-boxes)

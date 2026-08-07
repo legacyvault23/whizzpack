@@ -121,4 +121,6 @@ At Whizzpack, the minimum order quantity for custom printed cotton seed bags is 
 
 Whizzpack manufactures cotton seed bags at our factory in Rajkot, Gujarat, in fabric weights from 4 oz muslin to 14 oz heavy canvas, with custom printing, GOTS and OEKO-TEX options, and factory-direct export to importers across the US and UK.
 
+Explore our specific bag types for detailed specifications: [drawstring cotton seed bags](/cotton-seed-bags/drawstring), [organic GOTS certified bags](/cotton-seed-bags/organic), and [custom printed cotton seed bags](/cotton-seed-bags/custom-printed).
+
 [Start with a sample pack and quote for your cotton seed bag requirement](/cotton-seed-bags)

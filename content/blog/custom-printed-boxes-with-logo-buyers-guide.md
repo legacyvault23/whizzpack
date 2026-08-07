@@ -97,4 +97,6 @@ The process with a factory-direct manufacturer looks like this:
 
 Whizzpack manufactures custom printed corrugated boxes with logo printing in one to four colours at our factory in Rajkot, Gujarat, and exports directly to businesses across the US and UK. Our in-house design team supports dieline creation and artwork preparation, and every order includes pre-shipment quality inspection.
 
+For full details on print methods, artwork requirements, and MOQ for branded boxes, see our [custom printed corrugated boxes page](/corrugated-boxes/custom-printed).
+
 [Send us your logo and box requirement for a custom print quote and free samples](/corrugated-boxes)

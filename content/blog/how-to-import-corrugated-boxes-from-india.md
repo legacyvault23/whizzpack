@@ -143,6 +143,8 @@ Indian manufacturers exporting to the US and UK are familiar with the relevant r
 
 If you are still finalising your specification, two related guides will help: [single wall vs double wall corrugated boxes](/blogs/single-wall-vs-double-wall-corrugated-boxes) for choosing the right construction, and our [custom printed boxes buyer's guide](/blogs/custom-printed-boxes-with-logo-buyers-guide) if branding is part of your plan.
 
+Browse our specific box types for detailed specs: [RSC corrugated boxes](/corrugated-boxes/rsc-boxes), [double wall corrugated boxes](/corrugated-boxes/double-wall), and [custom printed corrugated boxes](/corrugated-boxes/custom-printed).
+
 [Request a sample or discuss your requirements with our team](https://www.whizzpack.in/)
 
 ![A large cargo ship loaded with containers at sea representing freight from India to US and UK ports](https://images.unsplash.com/photo-1634638022845-1ab614a94128?w=900&auto=format&fit=crop&q=80)

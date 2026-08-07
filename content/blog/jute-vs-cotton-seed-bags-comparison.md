@@ -189,4 +189,4 @@ For operations running both retail and bulk seed programmes, the practical answe
 
 For detailed guidance on buying cotton seed bags specifically, see our [bulk cotton seed bags guide for commercial farms](/blogs/bulk-cotton-seed-bags-commercial-farms) and our [drawstring cotton seed bags buyer's guide](/blogs/drawstring-cotton-seed-bags-guide).
 
-Whizzpack manufactures both cotton seed bags and corrugated export packaging from India. Contact us at [info.whizzpack@yahoo.com](mailto:info.whizzpack@yahoo.com) or visit our [cotton seed bags page](/cotton-seed-bags) to discuss your requirements.
+Whizzpack manufactures both cotton seed bags and corrugated export packaging from India. Explore our cotton bag range by type: [drawstring bags](/cotton-seed-bags/drawstring), [organic GOTS certified bags](/cotton-seed-bags/organic), and [custom printed bags](/cotton-seed-bags/custom-printed). Contact us at [info.whizzpack@yahoo.com](mailto:info.whizzpack@yahoo.com) or visit our [cotton seed bags page](/cotton-seed-bags) to discuss your requirements.

@@ -92,4 +92,6 @@ Yes, provided the requirements are specified upfront. Barcode formats, country o
 
 Whizzpack manufactures corrugated cardboard shipping boxes in bulk at our factory in Rajkot, Gujarat, from 3-ply single wall to 7-ply triple wall, plain or custom printed, and ships factory-direct to businesses across the US and UK with full export documentation and pre-shipment quality inspection.
 
+For RSC carton specifications and export details, see our [RSC corrugated boxes page](/corrugated-boxes/rsc-boxes).
+
 [Request a bulk quote and free sample pack for your shipping boxes](/corrugated-boxes)

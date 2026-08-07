@@ -150,4 +150,4 @@ India produces corrugated boxes to international quality standards, with manufac
 
 For a complete walkthrough of the import process  -  documentation, lead times, quality checks, and supplier evaluation  -  see our guide on [how to import corrugated boxes from India](/blogs/how-to-import-corrugated-boxes-from-india).
 
-Whizzpack manufactures corrugated boxes in India in all grades and sizes for export to the USA, UK, and Europe. Contact us at [info.whizzpack@yahoo.com](mailto:info.whizzpack@yahoo.com) or visit our [corrugated boxes page](/corrugated-boxes) to request a quote.
+Whizzpack manufactures corrugated boxes in India in all grades and sizes for export to the USA, UK, and Europe. For detailed specification guides by box type, see our pages on [RSC corrugated boxes](/corrugated-boxes/rsc-boxes), [double wall corrugated boxes](/corrugated-boxes/double-wall), and [custom printed corrugated boxes](/corrugated-boxes/custom-printed). Contact us at [info.whizzpack@yahoo.com](mailto:info.whizzpack@yahoo.com) or visit our [corrugated boxes page](/corrugated-boxes) to request a quote.

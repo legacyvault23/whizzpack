@@ -182,4 +182,4 @@ Whizzpack manufactures heavy-duty corrugated boxes from India in single-wall, do
 
 For a comprehensive guide to importing corrugated boxes from India including documentation, lead times, and supplier evaluation, see our [complete importer's guide to corrugated boxes from India](/blogs/how-to-import-corrugated-boxes-from-india).
 
-Contact us at [info.whizzpack@yahoo.com](mailto:info.whizzpack@yahoo.com) or visit our [corrugated boxes page](/corrugated-boxes) to request a quote.
+For detailed specifications, BCT ratings, and use cases for our double wall range, see our [double wall corrugated boxes page](/corrugated-boxes/double-wall). Contact us at [info.whizzpack@yahoo.com](mailto:info.whizzpack@yahoo.com) or visit our [corrugated boxes page](/corrugated-boxes) to request a quote.

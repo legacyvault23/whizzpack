@@ -152,6 +152,8 @@ Standard export documentation includes: commercial invoice, packing list, bill o
 
 Woven cotton fabric has natural dimensional variability, and bags can vary by 1 to 3% from the stated dimension due to weave tension and cutting tolerances. For most applications, this is acceptable. If exact dimensions are critical (for example, for automated packing lines), specify a tolerance range explicitly in your purchase order and confirm with the manufacturer before production. Requesting samples for dimensional verification before full production is the most reliable way to catch sizing issues early.
 
+Explore our cotton bag range by type: [drawstring cotton seed bags](/cotton-seed-bags/drawstring), [organic GOTS certified bags](/cotton-seed-bags/organic), and [custom printed cotton seed bags](/cotton-seed-bags/custom-printed).
+
 [Request samples or talk to our team about your cotton bag requirements](https://www.whizzpack.in/)
 
 ![Pile of cardboard boxes stacked in an organised storage area representing reliable dispatch from India](https://images.unsplash.com/photo-1773125929765-99d4d67e831d?w=900&auto=format&fit=crop&q=80)
