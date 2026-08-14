@@ -47,6 +47,7 @@ const ALL_URLS = [
   'https://www.whizzpack.in/blogs/cotton-bags-vs-plastic-bags-seed-storage',
   'https://www.whizzpack.in/blogs/muslin-bags-wholesale-india',
   'https://www.whizzpack.in/blogs/corrugated-box-manufacturer-india-guide',
+  'https://www.whizzpack.in/blogs/custom-printed-corrugated-boxes-ecommerce-guide',
 ];
 
 async function pingIndexNow(urls) {
