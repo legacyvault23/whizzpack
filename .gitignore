@@ -2,4 +2,13 @@ node_modules/
 .next/
 .env*
 *.log
+
+# Credentials - never commit
+scripts/service-account-key.json
+scripts/*-key.json
+scripts/indexing-log.txt
+scripts/vbs-test.txt
+*.pem
+*.p12
+
 .DS_Store
