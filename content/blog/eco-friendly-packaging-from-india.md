@@ -5,6 +5,7 @@ author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
 tags: ["sustainable packaging", "eco-friendly boxes", "cotton bags", "green supply chain", "India export", "recycled corrugated"]
 excerpt: "Demand for sustainable packaging is rising fast among US and UK importers. Here is what India actually offers, how to verify eco claims, and what to ask before placing an order."
+ogImage: "https://images.unsplash.com/photo-1553413077-190dd305871c?w=1200&auto=format&fit=crop&q=80"
 ---
 
 Sustainability is no longer a differentiator for most importers -- it is a baseline requirement. Retailers, distributors, and end consumers in the US and UK increasingly expect packaging that is recyclable, responsibly sourced, or certified. For buyers who source packaging from India, the good news is that the options are genuinely strong. The less obvious news is that not every supplier will volunteer the right information unless you ask.
@@ -40,7 +41,7 @@ The environmental calculus does require context, though. Cotton is water-intensi
 
 **Recycled cotton**: Some manufacturers offer bags made from recycled cotton fibre, typically sourced from textile industry offcuts. Recycled cotton uses significantly less water than growing new fibre and diverts textile waste from landfill.
 
-![Container ship loaded with eco-friendly packaging cargo crossing the Indian Ocean](https://images.unsplash.com/photo-1648587456176-4969b0124b12?w=1200&q=80&auto=format&fit=crop)
+![Natural cotton seed bags displayed in a row showing biodegradable and reusable packaging made from organic cotton](https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=900&auto=format&fit=crop&q=80)
 *Natural cotton bags are biodegradable and built for reuse -- two qualities that matter to sustainability-conscious buyers in the US and UK.*
 
 ## How to Verify Eco Claims Before You Order
@@ -54,6 +55,20 @@ Sustainability claims in packaging are easy to make and inconsistently enforced.
 **Ask about end-of-life.** A genuinely eco-conscious supplier should be able to advise on how their product should be disposed of -- recycled, composted, or otherwise. This is a useful proxy for how seriously they take the full lifecycle.
 
 **Check the packaging of your packaging.** It is worth asking how finished goods will be packed for shipping. Wrapping eco-friendly bags in single-use plastic for transit is a common inconsistency. Alternatives include paper wrapping, cardboard banding, or loose-packed in corrugated outers.
+
+## UK Buyers: EPR Compliance and What to Request
+
+UK importers placing packaging on the market have obligations under the Extended Producer Responsibility (EPR) scheme for packaging. The scheme requires producers and importers to register, report packaging weights by material type, and contribute to the cost of end-of-life recovery.
+
+For buyers sourcing corrugated boxes or cotton bags from India, EPR compliance comes down to documentation. The material itself -- recyclable corrugated board or natural cotton -- is not the issue. What the scheme requires is that you can report the material weight and type accurately, and that your packaging meets recyclability standards.
+
+Specific documentation to request from any Indian supplier:
+- Material data sheet specifying GSM of each layer, fibre type (virgin or recycled), and recycled content percentage
+- Ink declaration confirming water-based inks (fully compatible with paper recycling streams)
+- FSC or PEFC chain-of-custody certificate where FSC board is specified
+- OEKO-TEX certificate for cotton bags used in food-adjacent or consumer applications
+
+A supplier who has sold to UK buyers before will have these documents ready. If a supplier is slow to produce them, treat it as a signal about their export process maturity.
 
 ## What Indian Manufacturers Offer That Others Do Not
 
