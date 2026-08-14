@@ -125,7 +125,7 @@ At Whizzpack, all corrugated box exports use FSC-certified board and water-based
 
 ---
 
-![Eco-friendly corrugated packaging stacked at a dispatch centre with recycling symbols visible](https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&q=80)
+![A corrugated shipping box with FSC recycling certification mark representing eco-friendly packaging sourced from India](https://images.unsplash.com/photo-1654078054613-a56cfcabdb84?w=1200&q=80)
 
 ## Quality Standards and Testing
 

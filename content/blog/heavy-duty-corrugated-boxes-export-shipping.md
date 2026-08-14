@@ -154,7 +154,7 @@ India is a cost-effective source for heavy-duty corrugated boxes, with manufactu
 
 **Pallet packing:** Specify how the boxes should be palletised for sea freight, including maximum pallet height and whether stretch wrap and corner boards are required.
 
-![Stack of corrugated boxes with burst strength testing equipment in background](https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&q=80&auto=format&fit=crop)
+![Brown double-wall corrugated cardboard boxes ready for heavy-duty export shipping](https://images.unsplash.com/photo-1595246135406-803418233494?w=1200&q=80&auto=format&fit=crop)
 *Burst strength testing is a standard quality check for every production batch of heavy-duty corrugated board*
 
 ---
