@@ -5,7 +5,7 @@ date: "2026-08-13"
 tags: ["corrugated boxes", "custom packaging", "e-commerce packaging", "India sourcing", "sustainable packaging"]
 author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
-image: "https://images.unsplash.com/photo-1607082349566-187342175e2f?w=1200&q=80"
+image: "https://images.unsplash.com/photo-1663134226695-31269c09933c?w=1200&q=80"
 ---
 
 For e-commerce brands shipping products globally, packaging is not just a protective layer - it is the first physical touchpoint a customer has with your brand. Custom printed corrugated boxes from India offer a compelling combination of quality, variety, and competitive pricing that has attracted buyers from the UK, USA, Australia, and Europe for decades.
@@ -14,7 +14,7 @@ This guide walks you through everything you need to know before placing your fir
 
 ---
 
-![Custom printed corrugated boxes stacked in a warehouse ready for e-commerce shipment](https://images.unsplash.com/photo-1607082349566-187342175e2f?w=1200&q=80)
+![Shelves full of corrugated boxes in a warehouse ready for e-commerce fulfilment](https://images.unsplash.com/photo-1663134226695-31269c09933c?w=1200&q=80)
 
 ## Why Source Custom Corrugated Boxes from India?
 
