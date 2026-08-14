@@ -132,7 +132,7 @@ For a seed company with 50 or more varieties, ordering each design individually 
 
 Pre-production samples should be approved before any bulk production begins. Request one physical sample per size and specification, including the actual fabric, thread weight, drawstring material, and print colour. Do not approve from digital photographs or renders alone - cotton fabric absorbs ink differently than paper or plastic, and the only reliable approval is a physical sample.
 
-![Natural unbleached cotton drawstring bags arranged on a rustic timber shelf in a zero-waste retail store, surrounded by dried herbs and seed packets](https://images.unsplash.com/photo-1585320806297-9794b3e4aaae?w=1200&q=80&auto=format&fit=crop)
+![Natural unbleached cotton drawstring bags arranged on a rustic timber shelf in a zero-waste retail store, surrounded by dried herbs and seed packets](https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=1200&q=80&auto=format&fit=crop)
 *Unbleached cotton seed bags reinforce an eco-friendly, sustainable brand positioning. Customers who buy seeds in reusable cotton bags continue using the bag for herb storage, gifting, or produce long after the seeds are planted - carrying your brand into their home.*
 
 ---

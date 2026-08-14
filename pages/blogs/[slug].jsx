@@ -130,12 +130,16 @@ export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml
           )}
           {relatedPosts && relatedPosts.length > 0 && (
             <div className="blog-related">
-              <h2 className="blog-related-title">Related Articles</h2>
+              <div className="blog-related-header">
+                <h2 className="blog-related-title">Related Articles</h2>
+                <span className="blog-related-accent"></span>
+              </div>
               <div className="blog-related-grid">
                 {relatedPosts.map(post => (
                   <Link key={post.slug} href={`/blogs/${post.slug}`} className="blog-related-card">
                     <p className="blog-related-card-title">{post.title}</p>
                     {post.excerpt && <p className="blog-related-card-excerpt">{post.excerpt}</p>}
+                    <span className="blog-related-card-cta">Read article →</span>
                   </Link>
                 ))}
               </div>
