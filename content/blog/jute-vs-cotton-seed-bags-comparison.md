@@ -3,6 +3,8 @@ title: "Jute vs Cotton Seed Bags: Which Is Right for Your Operation?"
 excerpt: "Both jute and cotton are natural, biodegradable alternatives to synthetic seed storage bags - but they are not interchangeable. This guide compares both materials across durability, breathability, certifications, cost, and sustainability."
 date: "2026-07-28"
 tags: ["jute bags", "cotton seed bags", "seed storage", "natural fibre bags", "sustainable packaging"]
+author: "Jash B."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
 ---
 
 

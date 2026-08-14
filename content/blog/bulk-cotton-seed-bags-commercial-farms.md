@@ -3,6 +3,8 @@ title: "Bulk Cotton Seed Bags for Commercial Farms: A Complete Buyer's Guide"
 excerpt: "Commercial farms and seed companies need more than small drawstring pouches. Discover how to choose the right bulk cotton seed bags by size, GSM, closure type, and certification for large-scale agricultural use."
 date: "2026-07-27"
 tags: ["seed bags", "cotton bags", "agricultural packaging", "bulk seed storage", "cotton sacks"]
+author: "Jash B."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
 ---
 
 

@@ -3,6 +3,8 @@ title: "Heavy-Duty Corrugated Boxes for Export Shipping: Triple-Wall, Burst Stre
 excerpt: "Not every shipment fits in a standard single-wall box. This guide covers heavy-duty corrugated boxes for industrial and export applications: triple-wall construction, burst strength ratings, flute selection, and what to specify when ordering from India."
 date: "2026-07-28"
 tags: ["heavy duty corrugated boxes", "triple wall boxes", "export packaging", "industrial boxes", "corrugated boxes India"]
+author: "Jash B."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
 ---
 
 

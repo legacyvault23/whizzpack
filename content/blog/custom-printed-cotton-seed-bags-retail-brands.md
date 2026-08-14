@@ -3,6 +3,8 @@ title: "Custom Printed Cotton Seed Bags for Retail Brands: MOQ, Design, and Lead
 excerpt: "If you sell seeds under your own brand, your packaging is part of your product. This guide covers everything retail seed companies need to know about ordering custom printed cotton seed bags from India."
 date: "2026-07-28"
 tags: ["custom seed bags", "printed cotton bags", "retail seed packaging", "branded seed bags", "cotton bags wholesale"]
+author: "Jash B."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
 ---
 
 

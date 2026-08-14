@@ -3,6 +3,8 @@ title: "Corrugated Box Sizes and Grades Explained: A Buyer's Guide for USA and U
 excerpt: "Confused by corrugated box grades, flute types, and standard sizes? This guide breaks down everything USA and UK buyers need to know before ordering corrugated boxes from India  -  from ECT ratings to common dimensions and how to specify exactly what you need."
 date: "2026-08-05"
 tags: ["corrugated box sizes", "corrugated box grades", "corrugated box dimensions", "corrugated boxes India", "packaging buyer guide"]
+author: "Jash B."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
 ---
 
 

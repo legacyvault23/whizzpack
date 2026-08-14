@@ -1,5 +1,5 @@
 import Layout from '../../components/Layout';
-import { getPost } from '../../lib/posts';
+import { getPost, getAllPosts } from '../../lib/posts';
 import { marked } from 'marked';
 import fs from 'fs';
 import path from 'path';
@@ -27,7 +27,7 @@ function extractFirstImage(html) {
   return match ? match[1].split('?')[0] + '?w=1200&auto=format&fit=crop&q=80' : null;
 }
 
-export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml, slug }) {
+export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml, slug, relatedPosts }) {
   const ogImage = frontmatter.ogImage || extractFirstImage(contentHtml) || 'https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1200&auto=format&fit=crop&q=80';
   const schema = JSON.stringify([
     {
@@ -128,6 +128,19 @@ export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml
               </div>
             </div>
           )}
+          {relatedPosts && relatedPosts.length > 0 && (
+            <div className="blog-related">
+              <h2 className="blog-related-title">Related Articles</h2>
+              <div className="blog-related-grid">
+                {relatedPosts.map(post => (
+                  <Link key={post.slug} href={`/blogs/${post.slug}`} className="blog-related-card">
+                    <p className="blog-related-card-title">{post.title}</p>
+                    {post.excerpt && <p className="blog-related-card-excerpt">{post.excerpt}</p>}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </Layout>
@@ -138,10 +151,17 @@ export async function getServerSideProps({ params }) {
   try {
     const { slug } = params;
     const { frontmatter, content } = getPost(slug);
-    const contentHtml = marked(content);
+    let contentHtml = marked(content);
+    contentHtml = contentHtml.replace(/^\s*<h1[^>]*>[\s\S]*?<\/h1>\n*/, '');
     const navHtml = fs.readFileSync(path.join(process.cwd(), 'page-content/nav-sub.html'), 'utf8');
     const footerHtml = fs.readFileSync(path.join(process.cwd(), 'page-content/footer.html'), 'utf8');
-    return { props: { frontmatter, contentHtml, navHtml, footerHtml, slug } };
+    const allPosts = getAllPosts();
+    const currentTags = frontmatter.tags || [];
+    const relatedPosts = allPosts
+      .filter(p => p.slug !== slug && (p.tags || []).some(t => currentTags.includes(t)))
+      .slice(0, 3)
+      .map(p => ({ slug: p.slug, title: p.title, excerpt: p.excerpt || '', date: p.date || '' }));
+    return { props: { frontmatter, contentHtml, navHtml, footerHtml, slug, relatedPosts } };
   } catch (e) {
     return { notFound: true };
   }
