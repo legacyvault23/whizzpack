@@ -1051,7 +1051,7 @@ nav .logo-img{height:46px}
   if(!c||typeof THREE==='undefined')return;
   var H=400,W=c.clientWidth||600;
   var sc=new THREE.Scene();sc.background=new THREE.Color(0xf0f2f8);
-  var cam=new THREE.PerspectiveCamera(36,W/H,0.1,100);cam.position.set(0,0.5,4.2);
+  var cam=new THREE.PerspectiveCamera(36,W/H,0.1,100);cam.position.set(0,0,5.5);
   var ren=new THREE.WebGLRenderer({antialias:true});ren.setPixelRatio(Math.min(window.devicePixelRatio,2));ren.setSize(W,H);c.appendChild(ren.domElement);
   sc.add(new THREE.AmbientLight(0xffffff,0.55));
   var d1=new THREE.DirectionalLight(0xffffff,0.9);d1.position.set(3,4,5);sc.add(d1);
