@@ -36,6 +36,13 @@ const nextConfig = {
     return [
       { source: '/blog', destination: '/blogs', permanent: true },
       { source: '/blog/:slug*', destination: '/blogs/:slug*', permanent: true },
+      // Redirect WordPress-style search URLs (e.g. from Google Ads ValueTrack templates)
+      {
+        source: '/',
+        has: [{ type: 'query', key: 's' }],
+        destination: '/',
+        permanent: true,
+      },
     ];
   },
   async rewrites() {
