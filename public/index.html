@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <!-- Google tag (gtag.js) -->
@@ -711,190 +711,6 @@ nav .logo-img{height:46px}
 </section>
 
 
-<style>
-.glr-track{display:flex;gap:18px;width:max-content;animation:glr-scroll 54s linear infinite;}
-@keyframes glr-scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
-.glr-ph{width:270px;height:270px;border-radius:18px;flex-shrink:0;position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;transition:transform .3s;}
-.glr-ph:hover{transform:scale(1.04);}
-@keyframes glr-blob{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(22px,14px) scale(1.07)}}
-.glr-badge{position:absolute;top:10px;right:10px;font-size:.55rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:100px;}
-.glr-icon{width:64px;height:64px;border-radius:14px;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;}
-</style>
-
-<section id="gallery" aria-label="Product Gallery" style="padding:72px 0 60px;background:var(--navy);overflow:hidden;position:relative;">
-
-  <!-- Decorative background blobs -->
-  <div aria-hidden="true" style="position:absolute;inset:0;pointer-events:none;overflow:hidden;">
-    <div style="position:absolute;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(240,90,40,0.13) 0%,transparent 70%);top:-100px;left:6%;animation:glr-blob 20s ease-in-out infinite;"></div>
-    <div style="position:absolute;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,0.05) 0%,transparent 70%);top:10%;right:4%;animation:glr-blob 26s ease-in-out infinite reverse;"></div>
-    <div style="position:absolute;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(240,90,40,0.09) 0%,transparent 70%);bottom:-80px;left:42%;animation:glr-blob 22s ease-in-out infinite 7s;"></div>
-    <div style="position:absolute;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(26,107,58,0.14) 0%,transparent 70%);top:15%;left:28%;animation:glr-blob 18s ease-in-out infinite 3s;"></div>
-  </div>
-
-  <!-- Floating particle canvas -->
-  <canvas id="glr-canvas" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;"></canvas>
-  <script>
-  (function(){
-    var c=document.getElementById('glr-canvas');if(!c)return;
-    var ctx=c.getContext('2d'),W,H,pts=[];
-    function rnd(a,b){return a+Math.random()*(b-a);}
-    function init(){pts=[];for(var i=0;i<55;i++)pts.push({bx:rnd(0,W),by:rnd(0,H),r:rnd(1,2),a:rnd(0.07,0.16),col:Math.random()<0.2?'240,90,40':'255,255,255',ox:rnd(0,6.28),oy:rnd(0,6.28),ax:rnd(10,26),ay:rnd(8,22),sx:rnd(0.0003,0.0007),sy:rnd(0.0003,0.0007)});}
-    function resize(){W=c.offsetWidth;H=c.offsetHeight;c.width=W;c.height=H;init();}
-    resize();window.addEventListener('resize',resize);
-    (function tick(){var t=Date.now();ctx.clearRect(0,0,W,H);for(var i=0;i<pts.length;i++){var p=pts[i],x=p.bx+Math.sin(t*p.sx+p.ox)*p.ax,y=p.by+Math.sin(t*p.sy+p.oy)*p.ay;ctx.beginPath();ctx.arc(x,y,p.r,0,6.283);ctx.fillStyle='rgba('+p.col+','+p.a+')';ctx.fill();}requestAnimationFrame(tick);})();
-  })();
-  </script>
-
-  <div style="text-align:center;margin-bottom:44px;padding:0 24px;position:relative;">
-    <span class="stag" style="background:rgba(255,255,255,0.1);color:var(--orange);">Factory Gallery</span>
-    <h2 class="anim" style="color:#fff;margin-top:14px;">Our Products, Your Brand</h2>
-    <p class="anim" style="color:rgba(255,255,255,0.6);max-width:520px;margin:10px auto 0;">Factory-direct corrugated boxes and cotton seed bags from Rajkot, India.</p>
-  </div>
-  <div style="overflow:hidden;position:relative;-webkit-mask:linear-gradient(to right,transparent,#000 6%,#000 94%,transparent);mask:linear-gradient(to right,transparent,#000 6%,#000 94%,transparent);">
-    <div class="glr-track">
-
-      <!-- ── Corrugated Box 1: RSC ── -->
-      <div class="glr-ph" style="background:linear-gradient(135deg,#C8A074,#A88050);">
-        <div class="glr-icon" style="background:rgba(255,255,255,0.18);">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.95)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0 0L4 17M12 21V11M4 7v10l8 4"/></svg>
-        </div>
-        <p style="color:#fff;font-weight:700;font-size:.95rem;margin:0 0 5px;">RSC Corrugated Box</p>
-        <p style="color:rgba(255,255,255,0.65);font-size:.76rem;margin:0;">Single &amp; double wall</p>
-        <div class="glr-badge" style="background:rgba(0,0,0,0.25);color:rgba(255,255,255,0.7);">Photo Soon</div>
-      </div>
-
-      <!-- ── Custom Printed Box ── -->
-      <div class="glr-ph" style="background:linear-gradient(135deg,#F05A28,#C84A20);">
-        <div class="glr-icon" style="background:rgba(255,255,255,0.18);">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.95)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
-        </div>
-        <p style="color:#fff;font-weight:700;font-size:.95rem;margin:0 0 5px;">Custom Printed Box</p>
-        <p style="color:rgba(255,255,255,0.65);font-size:.76rem;margin:0;">CMYK &amp; flexo print</p>
-        <div class="glr-badge" style="background:rgba(0,0,0,0.2);color:rgba(255,255,255,0.75);">Photo Soon</div>
-      </div>
-
-      <!-- ── Cotton Bag 1: Drawstring ── -->
-      <div class="glr-ph" style="background:linear-gradient(135deg,#E8DBBC,#D2C09E);">
-        <div class="glr-icon" style="background:rgba(0,0,0,0.08);">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(80,55,25,0.8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h12l1 12H5L6 8z"/><path d="M9 8V5.5a3 3 0 016 0V8"/><circle cx="12" cy="8" r="1" fill="rgba(80,55,25,0.7)"/></svg>
-        </div>
-        <p style="color:#5C4828;font-weight:700;font-size:.95rem;margin:0 0 5px;">Drawstring Cotton Bag</p>
-        <p style="color:rgba(80,55,25,0.6);font-size:.76rem;margin:0;">Natural &amp; food-grade</p>
-        <div class="glr-badge" style="background:rgba(0,0,0,0.1);color:rgba(80,55,25,0.65);">Photo Soon</div>
-      </div>
-
-      <!-- ── Double Wall Heavy Duty ── -->
-      <div class="glr-ph" style="background:linear-gradient(135deg,#1A3070,#0F1F4B);">
-        <div class="glr-icon" style="background:rgba(255,255,255,0.1);">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0 0L4 17M12 21V11M4 7v10l8 4"/></svg>
-        </div>
-        <p style="color:#fff;font-weight:700;font-size:.95rem;margin:0 0 5px;">Double Wall Heavy Duty</p>
-        <p style="color:rgba(255,255,255,0.5);font-size:.76rem;margin:0;">5-ply BC flute, 44-51 ECT</p>
-        <div class="glr-badge" style="background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.55);">Photo Soon</div>
-      </div>
-
-      <!-- ── Cotton Bag 2: Branded ── -->
-      <div class="glr-ph" style="background:linear-gradient(135deg,#1A6B3A,#124D29);">
-        <div class="glr-icon" style="background:rgba(255,255,255,0.14);">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h12l1 12H5L6 8z"/><path d="M9 8V5.5a3 3 0 016 0V8"/><line x1="9" y1="14" x2="15" y2="14"/><line x1="9" y1="17" x2="12" y2="17"/></svg>
-        </div>
-        <p style="color:#fff;font-weight:700;font-size:.95rem;margin:0 0 5px;">Branded Cotton Bag</p>
-        <p style="color:rgba(255,255,255,0.6);font-size:.76rem;margin:0;">Custom screen print</p>
-        <div class="glr-badge" style="background:rgba(0,0,0,0.2);color:rgba(255,255,255,0.6);">Photo Soon</div>
-      </div>
-
-      <!-- ── E-commerce Mailer Box ── -->
-      <div class="glr-ph" style="background:linear-gradient(135deg,#B8864A,#9A6E36);">
-        <div class="glr-icon" style="background:rgba(255,255,255,0.18);">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 8l10 6 10-6"/></svg>
-        </div>
-        <p style="color:#fff;font-weight:700;font-size:.95rem;margin:0 0 5px;">E-commerce Mailer Box</p>
-        <p style="color:rgba(255,255,255,0.65);font-size:.76rem;margin:0;">E-flute, DTC ready</p>
-        <div class="glr-badge" style="background:rgba(0,0,0,0.22);color:rgba(255,255,255,0.68);">Photo Soon</div>
-      </div>
-
-      <!-- ── Cotton Bag 3: Bulk Farm Sack ── -->
-      <div class="glr-ph" style="background:linear-gradient(135deg,#9B8770,#7A6C58);">
-        <div class="glr-icon" style="background:rgba(255,255,255,0.14);">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
-        </div>
-        <p style="color:#fff;font-weight:700;font-size:.95rem;margin:0 0 5px;">Bulk Cotton Sack</p>
-        <p style="color:rgba(255,255,255,0.6);font-size:.76rem;margin:0;">Farm-grade, up to 100 lb</p>
-        <div class="glr-badge" style="background:rgba(0,0,0,0.2);color:rgba(255,255,255,0.6);">Photo Soon</div>
-      </div>
-
-      <!-- ── Cotton Bag 4: GOTS Organic ── -->
-      <div class="glr-ph" style="background:linear-gradient(135deg,#4A8C5C,#2E6B42);">
-        <div class="glr-icon" style="background:rgba(255,255,255,0.14);">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        </div>
-        <p style="color:#fff;font-weight:700;font-size:.95rem;margin:0 0 5px;">GOTS Organic Cotton Bag</p>
-        <p style="color:rgba(255,255,255,0.6);font-size:.76rem;margin:0;">Certified organic textile</p>
-        <div class="glr-badge" style="background:rgba(0,0,0,0.2);color:rgba(255,255,255,0.6);">Photo Soon</div>
-      </div>
-
-      <!-- ══ DUPLICATE SET for seamless infinite loop ══ -->
-
-      <div class="glr-ph" style="background:linear-gradient(135deg,#C8A074,#A88050);">
-        <div class="glr-icon" style="background:rgba(255,255,255,0.18);"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.95)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0 0L4 17M12 21V11M4 7v10l8 4"/></svg></div>
-        <p style="color:#fff;font-weight:700;font-size:.95rem;margin:0 0 5px;">RSC Corrugated Box</p>
-        <p style="color:rgba(255,255,255,0.65);font-size:.76rem;margin:0;">Single &amp; double wall</p>
-        <div class="glr-badge" style="background:rgba(0,0,0,0.25);color:rgba(255,255,255,0.7);">Photo Soon</div>
-      </div>
-
-      <div class="glr-ph" style="background:linear-gradient(135deg,#F05A28,#C84A20);">
-        <div class="glr-icon" style="background:rgba(255,255,255,0.18);"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.95)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
-        <p style="color:#fff;font-weight:700;font-size:.95rem;margin:0 0 5px;">Custom Printed Box</p>
-        <p style="color:rgba(255,255,255,0.65);font-size:.76rem;margin:0;">CMYK &amp; flexo print</p>
-        <div class="glr-badge" style="background:rgba(0,0,0,0.2);color:rgba(255,255,255,0.75);">Photo Soon</div>
-      </div>
-
-      <div class="glr-ph" style="background:linear-gradient(135deg,#E8DBBC,#D2C09E);">
-        <div class="glr-icon" style="background:rgba(0,0,0,0.08);"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(80,55,25,0.8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h12l1 12H5L6 8z"/><path d="M9 8V5.5a3 3 0 016 0V8"/><circle cx="12" cy="8" r="1" fill="rgba(80,55,25,0.7)"/></svg></div>
-        <p style="color:#5C4828;font-weight:700;font-size:.95rem;margin:0 0 5px;">Drawstring Cotton Bag</p>
-        <p style="color:rgba(80,55,25,0.6);font-size:.76rem;margin:0;">Natural &amp; food-grade</p>
-        <div class="glr-badge" style="background:rgba(0,0,0,0.1);color:rgba(80,55,25,0.65);">Photo Soon</div>
-      </div>
-
-      <div class="glr-ph" style="background:linear-gradient(135deg,#1A3070,#0F1F4B);">
-        <div class="glr-icon" style="background:rgba(255,255,255,0.1);"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0 0L4 17M12 21V11M4 7v10l8 4"/></svg></div>
-        <p style="color:#fff;font-weight:700;font-size:.95rem;margin:0 0 5px;">Double Wall Heavy Duty</p>
-        <p style="color:rgba(255,255,255,0.5);font-size:.76rem;margin:0;">5-ply BC flute, 44-51 ECT</p>
-        <div class="glr-badge" style="background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.55);">Photo Soon</div>
-      </div>
-
-      <div class="glr-ph" style="background:linear-gradient(135deg,#1A6B3A,#124D29);">
-        <div class="glr-icon" style="background:rgba(255,255,255,0.14);"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h12l1 12H5L6 8z"/><path d="M9 8V5.5a3 3 0 016 0V8"/><line x1="9" y1="14" x2="15" y2="14"/><line x1="9" y1="17" x2="12" y2="17"/></svg></div>
-        <p style="color:#fff;font-weight:700;font-size:.95rem;margin:0 0 5px;">Branded Cotton Bag</p>
-        <p style="color:rgba(255,255,255,0.6);font-size:.76rem;margin:0;">Custom screen print</p>
-        <div class="glr-badge" style="background:rgba(0,0,0,0.2);color:rgba(255,255,255,0.6);">Photo Soon</div>
-      </div>
-
-      <div class="glr-ph" style="background:linear-gradient(135deg,#B8864A,#9A6E36);">
-        <div class="glr-icon" style="background:rgba(255,255,255,0.18);"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 8l10 6 10-6"/></svg></div>
-        <p style="color:#fff;font-weight:700;font-size:.95rem;margin:0 0 5px;">E-commerce Mailer Box</p>
-        <p style="color:rgba(255,255,255,0.65);font-size:.76rem;margin:0;">E-flute, DTC ready</p>
-        <div class="glr-badge" style="background:rgba(0,0,0,0.22);color:rgba(255,255,255,0.68);">Photo Soon</div>
-      </div>
-
-      <div class="glr-ph" style="background:linear-gradient(135deg,#9B8770,#7A6C58);">
-        <div class="glr-icon" style="background:rgba(255,255,255,0.14);"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg></div>
-        <p style="color:#fff;font-weight:700;font-size:.95rem;margin:0 0 5px;">Bulk Cotton Sack</p>
-        <p style="color:rgba(255,255,255,0.6);font-size:.76rem;margin:0;">Farm-grade, up to 100 lb</p>
-        <div class="glr-badge" style="background:rgba(0,0,0,0.2);color:rgba(255,255,255,0.6);">Photo Soon</div>
-      </div>
-
-      <div class="glr-ph" style="background:linear-gradient(135deg,#4A8C5C,#2E6B42);">
-        <div class="glr-icon" style="background:rgba(255,255,255,0.14);"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-        <p style="color:#fff;font-weight:700;font-size:.95rem;margin:0 0 5px;">GOTS Organic Cotton Bag</p>
-        <p style="color:rgba(255,255,255,0.6);font-size:.76rem;margin:0;">Certified organic textile</p>
-        <div class="glr-badge" style="background:rgba(0,0,0,0.2);color:rgba(255,255,255,0.6);">Photo Soon</div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
 <section id="about" aria-labelledby="abouth">
   <div class="about-hero">
     <div class="about-overlay"></div>
@@ -936,6 +752,68 @@ nav .logo-img{height:46px}
           <div class="boxbadge">Ready for Export</div>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.glr-track{display:flex;gap:18px;width:max-content;animation:glr-scroll 54s linear infinite;}
+@keyframes glr-scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.glr-ph{width:270px;height:270px;border-radius:18px;flex-shrink:0;overflow:hidden;transition:transform .3s;}
+.glr-ph:hover{transform:scale(1.04);}
+@keyframes glr-blob{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(22px,14px) scale(1.07)}}
+</style>
+
+<section id="gallery" aria-label="Product Gallery" style="padding:72px 0 60px;background:var(--navy);overflow:hidden;position:relative;">
+
+  <div aria-hidden="true" style="position:absolute;inset:0;pointer-events:none;overflow:hidden;">
+    <div style="position:absolute;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(240,90,40,0.13) 0%,transparent 70%);top:-100px;left:6%;animation:glr-blob 20s ease-in-out infinite;"></div>
+    <div style="position:absolute;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,0.05) 0%,transparent 70%);top:10%;right:4%;animation:glr-blob 26s ease-in-out infinite reverse;"></div>
+    <div style="position:absolute;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(240,90,40,0.09) 0%,transparent 70%);bottom:-80px;left:42%;animation:glr-blob 22s ease-in-out infinite 7s;"></div>
+    <div style="position:absolute;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(26,107,58,0.14) 0%,transparent 70%);top:15%;left:28%;animation:glr-blob 18s ease-in-out infinite 3s;"></div>
+  </div>
+
+  <canvas id="glr-canvas" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;"></canvas>
+  <script>
+  (function(){
+    var c=document.getElementById('glr-canvas');if(!c)return;
+    var ctx=c.getContext('2d'),W,H,pts=[];
+    function rnd(a,b){return a+Math.random()*(b-a);}
+    function init(){pts=[];for(var i=0;i<55;i++)pts.push({bx:rnd(0,W),by:rnd(0,H),r:rnd(1,2),a:rnd(0.07,0.16),col:Math.random()<0.2?'240,90,40':'255,255,255',ox:rnd(0,6.28),oy:rnd(0,6.28),ax:rnd(10,26),ay:rnd(8,22),sx:rnd(0.0003,0.0007),sy:rnd(0.0003,0.0007)});}
+    function resize(){W=c.offsetWidth;H=c.offsetHeight;c.width=W;c.height=H;init();}
+    resize();window.addEventListener('resize',resize);
+    (function tick(){var t=Date.now();ctx.clearRect(0,0,W,H);for(var i=0;i<pts.length;i++){var p=pts[i],x=p.bx+Math.sin(t*p.sx+p.ox)*p.ax,y=p.by+Math.sin(t*p.sy+p.oy)*p.ay;ctx.beginPath();ctx.arc(x,y,p.r,0,6.283);ctx.fillStyle='rgba('+p.col+','+p.a+')';ctx.fill();}requestAnimationFrame(tick);})();
+  })();
+  </script>
+
+  <div style="text-align:center;margin-bottom:44px;padding:0 24px;position:relative;">
+    <span class="stag" style="background:rgba(255,255,255,0.1);color:var(--orange);">Factory Gallery</span>
+    <h2 class="anim" style="color:#fff;margin-top:14px;">Our Products, Your Brand</h2>
+    <p class="anim" style="color:rgba(255,255,255,0.6);max-width:520px;margin:10px auto 0;">Factory-direct corrugated boxes and cotton seed bags from India.</p>
+  </div>
+
+  <div style="overflow:hidden;position:relative;-webkit-mask:linear-gradient(to right,transparent,#000 6%,#000 94%,transparent);mask:linear-gradient(to right,transparent,#000 6%,#000 94%,transparent);">
+    <div class="glr-track">
+
+      <div class="glr-ph"><img src="/gallery-box-rsc.png" alt="RSC Corrugated Box - Single and Double Wall" style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy"></div>
+      <div class="glr-ph"><img src="/gallery-bag-branded.png" alt="Branded Cotton Seed Bag - Custom Screen Print" style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy"></div>
+      <div class="glr-ph"><img src="/gallery-box-custom-print.png" alt="Custom Printed Box - CMYK and Flexo Print" style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy"></div>
+      <div class="glr-ph"><img src="/gallery-bag-bulk.png" alt="Bulk Cotton Seed Sack - Farm Grade" style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy"></div>
+      <div class="glr-ph"><img src="/gallery-box-double-wall.png" alt="Double Wall Heavy Duty Corrugated Box" style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy"></div>
+      <div class="glr-ph"><img src="/gallery-bag-gots.png" alt="GOTS Organic Cotton Seed Bag - Certified Organic Textile" style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy"></div>
+      <div class="glr-ph"><img src="/gallery-box-ecommerce.png" alt="E-commerce Mailer Box - E-flute DTC Ready" style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy"></div>
+      <div class="glr-ph"><img src="/gallery-bag-drawstring.png" alt="Drawstring Cotton Seed Bag - Natural and Food Grade" style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy"></div>
+
+      <!-- Duplicate set for seamless infinite loop -->
+      <div class="glr-ph"><img src="/gallery-box-rsc.png" alt="RSC Corrugated Box - Single and Double Wall" style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy"></div>
+      <div class="glr-ph"><img src="/gallery-bag-branded.png" alt="Branded Cotton Seed Bag - Custom Screen Print" style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy"></div>
+      <div class="glr-ph"><img src="/gallery-box-custom-print.png" alt="Custom Printed Box - CMYK and Flexo Print" style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy"></div>
+      <div class="glr-ph"><img src="/gallery-bag-bulk.png" alt="Bulk Cotton Seed Sack - Farm Grade" style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy"></div>
+      <div class="glr-ph"><img src="/gallery-box-double-wall.png" alt="Double Wall Heavy Duty Corrugated Box" style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy"></div>
+      <div class="glr-ph"><img src="/gallery-bag-gots.png" alt="GOTS Organic Cotton Seed Bag - Certified Organic Textile" style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy"></div>
+      <div class="glr-ph"><img src="/gallery-box-ecommerce.png" alt="E-commerce Mailer Box - E-flute DTC Ready" style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy"></div>
+      <div class="glr-ph"><img src="/gallery-bag-drawstring.png" alt="Drawstring Cotton Seed Bag - Natural and Food Grade" style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy"></div>
+
     </div>
   </div>
 </section>
