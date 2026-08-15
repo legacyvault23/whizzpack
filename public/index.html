@@ -716,17 +716,41 @@ nav .logo-img{height:46px}
 @keyframes glr-scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 .glr-ph{width:270px;height:270px;border-radius:18px;flex-shrink:0;position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;transition:transform .3s;}
 .glr-ph:hover{transform:scale(1.04);}
+@keyframes glr-blob{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(22px,14px) scale(1.07)}}
 .glr-badge{position:absolute;top:10px;right:10px;font-size:.55rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:100px;}
 .glr-icon{width:64px;height:64px;border-radius:14px;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;}
 </style>
 
-<section id="gallery" aria-label="Product Gallery" style="padding:72px 0 60px;background:var(--navy);overflow:hidden;">
-  <div style="text-align:center;margin-bottom:44px;padding:0 24px;">
+<section id="gallery" aria-label="Product Gallery" style="padding:72px 0 60px;background:var(--navy);overflow:hidden;position:relative;">
+
+  <!-- Decorative background blobs -->
+  <div aria-hidden="true" style="position:absolute;inset:0;pointer-events:none;overflow:hidden;">
+    <div style="position:absolute;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(240,90,40,0.13) 0%,transparent 70%);top:-100px;left:6%;animation:glr-blob 20s ease-in-out infinite;"></div>
+    <div style="position:absolute;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,0.05) 0%,transparent 70%);top:10%;right:4%;animation:glr-blob 26s ease-in-out infinite reverse;"></div>
+    <div style="position:absolute;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(240,90,40,0.09) 0%,transparent 70%);bottom:-80px;left:42%;animation:glr-blob 22s ease-in-out infinite 7s;"></div>
+    <div style="position:absolute;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(26,107,58,0.14) 0%,transparent 70%);top:15%;left:28%;animation:glr-blob 18s ease-in-out infinite 3s;"></div>
+  </div>
+
+  <!-- Floating particle canvas -->
+  <canvas id="glr-canvas" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;"></canvas>
+  <script>
+  (function(){
+    var c=document.getElementById('glr-canvas');if(!c)return;
+    var ctx=c.getContext('2d'),W,H,pts=[];
+    function resize(){W=c.offsetWidth;H=c.offsetHeight;c.width=W;c.height=H;}
+    resize();window.addEventListener('resize',resize);
+    function rnd(a,b){return a+Math.random()*(b-a);}
+    for(var i=0;i<70;i++)pts.push({x:rnd(0,W||900),y:rnd(0,H||500),r:rnd(1,3.5),vx:rnd(-0.12,0.12),vy:rnd(-0.3,-0.07),a:rnd(0.06,0.24),col:Math.random()<0.22?'240,90,40':'255,255,255'});
+    (function tick(){ctx.clearRect(0,0,W,H);for(var i=0;i<pts.length;i++){var p=pts[i];p.x+=p.vx;p.y+=p.vy;if(p.y<-p.r)p.y=H+p.r;if(p.x<-p.r)p.x=W+p.r;if(p.x>W+p.r)p.x=-p.r;ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,6.283);ctx.fillStyle='rgba('+p.col+','+p.a+')';ctx.fill();}requestAnimationFrame(tick);})();
+  })();
+  </script>
+
+  <div style="text-align:center;margin-bottom:44px;padding:0 24px;position:relative;">
     <span class="stag" style="background:rgba(255,255,255,0.1);color:var(--orange);">Factory Gallery</span>
     <h2 class="anim" style="color:#fff;margin-top:14px;">Our Products, Your Brand</h2>
     <p class="anim" style="color:rgba(255,255,255,0.6);max-width:520px;margin:10px auto 0;">Factory-direct corrugated boxes and cotton seed bags from Rajkot, India.</p>
   </div>
-  <div style="overflow:hidden;-webkit-mask:linear-gradient(to right,transparent,#000 6%,#000 94%,transparent);mask:linear-gradient(to right,transparent,#000 6%,#000 94%,transparent);">
+  <div style="overflow:hidden;position:relative;-webkit-mask:linear-gradient(to right,transparent,#000 6%,#000 94%,transparent);mask:linear-gradient(to right,transparent,#000 6%,#000 94%,transparent);">
     <div class="glr-track">
 
       <!-- ── Corrugated Box 1: RSC ── -->
