@@ -861,55 +861,89 @@ nav .logo-img{height:46px}
 </section>
 
 <!-- Product Gallery Section -->
-<section style="padding:72px 0;background:#fff;">
+<style>
+@keyframes boxScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.box-glr{display:flex;gap:24px;width:max-content;animation:boxScroll 22s linear infinite}
+.box-glr:hover{animation-play-state:paused}
+</style>
+<section style="padding:72px 0 64px;background:#fff;">
   <div class="wrap">
     <div class="tc sh anim">
       <span class="stag">Product Gallery</span>
       <h2>Our Corrugated Box Range</h2>
       <p>From lightweight e-commerce shippers to heavy-duty industrial export boxes, manufactured at our own factory in Rajkot, India.</p>
     </div>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:20px;margin-top:40px;">
-      <div style="border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;">
-        <div style="height:220px;overflow:hidden;">
-          <img src="https://images.unsplash.com/photo-1553413077-190dd305871c?w=600&auto=format&fit=crop&q=80" alt="RSC corrugated boxes stacked ready for export from Whizzpack factory India" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-        </div>
-        <div style="padding:18px 20px;">
-          <span style="font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);">RSC Boxes</span>
-          <h3 style="font-size:1rem;font-weight:700;color:var(--navy);margin:5px 0 8px;">Regular Slotted Cartons</h3>
-          <p style="font-size:.86rem;color:var(--gray);line-height:1.65;margin:0;">The world's most widely used box style. Flat-packs for ocean freight, reducing container volume by up to 80%.</p>
-        </div>
-      </div>
-      <div style="border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;">
-        <div style="height:220px;overflow:hidden;">
-          <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&auto=format&fit=crop&q=80" alt="Double wall heavy duty corrugated boxes manufactured at Whizzpack factory India" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-        </div>
-        <div style="padding:18px 20px;">
-          <span style="font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);">Heavy Duty</span>
-          <h3 style="font-size:1rem;font-weight:700;color:var(--navy);margin:5px 0 8px;">Double Wall Corrugated</h3>
-          <p style="font-size:.86rem;color:var(--gray);line-height:1.65;margin:0;">5-ply BC flute, 44-51 ECT. For heavy industrial goods and long ocean freight routes to USA and UK.</p>
+  </div>
+  <div style="overflow:hidden;margin-top:44px;padding:6px 0 10px;">
+    <div class="box-glr">
+      <div style="width:280px;flex-shrink:0;border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;">
+        <div style="aspect-ratio:1/1;background:#f4f6fa;"><img src="/corrugated-boxes/rsc-box.webp" alt="RSC corrugated box single and double wall by Whizzpack India" loading="lazy" style="width:100%;height:100%;object-fit:contain;display:block;"></div>
+        <div style="padding:14px 18px 18px;">
+          <span style="font-size:.62rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--orange);">RSC Boxes</span>
+          <p style="font-size:.95rem;font-weight:700;color:var(--navy);margin:5px 0 4px;">RSC Corrugated Box</p>
+          <p style="font-size:.82rem;color:var(--gray);margin:0;line-height:1.55;">The world's most widely used box style. Flat-packs for ocean freight, reducing container volume by up to 80%.</p>
         </div>
       </div>
-      <div style="border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;">
-        <div style="height:220px;overflow:hidden;">
-          <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=600&auto=format&fit=crop&q=80" alt="Custom printed corrugated boxes with brand logo from Whizzpack India" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-        </div>
-        <div style="padding:18px 20px;">
-          <span style="font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);">Custom Print</span>
-          <h3 style="font-size:1rem;font-weight:700;color:var(--navy);margin:5px 0 8px;">Branded Corrugated Boxes</h3>
-          <p style="font-size:.86rem;color:var(--gray);line-height:1.65;margin:0;">1-4 colour flexo or CMYK litho-laminated. Pantone-matched. Water-based eco inks. Perfect for DTC and subscription brands.</p>
+      <div style="width:280px;flex-shrink:0;border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;">
+        <div style="aspect-ratio:1/1;background:#f4f6fa;"><img src="/corrugated-boxes/custom-printed-box.webp" alt="Custom printed corrugated box CMYK and flexo print by Whizzpack India" loading="lazy" style="width:100%;height:100%;object-fit:contain;display:block;"></div>
+        <div style="padding:14px 18px 18px;">
+          <span style="font-size:.62rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--orange);">Custom Print</span>
+          <p style="font-size:.95rem;font-weight:700;color:var(--navy);margin:5px 0 4px;">Custom Printed Box</p>
+          <p style="font-size:.82rem;color:var(--gray);margin:0;line-height:1.55;">1-4 colour flexo or CMYK litho-laminated. Pantone-matched. Water-based eco inks. Perfect for DTC brands.</p>
         </div>
       </div>
-      <div style="border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;">
-        <div style="height:220px;overflow:hidden;">
-          <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=600&auto=format&fit=crop&q=80" alt="Export corrugated boxes for sea freight from India to USA and UK importers" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      <div style="width:280px;flex-shrink:0;border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;">
+        <div style="aspect-ratio:1/1;background:#f4f6fa;"><img src="/corrugated-boxes/double-wall-box.webp" alt="Double wall heavy duty corrugated box 5-ply BC flute by Whizzpack India" loading="lazy" style="width:100%;height:100%;object-fit:contain;display:block;"></div>
+        <div style="padding:14px 18px 18px;">
+          <span style="font-size:.62rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--orange);">Heavy Duty</span>
+          <p style="font-size:.95rem;font-weight:700;color:var(--navy);margin:5px 0 4px;">Double Wall Heavy Duty</p>
+          <p style="font-size:.82rem;color:var(--gray);margin:0;line-height:1.55;">5-ply BC flute, 44-51 ECT. For heavy industrial goods and long ocean freight routes to USA and UK.</p>
         </div>
-        <div style="padding:18px 20px;">
-          <span style="font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);">Export Ready</span>
-          <h3 style="font-size:1rem;font-weight:700;color:var(--navy);margin:5px 0 8px;">Sea Freight to USA and UK</h3>
-          <p style="font-size:.86rem;color:var(--gray);line-height:1.65;margin:0;">All orders ship from Mundra Port, Gujarat. 22-28 days to US East Coast. 18-22 days to Felixstowe, UK.</p>
+      </div>
+      <div style="width:280px;flex-shrink:0;border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;">
+        <div style="aspect-ratio:1/1;background:#f4f6fa;"><img src="/corrugated-boxes/mailer-box.webp" alt="E-commerce mailer box E-flute DTC ready by Whizzpack India" loading="lazy" style="width:100%;height:100%;object-fit:contain;display:block;"></div>
+        <div style="padding:14px 18px 18px;">
+          <span style="font-size:.62rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--orange);">E-commerce</span>
+          <p style="font-size:.95rem;font-weight:700;color:var(--navy);margin:5px 0 4px;">E-commerce Mailer Box</p>
+          <p style="font-size:.82rem;color:var(--gray);margin:0;line-height:1.55;">E-flute, DTC ready. Lightweight and rigid for unboxing experience. Custom print inside and out.</p>
+        </div>
+      </div>
+      <!-- Duplicate set for seamless loop -->
+      <div style="width:280px;flex-shrink:0;border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;" aria-hidden="true">
+        <div style="aspect-ratio:1/1;background:#f4f6fa;"><img src="/corrugated-boxes/rsc-box.webp" alt="" style="width:100%;height:100%;object-fit:contain;display:block;"></div>
+        <div style="padding:14px 18px 18px;">
+          <span style="font-size:.62rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--orange);">RSC Boxes</span>
+          <p style="font-size:.95rem;font-weight:700;color:var(--navy);margin:5px 0 4px;">RSC Corrugated Box</p>
+          <p style="font-size:.82rem;color:var(--gray);margin:0;line-height:1.55;">The world's most widely used box style. Flat-packs for ocean freight, reducing container volume by up to 80%.</p>
+        </div>
+      </div>
+      <div style="width:280px;flex-shrink:0;border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;" aria-hidden="true">
+        <div style="aspect-ratio:1/1;background:#f4f6fa;"><img src="/corrugated-boxes/custom-printed-box.webp" alt="" style="width:100%;height:100%;object-fit:contain;display:block;"></div>
+        <div style="padding:14px 18px 18px;">
+          <span style="font-size:.62rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--orange);">Custom Print</span>
+          <p style="font-size:.95rem;font-weight:700;color:var(--navy);margin:5px 0 4px;">Custom Printed Box</p>
+          <p style="font-size:.82rem;color:var(--gray);margin:0;line-height:1.55;">1-4 colour flexo or CMYK litho-laminated. Pantone-matched. Water-based eco inks. Perfect for DTC brands.</p>
+        </div>
+      </div>
+      <div style="width:280px;flex-shrink:0;border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;" aria-hidden="true">
+        <div style="aspect-ratio:1/1;background:#f4f6fa;"><img src="/corrugated-boxes/double-wall-box.webp" alt="" style="width:100%;height:100%;object-fit:contain;display:block;"></div>
+        <div style="padding:14px 18px 18px;">
+          <span style="font-size:.62rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--orange);">Heavy Duty</span>
+          <p style="font-size:.95rem;font-weight:700;color:var(--navy);margin:5px 0 4px;">Double Wall Heavy Duty</p>
+          <p style="font-size:.82rem;color:var(--gray);margin:0;line-height:1.55;">5-ply BC flute, 44-51 ECT. For heavy industrial goods and long ocean freight routes to USA and UK.</p>
+        </div>
+      </div>
+      <div style="width:280px;flex-shrink:0;border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;" aria-hidden="true">
+        <div style="aspect-ratio:1/1;background:#f4f6fa;"><img src="/corrugated-boxes/mailer-box.webp" alt="" style="width:100%;height:100%;object-fit:contain;display:block;"></div>
+        <div style="padding:14px 18px 18px;">
+          <span style="font-size:.62rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--orange);">E-commerce</span>
+          <p style="font-size:.95rem;font-weight:700;color:var(--navy);margin:5px 0 4px;">E-commerce Mailer Box</p>
+          <p style="font-size:.82rem;color:var(--gray);margin:0;line-height:1.55;">E-flute, DTC ready. Lightweight and rigid for unboxing experience. Custom print inside and out.</p>
         </div>
       </div>
     </div>
+  </div>
+  <div class="wrap">
     <div style="text-align:center;margin-top:36px;"><a href="/#contact" class="btn bp">Request a Sample &rarr;</a></div>
   </div>
 </section>
