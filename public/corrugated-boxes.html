@@ -1057,27 +1057,14 @@ nav .logo-img{height:46px}
   var ren=new THREE.WebGLRenderer({antialias:true});
   ren.setPixelRatio(Math.min(window.devicePixelRatio,2));
   ren.setSize(W,H);
-  ren.shadowMap.enabled=true;
-  ren.shadowMap.type=THREE.PCFSoftShadowMap;
   c.appendChild(ren.domElement);
 
   /* Lighting */
-  sc.add(new THREE.AmbientLight(0xfff8f0,0.50));
-  sc.add(new THREE.HemisphereLight(0xfff0dd,0xd8b878,0.35));
+  sc.add(new THREE.AmbientLight(0xfff8f0,0.55));
+  sc.add(new THREE.HemisphereLight(0xfff0dd,0xd8b878,0.38));
   var key=new THREE.DirectionalLight(0xffffff,1.75);
-  key.position.set(3,5,5);
-  key.castShadow=true;
-  key.shadow.mapSize.width=2048;key.shadow.mapSize.height=2048;
-  key.shadow.camera.near=1;key.shadow.camera.far=16;
-  key.shadow.camera.left=-2.2;key.shadow.camera.right=2.2;
-  key.shadow.camera.top=2.2;key.shadow.camera.bottom=-2.2;
-  key.shadow.bias=-0.0008;
-  sc.add(key);
+  key.position.set(3,5,5);sc.add(key);
   var fill=new THREE.DirectionalLight(0xffeedd,0.42);fill.position.set(-4,2,3);sc.add(fill);
-
-  /* Ground plane — only receives shadow, transparent otherwise */
-  var gnd=new THREE.Mesh(new THREE.PlaneGeometry(10,10),new THREE.ShadowMaterial({opacity:0.25}));
-  gnd.rotation.x=-Math.PI/2;gnd.position.y=-0.84;gnd.receiveShadow=true;sc.add(gnd);
 
   /* Normal map — corrugation ridges + paper fiber noise */
   function buildNormalMap(){
@@ -1104,26 +1091,22 @@ nav .logo-img{height:46px}
   nmTex.wrapS=nmTex.wrapT=THREE.RepeatWrapping;
   nmTex.repeat.set(4,4);nmTex.anisotropy=maxA;
 
-  /* Kraft canvas texture builder */
-  function makeKraft(pal,opts){
+  /* Unified kraft texture builder — draws optional logo directly on cardboard, no overlay */
+  function makeKraft(pal,opts,logo,showPh){
     opts=opts||{};
     var sz=2048,cv=document.createElement('canvas');cv.width=sz;cv.height=sz;
     var ctx=cv.getContext('2d');
-    /* Multi-stop gradient base — colour-matched to photo */
     var g=ctx.createLinearGradient(0,0,sz*0.75,sz*0.9);
     pal.forEach(function(s){g.addColorStop(s[0],s[1]);});
     ctx.fillStyle=g;ctx.fillRect(0,0,sz,sz);
-    /* Horizontal paper-fiber streaks */
     for(var i=0;i<36000;i++){
       var fx=Math.random()*sz,fy=Math.random()*sz,fl=4+Math.random()*22;
       var fa=0.013+Math.random()*0.040;
       ctx.fillStyle=Math.random()>0.5?'rgba(255,238,195,'+fa+')':'rgba(32,14,2,'+fa+')';
       ctx.fillRect(fx,fy,fl,1);
     }
-    /* Very faint corrugation shadow lines (surface) */
     ctx.strokeStyle='rgba(22,10,0,0.028)';ctx.lineWidth=0.9;
     for(var ly=5;ly<sz;ly+=9){ctx.beginPath();ctx.moveTo(0,ly);ctx.lineTo(sz,ly);ctx.stroke();}
-    /* Lid seam (top face) */
     if(opts.seam){
       ctx.strokeStyle='rgba(0,0,0,0.17)';ctx.lineWidth=2.5;
       ctx.beginPath();ctx.moveTo(sz*0.5,0);ctx.lineTo(sz*0.5,sz);ctx.stroke();
@@ -1131,7 +1114,6 @@ nav .logo-img{height:46px}
       sl.addColorStop(0,'rgba(0,0,0,0.11)');sl.addColorStop(1,'rgba(0,0,0,0)');
       ctx.fillStyle=sl;ctx.fillRect(sz*0.5,0,20,sz);
     }
-    /* Corrugated-flute edge strip (side faces — visible board edge at junction) */
     if(opts.edge){
       ctx.fillStyle='rgba(38,16,3,0.32)';ctx.fillRect(0,0,20,sz);
       for(var ye=0;ye<sz;ye+=9){
@@ -1139,65 +1121,48 @@ nav .logo-img{height:46px}
         ctx.fillStyle='rgba(140,92,32,0.58)';ctx.fill();
       }
     }
-    return cv;
-  }
-
-  /* Front face canvas (clean kraft + logo area) */
-  var currentLogo=null;
-  function makeFront(logo){
-    var sz=2048,cv=document.createElement('canvas');cv.width=sz;cv.height=sz;
-    var ctx=cv.getContext('2d');
-    /* Kraft base — front face colour sampled from photo */
-    var g=ctx.createLinearGradient(0,0,sz*0.7,sz*0.85);
-    g.addColorStop(0,'#c09460');g.addColorStop(0.45,'#ad824e');g.addColorStop(1,'#9b7040');
-    ctx.fillStyle=g;ctx.fillRect(0,0,sz,sz);
-    for(var i=0;i<36000;i++){
-      var fx=Math.random()*sz,fy=Math.random()*sz,fl=4+Math.random()*20;
-      var fa=0.013+Math.random()*0.040;
-      ctx.fillStyle=Math.random()>0.5?'rgba(255,238,195,'+fa+')':'rgba(32,14,2,'+fa+')';
-      ctx.fillRect(fx,fy,fl,1);
-    }
-    ctx.strokeStyle='rgba(22,10,0,0.028)';ctx.lineWidth=0.9;
-    for(var ly=5;ly<sz;ly+=9){ctx.beginPath();ctx.moveTo(0,ly);ctx.lineTo(sz,ly);ctx.stroke();}
-    /* Logo print area */
-    var PAD=105,LX=PAD,LY=Math.round(sz*0.20),LW=sz-PAD*2,LH=Math.round(sz*0.54);
+    /* Logo area */
+    var PAD=sz*0.10,LX=PAD,LY=sz*0.20,LW=sz-PAD*2,LH=sz*0.56;
     if(logo){
-      ctx.fillStyle='#ffffff';ctx.fillRect(LX,LY,LW,LH);
-      var lw=logo.width,lh=logo.height,fw=Math.min(lw,LW*0.84),fh=lh*(fw/lw);
-      if(fh>LH*0.82){fw*=LH*0.82/fh;fh=LH*0.82;}
+      /* Draw logo directly on kraft — no white background, full opacity */
+      var lw=logo.width,lh=logo.height,fw=Math.min(lw,LW*0.82),fh=lh*(fw/lw);
+      if(fh>LH*0.84){fw*=LH*0.84/fh;fh=LH*0.84;}
       ctx.drawImage(logo,LX+(LW-fw)/2,LY+(LH-fh)/2,fw,fh);
-    } else {
-      ctx.strokeStyle='rgba(15,31,75,0.22)';ctx.lineWidth=3;ctx.setLineDash([18,11]);
+    } else if(showPh){
+      ctx.strokeStyle='rgba(15,31,75,0.22)';ctx.lineWidth=4;ctx.setLineDash([22,13]);
       ctx.strokeRect(LX+8,LY+8,LW-16,LH-16);ctx.setLineDash([]);
-      ctx.fillStyle='rgba(15,31,75,0.46)';ctx.font='bold 72px Arial,sans-serif';
+      ctx.fillStyle='rgba(15,31,75,0.46)';ctx.font='bold 144px Arial,sans-serif';
       ctx.textAlign='center';ctx.textBaseline='middle';
       ctx.fillText('Your Logo Here',sz/2,LY+LH*0.40);
-      ctx.fillStyle='rgba(15,31,75,0.26)';ctx.font='37px Arial,sans-serif';
+      ctx.fillStyle='rgba(15,31,75,0.26)';ctx.font='72px Arial,sans-serif';
       ctx.fillText('Upload above to preview',sz/2,LY+LH*0.67);
     }
     return cv;
   }
 
-  /* Material builder */
-  function texMat(cv,rough,nmScale){
-    var t=new THREE.CanvasTexture(cv);t.anisotropy=maxA;
-    return new THREE.MeshStandardMaterial({map:t,normalMap:nmTex,normalScale:new THREE.Vector2(nmScale,nmScale),roughness:rough,metalness:0});
-  }
-
-  /* Face order: right(+x), left(-x), top(+y), bottom(-y), front(+z), back(-z) */
-  var mats=[
-    texMat(makeKraft([[0,'#d2a870'],[0.5,'#bf9560'],[1,'#ad8250']],{edge:true}), 0.88, 0.65), /* right */
-    texMat(makeKraft([[0,'#b07848'],[0.5,'#9e6c40'],[1,'#8c5e34']]),              0.91, 0.65), /* left  */
-    texMat(makeKraft([[0,'#dbb470'],[0.5,'#cba260'],[1,'#ba9050']],{seam:true}), 0.86, 0.55), /* top   */
-    texMat(makeKraft([[0,'#7a5a30'],[0.5,'#6a4c28'],[1,'#5c4020']]),              0.95, 0.38), /* bot   */
-    texMat(makeFront(null),                                                       0.88, 0.52), /* front */
-    texMat(makeKraft([[0,'#a07848'],[0.5,'#906840'],[1,'#806035']]),              0.91, 0.60), /* back  */
+  /* Per-face palette + options — used both for init and logo refresh */
+  var FACES=[
+    {pal:[[0,'#d2a870'],[0.5,'#bf9560'],[1,'#ad8250']],opts:{edge:true}, logo:true,  nm:0.65,rgh:0.88},/* 0 right */
+    {pal:[[0,'#b07848'],[0.5,'#9e6c40'],[1,'#8c5e34']],opts:{},          logo:true,  nm:0.65,rgh:0.91},/* 1 left  */
+    {pal:[[0,'#dbb470'],[0.5,'#cba260'],[1,'#ba9050']],opts:{seam:true}, logo:false, nm:0.55,rgh:0.86},/* 2 top   */
+    {pal:[[0,'#7a5a30'],[0.5,'#6a4c28'],[1,'#5c4020']],opts:{},          logo:false, nm:0.38,rgh:0.95},/* 3 bot   */
+    {pal:[[0,'#c09460'],[0.45,'#ad824e'],[1,'#9b7040']],opts:{},         logo:true,  nm:0.52,rgh:0.88},/* 4 front */
+    {pal:[[0,'#a07848'],[0.5,'#906840'],[1,'#806035']],opts:{},          logo:true,  nm:0.60,rgh:0.91},/* 5 back  */
   ];
 
-  /* Box mesh */
-  var geo=new THREE.BoxGeometry(2.50,1.60,1.78);
+  function texMat(cv,rgh,nm){
+    var t=new THREE.CanvasTexture(cv);t.anisotropy=maxA;
+    return new THREE.MeshStandardMaterial({map:t,normalMap:nmTex,normalScale:new THREE.Vector2(nm,nm),roughness:rgh,metalness:0});
+  }
+
+  var currentLogo=null;
+  var mats=FACES.map(function(f,i){
+    return texMat(makeKraft(f.pal,f.opts,null,i===4),f.rgh,f.nm);
+  });
+
+  /* Box — 5% smaller than previous */
+  var geo=new THREE.BoxGeometry(2.38,1.52,1.69);
   var box=new THREE.Mesh(geo,mats);
-  box.castShadow=true;box.receiveShadow=true;
   box.position.y=-0.04;
   box.rotation.x=-0.08;
   sc.add(box);
@@ -1212,13 +1177,16 @@ nav .logo-img{height:46px}
   ren.domElement.addEventListener('touchend',function(){drag=false;});
   window.addEventListener('resize',function(){var W2=c.clientWidth||600;cam.aspect=W2/H;cam.updateProjectionMatrix();ren.setSize(W2,H);});
 
-  /* Logo update */
+  /* Logo update — regenerates all 4 branded faces (right, left, front, back) */
   function upd(logo){
     currentLogo=logo;
-    if(mats[4].map)mats[4].map.dispose();
-    var t=new THREE.CanvasTexture(makeFront(logo));
-    t.anisotropy=maxA;
-    mats[4].map=t;mats[4].map.needsUpdate=true;mats[4].needsUpdate=true;
+    FACES.forEach(function(f,i){
+      if(!f.logo&&!(i===4&&!logo))return; /* skip top/bot; keep front placeholder when no logo */
+      if(mats[i].map)mats[i].map.dispose();
+      var t=new THREE.CanvasTexture(makeKraft(f.pal,f.opts,logo,i===4&&!logo));
+      t.anisotropy=maxA;
+      mats[i].map=t;mats[i].map.needsUpdate=true;mats[i].needsUpdate=true;
+    });
   }
   document.getElementById('wp-logo-input').addEventListener('change',function(){
     var f=this.files[0];if(!f)return;
