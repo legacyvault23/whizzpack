@@ -1103,69 +1103,95 @@ nav .logo-img{height:46px}
   nmTex.wrapS=nmTex.wrapT=THREE.RepeatWrapping;
   nmTex.repeat.set(4,4);nmTex.anisotropy=maxA;
 
-  /* Front face canvas (real photo tile background + logo area) */
-  var currentLogo=null,tileImg=null;
-  function makeFront(logo){
+  /* Kraft canvas texture builder */
+  function makeKraft(pal,opts){
+    opts=opts||{};
     var sz=1024,cv=document.createElement('canvas');cv.width=sz;cv.height=sz;
     var ctx=cv.getContext('2d');
-    if(tileImg&&tileImg.complete&&tileImg.naturalWidth>0){
-      var pat=ctx.createPattern(tileImg,'repeat');
-      var sc2=sz/tileImg.naturalWidth*0.55;
-      try{pat.setTransform(new DOMMatrix([sc2,0,0,sc2,0,0]));}catch(e){}
-      ctx.fillStyle=pat;ctx.fillRect(0,0,sz,sz);
-    } else {
-      var g=ctx.createLinearGradient(0,0,sz,sz*0.8);
-      g.addColorStop(0,'#bd9258');g.addColorStop(0.5,'#a67b4d');g.addColorStop(1,'#966e42');
-      ctx.fillStyle=g;ctx.fillRect(0,0,sz,sz);
+    /* Multi-stop gradient base — colour-matched to photo */
+    var g=ctx.createLinearGradient(0,0,sz*0.75,sz*0.9);
+    pal.forEach(function(s){g.addColorStop(s[0],s[1]);});
+    ctx.fillStyle=g;ctx.fillRect(0,0,sz,sz);
+    /* Horizontal paper-fiber streaks */
+    for(var i=0;i<14000;i++){
+      var fx=Math.random()*sz,fy=Math.random()*sz,fl=4+Math.random()*22;
+      var fa=0.013+Math.random()*0.040;
+      ctx.fillStyle=Math.random()>0.5?'rgba(255,238,195,'+fa+')':'rgba(32,14,2,'+fa+')';
+      ctx.fillRect(fx,fy,fl,1);
     }
-    var PAD=110,LX=PAD,LY=Math.round(sz*0.20),LW=sz-PAD*2,LH=Math.round(sz*0.54);
-    if(logo){
-      ctx.fillStyle='rgba(255,255,255,0.88)';ctx.fillRect(LX,LY,LW,LH);
-      var lw=logo.width,lh=logo.height,fw=Math.min(lw,LW*0.82),fh=lh*(fw/lw);
-      if(fh>LH*0.80){fw*=LH*0.80/fh;fh=LH*0.80;}
-      ctx.drawImage(logo,LX+(LW-fw)/2,LY+(LH-fh)/2,fw,fh);
-    } else {
-      ctx.strokeStyle='rgba(15,31,75,0.24)';ctx.lineWidth=3;ctx.setLineDash([18,11]);
-      ctx.strokeRect(LX+8,LY+8,LW-16,LH-16);ctx.setLineDash([]);
-      ctx.fillStyle='rgba(15,31,75,0.48)';ctx.font='bold 74px Arial,sans-serif';
-      ctx.textAlign='center';ctx.textBaseline='middle';
-      ctx.fillText('Your Logo Here',sz/2,LY+LH*0.40);
-      ctx.fillStyle='rgba(15,31,75,0.28)';ctx.font='38px Arial,sans-serif';
-      ctx.fillText('Upload above to preview',sz/2,LY+LH*0.68);
+    /* Very faint corrugation shadow lines (surface) */
+    ctx.strokeStyle='rgba(22,10,0,0.028)';ctx.lineWidth=0.9;
+    for(var ly=5;ly<sz;ly+=9){ctx.beginPath();ctx.moveTo(0,ly);ctx.lineTo(sz,ly);ctx.stroke();}
+    /* Lid seam (top face) */
+    if(opts.seam){
+      ctx.strokeStyle='rgba(0,0,0,0.17)';ctx.lineWidth=2.5;
+      ctx.beginPath();ctx.moveTo(sz*0.5,0);ctx.lineTo(sz*0.5,sz);ctx.stroke();
+      var sl=ctx.createLinearGradient(sz*0.5,0,sz*0.5+20,0);
+      sl.addColorStop(0,'rgba(0,0,0,0.11)');sl.addColorStop(1,'rgba(0,0,0,0)');
+      ctx.fillStyle=sl;ctx.fillRect(sz*0.5,0,20,sz);
+    }
+    /* Corrugated-flute edge strip (side faces — visible board edge at junction) */
+    if(opts.edge){
+      ctx.fillStyle='rgba(38,16,3,0.32)';ctx.fillRect(0,0,20,sz);
+      for(var ye=0;ye<sz;ye+=9){
+        ctx.beginPath();ctx.arc(10,ye,4.2,0,Math.PI*2);
+        ctx.fillStyle='rgba(140,92,32,0.58)';ctx.fill();
+      }
     }
     return cv;
   }
 
-  /* Materials — photo-matched base colors with normal map; photo tiles loaded async */
-  function stdMat(hex,rough){
-    return new THREE.MeshStandardMaterial({color:new THREE.Color(hex),normalMap:nmTex,normalScale:new THREE.Vector2(0.65,0.65),roughness:rough,metalness:0});
+  /* Front face canvas (clean kraft + logo area) */
+  var currentLogo=null;
+  function makeFront(logo){
+    var sz=1024,cv=document.createElement('canvas');cv.width=sz;cv.height=sz;
+    var ctx=cv.getContext('2d');
+    /* Kraft base — front face colour sampled from photo */
+    var g=ctx.createLinearGradient(0,0,sz*0.7,sz*0.85);
+    g.addColorStop(0,'#c09460');g.addColorStop(0.45,'#ad824e');g.addColorStop(1,'#9b7040');
+    ctx.fillStyle=g;ctx.fillRect(0,0,sz,sz);
+    for(var i=0;i<14000;i++){
+      var fx=Math.random()*sz,fy=Math.random()*sz,fl=4+Math.random()*20;
+      var fa=0.013+Math.random()*0.040;
+      ctx.fillStyle=Math.random()>0.5?'rgba(255,238,195,'+fa+')':'rgba(32,14,2,'+fa+')';
+      ctx.fillRect(fx,fy,fl,1);
+    }
+    ctx.strokeStyle='rgba(22,10,0,0.028)';ctx.lineWidth=0.9;
+    for(var ly=5;ly<sz;ly+=9){ctx.beginPath();ctx.moveTo(0,ly);ctx.lineTo(sz,ly);ctx.stroke();}
+    /* Logo print area */
+    var PAD=105,LX=PAD,LY=Math.round(sz*0.20),LW=sz-PAD*2,LH=Math.round(sz*0.54);
+    if(logo){
+      ctx.fillStyle='rgba(255,255,255,0.90)';ctx.fillRect(LX,LY,LW,LH);
+      var lw=logo.width,lh=logo.height,fw=Math.min(lw,LW*0.84),fh=lh*(fw/lw);
+      if(fh>LH*0.82){fw*=LH*0.82/fh;fh=LH*0.82;}
+      ctx.drawImage(logo,LX+(LW-fw)/2,LY+(LH-fh)/2,fw,fh);
+    } else {
+      ctx.strokeStyle='rgba(15,31,75,0.22)';ctx.lineWidth=3;ctx.setLineDash([18,11]);
+      ctx.strokeRect(LX+8,LY+8,LW-16,LH-16);ctx.setLineDash([]);
+      ctx.fillStyle='rgba(15,31,75,0.46)';ctx.font='bold 72px Arial,sans-serif';
+      ctx.textAlign='center';ctx.textBaseline='middle';
+      ctx.fillText('Your Logo Here',sz/2,LY+LH*0.40);
+      ctx.fillStyle='rgba(15,31,75,0.26)';ctx.font='37px Arial,sans-serif';
+      ctx.fillText('Upload above to preview',sz/2,LY+LH*0.67);
+    }
+    return cv;
   }
+
+  /* Material builder */
+  function texMat(cv,rough,nmScale){
+    var t=new THREE.CanvasTexture(cv);t.anisotropy=maxA;
+    return new THREE.MeshStandardMaterial({map:t,normalMap:nmTex,normalScale:new THREE.Vector2(nmScale,nmScale),roughness:rough,metalness:0});
+  }
+
+  /* Face order: right(+x), left(-x), top(+y), bottom(-y), front(+z), back(-z) */
   var mats=[
-    stdMat('#c99c6a',0.89),  /* right  */
-    stdMat('#a07848',0.91),  /* left   */
-    stdMat('#d4aa6a',0.87),  /* top    */
-    stdMat('#7a5a30',0.95),  /* bottom */
-    new THREE.MeshStandardMaterial({map:new THREE.CanvasTexture(makeFront(null)),normalMap:nmTex,normalScale:new THREE.Vector2(0.55,0.55),roughness:0.89,metalness:0}), /* front */
-    stdMat('#a07848',0.91),  /* back   */
+    texMat(makeKraft([[0,'#d2a870'],[0.5,'#bf9560'],[1,'#ad8250']],{edge:true}), 0.88, 0.65), /* right */
+    texMat(makeKraft([[0,'#b07848'],[0.5,'#9e6c40'],[1,'#8c5e34']]),              0.91, 0.65), /* left  */
+    texMat(makeKraft([[0,'#dbb470'],[0.5,'#cba260'],[1,'#ba9050']],{seam:true}), 0.86, 0.55), /* top   */
+    texMat(makeKraft([[0,'#7a5a30'],[0.5,'#6a4c28'],[1,'#5c4020']]),              0.95, 0.38), /* bot   */
+    texMat(makeFront(null),                                                       0.88, 0.52), /* front */
+    texMat(makeKraft([[0,'#a07848'],[0.5,'#906840'],[1,'#806035']]),              0.91, 0.60), /* back  */
   ];
-
-  /* Load real photo tiles — each face gets its matched surface crop */
-  var loader=new THREE.TextureLoader();
-  function loadTex(url,faces,rep){
-    loader.load(url,function(tex){
-      tex.wrapS=tex.wrapT=THREE.RepeatWrapping;
-      tex.repeat.set(rep,rep);tex.anisotropy=maxA;
-      faces.forEach(function(i){mats[i].map=tex;mats[i].needsUpdate=true;});
-    });
-  }
-  loadTex('/box-surface-side.webp',[0],1.8);   /* right side  */
-  loadTex('/box-surface-tile.webp',[1,5],2.0); /* left & back */
-  loadTex('/box-surface-top.webp', [2],1.8);   /* top         */
-
-  /* Preload front tile for canvas pattern */
-  tileImg=new Image();
-  tileImg.onload=function(){upd(currentLogo);};
-  tileImg.src='/box-surface-tile.webp';
 
   /* Box mesh */
   var geo=new THREE.BoxGeometry(2.15,1.38,1.52);
