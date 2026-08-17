@@ -1117,95 +1117,92 @@ nav .logo-img{height:46px}
 </section>
 
 <!-- Product Gallery Section -->
-<section style="padding:72px 0;background:#fff;">
+<style>
+@keyframes bagScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.bag-glr{display:flex;gap:24px;width:max-content;animation:bagScroll 22s linear infinite}
+.bag-glr:hover{animation-play-state:paused}
+</style>
+<section style="padding:72px 0 64px;background:#fff;">
   <div class="wrap">
     <div class="tc sh anim">
       <span class="stag">Product Gallery</span>
       <h2>Cotton Seed Bag Range</h2>
       <p>Natural, breathable, and fully biodegradable. Custom printed with your brand. Manufactured at our own factory in Rajkot, India.</p>
     </div>
-    <div style="position:relative;margin-top:44px;overflow:hidden;">
-      <div id="bag-track" style="display:flex;transition:transform .6s cubic-bezier(.4,0,.2,1);">
-        <!-- Page 1: images 1 & 2 -->
-        <div style="min-width:100%;flex-shrink:0;display:grid;grid-template-columns:1fr 1fr;gap:20px;">
-          <div style="border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;">
-            <div style="aspect-ratio:1/1;background:#f4f6fa;overflow:hidden;">
-              <img src="/cotton-bags/branded-bag.webp" alt="Branded cotton seed bag with custom screen print by Whizzpack India" loading="lazy" style="width:100%;height:100%;object-fit:contain;display:block;">
-            </div>
-            <div style="padding:16px 20px 18px;">
-              <span style="display:inline-block;font-size:.63rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--orange);background:rgba(240,90,40,.09);border:1px solid rgba(240,90,40,.25);padding:3px 11px;border-radius:100px;margin-bottom:8px;">Custom Branded</span>
-              <p style="font-size:.97rem;font-weight:700;color:var(--navy);margin:0 0 4px;">Branded Cotton Seed Bag</p>
-              <p style="font-size:.83rem;color:var(--gray);margin:0;line-height:1.55;">Screen-printed with your logo, brand name, and seed variety. Pantone-matched colours.</p>
-            </div>
-          </div>
-          <div style="border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;">
-            <div style="aspect-ratio:1/1;background:#f4f6fa;overflow:hidden;">
-              <img src="/cotton-bags/bulk-sack.webp" alt="Bulk cotton seed sack farm grade manufactured by Whizzpack India" loading="lazy" style="width:100%;height:100%;object-fit:contain;display:block;">
-            </div>
-            <div style="padding:16px 20px 18px;">
-              <span style="display:inline-block;font-size:.63rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--orange);background:rgba(240,90,40,.09);border:1px solid rgba(240,90,40,.25);padding:3px 11px;border-radius:100px;margin-bottom:8px;">Bulk Sacks</span>
-              <p style="font-size:.97rem;font-weight:700;color:var(--navy);margin:0 0 4px;">Bulk Cotton Seed Sack</p>
-              <p style="font-size:.83rem;color:var(--gray);margin:0;line-height:1.55;">Farm-grade heavy cotton for commercial volumes. 5 kg to 100 lb capacity.</p>
-            </div>
-          </div>
-        </div>
-        <!-- Page 2: images 3 & 4 -->
-        <div style="min-width:100%;flex-shrink:0;display:grid;grid-template-columns:1fr 1fr;gap:20px;">
-          <div style="border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;">
-            <div style="aspect-ratio:1/1;background:#f4f6fa;overflow:hidden;">
-              <img src="/cotton-bags/gots-organic-bag.webp" alt="GOTS certified organic cotton seed bag from Whizzpack India" loading="lazy" style="width:100%;height:100%;object-fit:contain;display:block;">
-            </div>
-            <div style="padding:16px 20px 18px;">
-              <span style="display:inline-block;font-size:.63rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--green);background:rgba(26,107,58,.09);border:1px solid rgba(26,107,58,.25);padding:3px 11px;border-radius:100px;margin-bottom:8px;">GOTS Certified</span>
-              <p style="font-size:.97rem;font-weight:700;color:var(--navy);margin:0 0 4px;">GOTS Organic Cotton Seed Bag</p>
-              <p style="font-size:.83rem;color:var(--gray);margin:0;line-height:1.55;">Certified organic textile. OEKO-TEX Standard 100 compliant. Transaction Certificates included.</p>
-            </div>
-          </div>
-          <div style="border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;">
-            <div style="aspect-ratio:1/1;background:#f4f6fa;overflow:hidden;">
-              <img src="/cotton-bags/drawstring-bag.webp" alt="Drawstring cotton seed bag natural and food grade by Whizzpack India" loading="lazy" style="width:100%;height:100%;object-fit:contain;display:block;">
-            </div>
-            <div style="padding:16px 20px 18px;">
-              <span style="display:inline-block;font-size:.63rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--orange);background:rgba(240,90,40,.09);border:1px solid rgba(240,90,40,.25);padding:3px 11px;border-radius:100px;margin-bottom:8px;">Natural &amp; Food-Grade</span>
-              <p style="font-size:.97rem;font-weight:700;color:var(--navy);margin:0 0 4px;">Drawstring Cotton Seed Bag</p>
-              <p style="font-size:.83rem;color:var(--gray);margin:0;line-height:1.55;">100% natural cotton drawstring closure. Easy fill and re-seal. Available in 4 oz, 6 oz, and 10 oz.</p>
-            </div>
-          </div>
+  </div>
+  <div style="overflow:hidden;margin-top:44px;padding:6px 0 10px;">
+    <div class="bag-glr">
+      <div style="width:280px;flex-shrink:0;border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;">
+        <div style="aspect-ratio:1/1;background:#f4f6fa;"><img src="/cotton-bags/branded-bag.webp" alt="Branded cotton seed bag with custom screen print by Whizzpack India" loading="lazy" style="width:100%;height:100%;object-fit:contain;display:block;"></div>
+        <div style="padding:14px 18px 18px;">
+          <span style="font-size:.62rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--orange);">Custom Branded</span>
+          <p style="font-size:.95rem;font-weight:700;color:var(--navy);margin:5px 0 4px;">Branded Cotton Seed Bag</p>
+          <p style="font-size:.82rem;color:var(--gray);margin:0;line-height:1.55;">Screen-printed with your logo, brand name, and seed variety. Pantone-matched colours.</p>
         </div>
       </div>
-      <button onclick="bagNav(-1)" aria-label="Previous" style="position:absolute;top:40%;left:-18px;transform:translateY(-50%);width:40px;height:40px;border-radius:50%;border:none;background:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 12px rgba(0,0,0,.14);z-index:2;padding:0;">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0F1F4B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
-      </button>
-      <button onclick="bagNav(1)" aria-label="Next" style="position:absolute;top:40%;right:-18px;transform:translateY(-50%);width:40px;height:40px;border-radius:50%;border:none;background:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 12px rgba(0,0,0,.14);z-index:2;padding:0;">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0F1F4B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
-      </button>
+      <div style="width:280px;flex-shrink:0;border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;">
+        <div style="aspect-ratio:1/1;background:#f4f6fa;"><img src="/cotton-bags/bulk-sack.webp" alt="Bulk cotton seed sack farm grade manufactured by Whizzpack India" loading="lazy" style="width:100%;height:100%;object-fit:contain;display:block;"></div>
+        <div style="padding:14px 18px 18px;">
+          <span style="font-size:.62rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--orange);">Bulk Sacks</span>
+          <p style="font-size:.95rem;font-weight:700;color:var(--navy);margin:5px 0 4px;">Bulk Cotton Seed Sack</p>
+          <p style="font-size:.82rem;color:var(--gray);margin:0;line-height:1.55;">Farm-grade heavy cotton for commercial volumes. 5 kg to 100 lb capacity.</p>
+        </div>
+      </div>
+      <div style="width:280px;flex-shrink:0;border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;">
+        <div style="aspect-ratio:1/1;background:#f4f6fa;"><img src="/cotton-bags/gots-organic-bag.webp" alt="GOTS certified organic cotton seed bag from Whizzpack India" loading="lazy" style="width:100%;height:100%;object-fit:contain;display:block;"></div>
+        <div style="padding:14px 18px 18px;">
+          <span style="font-size:.62rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--green);">GOTS Certified</span>
+          <p style="font-size:.95rem;font-weight:700;color:var(--navy);margin:5px 0 4px;">GOTS Organic Cotton Seed Bag</p>
+          <p style="font-size:.82rem;color:var(--gray);margin:0;line-height:1.55;">Certified organic textile. OEKO-TEX Standard 100 compliant. Transaction Certificates included.</p>
+        </div>
+      </div>
+      <div style="width:280px;flex-shrink:0;border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;">
+        <div style="aspect-ratio:1/1;background:#f4f6fa;"><img src="/cotton-bags/drawstring-bag.webp" alt="Drawstring cotton seed bag natural and food grade by Whizzpack India" loading="lazy" style="width:100%;height:100%;object-fit:contain;display:block;"></div>
+        <div style="padding:14px 18px 18px;">
+          <span style="font-size:.62rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--orange);">Natural &amp; Food-Grade</span>
+          <p style="font-size:.95rem;font-weight:700;color:var(--navy);margin:5px 0 4px;">Drawstring Cotton Seed Bag</p>
+          <p style="font-size:.82rem;color:var(--gray);margin:0;line-height:1.55;">100% natural cotton drawstring closure. Easy fill and re-seal. Available in 4 oz, 6 oz, and 10 oz.</p>
+        </div>
+      </div>
+      <!-- Duplicate set for seamless loop -->
+      <div style="width:280px;flex-shrink:0;border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;" aria-hidden="true">
+        <div style="aspect-ratio:1/1;background:#f4f6fa;"><img src="/cotton-bags/branded-bag.webp" alt="" style="width:100%;height:100%;object-fit:contain;display:block;"></div>
+        <div style="padding:14px 18px 18px;">
+          <span style="font-size:.62rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--orange);">Custom Branded</span>
+          <p style="font-size:.95rem;font-weight:700;color:var(--navy);margin:5px 0 4px;">Branded Cotton Seed Bag</p>
+          <p style="font-size:.82rem;color:var(--gray);margin:0;line-height:1.55;">Screen-printed with your logo, brand name, and seed variety. Pantone-matched colours.</p>
+        </div>
+      </div>
+      <div style="width:280px;flex-shrink:0;border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;" aria-hidden="true">
+        <div style="aspect-ratio:1/1;background:#f4f6fa;"><img src="/cotton-bags/bulk-sack.webp" alt="" style="width:100%;height:100%;object-fit:contain;display:block;"></div>
+        <div style="padding:14px 18px 18px;">
+          <span style="font-size:.62rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--orange);">Bulk Sacks</span>
+          <p style="font-size:.95rem;font-weight:700;color:var(--navy);margin:5px 0 4px;">Bulk Cotton Seed Sack</p>
+          <p style="font-size:.82rem;color:var(--gray);margin:0;line-height:1.55;">Farm-grade heavy cotton for commercial volumes. 5 kg to 100 lb capacity.</p>
+        </div>
+      </div>
+      <div style="width:280px;flex-shrink:0;border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;" aria-hidden="true">
+        <div style="aspect-ratio:1/1;background:#f4f6fa;"><img src="/cotton-bags/gots-organic-bag.webp" alt="" style="width:100%;height:100%;object-fit:contain;display:block;"></div>
+        <div style="padding:14px 18px 18px;">
+          <span style="font-size:.62rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--green);">GOTS Certified</span>
+          <p style="font-size:.95rem;font-weight:700;color:var(--navy);margin:5px 0 4px;">GOTS Organic Cotton Seed Bag</p>
+          <p style="font-size:.82rem;color:var(--gray);margin:0;line-height:1.55;">Certified organic textile. OEKO-TEX Standard 100 compliant. Transaction Certificates included.</p>
+        </div>
+      </div>
+      <div style="width:280px;flex-shrink:0;border-radius:16px;overflow:hidden;box-shadow:var(--sh);background:#fff;" aria-hidden="true">
+        <div style="aspect-ratio:1/1;background:#f4f6fa;"><img src="/cotton-bags/drawstring-bag.webp" alt="" style="width:100%;height:100%;object-fit:contain;display:block;"></div>
+        <div style="padding:14px 18px 18px;">
+          <span style="font-size:.62rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--orange);">Natural &amp; Food-Grade</span>
+          <p style="font-size:.95rem;font-weight:700;color:var(--navy);margin:5px 0 4px;">Drawstring Cotton Seed Bag</p>
+          <p style="font-size:.82rem;color:var(--gray);margin:0;line-height:1.55;">100% natural cotton drawstring closure. Easy fill and re-seal. Available in 4 oz, 6 oz, and 10 oz.</p>
+        </div>
+      </div>
     </div>
-    <div id="bag-dots" style="display:flex;justify-content:center;align-items:center;gap:8px;margin-top:20px;">
-      <button onclick="bagGo(0)" aria-label="Page 1" style="width:28px;height:5px;border-radius:3px;border:none;background:var(--orange);cursor:pointer;padding:0;transition:background .25s,width .25s;"></button>
-      <button onclick="bagGo(1)" aria-label="Page 2" style="width:10px;height:5px;border-radius:3px;border:none;background:var(--border);cursor:pointer;padding:0;transition:background .25s,width .25s;"></button>
-    </div>
-    <div style="text-align:center;margin-top:32px;"><a href="/#contact" class="btn bp">Request a Sample &rarr;</a></div>
+  </div>
+  <div class="wrap">
+    <div style="text-align:center;margin-top:36px;"><a href="/#contact" class="btn bp">Request a Sample &rarr;</a></div>
   </div>
 </section>
-<script>
-(function(){
-  var cur=0,N=2,timer;
-  var track=document.getElementById('bag-track');
-  var dots=document.getElementById('bag-dots').querySelectorAll('button');
-  function go(n){
-    cur=(n%N+N)%N;
-    track.style.transform='translateX(-'+cur*100+'%)';
-    dots.forEach(function(d,i){
-      d.style.background=i===cur?'var(--orange)':'var(--border)';
-      d.style.width=i===cur?'28px':'10px';
-    });
-  }
-  window.bagNav=function(d){clearInterval(timer);go(cur+d);start();};
-  window.bagGo=function(n){clearInterval(timer);go(n);start();};
-  function start(){timer=setInterval(function(){go(cur+1);},4500);}
-  start();
-})();
-</script>
 
 <!-- Size Guide Section -->
 <section style="padding:60px 0;background:var(--light);">
