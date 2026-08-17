@@ -1021,7 +1021,7 @@ nav .logo-img{height:46px}
     </div>
     <div id="wp-pg-boxes" style="display:grid;grid-template-columns:1fr 300px;gap:48px;align-items:center;margin-top:48px;">
       <div>
-        <div id="wp-box-3d" style="width:100%;height:400px;border-radius:20px;overflow:hidden;cursor:grab;box-shadow:0 24px 64px rgba(15,31,75,.13);"></div>
+        <div id="wp-box-3d" style="width:100%;height:440px;border-radius:20px;overflow:hidden;cursor:grab;box-shadow:0 24px 64px rgba(15,31,75,.13);"></div>
         <p style="text-align:center;font-size:.75rem;color:var(--gray);margin-top:10px;">Drag to rotate &bull; Touch supported on mobile</p>
       </div>
       <div>
@@ -1049,11 +1049,11 @@ nav .logo-img{height:46px}
 (function(){
   var c=document.getElementById('wp-box-3d');
   if(!c||typeof THREE==='undefined')return;
-  var H=420,W=c.clientWidth||600;
+  var H=440,W=c.clientWidth||600;
   var sc=new THREE.Scene();
   sc.background=new THREE.Color(0xedf0f6);
-  var cam=new THREE.PerspectiveCamera(32,W/H,0.1,100);
-  cam.position.set(0,0.15,6.0);
+  var cam=new THREE.PerspectiveCamera(30,W/H,0.1,100);
+  cam.position.set(0,0.20,5.2);
   var ren=new THREE.WebGLRenderer({antialias:true});
   ren.setPixelRatio(Math.min(window.devicePixelRatio,2));
   ren.setSize(W,H);
@@ -1065,18 +1065,19 @@ nav .logo-img{height:46px}
   sc.add(new THREE.AmbientLight(0xfff8f0,0.50));
   sc.add(new THREE.HemisphereLight(0xfff0dd,0xd8b878,0.35));
   var key=new THREE.DirectionalLight(0xffffff,1.75);
-  key.position.set(4,8,5);
+  key.position.set(3,5,5);
   key.castShadow=true;
   key.shadow.mapSize.width=2048;key.shadow.mapSize.height=2048;
-  key.shadow.camera.left=-3.5;key.shadow.camera.right=3.5;
-  key.shadow.camera.top=3;key.shadow.camera.bottom=-3;
-  key.shadow.bias=-0.002;
+  key.shadow.camera.near=1;key.shadow.camera.far=16;
+  key.shadow.camera.left=-2.2;key.shadow.camera.right=2.2;
+  key.shadow.camera.top=2.2;key.shadow.camera.bottom=-2.2;
+  key.shadow.bias=-0.0008;
   sc.add(key);
   var fill=new THREE.DirectionalLight(0xffeedd,0.42);fill.position.set(-4,2,3);sc.add(fill);
 
   /* Ground plane — only receives shadow, transparent otherwise */
-  var gnd=new THREE.Mesh(new THREE.PlaneGeometry(10,10),new THREE.ShadowMaterial({opacity:0.15}));
-  gnd.rotation.x=-Math.PI/2;gnd.position.y=-0.72;gnd.receiveShadow=true;sc.add(gnd);
+  var gnd=new THREE.Mesh(new THREE.PlaneGeometry(10,10),new THREE.ShadowMaterial({opacity:0.25}));
+  gnd.rotation.x=-Math.PI/2;gnd.position.y=-0.84;gnd.receiveShadow=true;sc.add(gnd);
 
   /* Normal map — corrugation ridges + paper fiber noise */
   function buildNormalMap(){
@@ -1106,14 +1107,14 @@ nav .logo-img{height:46px}
   /* Kraft canvas texture builder */
   function makeKraft(pal,opts){
     opts=opts||{};
-    var sz=1024,cv=document.createElement('canvas');cv.width=sz;cv.height=sz;
+    var sz=2048,cv=document.createElement('canvas');cv.width=sz;cv.height=sz;
     var ctx=cv.getContext('2d');
     /* Multi-stop gradient base — colour-matched to photo */
     var g=ctx.createLinearGradient(0,0,sz*0.75,sz*0.9);
     pal.forEach(function(s){g.addColorStop(s[0],s[1]);});
     ctx.fillStyle=g;ctx.fillRect(0,0,sz,sz);
     /* Horizontal paper-fiber streaks */
-    for(var i=0;i<14000;i++){
+    for(var i=0;i<36000;i++){
       var fx=Math.random()*sz,fy=Math.random()*sz,fl=4+Math.random()*22;
       var fa=0.013+Math.random()*0.040;
       ctx.fillStyle=Math.random()>0.5?'rgba(255,238,195,'+fa+')':'rgba(32,14,2,'+fa+')';
@@ -1144,13 +1145,13 @@ nav .logo-img{height:46px}
   /* Front face canvas (clean kraft + logo area) */
   var currentLogo=null;
   function makeFront(logo){
-    var sz=1024,cv=document.createElement('canvas');cv.width=sz;cv.height=sz;
+    var sz=2048,cv=document.createElement('canvas');cv.width=sz;cv.height=sz;
     var ctx=cv.getContext('2d');
     /* Kraft base — front face colour sampled from photo */
     var g=ctx.createLinearGradient(0,0,sz*0.7,sz*0.85);
     g.addColorStop(0,'#c09460');g.addColorStop(0.45,'#ad824e');g.addColorStop(1,'#9b7040');
     ctx.fillStyle=g;ctx.fillRect(0,0,sz,sz);
-    for(var i=0;i<14000;i++){
+    for(var i=0;i<36000;i++){
       var fx=Math.random()*sz,fy=Math.random()*sz,fl=4+Math.random()*20;
       var fa=0.013+Math.random()*0.040;
       ctx.fillStyle=Math.random()>0.5?'rgba(255,238,195,'+fa+')':'rgba(32,14,2,'+fa+')';
@@ -1161,7 +1162,7 @@ nav .logo-img{height:46px}
     /* Logo print area */
     var PAD=105,LX=PAD,LY=Math.round(sz*0.20),LW=sz-PAD*2,LH=Math.round(sz*0.54);
     if(logo){
-      ctx.fillStyle='rgba(255,255,255,0.90)';ctx.fillRect(LX,LY,LW,LH);
+      ctx.fillStyle='#ffffff';ctx.fillRect(LX,LY,LW,LH);
       var lw=logo.width,lh=logo.height,fw=Math.min(lw,LW*0.84),fh=lh*(fw/lw);
       if(fh>LH*0.82){fw*=LH*0.82/fh;fh=LH*0.82;}
       ctx.drawImage(logo,LX+(LW-fw)/2,LY+(LH-fh)/2,fw,fh);
@@ -1194,10 +1195,11 @@ nav .logo-img{height:46px}
   ];
 
   /* Box mesh */
-  var geo=new THREE.BoxGeometry(2.15,1.38,1.52);
+  var geo=new THREE.BoxGeometry(2.50,1.60,1.78);
   var box=new THREE.Mesh(geo,mats);
   box.castShadow=true;box.receiveShadow=true;
-  box.rotation.x=-0.10;
+  box.position.y=-0.04;
+  box.rotation.x=-0.08;
   sc.add(box);
 
   /* Interaction */
