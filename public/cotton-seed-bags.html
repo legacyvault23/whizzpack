@@ -1308,12 +1308,26 @@ nav .logo-img{height:46px}
     <div class="tc sh anim">
       <span class="stag">Try It Live</span>
       <h2>Preview Your Logo on Our Cotton Bags</h2>
-      <p>Upload your logo and see exactly how it looks printed on a cotton seed bag in real-time 3D. Drag to rotate 360&deg;.</p>
+      <p>See every angle of our cotton seed bags before you order. Upload your logo to preview it on the front face.</p>
     </div>
     <div id="wp-pg-bags" style="display:grid;grid-template-columns:1fr 300px;gap:48px;align-items:center;margin-top:48px;">
       <div>
-        <div id="wp-bag-3d" style="width:100%;height:420px;border-radius:20px;overflow:hidden;cursor:grab;box-shadow:0 24px 64px rgba(15,31,75,.13);"></div>
-        <p style="text-align:center;font-size:.75rem;color:var(--gray);margin-top:10px;">Drag to rotate &bull; Touch supported on mobile</p>
+        <div id="wp-bag-spinner">
+          <img class="bag-view active" src="/cotton-bag-views/bag-front.webp" alt="Cotton seed bag front view" loading="eager">
+          <img class="bag-view" src="/cotton-bag-views/bag-right.webp" alt="Cotton seed bag 45 degree right view" loading="lazy">
+          <img class="bag-view" src="/cotton-bag-views/bag-side.webp" alt="Cotton seed bag side view" loading="lazy">
+          <img class="bag-view" src="/cotton-bag-views/bag-left.webp" alt="Cotton seed bag 45 degree left view" loading="lazy">
+          <div id="wp-logo-ov"><img id="wp-logo-ov-img" src="/Whizzpack-logo-header.png" alt="Your logo preview"></div>
+          <button class="spn-btn prev" aria-label="Previous view">&#8249;</button>
+          <button class="spn-btn next" aria-label="Next view">&#8250;</button>
+          <div class="spn-dots">
+            <span class="spn-dot active"></span>
+            <span class="spn-dot"></span>
+            <span class="spn-dot"></span>
+            <span class="spn-dot"></span>
+          </div>
+        </div>
+        <p style="text-align:center;font-size:.75rem;color:var(--gray);margin-top:10px;">Click arrows to rotate &bull; Swipe on mobile</p>
       </div>
       <div>
         <h3 style="font-size:1.1rem;font-weight:800;color:var(--navy);margin:0 0 10px;">Upload Your Logo</h3>
@@ -1334,129 +1348,48 @@ nav .logo-img{height:46px}
     </div>
   </div>
 </section>
-<style>#wp-bag-3d:active{cursor:grabbing;}@media(max-width:740px){#wp-pg-bags{grid-template-columns:1fr!important;gap:24px!important;}}</style>
-<script src="https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.min.js"></script>
+<style>
+#wp-bag-spinner{position:relative;width:100%;height:420px;border-radius:20px;overflow:hidden;background:#f4f6fa;box-shadow:0 24px 64px rgba(15,31,75,.13);user-select:none;}
+.bag-view{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);max-width:88%;max-height:88%;object-fit:contain;opacity:0;transition:opacity .38s ease;pointer-events:none;}
+.bag-view.active{opacity:1;}
+#wp-logo-ov{position:absolute;top:46%;left:50%;transform:translate(-50%,-50%);width:42%;max-width:240px;pointer-events:none;opacity:1;transition:opacity .38s ease;}
+#wp-logo-ov.hidden{opacity:0;}
+#wp-logo-ov img{width:100%;height:auto;display:block;}
+.spn-btn{position:absolute;top:50%;transform:translateY(-50%);background:rgba(255,255,255,0.92);border:none;border-radius:50%;width:42px;height:42px;font-size:26px;line-height:1;cursor:pointer;box-shadow:0 2px 14px rgba(0,0,0,.14);color:#0F1F4B;transition:all .18s;z-index:10;display:flex;align-items:center;justify-content:center;}
+.spn-btn:hover{background:#fff;box-shadow:0 4px 20px rgba(0,0,0,.20);}
+.spn-btn.prev{left:14px;}
+.spn-btn.next{right:14px;}
+.spn-dots{position:absolute;bottom:14px;left:50%;transform:translateX(-50%);display:flex;gap:8px;}
+.spn-dot{width:8px;height:8px;border-radius:50%;background:rgba(15,31,75,.18);transition:background .2s;cursor:pointer;}
+.spn-dot.active{background:#F05A28;}
+@media(max-width:740px){#wp-pg-bags{grid-template-columns:1fr!important;gap:24px!important;}}
+</style>
 <script>
 (function(){
-  var c=document.getElementById('wp-bag-3d');
-  if(!c||typeof THREE==='undefined')return;
-  var H=420,W=c.clientWidth||600;
-  var sc=new THREE.Scene();sc.background=new THREE.Color(0xedf0f6);
-  var cam=new THREE.PerspectiveCamera(32,W/H,0.1,100);cam.position.set(0,0.05,5.8);
-  var ren=new THREE.WebGLRenderer({antialias:true});ren.setPixelRatio(Math.min(window.devicePixelRatio,2));ren.setSize(W,H);c.appendChild(ren.domElement);
-
-  sc.add(new THREE.AmbientLight(0xfff8f0,0.65));
-  sc.add(new THREE.HemisphereLight(0xfff4e8,0xcfbf9a,0.45));
-  var key=new THREE.DirectionalLight(0xffffff,1.65);key.position.set(3,5,5);sc.add(key);
-  var fill=new THREE.DirectionalLight(0xffeedd,0.5);fill.position.set(-4,1,3);sc.add(fill);
-
-  var maxA=ren.capabilities.getMaxAnisotropy();
-  var wl=null;
-
-  function makeTex(cv){var t=new THREE.CanvasTexture(cv);t.anisotropy=maxA;return t;}
-
-  /* Woven cotton canvas — base texture shared across all faces */
-  function makeBaseCanvas(){
-    var sz=2048,cv=document.createElement('canvas');cv.width=sz;cv.height=sz;
-    var ctx=cv.getContext('2d');
-    var g=ctx.createLinearGradient(0,0,sz*0.8,sz);
-    g.addColorStop(0,'#ede0c8');g.addColorStop(0.45,'#e0d3b5');g.addColorStop(1,'#d3c5a5');
-    ctx.fillStyle=g;ctx.fillRect(0,0,sz,sz);
-    var S=8;
-    for(var yt=0;yt<sz;yt+=S){ctx.strokeStyle='rgba(148,115,68,0.30)';ctx.lineWidth=S*0.52;ctx.beginPath();ctx.moveTo(0,yt+S*0.28);ctx.lineTo(sz,yt+S*0.28);ctx.stroke();}
-    for(var xt=0;xt<sz;xt+=S){ctx.strokeStyle='rgba(200,172,125,0.22)';ctx.lineWidth=S*0.46;ctx.beginPath();ctx.moveTo(xt+S*0.28,0);ctx.lineTo(xt+S*0.28,sz);ctx.stroke();}
-    for(var i=0;i<55000;i++){var fa=0.015+Math.random()*0.042;ctx.fillStyle=Math.random()>0.5?'rgba(255,248,228,'+fa+')':'rgba(85,60,25,'+fa+')';ctx.fillRect(Math.random()*sz,Math.random()*sz,Math.random()>0.7?2:1,1);}
-    return cv;
+  var views=document.querySelectorAll('.bag-view');
+  var dots=document.querySelectorAll('.spn-dot');
+  var ov=document.getElementById('wp-logo-ov');
+  var ovImg=document.getElementById('wp-logo-ov-img');
+  var cur=0,n=views.length;
+  function goTo(idx){
+    views[cur].classList.remove('active');
+    dots[cur].classList.remove('active');
+    cur=((idx%n)+n)%n;
+    views[cur].classList.add('active');
+    dots[cur].classList.add('active');
+    if(cur===0){ov.classList.remove('hidden');}else{ov.classList.add('hidden');}
   }
-
-  /* Front face texture: woven base + stitching near gathered top + logo/placeholder */
-  function makeFrontCanvas(logo,showPh){
-    var cv=makeBaseCanvas(),sz=cv.width,ctx=cv.getContext('2d');
-    /* Box face UV: V=1 at top of face. With flipY canvas y=0 = V=1 (top). Stitch at ~13% from top */
-    var sy=sz*0.13;ctx.setLineDash([13,9]);ctx.strokeStyle='rgba(95,70,35,0.65)';ctx.lineWidth=4;
-    ctx.beginPath();ctx.moveTo(sz*0.05,sy);ctx.lineTo(sz*0.95,sy);ctx.stroke();
-    ctx.beginPath();ctx.moveTo(sz*0.05,sy+16);ctx.lineTo(sz*0.95,sy+16);ctx.stroke();
-    ctx.setLineDash([]);
-    var LX=sz*0.10,LY=sz*0.22,LW=sz*0.80,LH=sz*0.56;
-    if(logo){
-      var lw=logo.width,lh=logo.height,fw=Math.min(lw,LW*0.88),fh=lh*(fw/lw);
-      if(fh>LH*0.86){fw*=LH*0.86/fh;fh=LH*0.86;}
-      ctx.drawImage(logo,LX+(LW-fw)/2,LY+(LH-fh)/2,fw,fh);
-    } else if(showPh){
-      ctx.strokeStyle='rgba(15,31,75,0.18)';ctx.lineWidth=3;ctx.setLineDash([18,11]);
-      ctx.strokeRect(LX+8,LY+8,LW-16,LH-16);ctx.setLineDash([]);
-      ctx.fillStyle='rgba(15,31,75,0.40)';ctx.font='bold 108px Arial,sans-serif';ctx.textAlign='center';ctx.textBaseline='middle';
-      ctx.fillText('Your Logo Here',sz/2,LY+LH*0.38);
-      ctx.fillStyle='rgba(15,31,75,0.24)';ctx.font='56px Arial,sans-serif';
-      ctx.fillText('Upload above to preview',sz/2,LY+LH*0.64);
-    }
-    return cv;
-  }
-
-  /* Rounded-pillow geometry: BoxGeometry corners softly blended toward sphere.
-     Low blend factor keeps flat faces; only corners/edges get rounded organically.
-     Gathering uses ORIGINAL y (not displaced) to avoid over-squeezing. */
-  function makeSackGeo(){
-    var BW=2.10,BH=2.56,BD=0.80;
-    var geo=new THREE.BoxGeometry(BW,BH,BD,52,62,22);
-    var pos=geo.attributes.position;
-    var hx=BW/2,hy=BH/2,hz=BD/2;
-    var diagLen=Math.sqrt(hx*hx+hy*hy+hz*hz);
-    for(var i=0;i<pos.count;i++){
-      var x=pos.getX(i),y=pos.getY(i),z=pos.getZ(i);
-      var len=Math.sqrt(x*x+y*y+z*z);
-      if(len<0.001){continue;}
-      var ax=Math.abs(x)/hx,ay=Math.abs(y)/hy,az=Math.abs(z)/hz;
-      /* cf=0 at face centers, 1 at edges, 3 at corners */
-      var cf=ax*ay+ay*az+ax*az;
-      /* 0.20 keeps face centers flat; corners get max ~60% sphere blend */
-      var blend=Math.min(0.90,cf*0.20);
-      var sc2=diagLen/len;
-      var px=x+(x*sc2-x)*blend,py=y+(y*sc2-y)*blend,pz=z+(z*sc2-z)*blend;
-      /* Use original y for gathering so blended vertices don't over-squeeze */
-      var ny_orig=y/hy;
-      if(ny_orig>0.60){var t=(ny_orig-0.60)/0.40;var sq=1-t*t*0.58;px*=sq;pz*=sq;}
-      if(ny_orig<-0.82){var bt=(-ny_orig-0.82)/0.18;px*=1-bt*0.14;pz*=1-bt*0.14;}
-      pos.setXYZ(i,px,py,pz);
-    }
-    geo.computeVertexNormals();
-    return geo;
-  }
-
-  /* Per-face materials: BoxGeometry face order: right(0) left(1) top(2) bottom(3) front(4) back(5) */
-  var sideTex=makeTex(makeBaseCanvas());
-  var frontTex=makeTex(makeFrontCanvas(null,true));
-  var mats=[
-    new THREE.MeshStandardMaterial({map:sideTex,roughness:0.91,metalness:0}),
-    new THREE.MeshStandardMaterial({map:sideTex,roughness:0.91,metalness:0}),
-    new THREE.MeshStandardMaterial({map:sideTex,roughness:0.88,metalness:0}),
-    new THREE.MeshStandardMaterial({map:sideTex,roughness:0.93,metalness:0}),
-    new THREE.MeshStandardMaterial({map:frontTex,roughness:0.87,metalness:0}),
-    new THREE.MeshStandardMaterial({map:sideTex,roughness:0.90,metalness:0})
-  ];
-  var bag=new THREE.Mesh(makeSackGeo(),mats);
-  bag.position.y=-0.06;
-  sc.add(bag);
-
-  /* Drag to rotate */
-  var ry=0.42,rx=-0.06,auto=true,drag=false,lx=0,ly=0;
-  ren.domElement.addEventListener('mousedown',function(e){drag=true;auto=false;lx=e.clientX;ly=e.clientY;});
-  window.addEventListener('mousemove',function(e){if(!drag)return;ry+=(e.clientX-lx)*0.007;rx+=(e.clientY-ly)*0.003;rx=Math.max(-0.45,Math.min(0.45,rx));lx=e.clientX;ly=e.clientY;});
-  window.addEventListener('mouseup',function(){drag=false;});
-  ren.domElement.addEventListener('touchstart',function(e){drag=true;auto=false;lx=e.touches[0].clientX;ly=e.touches[0].clientY;e.preventDefault();},{passive:false});
-  ren.domElement.addEventListener('touchmove',function(e){if(!drag)return;ry+=(e.touches[0].clientX-lx)*0.007;rx+=(e.touches[0].clientY-ly)*0.003;rx=Math.max(-0.45,Math.min(0.45,rx));lx=e.touches[0].clientX;ly=e.touches[0].clientY;e.preventDefault();},{passive:false});
-  ren.domElement.addEventListener('touchend',function(){drag=false;});
-  window.addEventListener('resize',function(){var W2=c.clientWidth||600;cam.aspect=W2/H;cam.updateProjectionMatrix();ren.setSize(W2,H);});
-
-  function upd(logo){
-    if(mats[4].map)mats[4].map.dispose();
-    mats[4].map=makeTex(makeFrontCanvas(logo,!logo));
-    mats[4].map.needsUpdate=true;mats[4].needsUpdate=true;
-  }
-  (function(){var img=new Image();img.onload=function(){wl=img;upd(wl);};img.src='/Whizzpack-logo-header.png';})();
-  document.getElementById('wp-logo-input-bag').addEventListener('change',function(){var f=this.files[0];if(!f)return;var r=new FileReader();r.onload=function(e){var i=new Image();i.onload=function(){upd(i);};i.src=e.target.result;};r.readAsDataURL(f);});
-  window.wpBagReset=function(){upd(wl);document.getElementById('wp-logo-input-bag').value='';};
-  (function anim(){requestAnimationFrame(anim);if(auto)ry+=0.005;bag.rotation.y=ry;bag.rotation.x=rx;ren.render(sc,cam);})();
+  document.querySelector('.spn-btn.prev').addEventListener('click',function(){goTo(cur-1);});
+  document.querySelector('.spn-btn.next').addEventListener('click',function(){goTo(cur+1);});
+  dots.forEach(function(d,i){d.addEventListener('click',function(){goTo(i);});});
+  var tx=0,sp=document.getElementById('wp-bag-spinner');
+  sp.addEventListener('touchstart',function(e){tx=e.touches[0].clientX;},{passive:true});
+  sp.addEventListener('touchend',function(e){var dx=e.changedTouches[0].clientX-tx;if(Math.abs(dx)>40){goTo(cur+(dx<0?1:-1));}},{passive:true});
+  document.getElementById('wp-logo-input-bag').addEventListener('change',function(){
+    var f=this.files[0];if(!f)return;
+    ovImg.src=URL.createObjectURL(f);
+  });
+  window.wpBagReset=function(){ovImg.src='/Whizzpack-logo-header.png';document.getElementById('wp-logo-input-bag').value='';};
 })();
 </script>
 
