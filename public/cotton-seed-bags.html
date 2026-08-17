@@ -1355,28 +1355,29 @@ nav .logo-img{height:46px}
 
   function makeTex(cv){var t=new THREE.CanvasTexture(cv);t.anisotropy=maxA;return t;}
 
-  /* Woven cotton canvas texture */
-  function weave(logo,showPh){
+  /* Woven cotton canvas — base texture shared across all faces */
+  function makeBaseCanvas(){
     var sz=2048,cv=document.createElement('canvas');cv.width=sz;cv.height=sz;
     var ctx=cv.getContext('2d');
-    /* Warm cream gradient base */
     var g=ctx.createLinearGradient(0,0,sz*0.8,sz);
     g.addColorStop(0,'#ede0c8');g.addColorStop(0.45,'#e0d3b5');g.addColorStop(1,'#d3c5a5');
     ctx.fillStyle=g;ctx.fillRect(0,0,sz,sz);
-    /* Horizontal warp threads */
     var S=8;
-    for(var y=0;y<sz;y+=S){ctx.strokeStyle='rgba(148,115,68,0.30)';ctx.lineWidth=S*0.52;ctx.beginPath();ctx.moveTo(0,y+S*0.28);ctx.lineTo(sz,y+S*0.28);ctx.stroke();}
-    /* Vertical weft threads */
-    for(var x=0;x<sz;x+=S){ctx.strokeStyle='rgba(200,172,125,0.22)';ctx.lineWidth=S*0.46;ctx.beginPath();ctx.moveTo(x+S*0.28,0);ctx.lineTo(x+S*0.28,sz);ctx.stroke();}
-    /* Fiber grain noise */
+    for(var yt=0;yt<sz;yt+=S){ctx.strokeStyle='rgba(148,115,68,0.30)';ctx.lineWidth=S*0.52;ctx.beginPath();ctx.moveTo(0,yt+S*0.28);ctx.lineTo(sz,yt+S*0.28);ctx.stroke();}
+    for(var xt=0;xt<sz;xt+=S){ctx.strokeStyle='rgba(200,172,125,0.22)';ctx.lineWidth=S*0.46;ctx.beginPath();ctx.moveTo(xt+S*0.28,0);ctx.lineTo(xt+S*0.28,sz);ctx.stroke();}
     for(var i=0;i<55000;i++){var fa=0.015+Math.random()*0.042;ctx.fillStyle=Math.random()>0.5?'rgba(255,248,228,'+fa+')':'rgba(85,60,25,'+fa+')';ctx.fillRect(Math.random()*sz,Math.random()*sz,Math.random()>0.7?2:1,1);}
-    /* Double-stitch seam at top */
-    var sy=sz*0.052;ctx.setLineDash([13,9]);ctx.strokeStyle='rgba(95,70,35,0.62)';ctx.lineWidth=4;
-    ctx.beginPath();ctx.moveTo(sz*0.04,sy);ctx.lineTo(sz*0.96,sy);ctx.stroke();
-    ctx.beginPath();ctx.moveTo(sz*0.04,sy+16);ctx.lineTo(sz*0.96,sy+16);ctx.stroke();
+    return cv;
+  }
+
+  /* Front face texture: woven base + stitching near gathered top + logo/placeholder */
+  function makeFrontCanvas(logo,showPh){
+    var cv=makeBaseCanvas(),sz=cv.width,ctx=cv.getContext('2d');
+    /* Box face UV: V=1 at top of face. With flipY canvas y=0 = V=1 (top). Stitch at ~13% from top */
+    var sy=sz*0.13;ctx.setLineDash([13,9]);ctx.strokeStyle='rgba(95,70,35,0.65)';ctx.lineWidth=4;
+    ctx.beginPath();ctx.moveTo(sz*0.05,sy);ctx.lineTo(sz*0.95,sy);ctx.stroke();
+    ctx.beginPath();ctx.moveTo(sz*0.05,sy+16);ctx.lineTo(sz*0.95,sy+16);ctx.stroke();
     ctx.setLineDash([]);
-    /* Logo / placeholder */
-    var LX=sz*0.12,LY=sz*0.20,LW=sz*0.76,LH=sz*0.60;
+    var LX=sz*0.10,LY=sz*0.22,LW=sz*0.80,LH=sz*0.56;
     if(logo){
       var lw=logo.width,lh=logo.height,fw=Math.min(lw,LW*0.88),fh=lh*(fw/lw);
       if(fh>LH*0.86){fw*=LH*0.86/fh;fh=LH*0.86;}
@@ -1392,53 +1393,50 @@ nav .logo-img{height:46px}
     return cv;
   }
 
-  /* Inflated sack geometry: BoxGeometry + pillow vertex displacement */
+  /* Rounded-pillow geometry: BoxGeometry corners softly blended toward sphere.
+     Low blend factor keeps flat faces; only corners/edges get rounded organically.
+     Gathering uses ORIGINAL y (not displaced) to avoid over-squeezing. */
   function makeSackGeo(){
-    var BW=2.02,BH=2.58,BD=1.10;
-    var geo=new THREE.BoxGeometry(BW,BH,BD,44,56,24);
+    var BW=2.10,BH=2.56,BD=0.80;
+    var geo=new THREE.BoxGeometry(BW,BH,BD,52,62,22);
     var pos=geo.attributes.position;
+    var hx=BW/2,hy=BH/2,hz=BD/2;
+    var diagLen=Math.sqrt(hx*hx+hy*hy+hz*hz);
     for(var i=0;i<pos.count;i++){
       var x=pos.getX(i),y=pos.getY(i),z=pos.getZ(i);
-      var nx=x/(BW*0.5),ny=y/(BH*0.5),nz=z/(BD*0.5);
-      var ax=Math.abs(nx),ay=Math.abs(ny),az=Math.abs(nz);
-      if(az>0.98){
-        /* Front/back: strong pillow bulge */
-        var bu=Math.pow(Math.max(0,1-nx*nx),0.55)*Math.pow(Math.max(0,1-ny*ny),0.55);
-        z+=Math.sign(z)*0.42*bu;
-      } else if(ax>0.98){
-        /* Sides: moderate bulge */
-        var bu=Math.pow(Math.max(0,1-nz*nz),0.6)*Math.pow(Math.max(0,1-ny*ny),0.6);
-        x+=Math.sign(x)*0.30*bu;
-      } else if(ay>0.98){
-        /* Top/bottom: gentle bulge */
-        var bu=Math.pow(Math.max(0,1-nx*nx),0.7)*Math.pow(Math.max(0,1-nz*nz),0.7);
-        y+=Math.sign(y)*0.12*bu;
-      }
-      pos.setXYZ(i,x,y,z);
+      var len=Math.sqrt(x*x+y*y+z*z);
+      if(len<0.001){continue;}
+      var ax=Math.abs(x)/hx,ay=Math.abs(y)/hy,az=Math.abs(z)/hz;
+      /* cf=0 at face centers, 1 at edges, 3 at corners */
+      var cf=ax*ay+ay*az+ax*az;
+      /* 0.20 keeps face centers flat; corners get max ~60% sphere blend */
+      var blend=Math.min(0.90,cf*0.20);
+      var sc2=diagLen/len;
+      var px=x+(x*sc2-x)*blend,py=y+(y*sc2-y)*blend,pz=z+(z*sc2-z)*blend;
+      /* Use original y for gathering so blended vertices don't over-squeeze */
+      var ny_orig=y/hy;
+      if(ny_orig>0.60){var t=(ny_orig-0.60)/0.40;var sq=1-t*t*0.58;px*=sq;pz*=sq;}
+      if(ny_orig<-0.82){var bt=(-ny_orig-0.82)/0.18;px*=1-bt*0.14;pz*=1-bt*0.14;}
+      pos.setXYZ(i,px,py,pz);
     }
     geo.computeVertexNormals();
     return geo;
   }
 
-  var sideTex=makeTex(weave(null,false));
-  /* BoxGeometry face order: right(0) left(1) top(2) bottom(3) front(4) back(5) */
+  /* Per-face materials: BoxGeometry face order: right(0) left(1) top(2) bottom(3) front(4) back(5) */
+  var sideTex=makeTex(makeBaseCanvas());
+  var frontTex=makeTex(makeFrontCanvas(null,true));
   var mats=[
     new THREE.MeshStandardMaterial({map:sideTex,roughness:0.91,metalness:0}),
     new THREE.MeshStandardMaterial({map:sideTex,roughness:0.91,metalness:0}),
     new THREE.MeshStandardMaterial({map:sideTex,roughness:0.88,metalness:0}),
     new THREE.MeshStandardMaterial({map:sideTex,roughness:0.93,metalness:0}),
-    new THREE.MeshStandardMaterial({map:makeTex(weave(null,true)),roughness:0.87,metalness:0}),
-    new THREE.MeshStandardMaterial({map:makeTex(weave(null,false)),roughness:0.91,metalness:0})
+    new THREE.MeshStandardMaterial({map:frontTex,roughness:0.87,metalness:0}),
+    new THREE.MeshStandardMaterial({map:sideTex,roughness:0.90,metalness:0})
   ];
   var bag=new THREE.Mesh(makeSackGeo(),mats);
   bag.position.y=-0.06;
-
-  /* Sewn top-flap: the folded-over fabric above the stitch line */
-  var flapMat=new THREE.MeshStandardMaterial({map:sideTex,roughness:0.92,metalness:0});
-  var flap=new THREE.Mesh(new THREE.BoxGeometry(1.96,0.20,0.08),flapMat);
-  flap.position.set(0,1.21,0);
-
-  var grp=new THREE.Group();grp.add(bag);grp.add(flap);sc.add(grp);
+  sc.add(bag);
 
   /* Drag to rotate */
   var ry=0.42,rx=-0.06,auto=true,drag=false,lx=0,ly=0;
@@ -1452,14 +1450,13 @@ nav .logo-img{height:46px}
 
   function upd(logo){
     if(mats[4].map)mats[4].map.dispose();
-    if(mats[5].map)mats[5].map.dispose();
-    mats[4].map=makeTex(weave(logo,!logo));mats[4].map.needsUpdate=true;mats[4].needsUpdate=true;
-    mats[5].map=makeTex(weave(logo,false));mats[5].map.needsUpdate=true;mats[5].needsUpdate=true;
+    mats[4].map=makeTex(makeFrontCanvas(logo,!logo));
+    mats[4].map.needsUpdate=true;mats[4].needsUpdate=true;
   }
   (function(){var img=new Image();img.onload=function(){wl=img;upd(wl);};img.src='/Whizzpack-logo-header.png';})();
   document.getElementById('wp-logo-input-bag').addEventListener('change',function(){var f=this.files[0];if(!f)return;var r=new FileReader();r.onload=function(e){var i=new Image();i.onload=function(){upd(i);};i.src=e.target.result;};r.readAsDataURL(f);});
   window.wpBagReset=function(){upd(wl);document.getElementById('wp-logo-input-bag').value='';};
-  (function anim(){requestAnimationFrame(anim);if(auto)ry+=0.005;grp.rotation.y=ry;grp.rotation.x=rx;ren.render(sc,cam);})();
+  (function anim(){requestAnimationFrame(anim);if(auto)ry+=0.005;bag.rotation.y=ry;bag.rotation.x=rx;ren.render(sc,cam);})();
 })();
 </script>
 
