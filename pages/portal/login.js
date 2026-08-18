@@ -98,6 +98,9 @@ export default function PortalLogin() {
         .login-btn:hover:not(:disabled) { background: #d44d20; }
         .login-btn:active { transform: scale(0.98); }
         .login-btn:disabled { opacity: 0.7; cursor: not-allowed; }
+        .login-root * { cursor: auto; }
+        .login-btn, .login-root a { cursor: pointer; }
+        .login-input { cursor: text; }
         .btn-arrow { transition: transform 0.15s; }
         .login-btn:hover .btn-arrow { transform: translateX(3px); }
         .spinner { width: 18px; height: 18px; border: 2.5px solid rgba(255,255,255,0.3); border-top-color: #fff; border-radius: 50%; animation: spin 0.7s linear infinite; }

@@ -202,6 +202,12 @@ export default function PortalLayout({ children, title = 'CRM' }) {
         @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
         .loading-row td { animation: pulse 1.4s ease infinite; background: #F3F4F6; color: transparent; border-radius: 4px; }
 
+        /* ── Cursor (override globals.css cursor:none) ── */
+        .portal-root * { cursor: auto; }
+        .portal-root button, .portal-root a, .portal-root select, .portal-root .data-table tbody tr, .portal-root .page-btn, .portal-root .nav-item, .portal-root .logout-btn, .portal-root .stat-card { cursor: pointer; }
+        .portal-root input, .portal-root textarea { cursor: text; }
+        .portal-root input[type="number"] { cursor: text; }
+
         /* ── Responsive ── */
         @media (max-width: 1100px) { .stat-grid { grid-template-columns: repeat(2,1fr); } .chart-grid { grid-template-columns: 1fr; } }
         @media (max-width: 900px) { .detail-grid { grid-template-columns: 1fr; } }
