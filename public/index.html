@@ -1423,43 +1423,35 @@ if(lenis)lenis.on('scroll',upd);else window.addEventListener('scroll',upd,{passi
 
     var fd=new FormData(form);
     var cat=fd.get('product_category')||'';
-    var payload={
-      _subject:'New Export Enquiry from '+(fd.get('name')||'Unknown')+' | Whizzpack',
-      _cc:'jash.bavishi1@gmail.com,info.whizzpack@yahoo.com',
-      _captcha:'false',
-      _template:'table',
-      _replyto: fd.get('email')||'',
-      'Product Category': cat,
-      Name: fd.get('name')||'',
-      Company: fd.get('company')||'',
-      Country: fd.get('country')||'',
-      Email: fd.get('email')||'',
-      Phone: fd.get('phone')||'',
-      Quantity: fd.get('quantity')||'',
-      Message: fd.get('message')||''
-    };
+    var productMap={'Cotton Seed Bags':'cotton-bags','Corrugated Boxes':'corrugated-boxes'};
+    var extra=[];
+    var qt=fd.get('quantity')||'';if(qt)extra.push('Quantity: '+qt);
     if(cat==='Corrugated Boxes'){
-      payload['Box Type']=fd.get('box_type')||'';
-      payload['Print Preference']=fd.get('print_preference')||'';
+      var bxt=fd.get('box_type')||'',pp=fd.get('print_preference')||'';
+      if(bxt)extra.push('Box Type: '+bxt);if(pp)extra.push('Print Preference: '+pp);
     }
     if(cat==='Cotton Seed Bags'){
-      payload['Bag Type']=fd.get('bag_type')||'';
-      payload['Seed Type']=fd.get('seed_type')||'';
-      payload['Fabric Weight']=fd.get('fabric_weight')||'';
+      var bgt=fd.get('bag_type')||'',st=fd.get('seed_type')||'',fw=fd.get('fabric_weight')||'';
+      if(bgt)extra.push('Bag Type: '+bgt);if(st)extra.push('Seed Type: '+st);if(fw)extra.push('Fabric Weight: '+fw);
     }
+    var baseMsg=fd.get('message')||'';
+    var payload={
+      name:fd.get('name')||'',
+      email:fd.get('email')||'',
+      company:fd.get('company')||'',
+      country:fd.get('country')||'',
+      phone:fd.get('phone')||'',
+      product:productMap[cat]||'corrugated-boxes',
+      message:baseMsg+(extra.length?'\n'+extra.join('\n'):'')
+    };
 
-    fetch('https://formsubmit.co/ajax/parthashara58@gmail.com',{
+    fetch('/api/wp-inquiry',{
       method:'POST',
-      headers:{'Content-Type':'application/json','Accept':'application/json'},
+      headers:{'Content-Type':'application/json'},
       body:JSON.stringify(payload)
     })
-    .then(function(r){return r.json();})
-    .then(function(data){
-      if(data.success==='true'||data.success===true){
-        window.location.href='/thank-you';
-      } else {
-        throw new Error('failed');
-      }
+    .then(function(){
+      window.location.href='/thank-you';
     })
     .catch(function(err){
       console.error('Form error:',err);
