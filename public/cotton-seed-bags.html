@@ -1759,7 +1759,7 @@ if(lenis)lenis.on('scroll',upd);else window.addEventListener('scroll',upd,{passi
       message:baseMsg+(extra.length?'\n'+extra.join('\n'):'')
     };
 
-    fetch('https://whizzy-crm.onrender.com/webhooks/whizzpack-inquiry',{
+    fetch('/api/wp-inquiry',{
       method:'POST',
       headers:{'Content-Type':'application/json'},
       body:JSON.stringify(payload)
@@ -1861,7 +1861,7 @@ if(lenis)lenis.on('scroll',upd);else window.addEventListener('scroll',upd,{passi
       product:eiProdMap[eiProd]||'cotton-bags',
       message:'Free sample request. Product interest: '+eiProd
     };
-    fetch('https://whizzy-crm.onrender.com/webhooks/whizzpack-inquiry',{
+    fetch('/api/wp-inquiry',{
       method:'POST',
       headers:{'Content-Type':'application/json'},
       body:JSON.stringify(payload)
