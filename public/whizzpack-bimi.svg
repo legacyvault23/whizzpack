@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <title>Whizzpack</title>
+  <desc>Whizzpack brand mark — W in white with orange ZZ accent on navy</desc>
+  <rect width="200" height="200" fill="#0F1F4B"/>
+  <rect width="200" height="7" fill="#F05A28"/>
+  <text x="100" y="126" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="108" fill="#ffffff" text-anchor="middle">W</text>
+  <text x="100" y="160" font-family="Arial,sans-serif" font-weight="700" font-size="26" fill="#F05A28" text-anchor="middle" letter-spacing="10">ZZ</text>
+  <rect y="189" width="200" height="11" fill="#F05A28"/>
+</svg>
