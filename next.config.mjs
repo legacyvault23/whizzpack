@@ -34,6 +34,7 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      { source: '/portal', destination: '/portal/dashboard', permanent: false },
       { source: '/blog', destination: '/blogs', permanent: true },
       { source: '/blog/:slug*', destination: '/blogs/:slug*', permanent: true },
       // Redirect WordPress-style search URLs (e.g. from Google Ads ValueTrack templates)
