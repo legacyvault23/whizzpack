@@ -133,13 +133,13 @@ For corrugated boxes going to US or UK buyers, the following certifications are 
 
 **BIS (Bureau of Indian Standards):** For corrugated boxes specifically, BIS IS 1060 covers the Indian standard for fibreboard boxes. Most export-focused manufacturers test to TAPPI/ASTM standards instead, which are internationally recognised.
 
-**ISTA protocols:** Internationally recognised transit testing protocols (ISTA 2A, 3A, etc.) that verify boxes can survive typical shipping conditions. A manufacturer who has produced boxes tested to ISTA standards can help you specify board grade to pass your specific protocol.
+**ISTA protocols:** Internationally recognised transit testing protocols (ISTA 2A, 3A, etc.) that verify boxes can survive typical shipping conditions. A manufacturer who has produced boxes tested to ISTA standards can help you specify board grade to pass your specific protocol. For UK buyers in particular, our [corrugated boxes UK import guide](/blogs/corrugated-boxes-uk-import-guide) covers FSC certification expectations, EPR compliance documentation, and the UK customs process in detail.
 
 ---
 
 ## Putting It Together: A Practical Checklist
 
-Before placing a production order with any Indian corrugated box manufacturer:
+Before placing a production order with any Indian corrugated box manufacturer, it helps to understand the full import process from this point forward. Our [complete importer's guide to corrugated boxes from India](/blogs/how-to-import-corrugated-boxes-from-india) walks through documentation, lead times, and first shipment planning once you have selected a supplier.
 
 Confirm they are a manufacturer, not a broker (factory address, corrugator machinery visible, GST registration cross-checked).
 

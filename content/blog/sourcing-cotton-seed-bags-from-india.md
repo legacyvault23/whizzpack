@@ -87,7 +87,7 @@ The whole cycle is 10 to 14 weeks for a first order. Once the relationship is es
 
 The environmental credentials of cotton seed bags are a significant purchasing driver for seed companies selling to sustainability-conscious retail markets. Indian cotton bag manufacturers can support this positioning in several ways:
 
-**GOTS certification.** The Global Organic Textile Standard covers the entire supply chain from fibre to finished product. A GOTS-certified bag provides documented traceability of organic cotton from farm to factory. This is the highest-tier sustainability credential for cotton textiles and is increasingly requested by organic grocery, garden, and seed retail buyers.
+**GOTS certification.** The Global Organic Textile Standard covers the entire supply chain from fibre to finished product. A GOTS-certified bag provides documented traceability of organic cotton from farm to factory. This is the highest-tier sustainability credential for cotton textiles and is increasingly requested by organic grocery, garden, and seed retail buyers. For operations specifically serving organic certification requirements, our guide on [cotton seed bags for organic farming](/blogs/cotton-seed-bags-organic-farming-guide) details the material specifications, certification chain, and supplier questions that matter most.
 
 **OEKO-TEX Standard 100.** This certification tests the finished textile for over 100 harmful substances above regulated limits. It does not verify organic fibre sourcing but assures the buyer that the bag material is safe for skin contact and for use in food-adjacent applications. Many seed companies find OEKO-TEX sufficient for their compliance needs.
 
@@ -111,7 +111,7 @@ Cotton bags and sacks fall under HTS code 6305.20 (sacks and bags of cotton). Th
 For container imports, yes. A licensed customs broker handles the US customs entry, arranges bond, and manages document submission. Their fee is typically a few hundred dollars per entry, well worth the time saved and errors avoided. Most freight forwarders can connect you with a broker or offer customs clearance as part of their service.
 
 **Can I mix cotton seed bags with other packaging products in the same container?**
-Yes. If your business also imports corrugated boxes or other packaging, combining products in a single container is standard practice. Mixed-product containers require a consolidated packing list and one customs entry per HTS code, but the process is routine. Many Whizzpack customers ship combined orders of corrugated boxes and cotton seed bags together.
+Yes. If your business also imports corrugated boxes or other packaging, combining products in a single container is standard practice. Mixed-product containers require a consolidated packing list and one customs entry per HTS code, but the process is routine. Many Whizzpack customers ship combined orders of corrugated boxes and cotton seed bags together. For buyers based in the UK, our [cotton seed bags UK buyers guide](/blogs/cotton-seed-bags-uk-buyers-guide) covers UK-specific customs duty rates, port logistics, and certification requirements in detail.
 
 **What certifications does Whizzpack hold?**
 Whizzpack offers GOTS and OEKO-TEX Standard 100 certified bags on request. We can provide fabric test reports for GSM, tensile strength, seam strength, and colourfastness for every production run. Third-party pre-shipment inspection by SGS or Bureau Veritas is supported for all export orders.

@@ -178,11 +178,11 @@ For commodity seed applications where cost per bag is the primary driver, jute h
 
 ## Making the Decision
 
-For most seed companies and agricultural operations supplying the US or UK market, cotton is the right choice - primarily because of OEKO-TEX availability, better moisture management, and superior retail aesthetics.
+For most seed companies and agricultural operations supplying the US or UK market, cotton is the right choice - primarily because of OEKO-TEX availability, better moisture management, and superior retail aesthetics. UK buyers can find market-specific guidance on certifications, port logistics, and customs in our [cotton seed bags UK buyers guide](/blogs/cotton-seed-bags-uk-buyers-guide).
 
 Jute remains the right choice for high-volume, short-term commodity seed handling where load capacity and unit cost are the primary criteria, and where chemical treatment standards are less stringent.
 
-For operations running both retail and bulk seed programmes, the practical answer is often both: cotton for retail-facing and long-term storage applications, jute for high-turnover commodity bulk.
+For operations running both retail and bulk seed programmes, the practical answer is often both: cotton for retail-facing and long-term storage applications, jute for high-turnover commodity bulk. For seed companies and garden centres building a retail cotton bag range, our [guide to cotton seed bags for garden centres and seed companies](/blogs/cotton-seed-bags-garden-centers-seed-companies) covers display specifications, print requirements, and how to manage SKU variety across a full seed range.
 
 ---
 

@@ -22,7 +22,7 @@ Returnable and reusable packaging is not a new idea, but it has become a practic
 
 **Reinforced multi-trip corrugated boxes** - built with higher ECT (Edge Crush Test) and BCT (Box Compression Test) ratings than a standard single-use box, designed to survive multiple pack-ship-return cycles without losing structural integrity. These look like ordinary boxes but are specified to a higher board grade.
 
-**Returnable mailers with reclosable flaps** - corrugated or reinforced mailers with a second adhesive strip or tuck-in mechanism, so the same box can be resealed and sent back without new tape or a new box entirely. Common in apparel and footwear, where return rates are highest.
+**Returnable mailers with reclosable flaps** - corrugated or reinforced mailers with a second adhesive strip or tuck-in mechanism, so the same box can be resealed and sent back without new tape or a new box entirely. Common in apparel and footwear, where return rates are highest. Brands sourcing premium non-returnable outbound mailer boxes alongside their returnable programme will find our [mailer boxes for subscription brands guide](/blogs/mailer-boxes-subscription-brands-india) covers E-flute specifications, closure mechanisms, and print quality for premium DTC packaging.
 
 **Reusable Plastic Containers (RPCs)** - rigid plastic totes used in closed-loop B2B and grocery distribution. These are a different category from corrugated and generally suit high-frequency, short-distance loops (distribution centre to retail store) rather than direct-to-consumer shipping.
 

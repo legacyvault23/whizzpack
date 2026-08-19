@@ -24,7 +24,7 @@ India is one of the world's largest manufacturers of corrugated packaging. The c
 
 **Eco-friendly raw materials:** Many Indian manufacturers use recycled kraft paper made from post-consumer waste. Leading suppliers also source board certified under the Forest Stewardship Council (FSC) programme, ensuring responsibly managed forestry at every step.
 
-**Export readiness:** Indian packaging exporters have decades of experience meeting international shipping standards, including ISTA testing protocols and FEFCO design guidelines used across EU and UK markets.
+**Export readiness:** Indian packaging exporters have decades of experience meeting international shipping standards, including ISTA testing protocols and FEFCO design guidelines used across EU and UK markets. For subscription box brands and DTC retailers specifically, our [mailer boxes for subscription brands guide](/blogs/mailer-boxes-subscription-brands-india) covers E-flute mailer specifications, litho-laminated print options, and inventory planning for monthly or quarterly programmes.
 
 ---
 

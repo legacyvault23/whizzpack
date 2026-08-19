@@ -132,7 +132,7 @@ BC double wall is the most common double-wall specification for export from Indi
 
 **If your product ships in a standard export carton by sea freight:** C flute.
 
-**If your product is heavy (over 15 kg) or fragile on long transit:** BC double wall, or C flute with internal void fill.
+**If your product is heavy (over 15 kg) or fragile on long transit:** BC double wall, or C flute with internal void fill. Our guide on [heavy-duty corrugated boxes for export shipping](/blogs/heavy-duty-corrugated-boxes-export-shipping) covers double-wall and triple-wall constructions in detail, including ECT ratings and load limits for export applications.
 
 **If you need high-quality colour printing on the outer surface:** E flute for premium, B flute for standard, C flute for basic.
 
@@ -144,7 +144,7 @@ BC double wall is the most common double-wall specification for export from Indi
 
 Flute type determines the board's structural profile, but liner grade determines the board's actual strength. Two boxes can use the same C flute with very different burst strength ratings depending on whether the liners are 100 GSM test liner or 150 GSM kraftliner. When specifying a box, always state both the flute type and the liner GSM or the required burst factor (BF) or ECT (Edge Crush Test) value.
 
-A manufacturer who only asks for box dimensions without asking about liner grade or required strength is not asking the right questions. A well-specified corrugated box order will always include: dimensions (L x W x H), flute type, liner grade (or strength requirement), ply count, and printing specification.
+A manufacturer who only asks for box dimensions without asking about liner grade or required strength is not asking the right questions. A well-specified corrugated box order will always include: dimensions (L x W x H), flute type, liner grade (or strength requirement), ply count, and printing specification. Our [corrugated box sizes and grades guide](/blogs/corrugated-box-sizes-grades-buyers-guide) explains common board grade formats and how to read ECT and GSM specifications when comparing quotes from Indian manufacturers.
 
 ![A large cargo ship on open water carrying containers on sea freight from India to the USA and UK](https://images.unsplash.com/photo-1670121180583-39ab653a071c?w=900&auto=format&fit=crop&q=80)
 *Sea freight from India to the USA or UK takes 22 to 30 days. The flute type and liner grade combination determines whether your boxes arrive intact.*

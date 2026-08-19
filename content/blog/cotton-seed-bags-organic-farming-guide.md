@@ -25,7 +25,7 @@ The use of cotton seed bags in organic farming is driven by two factors: regulat
 
 **Contamination risk:** Even where certification standards don't explicitly prohibit synthetic packaging, organic growers are cautious about any synthetic material entering the growing environment. Cotton bags are biodegradable, breathable, and carry no residual chemical treatment under the soil.
 
-**Secondary benefits:** Cotton bags breathe, which means seeds stored in cotton packaging maintain lower humidity levels than seeds in sealed synthetic bags. For seed varieties that are sensitive to moisture, this can meaningfully improve germination rates over a storage period.
+**Secondary benefits:** Cotton bags breathe, which means seeds stored in cotton packaging maintain lower humidity levels than seeds in sealed synthetic bags. For seed varieties that are sensitive to moisture, this can meaningfully improve germination rates over a storage period. For garden centres and seed retailers packaging organic varieties under their own brand, our [guide to cotton seed bags for garden centres and seed companies](/blogs/cotton-seed-bags-garden-centers-seed-companies) covers display specifications, OEKO-TEX requirements, and seasonal sourcing that consumer-facing organic seed products need.
 
 ---
 
@@ -137,7 +137,7 @@ Cotton seed bags for organic farming are produced in India at significantly lowe
 
 **Minimum Order Quantity:** Typically 3,000 to 5,000 units per size and specification for standard plain bags. Custom printed or certified organic bags may have higher MOQs (5,000 to 10,000 units) due to the setup requirements for certified dyestuff and printing processes.
 
-**Lead Time:** 25 to 35 days from order confirmation to port loading for standard orders. GOTS-certified production may add 5 to 10 days if the manufacturer needs to flush processing lines to prevent cross-contamination. Allow 18 to 22 days additional for sea freight to the US East Coast; 20 to 28 days to the UK.
+**Lead Time:** 25 to 35 days from order confirmation to port loading for standard orders. GOTS-certified production may add 5 to 10 days if the manufacturer needs to flush processing lines to prevent cross-contamination. Allow 18 to 22 days additional for sea freight to the US East Coast; 20 to 28 days to the UK. For UK buyers, our [cotton seed bags UK buyers guide](/blogs/cotton-seed-bags-uk-buyers-guide) covers UK-specific port logistics, customs duty rates, and the certification documentation UK retailers typically require.
 
 **Samples:** Most Indian manufacturers will provide pre-production samples (typically 20 to 50 units) for quality approval before bulk production. Request samples with the exact material, weight, and drawstring specification you intend to order.
 

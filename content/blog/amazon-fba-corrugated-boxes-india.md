@@ -46,7 +46,7 @@ Amazon's Seller Central outlines the following requirements for FBA shipment box
 
 The FBA requirements above translate into specific corrugated box characteristics:
 
-**ECT (Edge Crush Test) rating:** Amazon recommends boxes with a minimum ECT of 32 lb/in for most products. For heavy items or boxes stacked high in a container, ECT 44 or ECT 51 board is safer. Indian manufacturers can produce any ECT rating - you must specify it.
+**ECT (Edge Crush Test) rating:** Amazon recommends boxes with a minimum ECT of 32 lb/in for most products. For heavy items or boxes stacked high in a container, ECT 44 or ECT 51 board is safer. Indian manufacturers can produce any ECT rating - you must specify it. For a full explanation of how GSM, flute type, and ECT ratings interact when reading board specifications, our [corrugated box sizes and grades guide](/blogs/corrugated-box-sizes-grades-buyers-guide) covers the key variables in detail.
 
 **Burst strength (Mullen test):** Older US packaging standards use Mullen burst ratings rather than ECT. For an equivalent reference: ECT 32 roughly corresponds to 200 lb/sq inch Mullen test board. Indian manufacturers typically use GSM-based specifications for liner weight but can reference Mullen or ECT ratings on test certificates.
 
@@ -142,4 +142,4 @@ For detailed corrugated specifications by box type, see our pages on [RSC corrug
 
 Whizzpack manufactures RSC corrugated boxes in C flute, BC double wall, and B flute at our factory in Rajkot, Gujarat. We export factory-direct to FBA sellers and importers across the US and UK, with ECT and burst strength test certificates supplied with every order.
 
-If you are specifying FBA boxes for the first time or moving from a domestic supplier to factory-direct from India, visit our [corrugated boxes page](/corrugated-boxes) to start a conversation. We will review your ASIN dimensions, suggest a board specification, and send samples before any production commitment.
+If you are specifying FBA boxes for the first time or moving from a domestic supplier to factory-direct from India, our [guide to finding and vetting a corrugated box manufacturer in India](/blogs/corrugated-box-manufacturer-india-guide) walks through the qualification process, red flags to watch for, and the sample approval steps. Visit our [corrugated boxes page](/corrugated-boxes) to start a conversation. We will review your ASIN dimensions, suggest a board specification, and send samples before any production commitment.

@@ -8,7 +8,7 @@ excerpt: "US pizzerias and distributors are increasingly importing pizza boxes d
 ogImage: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
 ---
 
-Pizza boxes are one of the highest-volume, highest-frequency consumables in the food service industry. A busy pizzeria can go through thousands of boxes every week. For independent operators, regional chains, and food service distributors, the cost of boxes directly affects the margin on every single order. That is why more and more US buyers are looking to import pizza boxes from India rather than buying through domestic distributors.
+Pizza boxes are one of the highest-volume, highest-frequency consumables in the food service industry. A busy pizzeria can go through thousands of boxes every week. For independent operators, regional chains, and food service distributors, the cost of boxes directly affects the margin on every single order. That is why more and more US buyers are looking to import pizza boxes from India rather than buying through domestic distributors. For fast food operators needing a broader range of food service packaging including burger boxes, pastry cartons, and delivery parcels alongside pizza boxes, our [guide to corrugated boxes for fast food restaurants](/blogs/corrugated-boxes-fast-food-restaurants) covers the full range of applications and specifications.
 
 This guide explains what that process actually looks like, what you need to specify, what to watch out for, and how to ensure the boxes you receive are food-safe and print-ready.
 

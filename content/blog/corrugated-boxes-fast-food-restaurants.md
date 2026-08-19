@@ -140,7 +140,7 @@ A franchise network with 10 to 15 locations running a standard pizza box specifi
 5. Clear customs and receive stock into your warehouse or distribution centre
 6. Replenish with a rolling order cycle to maintain stock cover
 
-For growing chains and multi-location franchise operators, this is a standard procurement process. The investment in setup - approving samples, sourcing a freight forwarder, setting up customs documentation - pays off from the first container.
+For growing chains and multi-location franchise operators, this is a standard procurement process. The investment in setup - approving samples, sourcing a freight forwarder, setting up customs documentation - pays off from the first container. UK-based restaurant chains and franchise operators can find detail on customs clearance, EPR compliance, and port logistics specific to UK imports in our [corrugated boxes UK import guide](/blogs/corrugated-boxes-uk-import-guide).
 
 We supply [corrugated boxes](/corrugated-boxes) to food service operators, distributors, and franchise networks in the US, UK, Australia, and the Middle East. Our production is based in Rajkot, Gujarat, with access to one of India's largest concentrations of corrugated manufacturing capacity.
 

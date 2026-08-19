@@ -65,7 +65,7 @@ The term "muslin" covers a range of weights and weave densities. When ordering w
 - Size: 15cm x 20cm to 40cm x 55cm depending on seed volume
 - Printing: brand name, variety, lot number
 
-For more on the performance comparison between cotton and plastic in seed storage, see our guide on [cotton bags vs plastic bags for seed storage](/blogs/cotton-bags-vs-plastic-bags-seed-storage).
+For more on the performance comparison between cotton and plastic in seed storage, see our guide on [cotton bags vs plastic bags for seed storage](/blogs/cotton-bags-vs-plastic-bags-seed-storage). For a detailed breakdown of construction, sizing, and closure options specific to seed applications, our [drawstring cotton seed bags guide](/blogs/drawstring-cotton-seed-bags-guide) covers everything from fabric weight to cord specifications and print options.
 
 ### Promotional Merchandise and Event Favours
 
@@ -154,4 +154,4 @@ Whizzpack manufactures cotton bags at our factory in Rajkot, including muslin an
 ![Industrial looms with large spools of white cotton thread used to produce plain-weave muslin fabric for wholesale bag manufacturing and export](https://images.unsplash.com/photo-1758270804188-8ca0b6d254bc?w=900&auto=format&fit=crop&q=80)
 *Printed muslin bags serve double duty as packaging and marketing material. A well-designed bag carries your brand through every use the customer finds for it.*
 
-Visit our [cotton seed bags page](/cotton-seed-bags) to start a conversation about muslin bag specifications. We supply both agricultural formats and retail-grade bags, with printing and certification options available. Related product pages: [drawstring cotton seed bags](/cotton-seed-bags/drawstring) and [custom printed cotton seed bags](/cotton-seed-bags/custom-printed).
+Visit our [cotton seed bags page](/cotton-seed-bags) to start a conversation about muslin bag specifications. We supply both agricultural formats and retail-grade bags, with printing and certification options available. For a complete guide to sourcing cotton bags factory-direct from India, including supplier evaluation, the sample process, and export documentation, see our [cotton seed bags sourcing guide for US and UK buyers](/blogs/sourcing-cotton-seed-bags-from-india). Related product pages: [drawstring cotton seed bags](/cotton-seed-bags/drawstring) and [custom printed cotton seed bags](/cotton-seed-bags/custom-printed).

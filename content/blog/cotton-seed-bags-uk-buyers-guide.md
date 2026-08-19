@@ -37,7 +37,7 @@ Cotton seed bags have fewer technical parameters than corrugated boxes, but gett
 
 **Weave type.** Standard plain-weave muslin is the most common for lightweight seed bags. Canvas weave (tighter, heavier) is used for bulk bags. Drill weave sits between the two in weight and tightness. If the bag will be printed, specify a tight weave with a smooth surface - this takes screen and digital print better.
 
-**Closure type.** Drawstring closures (cotton cord threaded through a casing at the top) are the most common for retail seed bags. Tie-top closures (two fabric ties sewn at the opening) are simpler and cheaper. Sewn-shut closures are used for single-use bulk sacks. If your bags will be resealable for customer use, specify drawstring.
+**Closure type.** Drawstring closures (cotton cord threaded through a casing at the top) are the most common for retail seed bags. Tie-top closures (two fabric ties sewn at the opening) are simpler and cheaper. Sewn-shut closures are used for single-use bulk sacks. If your bags will be resealable for customer use, specify drawstring. Our [drawstring cotton seed bags guide](/blogs/drawstring-cotton-seed-bags-guide) covers cord specifications, seam construction, and sizing options for different seed applications.
 
 **Organic certification.** If you need GOTS-certified bags, specify at the inquiry stage. GOTS certification covers the entire production chain - cotton farming, ginning, spinning, weaving, and sewing - and each stage requires certified processors. Not all Indian manufacturers have full GOTS chain-of-custody. Ask to see the current GOTS certificate and verify the certificate number on the GOTS public database (global-standard.org). For OCS (Organic Content Standard), the certification covers only the fibre content, not processing inputs - it is a weaker claim but still verifiable.
 
@@ -72,7 +72,7 @@ A typical first order timeline from inquiry to UK warehouse:
 - Sea freight Mundra to Felixstowe: 18-22 days
 - UK customs clearance and inland delivery: 2-5 working days
 
-Allow 12-14 weeks for a first order. Eco-certified materials (GOTS, OCS) may add 5-8 days to production, as the manufacturer may need to pre-order certified inputs.
+Allow 12-14 weeks for a first order. Eco-certified materials (GOTS, OCS) may add 5-8 days to production, as the manufacturer may need to pre-order certified inputs. For a full stage-by-stage breakdown of the import timeline covering both corrugated boxes and cotton bags, our [India packaging lead times guide](/blogs/india-packaging-lead-times-shipping-guide) details realistic figures for each step from enquiry through warehouse delivery.
 
 Repeat orders, once specification is fixed, typically run 8-10 weeks from purchase order to delivery.
 

@@ -155,6 +155,8 @@ These are typical direct or one-transshipment routings. Services with multiple t
 - Standard clearance: 1 to 3 business days for packaging goods
 - Delivery from port to warehouse: 1 to 3 days
 
+For UK-specific detail on port options, customs duty rates, and EPR compliance documentation for both corrugated boxes and cotton bags, see our [corrugated boxes UK import guide](/blogs/corrugated-boxes-uk-import-guide) and [cotton seed bags UK buyers guide](/blogs/cotton-seed-bags-uk-buyers-guide).
+
 **Total destination handling:** 7 to 14 days from vessel arrival to goods in warehouse.
 
 ---

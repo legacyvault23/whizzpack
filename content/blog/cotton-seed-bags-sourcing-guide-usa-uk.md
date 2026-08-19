@@ -18,7 +18,7 @@ But if you're new to sourcing from India, the process can feel uncertain. Here's
 
 "Cotton seed bags" covers a wider range than most buyers initially expect:
 
-**Drawstring pouches**: Lightweight, compact bags suited to retail seed packaging and promotional gifting. Usually 100 to 120 GSM fabric.
+**Drawstring pouches**: Lightweight, compact bags suited to retail seed packaging and promotional gifting. Usually 100 to 120 GSM fabric. For a complete breakdown of drawstring bag construction, fabric weights, cord specifications, and seed-type matching, see our [drawstring cotton seed bags guide](/blogs/drawstring-cotton-seed-bags-guide).
 
 **Cotton muslin bags**: Versatile and breathable, these work well for seeds, herbs, and food-adjacent applications. Often unbleached for a natural appearance.
 

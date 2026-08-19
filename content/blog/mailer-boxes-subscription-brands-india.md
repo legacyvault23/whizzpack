@@ -22,7 +22,7 @@ A mailer box (also called a rigid mailer, self-locking shipper, or crash-lock bo
 
 For subscription brands, the key specification parameters are:
 
-**Board type:** E-flute corrugated (1.5mm) is the most common for mailer boxes. It is thinner than standard shipping corrugated, which means it takes print exceptionally well while still providing structure. B-flute (3.5mm) is used for heavier products where more cushioning is needed. Paperboard (non-corrugated) is an option for lightweight items at very high volumes.
+**Board type:** E-flute corrugated (1.5mm) is the most common for mailer boxes. It is thinner than standard shipping corrugated, which means it takes print exceptionally well while still providing structure. B-flute (3.5mm) is used for heavier products where more cushioning is needed. Paperboard (non-corrugated) is an option for lightweight items at very high volumes. The structural trade-offs between E-flute, B-flute, and other profiles are covered in our [B, C, and E flute comparison guide](/blogs/b-flute-vs-c-flute-vs-e-flute-corrugated-boxes), which explains how each affects cushioning, print quality, and compression strength.
 
 **Print specification:** E-flute takes 4-colour process (CMYK) printing cleanly, allowing photographic imagery and complex brand designs. Litho-laminated construction - where a full-colour printed sheet is laminated onto the corrugated board - is the premium option for brands requiring the sharpest colour accuracy and widest design freedom. Standard flexo print on E-flute is adequate for 1 to 4 colour designs and significantly cheaper.
 
@@ -45,7 +45,7 @@ Three advantages stand out for subscription brands specifically:
 
 **Customisation without premium.** Domestic box suppliers often treat custom sizes or closure modifications as exceptions requiring additional tooling fees and extended timelines. Indian manufacturers with in-house die-cutting treat custom dimensions as standard. If your product is an unusual size, an Indian factory will tool a die to match it - typically within the standard lead time.
 
-**Eco credentials.** Many subscription brands carry sustainability commitments to their customers. FSC-certified corrugated board, water-based inks, and recyclable materials are all standard options from quality Indian manufacturers. For brands that communicate their packaging choices to subscribers, the ability to state FSC certification on the box itself is a meaningful credential.
+**Eco credentials.** Many subscription brands carry sustainability commitments to their customers. FSC-certified corrugated board, water-based inks, and recyclable materials are all standard options from quality Indian manufacturers. For brands that communicate their packaging choices to subscribers, the ability to state FSC certification on the box itself is a meaningful credential. Brands considering a returnability element alongside their outbound mailer programme may also find value in our guide on [returnable and reusable packaging for e-commerce](/blogs/returnable-reusable-packaging-ecommerce-india), which covers multi-trip specifications and reclosable closure options.
 
 ## Specifications to Get Right
 

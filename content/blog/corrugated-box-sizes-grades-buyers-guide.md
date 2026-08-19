@@ -49,7 +49,7 @@ The flute  -  the wave-shaped corrugated layer  -  determines how the box handle
 
 **C-flute (4mm thick):** The most widely used flute type globally. Balances cushioning, stacking strength, and printability. If you are ordering general-purpose corrugated boxes from India, you are most likely getting C-flute unless specified otherwise.
 
-**B-flute vs C-flute:** C-flute provides slightly better top-to-bottom stacking strength; B-flute offers better flat crush resistance and is more material-efficient. For most export applications, C-flute is the correct default.
+**B-flute vs C-flute:** C-flute provides slightly better top-to-bottom stacking strength; B-flute offers better flat crush resistance and is more material-efficient. For most export applications, C-flute is the correct default. For a comprehensive comparison of B, C, E, and BC double-wall flute profiles including cushioning performance, print suitability, and when to use each, see our [B, C, and E flute comparison guide](/blogs/b-flute-vs-c-flute-vs-e-flute-corrugated-boxes).
 
 **E-flute (1.5mm):** Very thin. Used primarily for retail cartons and packaging inserts, not for shipping boxes. If you receive a quote for E-flute corrugated, confirm it is for the intended application.
 

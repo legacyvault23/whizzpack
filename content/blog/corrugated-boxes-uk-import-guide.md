@@ -108,7 +108,7 @@ A manufacturer with genuine UK export experience will answer these directly and 
 
 Whizzpack manufactures corrugated boxes and cotton seed bags at our own facility in Rajkot, Gujarat. We supply UK importers directly with no broker margin in the supply chain.
 
-Our corrugated box range covers RSC boxes, double wall heavy-duty construction, and custom printed options. FSC-certified board is available on request. We provide full export documentation including GSM test reports, Certificate of Origin, and commercial invoices in the format UK customs requires.
+Our corrugated box range covers RSC boxes, double wall heavy-duty construction, and custom printed options. For UK subscription brands and DTC retailers sourcing custom mailer boxes, our [mailer boxes for subscription brands guide](/blogs/mailer-boxes-subscription-brands-india) covers E-flute specifications, print options, and lead time planning. FSC-certified board is available on request. We provide full export documentation including GSM test reports, Certificate of Origin, and commercial invoices in the format UK customs requires.
 
 For UK buyers placing a first order, we recommend starting with a sample request. We ship samples by air freight and can typically have them with you within 10-14 working days. Visit our [corrugated boxes page](/corrugated-boxes) to see the full range, or use the [contact form](/corrugated-boxes) to start a conversation about your requirements.
 

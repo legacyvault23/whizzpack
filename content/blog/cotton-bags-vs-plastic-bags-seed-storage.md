@@ -60,7 +60,7 @@ Plastic is not without merit. There are specific contexts where it remains the b
 
 **Premium and branded seed products:** Seed companies selling to conscious farmers or retailers increasingly use cotton bags as a quality signal. A seed product in a natural cotton bag communicates quality, craft, and care for the product in a way that a plastic bag does not.
 
-**Retail and point-of-sale appeal:** For seed companies selling through garden centres, farm supply retailers, or online direct-to-consumer, cotton bags photograph better, feel better in the hand, and command higher perceived value.
+**Retail and point-of-sale appeal:** For seed companies selling through garden centres, farm supply retailers, or online direct-to-consumer, cotton bags photograph better, feel better in the hand, and command higher perceived value. Our [guide to cotton seed bags for garden centres and seed companies](/blogs/cotton-seed-bags-garden-centers-seed-companies) covers the display specifications, certification requirements, and seasonal sourcing timelines that retail-facing seed brands need to plan for.
 
 **Sustainability credentials:** Cotton bags are biodegradable, compostable, and reusable. Farmers who buy seed in cotton bags often reuse them for storage, labelling, or transplanting. This is a genuine supply chain sustainability benefit.
 
@@ -93,7 +93,7 @@ Not all cotton bags are equivalent. The specification matters for seed storage:
 
 The environmental case for cotton over plastic in seed storage is not just a marketing angle. It is a genuine lifecycle difference:
 
-**End of life:** A cotton seed bag that goes to landfill will biodegrade in 1 to 5 months. A plastic bag will persist for 200 to 500 years. For agricultural applications where bags end up in fields, this difference is significant.
+**End of life:** A cotton seed bag that goes to landfill will biodegrade in 1 to 5 months. A plastic bag will persist for 200 to 500 years. For agricultural applications where bags end up in fields, this difference is significant. For operations that also use jute bags alongside cotton, our [jute vs cotton seed bags comparison](/blogs/jute-vs-cotton-seed-bags-comparison) covers how the two materials compare on breathability, certifications, and lifecycle sustainability.
 
 **Reusability:** Cotton bags are routinely reused by farmers. A bag purchased for seed storage becomes a storage bag for harvested seed, a sample bag, a label bag, or even a cloth bag for other farm uses. Plastic bags rarely achieve this kind of extended use.
 

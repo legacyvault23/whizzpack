@@ -55,7 +55,7 @@ For first-time importers, here's a realistic timeline:
 
 **Production** (3–5 weeks): Lead times vary by complexity. Custom-printed or multi-layer orders take longer than standard items.
 
-**Sea freight** (3–5 weeks): India to US East Coast is roughly 25–30 days. India to UK and Northern Europe is 18–25 days.
+**Sea freight** (3–5 weeks): India to US East Coast is roughly 25–30 days. India to UK and Northern Europe is 18–25 days. Our [India packaging lead times guide](/blogs/india-packaging-lead-times-shipping-guide) maps out current transit times and port-specific details for both markets.
 
 **Customs and delivery** (1–2 weeks): Allow time for customs clearance and final-mile delivery.
 
@@ -73,7 +73,7 @@ Total time from first contact to goods at your warehouse: **3–5 months** for a
 
 ## Is It Right for Your Business?
 
-Companies ordering meaningful volumes who need specifications that domestic suppliers won't accommodate tend to be the ones who benefit most from sourcing in India. The economics are compelling for repeatable orders, and the flexibility available from specialist manufacturers is often unavailable closer to home.
+Companies ordering meaningful volumes who need specifications that domestic suppliers won't accommodate tend to be the ones who benefit most from sourcing in India. The economics are compelling for repeatable orders, and the flexibility available from specialist manufacturers is often unavailable closer to home. For buyers in the UK, our [guide to importing corrugated boxes from the UK](/blogs/corrugated-boxes-uk-import-guide) covers UK port logistics, customs duties, and EPR compliance in detail.
 
 The lowest-risk way to find out if it works for you is to request samples. No commitment, just a direct read on quality, which is the only thing that actually matters.
 
