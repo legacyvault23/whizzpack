@@ -234,14 +234,7 @@ export default function CorrugatedBoxVariant({ navHtml, footerHtml, page, slug }
           "addressCountry": "IN"
         }
       },
-      "image": page.ogImage,
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "USD",
-        "availability": "https://schema.org/InStock",
-        "seller": { "@type": "Organization", "name": "Whizzpack" }
-      },
-      "hasMerchantReturnPolicy": { "@type": "MerchantReturnPolicy", "applicableCountry": ["US","GB"] }
+      "image": page.ogImage
     },
     {
       "@context": "https://schema.org",
