@@ -139,7 +139,7 @@ A standard export shipment includes: commercial invoice, packing list, bill of l
 
 **Do corrugated boxes from India comply with US or UK packaging regulations?**
 
-Indian manufacturers exporting to the US and UK are familiar with the relevant requirements, including ISPM 15 for wood packaging materials (relevant if wooden pallets are included), and standard customs documentation requirements. For food-contact applications, ask specifically about food-safe liner options and request the relevant documentation. Most experienced exporters can supply this; confirm before ordering rather than after.
+Indian manufacturers exporting to the US and UK are familiar with the relevant requirements, including ISPM 15 for wood packaging materials (relevant if wooden pallets are included), and standard customs documentation requirements. For food-contact applications, ask specifically about food-safe liner options and request the relevant documentation. Most experienced exporters can supply this; confirm before ordering rather than after. Supplement brands and pharmaceutical importers with specific food-safe liner and low-migration ink requirements will find our dedicated guide to [corrugated boxes for pharmaceutical and nutraceutical brands](/blogs/corrugated-boxes-pharmaceutical-nutraceutical-packaging) useful for understanding exactly what to specify.
 
 If you are still finalising your specification, two related guides will help: [single wall vs double wall corrugated boxes](/blogs/single-wall-vs-double-wall-corrugated-boxes) for choosing the right construction, and our [custom printed boxes buyer's guide](/blogs/custom-printed-boxes-with-logo-buyers-guide) if branding is part of your plan.
 

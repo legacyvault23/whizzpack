@@ -100,7 +100,7 @@ Note that humidity significantly reduces corrugated strength. In humid sea freig
 
 The paper grades used in the liner and medium affect both strength and cost. For heavy-duty export applications, specify:
 
-**Kraft liner:** Made from virgin or semi-virgin kraft pulp. Higher burst and tear strength than recycled paper at the same weight. Recommended for the outer liner when the box will face rough handling, moisture, or heavy stacking.
+**Kraft liner:** Made from virgin or semi-virgin kraft pulp. Higher burst and tear strength than recycled paper at the same weight. Recommended for the outer liner when the box will face rough handling, moisture, or heavy stacking. Virgin kraft liner is also the standard choice for pharmaceutical and nutraceutical secondary packaging; the full food-safe specification is covered in our [corrugated boxes for supplement brands guide](/blogs/corrugated-boxes-pharmaceutical-nutraceutical-packaging).
 
 **Test liner:** Made from recycled paper. Lower cost, acceptable for inner liners and less demanding applications. Most eco-friendly corrugated boxes use test liner for the inner plies with kraft liner on the outer face.
 
