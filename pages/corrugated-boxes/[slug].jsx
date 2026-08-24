@@ -237,8 +237,10 @@ export default function CorrugatedBoxVariant({ navHtml, footerHtml, page, slug }
       "image": page.ogImage,
       "offers": {
         "@type": "Offer",
+        "price": "0",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
+        "priceValidUntil": "2099-12-31",
         "seller": {"@type": "Organization", "name": "Whizzpack"},
         "eligibleRegion": [
           {"@type": "Country", "name": "United States"},

@@ -248,8 +248,10 @@ export default function CottonSeedBagVariant({ navHtml, footerHtml, page, slug }
       "material": "Cotton",
       "offers": {
         "@type": "Offer",
+        "price": "0",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
+        "priceValidUntil": "2099-12-31",
         "seller": {"@type": "Organization", "name": "Whizzpack"},
         "eligibleRegion": [
           {"@type": "Country", "name": "United States"},
