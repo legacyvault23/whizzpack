@@ -149,7 +149,7 @@ The most common mistake first-time importers make is underestimating the total t
 
 Air freight is available and reduces transit from 18 to 22 days to 5 to 7 days, but at significantly higher freight cost per unit. It is worth considering for sample shipments and urgent first orders while you establish the supply relationship.
 
-![Close-up of cotton bag fabric with screen-printed botanical design](https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=1200&q=80&auto=format&fit=crop)
+![Close-up of cotton bag fabric with screen-printed botanical design](https://images.pexels.com/photos/3850538/pexels-photo-3850538.jpeg?auto=compress&cs=tinysrgb&w=1200)
 *Screen printing on natural cotton produces a warm, artisanal aesthetic that resonates with premium garden brands*
 
 ---

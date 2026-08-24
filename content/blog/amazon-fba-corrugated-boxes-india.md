@@ -11,7 +11,7 @@ Amazon FBA has strict packaging and labelling requirements. Sellers who source t
 
 This guide walks through Amazon's FBA corrugated box requirements, how to translate them into a factory specification, and what to ask an Indian manufacturer before placing your first order.
 
-![A large warehouse filled with lots of corrugated boxes ready for Amazon FBA fulfilment and distribution](https://images.unsplash.com/photo-1684695749267-233af13276d0?w=900&auto=format&fit=crop&q=80)
+![A large warehouse filled with lots of corrugated boxes ready for Amazon FBA fulfilment and distribution](https://images.pexels.com/photos/5025503/pexels-photo-5025503.jpeg?auto=compress&cs=tinysrgb&w=1200)
 *Amazon fulfilment centres receive millions of boxes every week. Getting the specification right before production saves costly returns and compliance failures.*
 
 ---
@@ -56,7 +56,7 @@ The FBA requirements above translate into specific corrugated box characteristic
 
 **Plain brown vs. printed:** FBA boxes can be plain kraft brown or printed. If you want your brand visible on the outside, specify one-colour or two-colour flexographic printing. Avoid printing that covers the entire panel if you need the FBA label area to remain clean white/kraft.
 
-![Open brown corrugated RSC boxes ready for packing in a fulfilment warehouse - the standard Amazon FBA box format](https://images.unsplash.com/photo-1700165644892-3dd6b67b25bc?w=900&auto=format&fit=crop&q=80)
+![Open brown corrugated RSC boxes ready for packing in a fulfilment warehouse - the standard Amazon FBA box format](https://images.pexels.com/photos/27200468/pexels-photo-27200468.jpeg?auto=compress&cs=tinysrgb&w=1200)
 *RSC boxes are the standard Amazon FBA format. The four flaps on each end meet at the centre, providing a clean, secure closure that seals easily with standard tape.*
 
 ---

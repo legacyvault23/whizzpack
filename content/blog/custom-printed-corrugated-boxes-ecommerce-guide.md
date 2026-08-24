@@ -5,7 +5,7 @@ date: "2026-08-13"
 tags: ["corrugated boxes", "custom packaging", "e-commerce packaging", "India sourcing", "sustainable packaging"]
 author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
-image: "https://images.unsplash.com/photo-1684695749267-233af13276d0?w=1200&q=80"
+image: "https://images.pexels.com/photos/31438304/pexels-photo-31438304.jpeg?auto=compress&cs=tinysrgb&w=1200"
 ---
 
 For e-commerce brands shipping products globally, packaging is not just a protective layer - it is the first physical touchpoint a customer has with your brand. Custom printed corrugated boxes from India offer a compelling combination of quality, variety, and competitive pricing that has attracted buyers from the UK, USA, Australia, and Europe for decades.
@@ -14,7 +14,7 @@ This guide walks you through everything you need to know before placing your fir
 
 ---
 
-![Shelves full of corrugated boxes in a warehouse ready for e-commerce fulfilment](https://images.unsplash.com/photo-1684695749267-233af13276d0?w=1200&q=80)
+![Shelves full of corrugated boxes in a warehouse ready for e-commerce fulfilment](https://images.pexels.com/photos/31438304/pexels-photo-31438304.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 ## Why Source Custom Corrugated Boxes from India?
 
@@ -65,7 +65,7 @@ Digital printing on corrugated is a newer option gaining traction for short runs
 
 ---
 
-![A production line printing custom corrugated boxes at a modern Indian manufacturing facility](https://images.unsplash.com/photo-1553413077-190dd305871c?w=1200&q=80)
+![A production line printing custom corrugated boxes at a modern Indian manufacturing facility](https://images.pexels.com/photos/6169055/pexels-photo-6169055.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 ## Key Specifications to Define Before Requesting a Quote
 
@@ -125,7 +125,7 @@ At Whizzpack, all corrugated box exports use FSC-certified board and water-based
 
 ---
 
-![A corrugated shipping box with FSC recycling certification mark representing eco-friendly packaging sourced from India](https://images.unsplash.com/photo-1654078054613-a56cfcabdb84?w=1200&q=80)
+![A corrugated shipping box with FSC recycling certification mark representing eco-friendly packaging sourced from India](https://images.pexels.com/photos/4841374/pexels-photo-4841374.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 ## Quality Standards and Testing
 

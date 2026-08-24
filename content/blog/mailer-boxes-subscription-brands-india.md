@@ -5,7 +5,7 @@ author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
 tags: ["mailer boxes", "subscription box packaging", "custom printed boxes", "DTC packaging", "India export", "corrugated boxes"]
 excerpt: "Subscription brands live or die by their unboxing experience. Sourcing mailer boxes direct from India gives DTC businesses control over print quality, design, and unit cost at the volumes that actually matter."
-ogImage: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=1200&auto=format&fit=crop&q=80"
+ogImage: "https://images.pexels.com/photos/7801874/pexels-photo-7801874.jpeg?auto=compress&cs=tinysrgb&w=1200"
 ---
 
 For subscription box brands and direct-to-consumer retailers, the box is part of the product. Customers film unboxings, share them on social media, and return partly because of the tactile experience of opening something that feels considered. A flimsy, generic brown box signals the opposite of what premium subscription brands want to say.
@@ -32,7 +32,7 @@ For subscription brands, the key specification parameters are:
 
 **Closure type:** The two main options are tuck-end (the top flap tucks into the front panel) and magnetic closure. Magnetic closures use embedded magnets in the lid and base - they are more premium, more expensive, and require a longer lead time. Tuck-end is adequate for most subscription box applications.
 
-![Custom printed corrugated packaging for direct-to-consumer brands showing premium unboxing presentation](https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=900&auto=format&fit=crop&q=80)
+![Custom printed corrugated packaging for direct-to-consumer brands showing premium unboxing presentation](https://images.pexels.com/photos/7801874/pexels-photo-7801874.jpeg?auto=compress&cs=tinysrgb&w=1200)
 *E-flute corrugated mailer boxes with CMYK print give subscription brands control over brand presentation at scale.*
 
 ## Why India for Mailer Boxes
@@ -72,7 +72,7 @@ For quarterly subscription box programmes, order 12-14 weeks ahead of your dispa
 
 The key discipline is decoupling your artwork/design calendar from your production calendar. Lock artwork 4 weeks before production begins. Production runs concurrently with your design finalisation for the following cycle.
 
-![Sea freight container ship crossing the ocean transporting export goods from India to US and UK markets](https://images.unsplash.com/photo-1634055789731-c73fbbe3e0dc?w=900&auto=format&fit=crop&q=80)
+![Sea freight container ship crossing the ocean transporting export goods from India to US and UK markets](https://images.pexels.com/photos/6958448/pexels-photo-6958448.jpeg?auto=compress&cs=tinysrgb&w=1200)
 *Sea freight from Mundra Port to US East Coast takes 22-28 days. Plan a rolling inventory of 12-14 weeks to keep the subscription programme running without stock-outs.*
 
 ## What to Ask a Supplier

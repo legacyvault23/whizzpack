@@ -5,7 +5,7 @@ author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US, UK, and the Middle East. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
 tags: ["corrugated boxes", "fast food packaging", "pizza boxes", "burger boxes", "food packaging India", "franchise packaging", "to-go packaging", "food delivery boxes"]
 excerpt: "Fast food restaurants, QSR chains, and food franchises go through enormous volumes of packaging every month. Corrugated boxes from India offer food-safe construction, full custom printing, and the kind of bulk pricing that makes sense at scale."
-ogImage: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
+ogImage: "https://images.pexels.com/photos/4628431/pexels-photo-4628431.jpeg?auto=compress&cs=tinysrgb&w=1200"
 ---
 
 Fast food is a volume business. Every pizza, every burger, every pastry and every parcel that leaves your kitchen needs a box. Multiply that across a busy outlet doing 400 to 600 covers a day, or across a franchise network with dozens of locations, and packaging becomes one of the highest-frequency consumable costs in the operation.
@@ -14,7 +14,7 @@ Most fast food operators buy boxes through local distributors. Some make do with
 
 This guide covers why corrugated is the right material for fast food packaging, what the common box types look like across pizza, burgers, hotdogs, pastries, and delivery parcels, and how direct sourcing from an Indian corrugated manufacturer works for food businesses ordering at scale.
 
-![Freshly prepared pizza ready for packaging](https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80)
+![Freshly prepared pizza ready for packaging](https://images.pexels.com/photos/4628431/pexels-photo-4628431.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 ## Why Corrugated Is the Right Material for Fast Food
 
@@ -84,7 +84,7 @@ Corrugated boxes work well here for several reasons:
 
 For food businesses scaling up their delivery operations, investing in a standard delivery box specification - one that holds your most common order combinations - and ordering it in bulk is one of the more impactful packaging decisions you can make.
 
-![Eco-friendly corrugated box with recycle symbol - recyclable food packaging](https://images.unsplash.com/photo-1654078054613-a56cfcabdb84?w=1200&auto=format&fit=crop&q=80)
+![Eco-friendly corrugated box with recycle symbol - recyclable food packaging](https://images.pexels.com/photos/9685241/pexels-photo-9685241.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 ## Eco-Friendly Credentials for Food Packaging
 
@@ -127,7 +127,7 @@ The practical requirements for custom printing:
 
 The economics of direct import from a corrugated manufacturer work best when volumes are consistent and predictable. For fast food chains and franchise operators, this is usually the case.
 
-![Warehouse stocked with corrugated boxes ready for bulk food service orders](https://images.unsplash.com/photo-1553413077-190dd305871c?w=1200&auto=format&fit=crop&q=80)
+![Warehouse stocked with corrugated boxes ready for bulk food service orders](https://images.pexels.com/photos/12725414/pexels-photo-12725414.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 A franchise network with 10 to 15 locations running a standard pizza box specification, for example, will consume a large number of boxes per month. Buying through a distributor means paying a distributor margin on every single box. Buying direct from the manufacturer eliminates that margin layer, with the trade-off of managing an import process and carrying some inventory.
 

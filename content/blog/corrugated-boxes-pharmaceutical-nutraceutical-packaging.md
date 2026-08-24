@@ -5,7 +5,7 @@ author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US, UK, and the Middle East. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
 tags: ["corrugated boxes", "pharmaceutical packaging", "nutraceutical packaging", "supplement packaging", "secondary packaging India", "food-grade corrugated", "export packaging", "health product packaging"]
 excerpt: "Supplement brands, vitamin companies, and health product importers in the USA and UK go through enormous volumes of corrugated secondary packaging every year. Sourcing factory-direct from India offers consistent specification, food-safe construction, and the scale needed for a growing brand."
-ogImage: "https://images.unsplash.com/photo-1684695749267-233af13276d0?w=1200&auto=format&fit=crop&q=80"
+ogImage: "https://images.pexels.com/photos/8940739/pexels-photo-8940739.jpeg?auto=compress&cs=tinysrgb&w=1200"
 ---
 
 Pharmaceutical and nutraceutical brands have some of the most specific packaging requirements in any consumer category. A supplement bottle, a blister pack, a sachet box, or a retail display unit all need secondary corrugated packaging that is food-safe, dimensionally precise, strong enough to survive distribution, and printable to brand standards.
@@ -14,7 +14,7 @@ Most supplement brands in the USA and UK source their corrugated secondary packa
 
 This guide covers the types of corrugated secondary packaging used across pharma and nutraceutical supply chains, the material and food-safety requirements specific to this category, and how direct import from India works at scale.
 
-![Corrugated packaging boxes for pharmaceutical and nutraceutical brands](https://images.unsplash.com/photo-1684695749267-233af13276d0?w=1200&auto=format&fit=crop&q=80)
+![Corrugated packaging boxes for pharmaceutical and nutraceutical brands](https://images.pexels.com/photos/8940739/pexels-photo-8940739.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 ## What Secondary Packaging Means in Pharma and Nutraceuticals
 
@@ -88,7 +88,7 @@ At Whizzpack, we offer flexographic printing in 1 to 4 Pantone-matched colours a
 
 For supplement brands that need to update labelling - regulatory updates, reformulations, new market launches - our tooling system allows die-line modifications without full retooling costs on established SKUs. A detailed breakdown of the custom printing process is in our [custom printed boxes buyer's guide](/blogs/custom-printed-boxes-with-logo-buyers-guide).
 
-![Eco-friendly corrugated box with recycle symbol - sustainable pharmaceutical secondary packaging](https://images.unsplash.com/photo-1654078054613-a56cfcabdb84?w=1200&auto=format&fit=crop&q=80)
+![Eco-friendly corrugated box with recycle symbol - sustainable pharmaceutical secondary packaging](https://images.pexels.com/photos/10418013/pexels-photo-10418013.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 ## Eco-Friendly Credentials for Supplement Brands
 
@@ -104,7 +104,7 @@ Biodegradability is also a meaningful claim for this consumer category. Uncoated
 
 For supplement brands that have reached a volume where direct import from a corrugated manufacturer makes sense, the import process follows a clear sequence.
 
-![Warehouse stocked with corrugated boxes ready for pharmaceutical and nutraceutical bulk orders](https://images.unsplash.com/photo-1553413077-190dd305871c?w=1200&auto=format&fit=crop&q=80)
+![Warehouse stocked with corrugated boxes ready for pharmaceutical and nutraceutical bulk orders](https://images.pexels.com/photos/20187073/pexels-photo-20187073.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 **Specification agreement.** This covers dimensions (inner L x W x H for each SKU), flute type, board grade, liner specification (virgin or recycled, food-safe requirements), print colours, and any special coatings or treatments.
 

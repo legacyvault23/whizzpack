@@ -79,5 +79,5 @@ The lowest-risk way to find out if it works for you is to request samples. No co
 
 [Explore our packaging range or request samples →](https://www.whizzpack.in/)
 
-![A large amount of shipping containers stacked at a port](https://images.unsplash.com/photo-1678182451047-196f22a4143e?w=900&auto=format&fit=crop&q=80)
+![A large amount of shipping containers stacked at a port](https://images.pexels.com/photos/262353/pexels-photo-262353.jpeg?auto=compress&cs=tinysrgb&w=1200)
 *India handles a significant volume of packaging exports to the US and UK across multiple established sea freight routes.*

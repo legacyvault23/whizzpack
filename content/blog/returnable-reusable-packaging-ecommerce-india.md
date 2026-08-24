@@ -11,7 +11,7 @@ E-commerce packaging is designed to be opened once and thrown away. A single-use
 
 Returnable and reusable packaging is not a new idea, but it has become a practical option for e-commerce brands only in the last few years, as reverse logistics networks matured and reinforced corrugated solutions became easier to source at scale. This guide covers what returnable packaging actually means for an e-commerce operation, how the reverse logistics loop works, and what to specify when ordering reusable corrugated solutions from a manufacturer in India.
 
-![Open corrugated RSC boxes stacked in a fulfilment warehouse, ready for packing and reuse](https://images.unsplash.com/photo-1700165644892-3dd6b67b25bc?w=900&auto=format&fit=crop&q=80)
+![Open corrugated RSC boxes stacked in a fulfilment warehouse, ready for packing and reuse](https://images.pexels.com/photos/4440774/pexels-photo-4440774.jpeg?auto=compress&cs=tinysrgb&w=1200)
 *Warehouses processing high return volumes are the natural starting point for a returnable packaging programme - the infrastructure to receive, inspect, and reuse boxes is often already in place.*
 
 ---
@@ -45,7 +45,7 @@ A returnable packaging programme depends on getting the box back, which means re
 - **Inspection capacity at the receiving end** - someone or something has to check that a returned box is still structurally sound before it goes back into rotation. For high-volume operations this is often a visual check plus a compression spot-check on a sample basis.
 - **A recycling path for boxes that fail inspection** - reusable packaging is not meant to be reused indefinitely. Standard corrugated board is fully recyclable, so a box retired after its useful trips still has a lower environmental footprint than a single-use equivalent, provided it made more than one trip before retirement.
 
-![Shipping containers at an Indian port representing the export and logistics chain for packaging shipped from India](https://images.unsplash.com/photo-1678182451047-196f22a4143e?w=900&auto=format&fit=crop&q=80)
+![Shipping containers at an Indian port representing the export and logistics chain for packaging shipped from India](https://images.pexels.com/photos/20581299/pexels-photo-20581299.jpeg?auto=compress&cs=tinysrgb&w=1200)
 *Reverse logistics for reusable packaging works at any distance, but the loop is easiest to manage when the return leg is domestic. Boxes made in India and used for outbound export shipments are typically single-trip; reuse programmes work best within the destination market's own distribution network.*
 
 ---
@@ -74,7 +74,7 @@ The most common concern brands raise about reusable packaging is that reinforcin
 
 **Track return-and-reuse rates, not just return rates.** A packaging programme's environmental and operational value depends on how many boxes actually complete a second trip, not how many are technically returnable. Brands running early reusable packaging programmes typically find that participation rates need active management - clear instructions, an easy return process, and a visible incentive - before the loop delivers real material savings.
 
-![A worker inspecting corrugated board quality in a packaging factory](https://images.unsplash.com/photo-1681726267019-ce6433fd7b49?w=900&auto=format&fit=crop&q=80)
+![A worker inspecting corrugated board quality in a packaging factory](https://images.pexels.com/photos/8066787/pexels-photo-8066787.jpeg?auto=compress&cs=tinysrgb&w=1200)
 *Quality control at the board level determines whether a reinforced box will actually survive multiple trips. Request BCT test data specific to your dimensions and target trip count, not a generic board-grade claim.*
 
 ---

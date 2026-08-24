@@ -41,7 +41,7 @@ The environmental calculus does require context, though. Cotton is water-intensi
 
 **Recycled cotton**: Some manufacturers offer bags made from recycled cotton fibre, typically sourced from textile industry offcuts. Recycled cotton uses significantly less water than growing new fibre and diverts textile waste from landfill.
 
-![Natural cotton seed bags displayed in a row showing biodegradable and reusable packaging made from organic cotton](https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=900&auto=format&fit=crop&q=80)
+![Natural cotton seed bags displayed in a row showing biodegradable and reusable packaging made from organic cotton](https://images.pexels.com/photos/3850442/pexels-photo-3850442.jpeg?auto=compress&cs=tinysrgb&w=1200)
 *Natural cotton bags are biodegradable and built for reuse -- two qualities that matter to sustainability-conscious buyers in the US and UK.*
 
 ## How to Verify Eco Claims Before You Order
@@ -92,5 +92,5 @@ For product-specific details, see our full guides on [importing corrugated boxes
 
 [Request samples or ask about certified material options](/cotton-seed-bags)
 
-![Aerial view of a large cargo ship at sea representing export shipping from India to US and UK markets](https://images.unsplash.com/photo-1534430480872-3498386e7856?w=900&auto=format&fit=crop&q=80)
+![Aerial view of a large cargo ship at sea representing export shipping from India to US and UK markets](https://images.pexels.com/photos/7512806/pexels-photo-7512806.jpeg?auto=compress&cs=tinysrgb&w=1200)
 *Sea freight timelines from India: 18-22 days to the UK, 25-35 days to the US East Coast.*

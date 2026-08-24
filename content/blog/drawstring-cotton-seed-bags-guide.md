@@ -43,7 +43,7 @@ Fabric weight determines durability, print quality, and cost. A lighter muslin p
 
 **Printing.** Most drawstring cotton seed bags are screen printed or digitally printed. Screen printing is cost-effective at volume and produces crisp, durable results for logos, text, and limited-colour designs. Digital printing handles full-colour imagery and gradients but costs more per unit. For branded seed bags with a logo and variety label, screen printing in two to three colours is typically the right choice.
 
-![Rows of natural cotton fabric rolls in a manufacturing facility ready for cutting and sewing](https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=900&auto=format&fit=crop&q=80)
+![Rows of natural cotton fabric rolls in a manufacturing facility ready for cutting and sewing](https://images.pexels.com/photos/3850539/pexels-photo-3850539.jpeg?auto=compress&cs=tinysrgb&w=1200)
 *Fabric selection is the first decision in specifying a cotton seed bag. Weight, weave, and fibre content all affect performance and brand perception.*
 
 ## Sizing Your Drawstring Cotton Seed Bags

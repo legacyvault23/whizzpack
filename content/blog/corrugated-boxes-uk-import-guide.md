@@ -61,7 +61,7 @@ For UK buyers operating under EPR obligations or supplying to retailers with sus
 
 If you need branded boxes, water-based flexo printing is the standard option. 1 to 4 Pantone colours are achievable on most corrugated boards. Artwork should be supplied in AI or print-ready PDF format. A digital proof is provided before plate production begins. Physical press samples are available for new designs before full-run commitment.
 
-![Cargo containers loaded at port ready for sea freight to UK markets](https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=900&auto=format&fit=crop&q=80)
+![Cargo containers loaded at port ready for sea freight to UK markets](https://images.pexels.com/photos/21234960/pexels-photo-21234960.jpeg?auto=compress&cs=tinysrgb&w=1200)
 *Mundra Port in Gujarat connects directly to Felixstowe, Southampton, and London Gateway with transit times of 18 to 22 days.*
 
 ## UK Packaging Waste Regulations and EPR

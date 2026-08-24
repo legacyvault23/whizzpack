@@ -5,7 +5,7 @@ author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
 tags: ["cotton seed bags UK", "cotton bags India", "UK seed packaging", "organic cotton bags", "GOTS certified", "India export"]
 excerpt: "UK garden retailers, seed merchants, and organic brands sourcing cotton seed bags from India can access GOTS-certified organic cotton, OEKO-TEX compliant finishing, and sea freight to Felixstowe in 18-22 days. Here is what to specify and what to ask."
-ogImage: "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=1200&auto=format&fit=crop&q=80"
+ogImage: "https://images.pexels.com/photos/3850557/pexels-photo-3850557.jpeg?auto=compress&cs=tinysrgb&w=1200"
 ---
 
 UK buyers sourcing cotton seed bags have three realistic supply options: domestic manufacturers, European suppliers, or Indian factories. Indian manufacturers offer the widest range of specifications, the strongest access to certified organic cotton, and direct factory pricing. The trade-off is a longer supply chain that requires forward planning.
@@ -26,7 +26,7 @@ Cotton seed bag manufacturing is concentrated in India - specifically in Gujarat
 
 **Post-Brexit UK customs.** Cotton seed bags and plain cotton bags fall under HS codes 6305.20 (of cotton, for packing goods) or 6217.90 depending on specification. The UK import duty rate is 12 percent MFN for woven cotton bags of this type, which is worth factoring into the landed cost calculation. Buyers importing under significant volumes should check with their customs broker whether any UK Generalised Scheme of Preferences (GSP) rate applies.
 
-![Stacked natural cotton fabric bags showing texture and weave suitable for seed storage and eco-friendly packaging](https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=900&auto=format&fit=crop&q=80)
+![Stacked natural cotton fabric bags showing texture and weave suitable for seed storage and eco-friendly packaging](https://images.pexels.com/photos/3850557/pexels-photo-3850557.jpeg?auto=compress&cs=tinysrgb&w=1200)
 *Natural cotton bags from India are available in standard and custom sizes, with organic (GOTS/OCS) and conventional cotton options depending on certification requirements.*
 
 ## What to Specify
