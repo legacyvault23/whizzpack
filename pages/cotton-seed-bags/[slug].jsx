@@ -252,12 +252,45 @@ export default function CottonSeedBagVariant({ navHtml, footerHtml, page, slug }
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
         "priceValidUntil": "2099-12-31",
+        "validFrom": "2024-01-01",
         "seller": {"@type": "Organization", "name": "Whizzpack"},
         "eligibleRegion": [
           {"@type": "Country", "name": "United States"},
           {"@type": "Country", "name": "United Kingdom"}
         ],
-        "description": "Contact for pricing. MOQ 5,000 units."
+        "description": "Contact for pricing. MOQ 5,000 units.",
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingDestination": [
+            {"@type": "DefinedRegion", "addressCountry": "US"},
+            {"@type": "DefinedRegion", "addressCountry": "GB"}
+          ],
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 18,
+              "maxValue": 26,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 18,
+              "maxValue": 28,
+              "unitCode": "DAY"
+            }
+          },
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0",
+            "currency": "USD"
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": ["US", "GB"],
+          "returnPolicyCategory": "https://schema.org/MerchantReturnUnspecified"
+        }
       }
     },
     {
