@@ -245,7 +245,18 @@ export default function CottonSeedBagVariant({ navHtml, footerHtml, page, slug }
         }
       },
       "image": page.ogImage,
-      "material": "Cotton"
+      "material": "Cotton",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "seller": {"@type": "Organization", "name": "Whizzpack"},
+        "eligibleRegion": [
+          {"@type": "Country", "name": "United States"},
+          {"@type": "Country", "name": "United Kingdom"}
+        ],
+        "description": "Contact for pricing. MOQ 5,000 units."
+      }
     },
     {
       "@context": "https://schema.org",
