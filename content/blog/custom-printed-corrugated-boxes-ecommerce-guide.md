@@ -78,7 +78,7 @@ The most common styles for e-commerce use are:
 - **RSC (Regular Slotted Container):** The standard shipping box, cost-effective and widely used.
 - **FEFCO 0201:** Equivalent to RSC, the European standard designation.
 - **Mailer boxes (FEFCO 0330):** Tuck-top, snap-lock style popular for subscription boxes and retail gifting.
-- **Telescopic boxes:** Two-piece design offering extra depth, suitable for clothing, footwear, and fragile items.
+- **Telescopic boxes:** Two-piece design offering extra depth, suitable for clothing, footwear, and fragile items. For fragile lifestyle products like candle jars and glass diffuser bottles, corrugated shipper cartons with internal cell partitions are the standard format - covered in detail in our guide on [corrugated boxes for candle and home fragrance brands](/blogs/corrugated-boxes-candle-home-fragrance-packaging).
 - **Die-cut boxes:** Custom shapes for retail shelf display or unusual product dimensions.
 
 ### Board Grade
