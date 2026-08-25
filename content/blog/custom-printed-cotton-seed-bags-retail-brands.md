@@ -1,4 +1,4 @@
----
+﻿---
 title: "Custom Printed Cotton Seed Bags for Retail Brands: MOQ, Design, and Lead Times"
 excerpt: "If you sell seeds under your own brand, your packaging is part of your product. This guide covers everything retail seed companies need to know about ordering custom printed cotton seed bags from India."
 date: "2026-07-28"
@@ -186,4 +186,4 @@ Whizzpack manufactures custom printed cotton seed bags from India, supplying dir
 
 For sourcing advice on cotton seed bags from India including what documents to request and how to evaluate a supplier, see our [cotton seed bags sourcing guide for US and UK importers](/blogs/sourcing-cotton-seed-bags-from-india).
 
-For print method details, artwork requirements, ink certifications, and MOQ, see our [custom printed cotton seed bags page](/cotton-seed-bags/custom-printed). Contact us at [info.whizzpack@yahoo.com](mailto:info.whizzpack@yahoo.com) or visit our [cotton seed bags page](/cotton-seed-bags) to get started.
+For print method details, artwork requirements, ink certifications, and MOQ, see our [custom printed cotton seed bags page](/cotton-seed-bags/custom-printed). Contact us at [contact@whizzpack.in](mailto:contact@whizzpack.in) or visit our [cotton seed bags page](/cotton-seed-bags) to get started.

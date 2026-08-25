@@ -1,4 +1,4 @@
-import '../styles/globals.css';
+﻿import '../styles/globals.css';
 import { useState, useEffect } from 'react';
 
 function CookieBanner() {
@@ -74,7 +74,7 @@ function SamplePopup() {
     const fd = new FormData(e.target);
     const payload = {
       _subject: 'Free Sample Request - ' + (fd.get('product') || '') + ' | Whizzpack',
-      _cc: 'jash.bavishi1@gmail.com,info.whizzpack@yahoo.com',
+      _cc: 'jash.bavishi1@gmail.com,contact@whizzpack.in',
       _captcha: 'false',
       _template: 'table',
       _replyto: fd.get('email') || '',

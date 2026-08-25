@@ -1,4 +1,4 @@
----
+﻿---
 title: "India Packaging Lead Times Explained: Complete Timeline for USA and UK Importers"
 excerpt: "How long does it actually take to source packaging from India? This guide breaks down realistic lead times for corrugated boxes and cotton seed bags  -  from first enquiry to goods arriving at your warehouse  -  including production, freight, and customs clearance."
 date: "2026-08-05"
@@ -209,4 +209,4 @@ For the vast majority of packaging sourcing from India, sea freight via FCL (Ful
 
 ---
 
-Whizzpack exports corrugated boxes and cotton seed bags from India to the USA and UK with confirmed lead times on every order. Contact us at [info.whizzpack@yahoo.com](mailto:info.whizzpack@yahoo.com) to discuss your requirements and get a timeline for your specific order.
+Whizzpack exports corrugated boxes and cotton seed bags from India to the USA and UK with confirmed lead times on every order. Contact us at [contact@whizzpack.in](mailto:contact@whizzpack.in) to discuss your requirements and get a timeline for your specific order.

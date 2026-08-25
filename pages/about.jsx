@@ -1,4 +1,4 @@
-import Layout from '../components/Layout';
+﻿import Layout from '../components/Layout';
 import fs from 'fs';
 import path from 'path';
 
@@ -22,7 +22,7 @@ const schema = JSON.stringify({
     "description": "B2B manufacturer and exporter of corrugated boxes and cotton seed bags based in Rajkot, Gujarat, India. Factory-direct to importers in USA, UK, Europe, and worldwide.",
     "url": "https://www.whizzpack.in",
     "foundingDate": "2021",
-    "email": "info.whizzpack@yahoo.com",
+    "email": "contact@whizzpack.in",
     "telephone": "+918320907574",
     "address": {
       "@type": "PostalAddress",
@@ -341,7 +341,7 @@ export default function About({ navHtml, footerHtml }) {
               <ul>
                 <li><span className="about-ck"><svg viewBox="0 0 12 12"><path d="M2 6l3 3 5-5" stroke="#fff" strokeWidth="2" fill="none"/></svg></span>Plot 47, GIDC Industrial Estate, Rajkot, Gujarat 360001</li>
                 <li><span className="about-ck"><svg viewBox="0 0 12 12"><path d="M2 6l3 3 5-5" stroke="#fff" strokeWidth="2" fill="none"/></svg></span>Near Kandla Port and Mundra Port for fast sea freight</li>
-                <li><span className="about-ck"><svg viewBox="0 0 12 12"><path d="M2 6l3 3 5-5" stroke="#fff" strokeWidth="2" fill="none"/></svg></span>Email: info.whizzpack@yahoo.com</li>
+                <li><span className="about-ck"><svg viewBox="0 0 12 12"><path d="M2 6l3 3 5-5" stroke="#fff" strokeWidth="2" fill="none"/></svg></span>Email: contact@whizzpack.in</li>
                 <li><span className="about-ck"><svg viewBox="0 0 12 12"><path d="M2 6l3 3 5-5" stroke="#fff" strokeWidth="2" fill="none"/></svg></span>Phone: +91 83209 07574</li>
               </ul>
             </div>

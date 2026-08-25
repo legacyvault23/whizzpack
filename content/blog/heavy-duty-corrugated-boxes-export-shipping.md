@@ -1,4 +1,4 @@
----
+﻿---
 title: "Heavy-Duty Corrugated Boxes for Export Shipping: Triple-Wall, Burst Strength, and What to Specify"
 excerpt: "Not every shipment fits in a standard single-wall box. This guide covers heavy-duty corrugated boxes for industrial and export applications: triple-wall construction, burst strength ratings, flute selection, and what to specify when ordering from India."
 date: "2026-07-28"
@@ -184,4 +184,4 @@ Whizzpack manufactures heavy-duty corrugated boxes from India in single-wall, do
 
 For a comprehensive guide to importing corrugated boxes from India including documentation, lead times, and supplier evaluation, see our [complete importer's guide to corrugated boxes from India](/blogs/how-to-import-corrugated-boxes-from-india).
 
-For detailed specifications, BCT ratings, and use cases for our double wall range, see our [double wall corrugated boxes page](/corrugated-boxes/double-wall). Contact us at [info.whizzpack@yahoo.com](mailto:info.whizzpack@yahoo.com) or visit our [corrugated boxes page](/corrugated-boxes) to request a quote.
+For detailed specifications, BCT ratings, and use cases for our double wall range, see our [double wall corrugated boxes page](/corrugated-boxes/double-wall). Contact us at [contact@whizzpack.in](mailto:contact@whizzpack.in) or visit our [corrugated boxes page](/corrugated-boxes) to request a quote.
