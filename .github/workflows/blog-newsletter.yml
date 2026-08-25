@@ -1,0 +1,108 @@
+name: Send Blog Newsletter
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/blog/**.md'
+
+jobs:
+  newsletter:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Detect newly added blog files
+        id: detect
+        run: |
+          NEW_BLOGS=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'content/blog/*.md')
+          if [ -z "$NEW_BLOGS" ]; then
+            echo "No new blog files detected."
+            echo "has_new=false" >> $GITHUB_OUTPUT
+          else
+            echo "New blogs detected:"
+            echo "$NEW_BLOGS"
+            echo "has_new=true" >> $GITHUB_OUTPUT
+            echo "files<<EOF" >> $GITHUB_OUTPUT
+            echo "$NEW_BLOGS" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Set up Python
+        if: steps.detect.outputs.has_new == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install PyYAML
+        if: steps.detect.outputs.has_new == 'true'
+        run: pip install PyYAML -q
+
+      - name: Send newsletter for each new blog
+        if: steps.detect.outputs.has_new == 'true'
+        env:
+          WP_WEBHOOK_SECRET: ${{ secrets.WP_NEWSLETTER_SECRET }}
+          WP_BACKEND_URL: ${{ secrets.WP_BACKEND_URL }}
+        run: |
+          python - <<'PYEOF'
+          import os, sys, re, json, urllib.request
+
+          blog_files = """${{ steps.detect.outputs.files }}""".strip().splitlines()
+          secret = os.environ.get("WP_WEBHOOK_SECRET", "")
+          backend = os.environ.get("WP_BACKEND_URL", "https://whizzy-crm.onrender.com")
+
+          for path in blog_files:
+              path = path.strip()
+              if not path:
+                  continue
+              print(f"Processing: {path}")
+
+              with open(path, encoding="utf-8") as f:
+                  content = f.read()
+
+              # Extract YAML frontmatter between --- markers
+              fm_match = re.match(r"^---\n(.*?)\n---", content, re.DOTALL)
+              if not fm_match:
+                  print(f"  No frontmatter found, skipping.")
+                  continue
+
+              try:
+                  import yaml
+                  fm = yaml.safe_load(fm_match.group(1))
+              except Exception as e:
+                  print(f"  Frontmatter parse error: {e}")
+                  continue
+
+              slug = os.path.basename(path).replace(".md", "")
+              title = fm.get("title", slug)
+              excerpt = fm.get("excerpt", "")
+              cover = fm.get("ogImage") or fm.get("image", "")
+
+              payload = json.dumps({
+                  "blog": {
+                      "title": title,
+                      "excerpt": excerpt,
+                      "slug": slug,
+                      "coverImageUrl": cover,
+                  }
+              }).encode("utf-8")
+
+              url = f"{backend}/webhooks/whizzpack-blog"
+              req = urllib.request.Request(url, data=payload, method="POST")
+              req.add_header("Content-Type", "application/json")
+              req.add_header("x-webhook-secret", secret)
+
+              try:
+                  with urllib.request.urlopen(req, timeout=30) as resp:
+                      body = resp.read().decode()
+                      print(f"  Response {resp.status}: {body}")
+              except Exception as e:
+                  print(f"  Request failed: {e}")
+
+          print("Done.")
+          PYEOF
