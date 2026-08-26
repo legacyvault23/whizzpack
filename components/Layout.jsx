@@ -118,6 +118,7 @@ export default function Layout({ children, title, description, canonical, schema
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:type" content={ogType || 'website'} />
+        {canonical && <meta property="og:url" content={canonical} />}
         {ogImage && <meta property="og:image" content={ogImage} />}
         {ogImage && <meta property="og:image:width" content="1200" />}
         {ogImage && <meta property="og:image:height" content="630" />}

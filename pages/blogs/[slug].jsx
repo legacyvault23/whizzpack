@@ -11,7 +11,17 @@ marked.use({
     image(href, title, text) {
       const alt = text || '';
       const titleAttr = title ? ` title="${title}"` : '';
-      return `<img src="${href}" alt="${alt}"${titleAttr} width="900" height="600" loading="lazy" style="max-width:100%;height:auto;border-radius:8px">`;
+      const base = href.split('?')[0];
+      let srcset = '', sizes = '';
+      if (base.includes('images.unsplash.com')) {
+        srcset = `${base}?w=400&q=75 400w, ${base}?w=700&q=80 700w, ${base}?w=900&q=80 900w`;
+        sizes = '(max-width: 600px) 400px, (max-width: 900px) 700px, 900px';
+      } else if (base.includes('images.pexels.com')) {
+        srcset = `${base}?auto=compress&cs=tinysrgb&w=400 400w, ${base}?auto=compress&cs=tinysrgb&w=700 700w, ${base}?auto=compress&cs=tinysrgb&w=900 900w`;
+        sizes = '(max-width: 600px) 400px, (max-width: 900px) 700px, 900px';
+      }
+      const srcsetAttr = srcset ? ` srcset="${srcset}" sizes="${sizes}"` : '';
+      return `<img src="${href}" alt="${alt}"${titleAttr}${srcsetAttr} width="900" height="600" loading="lazy" style="max-width:100%;height:auto;border-radius:8px">`;
     }
   }
 });
@@ -51,6 +61,7 @@ export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml
       "@type": "Person",
       "name": frontmatter.author || "Whizzpack Editorial Team",
       "url": frontmatter.author === "Jash B." ? "https://www.whizzpack.in/authors/jash-b" : "https://www.whizzpack.in/about",
+      "sameAs": frontmatter.author === "Jash B." ? ["https://www.whizzpack.in/authors/jash-b", "https://www.linkedin.com/company/whizzpack/"] : [],
       "description": frontmatter.authorBio || "Packaging export specialist at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags.",
       "worksFor": { "@type": "Organization", "name": "Whizzpack", "url": "https://www.whizzpack.in" }
     },
@@ -156,6 +167,7 @@ export async function getServerSideProps({ params }) {
     const { slug } = params;
     const { frontmatter, content } = getPost(slug);
     let contentHtml = marked(content);
+    contentHtml = contentHtml.replace(' loading="lazy"', ' fetchpriority="high"');
     contentHtml = contentHtml.replace(/^\s*<h1[^>]*>[\s\S]*?<\/h1>\n*/, '');
     const navHtml = fs.readFileSync(path.join(process.cwd(), 'page-content/nav-sub.html'), 'utf8');
     const footerHtml = fs.readFileSync(path.join(process.cwd(), 'page-content/footer.html'), 'utf8');
