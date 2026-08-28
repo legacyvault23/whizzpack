@@ -138,6 +138,8 @@ export default function Layout({ children, title, description, canonical, schema
             dangerouslySetInnerHTML={{ __html: schema }}
           />
         )}
+        {/* Google Preferred Sources */}
+        <script async src="https://news.google.com/swg/js/v1/publisher.js" />
         {/* Google Analytics */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-W8N0CSLMYZ" />
         <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-W8N0CSLMYZ');` }} />
