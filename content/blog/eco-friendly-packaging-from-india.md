@@ -27,6 +27,8 @@ Corrugated cardboard is inherently more sustainable than most packaging material
 
 **Weight optimisation**: Lighter board grades use less material per unit shipped. An experienced manufacturer should be able to recommend the minimum board grade that meets your stacking and puncture requirements -- this is both a cost and a sustainability win.
 
+Beauty and cosmetics brands, which face particularly strong retailer and consumer scrutiny on packaging sustainability in the UK and EU, will find the certified eco options for their sector covered in our guide to [corrugated boxes for cosmetics and beauty brands](/blogs/corrugated-boxes-cosmetics-beauty-brands).
+
 [See our full corrugated box range and request a specification discussion](/corrugated-boxes)
 
 ## Cotton Seed Bags: A Natural Packaging Story

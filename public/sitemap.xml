@@ -91,7 +91,7 @@
   </url>
   <url>
     <loc>https://www.whizzpack.in/blogs</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -290,6 +290,12 @@
   <url>
     <loc>https://www.whizzpack.in/blogs/corrugated-boxes-candle-home-fragrance-packaging</loc>
     <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.whizzpack.in/blogs/corrugated-boxes-cosmetics-beauty-brands</loc>
+    <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

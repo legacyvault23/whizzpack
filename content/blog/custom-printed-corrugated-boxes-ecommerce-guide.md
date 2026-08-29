@@ -121,7 +121,7 @@ When sourcing from India, look for these certifications and practices:
 
 **No Bleach:** Unbleached kraft board (brown, not white) skips the chemical bleaching process, reducing water use and chemical effluent at the mill.
 
-At Whizzpack, all corrugated box exports use FSC-certified board and water-based flexo inks as standard. We can supply chain-of-custody documentation on request.
+At Whizzpack, all corrugated box exports use FSC-certified board and water-based flexo inks as standard. We can supply chain-of-custody documentation on request. For beauty and cosmetics brands with specific requirements around litho laminate, foil finishes, and eco certifications, our [corrugated boxes for cosmetics brands guide](/blogs/corrugated-boxes-cosmetics-beauty-brands) covers the full picture.
 
 ---
 
