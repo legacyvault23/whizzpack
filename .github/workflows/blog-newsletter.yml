@@ -54,7 +54,7 @@ jobs:
 
           blog_files = """${{ steps.detect.outputs.files }}""".strip().splitlines()
           secret = os.environ.get("WP_WEBHOOK_SECRET", "")
-          backend = os.environ.get("WP_BACKEND_URL", "https://whizzy-crm.onrender.com")
+          backend = (os.environ.get("WP_BACKEND_URL") or "https://whizzy-crm.onrender.com").rstrip('/')
 
           for path in blog_files:
               path = path.strip()
@@ -92,12 +92,11 @@ jobs:
                   }
               }).encode("utf-8")
 
-              url = f"{backend}/webhooks/whizzpack-blog"
-              req = urllib.request.Request(url, data=payload, method="POST")
-              req.add_header("Content-Type", "application/json")
-              req.add_header("x-webhook-secret", secret)
-
               try:
+                  url = f"{backend}/webhooks/whizzpack-blog"
+                  req = urllib.request.Request(url, data=payload, method="POST")
+                  req.add_header("Content-Type", "application/json")
+                  req.add_header("x-webhook-secret", secret)
                   with urllib.request.urlopen(req, timeout=30) as resp:
                       body = resp.read().decode()
                       print(f"  Response {resp.status}: {body}")
