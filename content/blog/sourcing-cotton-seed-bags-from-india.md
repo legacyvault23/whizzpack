@@ -1,10 +1,10 @@
 ---
-title: "Sourcing Cotton Seed Bags from India: A Complete Guide for US and UK Importers"
+title: "Sourcing Cotton Bags for Seeds from India: A Complete Guide for US and UK Importers"
 date: "2026-07-25"
 author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
-tags: ["cotton seed bags exporter India", "seeds bag exporters", "cotton pouches for seeds", "cotton seed bags manufacturer Gujarat", "import cotton bags India", "seed packaging supplier India"]
-excerpt: "India is the world's leading source of cotton seed bags for bulk importers. This guide covers how US and UK seed companies find and vet Indian suppliers, what the process looks like from inquiry to delivery, and what makes Gujarat the centre of the trade."
+tags: ["sourcing cotton bags seeds India", "cotton bag manufacturer India export", "seed packaging supplier India UK USA", "import cotton bags UK USA", "cotton bags seeds wholesale India", "Gujarat cotton bag factory"]
+excerpt: "India is the world's leading source of cotton bags for seeds at bulk import scale. How US and UK seed companies find and vet Indian manufacturers, what the process looks like from inquiry to delivery, and why Gujarat is the centre of the trade."
 ogImage: "https://images.unsplash.com/photo-1647694472532-8fa457ef2732?w=1200&auto=format&fit=crop&q=80"
 ---
 

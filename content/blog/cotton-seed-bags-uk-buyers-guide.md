@@ -1,10 +1,10 @@
 ---
-title: "Cotton Seed Bags from India: A Sourcing Guide for UK Buyers"
+title: "Cotton Bags for Seeds: A Sourcing Guide for UK Seed Brands and Garden Retailers"
 date: "2026-08-14"
 author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
-tags: ["cotton seed bags UK", "cotton bags India", "UK seed packaging", "organic cotton bags", "GOTS certified", "India export"]
-excerpt: "UK garden retailers, seed merchants, and organic brands sourcing cotton seed bags from India can access GOTS-certified organic cotton, OEKO-TEX compliant finishing, and sea freight to Felixstowe in 18-22 days. Here is what to specify and what to ask."
+tags: ["cotton bags for seeds UK", "UK garden centre seed packaging", "cotton bags UK seed brands", "GOTS certified cotton bags UK retailers", "organic seed bags UK", "seed packaging India UK import"]
+excerpt: "UK garden retailers, seed merchants, farm shops, and organic seed brands sourcing cotton bags for seeds from India can access GOTS-certified organic cotton, OEKO-TEX compliant finishing, and sea freight to Felixstowe in 18-22 days. Here is what to specify and what to ask."
 ogImage: "https://images.pexels.com/photos/3850557/pexels-photo-3850557.jpeg?auto=compress&cs=tinysrgb&w=1200"
 ---
 

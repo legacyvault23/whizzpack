@@ -5,11 +5,11 @@ import Link from 'next/link';
 
 const PAGES = {
   'drawstring': {
-    ctaTitle: 'Ready to Order Drawstring Cotton Seed Bags?',
-    title: 'Drawstring Cotton Seed Bags Manufacturer India | Muslin Pouches | Whizzpack',
-    description: 'Factory-direct drawstring cotton seed bags from Rajkot, India. 100-400 GSM cotton, flat drawstring and tunnel cord closure, custom sizes. OEKO-TEX compliant. MOQ 5,000 units.',
-    h1: 'Drawstring Cotton Seed Bags',
-    subtitle: 'Reusable, biodegradable drawstring cotton bags for seed storage, retail, and export - manufactured factory-direct from Rajkot, India',
+    ctaTitle: 'Ready to Order Drawstring Cotton Bags for Seeds?',
+    title: 'Drawstring Cotton Bags for Seeds | Muslin Seed Pouches Factory India | Whizzpack',
+    description: 'Custom drawstring cotton bags for seeds, made to your spec in Rajkot, India. Retail garden pouches to farm sacks. OEKO-TEX compliant. MOQ 5,000 units. Exporting to UK seed brands and US organic farms.',
+    h1: 'Drawstring Cotton Bags for Seeds',
+    subtitle: 'Reusable, biodegradable drawstring cotton bags for seed packaging - from retail garden pouches to bulk farm storage, manufactured factory-direct from India for UK and US seed brands',
     tag: 'Drawstring Bags',
     ogImage: 'https://images.unsplash.com/photo-1544816155-12df9643f363?w=1200&auto=format&fit=crop&q=80',
     intro: [
@@ -72,11 +72,11 @@ const PAGES = {
   },
 
   'organic': {
-    ctaTitle: 'Ready to Order Organic Cotton Seed Bags?',
-    title: 'Organic Cotton Seed Bags India | GOTS Certified Cotton Packaging | Whizzpack',
-    description: 'GOTS certified organic cotton seed bags from Rajkot, India. Natural undyed, OEKO-TEX safe, fully biodegradable. Ideal for organic farms, sustainable retail, and eco-conscious seed brands. MOQ 5,000 units.',
-    h1: 'Organic Cotton Seed Bags',
-    subtitle: 'GOTS certified, undyed, fully biodegradable seed bags for organic farms, sustainable retail, and eco-conscious seed brands',
+    ctaTitle: 'Ready to Order Organic Cotton Bags for Seeds?',
+    title: 'Organic Cotton Bags for Seeds | GOTS Certified Seed Packaging India | Whizzpack',
+    description: 'GOTS certified organic cotton bags for seeds, from Rajkot, India. Verified supply chain, Transaction Certificates provided. For UK organic seed brands, US USDA NOP operations, and EU organic retailers. MOQ 5,000 units.',
+    h1: 'Organic Cotton Bags for Seeds',
+    subtitle: 'GOTS certified, undyed, fully biodegradable cotton bags for seed packaging - for UK organic garden brands, US USDA NOP farms, and EU organic retailers sourcing factory-direct from India',
     tag: 'Organic Cotton',
     ogImage: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1200&auto=format&fit=crop&q=80',
     intro: [
@@ -139,11 +139,11 @@ const PAGES = {
   },
 
   'custom-printed': {
-    ctaTitle: 'Ready to Order Custom Printed Cotton Seed Bags?',
-    title: 'Custom Printed Cotton Seed Bags India | Branded Fabric Bags Manufacturer | Whizzpack',
-    description: 'Factory-direct custom printed cotton seed bags from Rajkot, India. Screen print, rubber stamp, heat transfer, and embroidery options. Eco-friendly inks. MOQ 5,000 units. Export to USA and UK.',
-    h1: 'Custom Printed Cotton Seed Bags',
-    subtitle: 'Branded cotton seed bags with screen printing, embroidery, and eco-friendly inks - factory-direct from Rajkot, India',
+    ctaTitle: 'Ready to Order Custom Printed Cotton Bags for Seeds?',
+    title: 'Custom Printed Cotton Bags for Seeds | Screen Print Factory India | Whizzpack',
+    description: 'Custom printed cotton bags for seed brands - screen print, Pantone matching, OEKO-TEX compliant inks. Factory-direct from Rajkot, India to UK and US seed companies. MOQ 5,000 units.',
+    h1: 'Custom Printed Cotton Bags for Seeds',
+    subtitle: 'Branded cotton bags for seed companies - full-colour screen printing, Pantone colour matching, and OEKO-TEX safe inks, factory-direct from India to UK and US seed brands',
     tag: 'Custom Printed',
     ogImage: 'https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=1200&auto=format&fit=crop&q=80',
     intro: [
