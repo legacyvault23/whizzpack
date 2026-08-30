@@ -180,4 +180,4 @@ For the technical specification decisions you need to make before your sample br
 
 ---
 
-Whizzpack produces pre-production samples for all custom cotton seed bag orders. Our standard sample lead time is 10 to 15 working days for printed bags, with DHL courier dispatch. To start your sample process, contact us at [contact@whizzpack.in](mailto:contact@whizzpack.in) or visit our [cotton bags for seeds page](/cotton-seed-bags) to send an inquiry.
+Whizzpack produces pre-production samples for all custom Cotton Bag for Seeds orders. Our standard sample lead time is 10 to 15 working days for printed bags, with DHL courier dispatch. To start your sample process, contact us at [contact@whizzpack.in](mailto:contact@whizzpack.in) or visit our [cotton bags for seeds page](/cotton-seed-bags) to send an inquiry.

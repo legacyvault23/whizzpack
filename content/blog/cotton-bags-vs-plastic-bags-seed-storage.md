@@ -93,7 +93,7 @@ Not all cotton bags are equivalent. The specification matters for seed storage:
 
 The environmental case for cotton over plastic in seed storage is not just a marketing angle. It is a genuine lifecycle difference:
 
-**End of life:** A cotton seed bag that goes to landfill will biodegrade in 1 to 5 months. A plastic bag will persist for 200 to 500 years. For agricultural applications where bags end up in fields, this difference is significant. For operations that also use jute bags alongside cotton, our [jute vs Cotton Bags for Seeds comparison](/blogs/jute-vs-cotton-seed-bags-comparison) covers how the two materials compare on breathability, certifications, and lifecycle sustainability.
+**End of life:** A Cotton Bag for Seeds that goes to landfill will biodegrade in 1 to 5 months. A plastic bag will persist for 200 to 500 years. For agricultural applications where bags end up in fields, this difference is significant. For operations that also use jute bags alongside cotton, our [jute vs Cotton Bags for Seeds comparison](/blogs/jute-vs-cotton-seed-bags-comparison) covers how the two materials compare on breathability, certifications, and lifecycle sustainability.
 
 **Reusability:** Cotton bags are routinely reused by farmers. A bag purchased for seed storage becomes a storage bag for harvested seed, a sample bag, a label bag, or even a cloth bag for other farm uses. Plastic bags rarely achieve this kind of extended use.
 

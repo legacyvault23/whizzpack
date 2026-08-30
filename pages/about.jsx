@@ -5,7 +5,7 @@ import path from 'path';
 const schema = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "AboutPage",
-  "name": "About Whizzpack - Corrugated Box & Cotton Seed Bag Manufacturer India",
+  "name": "About Whizzpack - Corrugated Box & Cotton Bag for Seeds Manufacturer India",
   "url": "https://www.whizzpack.in/about",
   "description": "Whizzpack is a factory-direct manufacturer and exporter of corrugated boxes and Cotton Bags for Seeds from Rajkot, Gujarat, India. ISO certified. Serving importers in USA, UK, and worldwide since 2021.",
   "breadcrumb": {
@@ -50,7 +50,7 @@ const schema = JSON.stringify({
 export default function About({ navHtml, footerHtml }) {
   return (
     <Layout
-      title="About Whizzpack | Corrugated Box & Cotton Seed Bag Manufacturer India"
+      title="About Whizzpack | Corrugated Box & Cotton Bag for Seeds Manufacturer India"
       description="Whizzpack is a factory-direct manufacturer and exporter of corrugated boxes and Cotton Bags for Seeds from Rajkot, Gujarat, India. ISO certified. Serving importers in USA, UK, and worldwide since 2021."
       canonical="https://www.whizzpack.in/about"
       ogType="website"

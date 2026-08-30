@@ -66,7 +66,7 @@ export default function JashBAuthorPage({ navHtml, footerHtml, posts }) {
       "description": "Jash B. has over a decade of experience in packaging manufacturing and export from India. He oversees production, quality assurance, and client operations at Whizzpack, supplying corrugated boxes and Cotton Bags for Seeds to importers in the USA, UK, and worldwide.",
       "knowsAbout": [
         "Corrugated box manufacturing",
-        "Cotton seed bag production",
+        "Cotton Bag for Seeds production",
         "Packaging export from India",
         "B2B export documentation",
         "GOTS certification",
@@ -88,7 +88,7 @@ export default function JashBAuthorPage({ navHtml, footerHtml, posts }) {
   return (
     <Layout
       title="Jash B. - Packaging Export Specialist | Author at Whizzpack"
-      description="Jash B. oversees production and export operations at Whizzpack, Rajkot. Over a decade of experience in corrugated box and cotton seed bag manufacturing for the US and UK markets."
+      description="Jash B. oversees production and export operations at Whizzpack, Rajkot. Over a decade of experience in corrugated box and Cotton Bag for Seeds manufacturing for the US and UK markets."
       canonical={canonical}
       ogType="profile"
       ogImage="https://www.whizzpack.in/Whizzpack-logo-header.png"
@@ -208,7 +208,7 @@ export default function JashBAuthorPage({ navHtml, footerHtml, posts }) {
         {/* CTA */}
         <div className="author-cta">
           <h2 style={{ color: '#fff' }}>Source Packaging Factory-Direct from India</h2>
-          <p>Get in touch with our team to discuss your corrugated box or cotton seed bag requirements.</p>
+          <p>Get in touch with our team to discuss your corrugated box or Cotton Bag for Seeds requirements.</p>
           <a href="/#contact" className="author-cta-btn">Contact Whizzpack</a>
         </div>
 
