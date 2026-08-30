@@ -91,7 +91,7 @@
   </url>
   <url>
     <loc>https://www.whizzpack.in/blogs</loc>
-    <lastmod>2026-08-29</lastmod>
+    <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -299,4 +299,27 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-</urlset>
+  <url>
+    <loc>https://www.whizzpack.in/blogs/cotton-bags-seeds-sizes-specifications-guide</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.whizzpack.in/blogs/gots-vs-oeko-tex-cotton-bags-seeds</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.whizzpack.in/blogs/sample-order-cotton-bags-seeds-india</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.whizzpack.in/blogs/importing-cotton-bags-seeds-uk-customs</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url></urlset>
