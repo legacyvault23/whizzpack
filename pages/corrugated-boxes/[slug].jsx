@@ -1,4 +1,4 @@
-import Layout from '../../components/Layout';
+﻿import Layout from '../../components/Layout';
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
@@ -485,7 +485,7 @@ export default function CorrugatedBoxVariant({ navHtml, footerHtml, page, slug }
           <a href="/#contact" className="vp-btn vp-btn-primary" style={{display:'inline-flex',margin:'0 auto'}}>Request a Quote</a>
           <div className="vp-related">
             <Link href="/corrugated-boxes" className="vp-related-link">All Corrugated Boxes</Link>
-            <Link href="/cotton-seed-bags" className="vp-related-link">Cotton Seed Bags</Link>
+            <Link href="/cotton-seed-bags" className="vp-related-link">Cotton Bags for Seeds</Link>
             <Link href="/about" className="vp-related-link">About Whizzpack</Link>
             <Link href="/blogs" className="vp-related-link">Packaging Guides</Link>
           </div>

@@ -1,8 +1,8 @@
----
+﻿---
 title: "Mailer Boxes for Subscription Brands: Sourcing from India at Scale"
 date: "2026-08-14"
 author: "Jash B."
-authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 tags: ["mailer boxes", "subscription box packaging", "custom printed boxes", "DTC packaging", "India export", "corrugated boxes"]
 excerpt: "Subscription brands live or die by their unboxing experience. Sourcing mailer boxes direct from India gives DTC businesses control over print quality, design, and unit cost at the volumes that actually matter."
 ogImage: "https://images.pexels.com/photos/7801874/pexels-photo-7801874.jpeg?auto=compress&cs=tinysrgb&w=1200"
@@ -98,4 +98,4 @@ To see our custom print capabilities, visit our [custom printed corrugated boxes
 
 ---
 
-*Whizzpack is a factory-direct packaging manufacturer in Rajkot, India, specialising in corrugated boxes and cotton seed bags for B2B export to the US, UK, and worldwide.*
+*Whizzpack is a factory-direct packaging manufacturer in Rajkot, India, specialising in corrugated boxes and Cotton Bags for Seeds for B2B export to the US, UK, and worldwide.*

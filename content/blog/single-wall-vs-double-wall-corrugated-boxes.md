@@ -1,8 +1,8 @@
----
+﻿---
 title: "Single Wall vs Double Wall Corrugated Boxes: Which Do You Need?"
 date: "2026-07-21"
 author: "Jash B."
-authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 tags: ["double wall corrugated boxes", "single wall boxes", "heavy duty shipping boxes", "box strength guide", "corrugated packaging", "wholesale boxes"]
 excerpt: "Choosing between single wall and double wall corrugated boxes affects cost, protection, and freight efficiency. Here is a practical guide to picking the right construction for your products."
 ogImage: "https://images.unsplash.com/photo-1607166452427-7e4477079cb9?w=1200&auto=format&fit=crop&q=80"

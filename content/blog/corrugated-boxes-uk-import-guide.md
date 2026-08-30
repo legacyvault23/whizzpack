@@ -1,8 +1,8 @@
----
+﻿---
 title: "Corrugated Boxes from India: A Sourcing Guide for UK Importers"
 date: "2026-08-14"
 author: "Jash B."
-authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 tags: ["corrugated boxes UK", "import from India", "UK packaging", "corrugated boxes", "India export", "FSC certified"]
 excerpt: "UK importers sourcing corrugated boxes are increasingly going direct to Indian manufacturers. Here is what the process looks like, what to specify, and what to check before committing."
 ogImage: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&auto=format&fit=crop&q=80"
@@ -106,7 +106,7 @@ A manufacturer with genuine UK export experience will answer these directly and 
 
 ## Working with Whizzpack
 
-Whizzpack manufactures corrugated boxes and cotton seed bags at our own facility in Rajkot, Gujarat. We supply UK importers directly with no broker margin in the supply chain.
+Whizzpack manufactures corrugated boxes and Cotton Bags for Seeds at our own facility in Rajkot, Gujarat. We supply UK importers directly with no broker margin in the supply chain.
 
 Our corrugated box range covers RSC boxes, double wall heavy-duty construction, and custom printed options. For UK subscription brands and DTC retailers sourcing custom mailer boxes, our [mailer boxes for subscription brands guide](/blogs/mailer-boxes-subscription-brands-india) covers E-flute specifications, print options, and lead time planning. FSC-certified board is available on request. We provide full export documentation including GSM test reports, Certificate of Origin, and commercial invoices in the format UK customs requires.
 
@@ -116,4 +116,4 @@ For broader context on what UK importers can expect when sourcing packaging from
 
 ---
 
-*Whizzpack is a factory-direct packaging manufacturer in Rajkot, India, supplying corrugated boxes and cotton seed bags to importers in the UK, USA, and worldwide. We do not act as a broker or trading company. Every order is produced in our own facility.*
+*Whizzpack is a factory-direct packaging manufacturer in Rajkot, India, supplying corrugated boxes and Cotton Bags for Seeds to importers in the UK, USA, and worldwide. We do not act as a broker or trading company. Every order is produced in our own facility.*

@@ -1,8 +1,8 @@
----
+﻿---
 title: "Cardboard Shipping Boxes in Bulk: What US Businesses Should Know Before Ordering"
 date: "2026-07-21"
 author: "Jash B."
-authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 tags: ["cardboard shipping boxes", "bulk shipping boxes", "wholesale boxes", "shipping boxes bulk", "corrugated boxes USA", "packaging sourcing"]
 excerpt: "Buying cardboard shipping boxes in bulk is one of the fastest ways to cut packaging cost per unit. Here is how US businesses source bulk boxes, what affects the price, and when importing factory-direct makes sense."
 ogImage: "https://images.unsplash.com/photo-1565891741441-64926e441838?w=1200&auto=format&fit=crop&q=80"

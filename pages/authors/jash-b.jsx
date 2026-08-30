@@ -1,4 +1,4 @@
-import Layout from '../../components/Layout';
+﻿import Layout from '../../components/Layout';
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
@@ -63,7 +63,7 @@ export default function JashBAuthorPage({ navHtml, footerHtml, posts }) {
           "addressCountry": "IN"
         }
       },
-      "description": "Jash B. has over a decade of experience in packaging manufacturing and export from India. He oversees production, quality assurance, and client operations at Whizzpack, supplying corrugated boxes and cotton seed bags to importers in the USA, UK, and worldwide.",
+      "description": "Jash B. has over a decade of experience in packaging manufacturing and export from India. He oversees production, quality assurance, and client operations at Whizzpack, supplying corrugated boxes and Cotton Bags for Seeds to importers in the USA, UK, and worldwide.",
       "knowsAbout": [
         "Corrugated box manufacturing",
         "Cotton seed bag production",
@@ -151,7 +151,7 @@ export default function JashBAuthorPage({ navHtml, footerHtml, posts }) {
           <div className="author-hero-text">
             <h1>Jash B.</h1>
             <div className="title">Head of Operations and Export - Whizzpack, Rajkot, India</div>
-            <p>Over a decade of experience in packaging manufacturing and export. Specialises in corrugated boxes and cotton seed bags for B2B importers in the USA and UK.</p>
+            <p>Over a decade of experience in packaging manufacturing and export. Specialises in corrugated boxes and Cotton Bags for Seeds for B2B importers in the USA and UK.</p>
           </div>
         </div>
       </section>
@@ -164,7 +164,7 @@ export default function JashBAuthorPage({ navHtml, footerHtml, posts }) {
           <h2>About Jash B.</h2>
           <div className="about-text">
             <p>
-              Jash B. leads operations and export at Whizzpack Packing Solutions, a factory-direct packaging manufacturer based in the GIDC Industrial Estate, Rajkot, Gujarat, India. He has spent over a decade working at the intersection of packaging manufacturing, quality control, and international trade - helping importers in the USA, UK, and Europe source corrugated boxes and cotton seed bags directly from Indian factories at competitive FOB pricing.
+              Jash B. leads operations and export at Whizzpack Packing Solutions, a factory-direct packaging manufacturer based in the GIDC Industrial Estate, Rajkot, Gujarat, India. He has spent over a decade working at the intersection of packaging manufacturing, quality control, and international trade - helping importers in the USA, UK, and Europe source corrugated boxes and Cotton Bags for Seeds directly from Indian factories at competitive FOB pricing.
             </p>
             <p>
               His day-to-day work spans production planning for corrugated box orders (RSC, double-wall, and custom die-cut), quality assurance on cotton fabric and print runs, export documentation (commercial invoice, packing list, certificate of origin, HS code classification), and client communication with purchasing teams at international brands and distributors.

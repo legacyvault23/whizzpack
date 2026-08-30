@@ -1,8 +1,8 @@
----
+﻿---
 title: "Sourcing Packaging from India: A Guide for US & UK Importers"
 date: "2026-06-20"
 author: "Jash B."
-authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 tags: ["India packaging", "import guide", "corrugated boxes", "cotton bags", "US UK importers", "sourcing from India"]
 excerpt: "An honest, importer-focused guide covering what to expect, how to vet suppliers, and the common mistakes to avoid when sourcing corrugated boxes or cotton bags from India."
 ---
@@ -23,7 +23,7 @@ The interest in Indian packaging manufacturers has grown steadily, and it's not 
 What draws serious importers:
 
 - **Custom specifications without large premiums**: Smaller domestic suppliers often won't accommodate unusual dimensions, board grades, or print specs. Indian manufacturers typically will.
-- **Range**: From heavy-duty [corrugated boxes](/corrugated-boxes) for industrial shipping to [cotton seed bags](/cotton-seed-bags) for agricultural and retail use, the manufacturing breadth is significant.
+- **Range**: From heavy-duty [corrugated boxes](/corrugated-boxes) for industrial shipping to [Cotton Bags for Seeds](/cotton-seed-bags) for agricultural and retail use, the manufacturing breadth is significant.
 - **Export-ready operations**: Established Indian exporters are familiar with international documentation, compliance, and shipping logistics.
 
 None of this is guaranteed. The manufacturer you choose makes all the difference.

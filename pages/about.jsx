@@ -7,7 +7,7 @@ const schema = JSON.stringify({
   "@type": "AboutPage",
   "name": "About Whizzpack - Corrugated Box & Cotton Seed Bag Manufacturer India",
   "url": "https://www.whizzpack.in/about",
-  "description": "Whizzpack is a factory-direct manufacturer and exporter of corrugated boxes and cotton seed bags from Rajkot, Gujarat, India. ISO certified. Serving importers in USA, UK, and worldwide since 2021.",
+  "description": "Whizzpack is a factory-direct manufacturer and exporter of corrugated boxes and Cotton Bags for Seeds from Rajkot, Gujarat, India. ISO certified. Serving importers in USA, UK, and worldwide since 2021.",
   "breadcrumb": {
     "@type": "BreadcrumbList",
     "itemListElement": [
@@ -19,7 +19,7 @@ const schema = JSON.stringify({
     "@type": "Organization",
     "name": "Whizzpack",
     "legalName": "Whizzpack Packing Solutions",
-    "description": "B2B manufacturer and exporter of corrugated boxes and cotton seed bags based in Rajkot, Gujarat, India. Factory-direct to importers in USA, UK, Europe, and worldwide.",
+    "description": "B2B manufacturer and exporter of corrugated boxes and Cotton Bags for Seeds based in Rajkot, Gujarat, India. Factory-direct to importers in USA, UK, Europe, and worldwide.",
     "url": "https://www.whizzpack.in",
     "foundingDate": "2021",
     "email": "contact@whizzpack.in",
@@ -51,7 +51,7 @@ export default function About({ navHtml, footerHtml }) {
   return (
     <Layout
       title="About Whizzpack | Corrugated Box & Cotton Seed Bag Manufacturer India"
-      description="Whizzpack is a factory-direct manufacturer and exporter of corrugated boxes and cotton seed bags from Rajkot, Gujarat, India. ISO certified. Serving importers in USA, UK, and worldwide since 2021."
+      description="Whizzpack is a factory-direct manufacturer and exporter of corrugated boxes and Cotton Bags for Seeds from Rajkot, Gujarat, India. ISO certified. Serving importers in USA, UK, and worldwide since 2021."
       canonical="https://www.whizzpack.in/about"
       ogType="website"
       ogImage="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1200&auto=format&fit=crop&q=80"
@@ -169,7 +169,7 @@ export default function About({ navHtml, footerHtml }) {
             <div className="about-text">
               <span className="stag">Our Story</span>
               <h2>Factory-Direct Packaging from the Heart of Gujarat</h2>
-              <p>Whizzpack was founded in 2021 in Rajkot, one of India's leading industrial hubs, with a clear mission: cut the middlemen, eliminate the markups, and deliver export-grade corrugated boxes and cotton seed bags directly to importers worldwide.</p>
+              <p>Whizzpack was founded in 2021 in Rajkot, one of India's leading industrial hubs, with a clear mission: cut the middlemen, eliminate the markups, and deliver export-grade corrugated boxes and Cotton Bags for Seeds directly to importers worldwide.</p>
               <p>Our manufacturing facility sits in GIDC Industrial Estate, Rajkot - equipped with modern corrugation lines, precision die-cutting, and offset printing capabilities. Every order is produced on-site, quality-checked by our team, and shipped directly from our loading bay to your freight forwarder.</p>
               <p>From the first year, we focused exclusively on B2B export clients - importers, distributors, and brands in the USA, UK, Europe, and beyond who need reliable, scalable packaging supply without the complexity of an agent-based supply chain.</p>
             </div>
@@ -247,7 +247,7 @@ export default function About({ navHtml, footerHtml }) {
               },
               {
                 title: "OEKO-TEX Compliant",
-                desc: "Our cotton seed bags are available in OEKO-TEX compliant materials - free from harmful substances, ideal for organic and food-safe applications.",
+                desc: "Our Cotton Bags for Seeds are available in OEKO-TEX compliant materials - free from harmful substances, ideal for organic and food-safe applications.",
                 icon: <><path d="M12 22V12M5 17l7 5 7-5M5 12l7 5 7-5M5 7l7 5 7-5M12 2l7 5-7 5L5 7l7-5z"/></>
               },
               {
@@ -257,7 +257,7 @@ export default function About({ navHtml, footerHtml }) {
               },
               {
                 title: "Eco-Friendly Materials",
-                desc: "Corrugated boxes made with recycled kraft liner. Cotton seed bags use 100% natural cotton - biodegradable, sustainable, and GOTS-compatible.",
+                desc: "Corrugated boxes made with recycled kraft liner. Cotton Bags for Seeds use 100% natural cotton - biodegradable, sustainable, and GOTS-compatible.",
                 icon: <><path d="M12 22V12M5 17l7 5 7-5"/><path d="M5 12l7 5 7-5"/></>
               },
               {

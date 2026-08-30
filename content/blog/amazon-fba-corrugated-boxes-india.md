@@ -1,10 +1,10 @@
----
+﻿---
 title: "Amazon FBA Corrugated Boxes from India: What You Need to Know Before You Order"
 date: "2026-08-07"
 excerpt: "Sourcing Amazon FBA-compliant corrugated boxes from India can save US and UK sellers 35-50% on packaging costs. Here is what to specify and what to watch for."
 tags: ["Corrugated Boxes", "Amazon FBA", "Export Packaging", "USA", "UK"]
 author: "Jash B."
-authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 ---
 
 Amazon FBA has strict packaging and labelling requirements. Sellers who source their corrugated boxes domestically in the US or UK often pay two to three times what they would pay for the same board specification sourced factory-direct from India. The savings are real, but getting FBA-compliant boxes from an overseas manufacturer requires knowing exactly what to specify - and what to watch for.

@@ -1,8 +1,8 @@
----
+﻿---
 title: "Custom Printed Boxes with Your Logo: A Buyer's Guide from an Indian Manufacturer"
 date: "2026-07-21"
 author: "Jash B."
-authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 tags: ["custom printed boxes", "boxes with logo", "branded packaging", "flexo printing", "custom corrugated boxes", "packaging import"]
 excerpt: "Custom printed boxes turn every shipment into a branding opportunity. This guide covers printing methods, artwork requirements, minimums, and how to order branded boxes directly from a manufacturer."
 ogImage: "https://images.unsplash.com/photo-1595246140625-573b715d11dc?w=1200&auto=format&fit=crop&q=80"

@@ -1,8 +1,8 @@
----
+﻿---
 title: "Corrugated Boxes for Pharmaceutical and Nutraceutical Brands: Sourcing Secondary Packaging from India"
 date: "2026-08-21"
 author: "Jash B."
-authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US, UK, and the Middle East. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US, UK, and the Middle East. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 tags: ["corrugated boxes", "pharmaceutical packaging", "nutraceutical packaging", "supplement packaging", "secondary packaging India", "food-grade corrugated", "export packaging", "health product packaging"]
 excerpt: "Supplement brands, vitamin companies, and health product importers in the USA and UK go through enormous volumes of corrugated secondary packaging every year. Sourcing factory-direct from India offers consistent specification, food-safe construction, and the scale needed for a growing brand."
 ogImage: "https://images.pexels.com/photos/8940739/pexels-photo-8940739.jpeg?auto=compress&cs=tinysrgb&w=1200"

@@ -1,10 +1,10 @@
----
+﻿---
 title: "Returnable and Reusable Packaging for E-Commerce: A Practical Guide for Brands Shipping from India"
 date: "2026-08-14"
 excerpt: "How e-commerce brands can cut packaging waste with returnable and reusable corrugated solutions sourced from India, without compromising protection in transit."
 tags: ["Reusable Packaging", "E-commerce", "Reverse Logistics", "Sustainable Shipping", "Corrugated Boxes"]
 author: "Jash B."
-authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 ---
 
 E-commerce packaging is designed to be opened once and thrown away. A single-use box travels from a warehouse to a doorstep, gets cut open, and ends up in a recycling bin or, more often, a landfill. As return rates climb across categories like apparel, electronics, and subscription goods, more brands are asking a simple question: can the box make more than one trip?

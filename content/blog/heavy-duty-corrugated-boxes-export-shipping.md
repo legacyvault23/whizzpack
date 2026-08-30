@@ -4,7 +4,7 @@ excerpt: "Not every shipment fits in a standard single-wall box. This guide cove
 date: "2026-07-28"
 tags: ["heavy duty corrugated boxes", "triple wall boxes", "export packaging", "industrial boxes", "corrugated boxes India"]
 author: "Jash B."
-authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 ---
 
 

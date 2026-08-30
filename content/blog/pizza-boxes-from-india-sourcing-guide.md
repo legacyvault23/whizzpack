@@ -1,8 +1,8 @@
----
+﻿---
 title: "Pizza Boxes from India: Sourcing Guide for US Pizzerias and Distributors"
 date: "2026-07-15"
 author: "Jash B."
-authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 tags: ["pizza boxes", "pizza packaging", "corrugated boxes India", "food packaging import", "wholesale pizza boxes", "USA import"]
 excerpt: "US pizzerias and distributors are increasingly importing pizza boxes directly from India to control costs and get consistent quality. Here is what you need to know before placing your first order."
 ogImage: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80"
@@ -138,4 +138,4 @@ For broader box sourcing beyond pizza, see our guides on [cardboard shipping box
 
 ---
 
-*Whizzpack is a factory-direct packaging manufacturer in Rajkot, India, supplying corrugated boxes and cotton seed bags to importers across the US and UK. We do not act as a broker or trading company. Every order is produced in our own facility.*
+*Whizzpack is a factory-direct packaging manufacturer in Rajkot, India, supplying corrugated boxes and Cotton Bags for Seeds to importers across the US and UK. We do not act as a broker or trading company. Every order is produced in our own facility.*

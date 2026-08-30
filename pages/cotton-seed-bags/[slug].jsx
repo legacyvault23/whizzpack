@@ -1,4 +1,4 @@
-import Layout from '../../components/Layout';
+﻿import Layout from '../../components/Layout';
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
@@ -13,7 +13,7 @@ const PAGES = {
     tag: 'Drawstring Bags',
     ogImage: 'https://images.unsplash.com/photo-1544816155-12df9643f363?w=1200&auto=format&fit=crop&q=80',
     intro: [
-      'Drawstring cotton seed bags combine the natural breathability of woven cotton with a simple, secure closure that keeps seeds protected during storage and transit. The flat drawstring or tunnel cord closure allows rapid filling and resealing without tools - essential for commercial seed operations, nurseries, and retail garden centres that handle high volumes daily.',
+      'Drawstring Cotton Bags for Seeds combine the natural breathability of woven cotton with a simple, secure closure that keeps seeds protected during storage and transit. The flat drawstring or tunnel cord closure allows rapid filling and resealing without tools - essential for commercial seed operations, nurseries, and retail garden centres that handle high volumes daily.',
       'Whizzpack manufactures drawstring cotton bags in fabric weights from 100 GSM (lightweight muslin) through to 400 GSM (heavy canvas), with flat or round cord drawstrings in natural cotton, jute, or recycled polyester. All fabrics are OEKO-TEX Standard 100 compliant and free from harmful dyes. Custom sizes, gussets, and inner linings are available from MOQ 5,000 units.',
     ],
     specs: [
@@ -80,7 +80,7 @@ const PAGES = {
     tag: 'Organic Cotton',
     ogImage: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1200&auto=format&fit=crop&q=80',
     intro: [
-      'Organic cotton seed bags are produced from cotton grown without synthetic pesticides, herbicides, or GMOs, and processed without chlorine bleach or harmful finishing chemicals. For seed brands, organic farms, and retailers with sustainability commitments, this supply chain integrity is as important as the bag\'s physical performance.',
+      'Organic Cotton Bags for Seeds are produced from cotton grown without synthetic pesticides, herbicides, or GMOs, and processed without chlorine bleach or harmful finishing chemicals. For seed brands, organic farms, and retailers with sustainability commitments, this supply chain integrity is as important as the bag\'s physical performance.',
       'Whizzpack sources GOTS (Global Organic Textile Standard) certified organic cotton from certified ginners in Gujarat and provides full chain-of-custody documentation with every order. Bags are stitched with organic cotton thread, finished with natural cotton drawstrings or ties, and packed without plastic. From raw fibre to finished bag, every step in production is traceable and certified.',
     ],
     specs: [
@@ -147,7 +147,7 @@ const PAGES = {
     tag: 'Custom Printed',
     ogImage: 'https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=1200&auto=format&fit=crop&q=80',
     intro: [
-      'Custom printed cotton seed bags transform functional packaging into a brand statement. Whether you need a simple one-colour logo stamp on a natural muslin drawstring bag, a full-colour screen-printed retail display pouch, or embroidered canvas sacks for premium garden brands, Whizzpack\'s in-house print facility in Rajkot delivers consistent results across large production runs.',
+      'Custom printed Cotton Bags for Seeds transform functional packaging into a brand statement. Whether you need a simple one-colour logo stamp on a natural muslin drawstring bag, a full-colour screen-printed retail display pouch, or embroidered canvas sacks for premium garden brands, Whizzpack\'s in-house print facility in Rajkot delivers consistent results across large production runs.',
       'We use water-based, OEKO-TEX compliant inks for all screen and rubber printing. Heat transfer and embroidery options are available for designs requiring fine detail or a premium tactile finish. All printed bags remain fully biodegradable - no plastic laminates, no foil treatments, no PVC inks. Artwork proofing, print colour matching, and pre-production samples are standard for every new design.',
     ],
     specs: [
@@ -223,7 +223,7 @@ export default function CottonSeedBagVariant({ navHtml, footerHtml, page, slug }
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.whizzpack.in/" },
-        { "@type": "ListItem", "position": 2, "name": "Cotton Seed Bags", "item": "https://www.whizzpack.in/cotton-seed-bags" },
+        { "@type": "ListItem", "position": 2, "name": "Cotton Bags for Seeds", "item": "https://www.whizzpack.in/cotton-seed-bags" },
         { "@type": "ListItem", "position": 3, "name": page.tag, "item": canonical },
       ]
     },
@@ -384,7 +384,7 @@ export default function CottonSeedBagVariant({ navHtml, footerHtml, page, slug }
         <div className="wrap">
           <nav className="vp-breadcrumb" aria-label="Breadcrumb">
             <Link href="/">Home</Link><span>/</span>
-            <Link href="/cotton-seed-bags">Cotton Seed Bags</Link><span>/</span>
+            <Link href="/cotton-seed-bags">Cotton Bags for Seeds</Link><span>/</span>
             <span style={{color:'rgba(255,255,255,.8)'}}>{page.tag}</span>
           </nav>
           <div className="vp-tag">{page.tag}</div>
@@ -392,7 +392,7 @@ export default function CottonSeedBagVariant({ navHtml, footerHtml, page, slug }
           <p>{page.subtitle}</p>
           <div className="vp-cta-group">
             <a href="/#contact" className="vp-btn vp-btn-primary">Get a Free Quote</a>
-            <Link href="/cotton-seed-bags" className="vp-btn vp-btn-ghost">All Cotton Seed Bags</Link>
+            <Link href="/cotton-seed-bags" className="vp-btn vp-btn-ghost">All Cotton Bags for Seeds</Link>
           </div>
         </div>
       </section>
@@ -496,7 +496,7 @@ export default function CottonSeedBagVariant({ navHtml, footerHtml, page, slug }
           </p>
           <a href="/#contact" className="vp-btn vp-btn-cta" style={{display:'inline-flex',margin:'0 auto'}}>Request a Quote</a>
           <div className="vp-related">
-            <Link href="/cotton-seed-bags" className="vp-related-link">All Cotton Seed Bags</Link>
+            <Link href="/cotton-seed-bags" className="vp-related-link">All Cotton Bags for Seeds</Link>
             <Link href="/corrugated-boxes" className="vp-related-link">Corrugated Boxes</Link>
             <Link href="/about" className="vp-related-link">About Whizzpack</Link>
             <Link href="/blogs" className="vp-related-link">Packaging Guides</Link>

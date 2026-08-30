@@ -1,10 +1,10 @@
----
+﻿---
 title: "How to Find and Vet a Corrugated Box Manufacturer in India"
 date: "2026-08-07"
 excerpt: "Hundreds of manufacturers in India export corrugated boxes. Finding a reliable one is not about finding the cheapest quote - it is about knowing what questions to ask and what evidence to require."
 tags: ["Corrugated Boxes", "India Manufacturing", "Sourcing Guide", "Export Packaging", "B2B"]
 author: "Jash B."
-authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 ---
 
 India has thousands of corrugated box manufacturers. The industry is concentrated in a handful of industrial clusters - Rajkot, Ahmedabad, and Surat in Gujarat; Pune and Nashik in Maharashtra; Delhi NCR; and Chennai - but manufacturers operate in almost every major city. For a US or UK importer looking to source factory-direct, the challenge is not finding suppliers. It is distinguishing the capable, reliable manufacturers from the brokers, the undercapitalised operations, and the factories that will underperform on quality once the first order is placed.

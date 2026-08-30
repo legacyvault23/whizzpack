@@ -1,4 +1,4 @@
-import Layout from '../../components/Layout';
+﻿import Layout from '../../components/Layout';
 import { getPost, getAllPosts } from '../../lib/posts';
 import { marked } from 'marked';
 import fs from 'fs';
@@ -62,7 +62,7 @@ export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml
       "name": frontmatter.author || "Whizzpack Editorial Team",
       "url": frontmatter.author === "Jash B." ? "https://www.whizzpack.in/authors/jash-b" : "https://www.whizzpack.in/about",
       "sameAs": frontmatter.author === "Jash B." ? ["https://www.whizzpack.in/authors/jash-b", "https://www.linkedin.com/company/whizzpack/"] : [],
-      "description": frontmatter.authorBio || "Packaging export specialist at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags.",
+      "description": frontmatter.authorBio || "Packaging export specialist at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds.",
       "worksFor": { "@type": "Organization", "name": "Whizzpack", "url": "https://www.whizzpack.in" }
     },
     "publisher": {

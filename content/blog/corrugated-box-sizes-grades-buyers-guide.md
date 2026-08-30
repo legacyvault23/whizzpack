@@ -4,7 +4,7 @@ excerpt: "Confused by corrugated box grades, flute types, and standard sizes? Th
 date: "2026-08-05"
 tags: ["corrugated box sizes", "corrugated box grades", "corrugated box dimensions", "corrugated boxes India", "packaging buyer guide"]
 author: "Jash B."
-authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 ---
 
 

@@ -1,8 +1,8 @@
----
+﻿---
 title: "Eco-Friendly Packaging from India: Guide for US & UK Buyers"
 date: "2026-07-04"
 author: "Jash B."
-authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 tags: ["sustainable packaging", "eco-friendly boxes", "cotton bags", "green supply chain", "India export", "recycled corrugated"]
 excerpt: "Demand for sustainable packaging is rising fast among US and UK importers. Here is what India actually offers, how to verify eco claims, and what to ask before placing an order."
 ogImage: "https://images.unsplash.com/photo-1553413077-190dd305871c?w=1200&auto=format&fit=crop&q=80"
@@ -31,7 +31,7 @@ Beauty and cosmetics brands, which face particularly strong retailer and consume
 
 [See our full corrugated box range and request a specification discussion](/corrugated-boxes)
 
-## Cotton Seed Bags: A Natural Packaging Story
+## Cotton Bags for Seeds: A Natural Packaging Story
 
 Cotton bags are one of the cleaner packaging stories in the industry. Natural cotton is biodegradable, compostable at end of life, and highly durable -- the average cotton bag handles dozens of reuse cycles before it degrades. For buyers sourcing in bulk, this is a meaningful sustainability credential.
 
@@ -43,7 +43,7 @@ The environmental calculus does require context, though. Cotton is water-intensi
 
 **Recycled cotton**: Some manufacturers offer bags made from recycled cotton fibre, typically sourced from textile industry offcuts. Recycled cotton uses significantly less water than growing new fibre and diverts textile waste from landfill.
 
-![Natural cotton seed bags displayed in a row showing biodegradable and reusable packaging made from organic cotton](https://images.pexels.com/photos/3850442/pexels-photo-3850442.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Natural Cotton Bags for Seeds displayed in a row showing biodegradable and reusable packaging made from organic cotton](https://images.pexels.com/photos/3850442/pexels-photo-3850442.jpeg?auto=compress&cs=tinysrgb&w=1200)
 *Natural cotton bags are biodegradable and built for reuse -- two qualities that matter to sustainability-conscious buyers in the US and UK.*
 
 ## How to Verify Eco Claims Before You Order
@@ -90,7 +90,7 @@ Eco-certified materials can add 5-10 days to sampling lead times versus standard
 
 Standard lead time for production runs -- corrugated boxes or cotton bags -- remains 25-35 days sea freight to the US East Coast and 18-22 days to UK ports once production is complete.
 
-For product-specific details, see our full guides on [importing corrugated boxes from India](/blogs/how-to-import-corrugated-boxes-from-india) and [sourcing cotton seed bags from India](/blogs/cotton-seed-bags-sourcing-guide-usa-uk).
+For product-specific details, see our full guides on [importing corrugated boxes from India](/blogs/how-to-import-corrugated-boxes-from-india) and [sourcing Cotton Bags for Seeds from India](/blogs/cotton-seed-bags-sourcing-guide-usa-uk).
 
 [Request samples or ask about certified material options](/cotton-seed-bags)
 

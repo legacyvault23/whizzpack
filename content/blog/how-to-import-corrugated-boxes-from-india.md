@@ -1,8 +1,8 @@
----
+﻿---
 title: "Corrugated Boxes from India: Buyer Guide for US & UK Importers"
 date: "2026-06-12"
 author: "Jash B."
-authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 tags: ["corrugated boxes", "cardboard packaging", "India import", "packaging specs", "buyer guide", "box grades"]
 excerpt: "What US and UK buyers need to understand before importing corrugated boxes from India, specifications, quality standards, what to ask, and how to find a reliable manufacturer."
 ---
@@ -83,7 +83,7 @@ Your first order from a new supplier will require more communication and longer 
 
 Importers who struggle with Indian suppliers typically skipped this documentation step early on. The solution is clarity at the start, not switching suppliers.
 
-If your requirements include cotton bags alongside corrugated boxes, see our guide on [sourcing cotton seed bags from India](/blogs/cotton-seed-bags-sourcing-guide-usa-uk) for the same practical approach applied to fabric packaging.
+If your requirements include cotton bags alongside corrugated boxes, see our guide on [sourcing Cotton Bags for Seeds from India](/blogs/cotton-seed-bags-sourcing-guide-usa-uk) for the same practical approach applied to fabric packaging.
 
 ## Trade Glossary: Corrugated Box Terms for Importers
 

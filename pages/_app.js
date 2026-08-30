@@ -149,7 +149,7 @@ function SamplePopup() {
               <input type="text" name="name" placeholder="Your name" required style={inp} />
               <input type="email" name="email" placeholder="Work email" required style={inp} />
               <select name="product" style={{...inp, marginBottom:'20px', background:'#fff', color:'#1a1a2e', cursor:'pointer'}}>
-                <option value="Cotton Seed Bags">Cotton Seed Bags</option>
+                <option value="Cotton Bags for Seeds">Cotton Bags for Seeds</option>
                 <option value="Corrugated Boxes">Corrugated Boxes</option>
                 <option value="Both Products">Both Products</option>
               </select>

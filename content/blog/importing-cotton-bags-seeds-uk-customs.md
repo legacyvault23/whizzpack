@@ -1,10 +1,10 @@
----
+﻿---
 title: "Importing Cotton Bags for Seeds to the UK: Commodity Codes, Duty Rates and Customs Process"
 date: "2026-08-30"
 excerpt: "UK seed brands importing cotton bags from India face a straightforward customs process once you know the commodity code, the applicable duty rate under DCTS, and what documents your supplier must provide. This guide covers the complete UK customs process."
 tags: ["importing cotton bags seeds UK", "UK customs cotton bags India", "cotton bag import duty UK", "UK commodity code cotton bags seeds", "DCTS cotton bags UK import", "UK seed packaging import India"]
 author: "Jash B."
-authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 ogImage: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1200&q=80&auto=format&fit=crop"
 ---
 
@@ -171,4 +171,4 @@ For the complete process of sourcing cotton bags from India, including factory v
 
 ---
 
-Whizzpack exports cotton seed bags directly to UK importers from our factory in Rajkot, Gujarat. We provide the complete documentation set required for UK customs clearance, including OEKO-TEX and GOTS certificates, Form A certificates of origin, and pre-shipment inspection support. To discuss an import inquiry, contact us at [contact@whizzpack.in](mailto:contact@whizzpack.in) or visit our [cotton bags for seeds page](/cotton-seed-bags).
+Whizzpack exports Cotton Bags for Seeds directly to UK importers from our factory in Rajkot, Gujarat. We provide the complete documentation set required for UK customs clearance, including OEKO-TEX and GOTS certificates, Form A certificates of origin, and pre-shipment inspection support. To discuss an import inquiry, contact us at [contact@whizzpack.in](mailto:contact@whizzpack.in) or visit our [cotton bags for seeds page](/cotton-seed-bags).

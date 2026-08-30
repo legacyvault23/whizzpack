@@ -1,4 +1,4 @@
-// Clean pagination URLs: /blogs/page/2, /blogs/page/3, etc.
+﻿// Clean pagination URLs: /blogs/page/2, /blogs/page/3, etc.
 // Renders the same component as the blog index, with proper canonical for each page.
 import Layout from '../../../components/Layout';
 import { getAllPosts } from '../../../lib/posts';
@@ -40,7 +40,7 @@ export default function BlogPage({ posts, navHtml, footerHtml, totalPages, curre
   return (
     <Layout
       title={`Packaging Insights for US & UK Importers - Page ${currentPage} | Whizzpack`}
-      description="Expert guides on importing corrugated boxes and cotton seed bags from India. Resources for US and UK buyers sourcing bulk packaging."
+      description="Expert guides on importing corrugated boxes and Cotton Bags for Seeds from India. Resources for US and UK buyers sourcing bulk packaging."
       canonical={`https://www.whizzpack.in/blogs/page/${currentPage}`}
       ogImage="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1200&auto=format&fit=crop&q=80"
       ogType="website"

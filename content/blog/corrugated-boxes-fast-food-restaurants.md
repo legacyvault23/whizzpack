@@ -1,8 +1,8 @@
----
+﻿---
 title: "Corrugated Boxes for Fast Food Restaurants and Franchises: Pizza, Burgers, Pastries and Delivery Parcels"
 date: "2026-08-19"
 author: "Jash B."
-authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US, UK, and the Middle East. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US, UK, and the Middle East. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 tags: ["corrugated boxes", "fast food packaging", "pizza boxes", "burger boxes", "food packaging India", "franchise packaging", "to-go packaging", "food delivery boxes"]
 excerpt: "Fast food restaurants, QSR chains, and food franchises go through enormous volumes of packaging every month. Corrugated boxes from India offer food-safe construction, full custom printing, and the kind of bulk pricing that makes sense at scale."
 ogImage: "https://images.pexels.com/photos/4628431/pexels-photo-4628431.jpeg?auto=compress&cs=tinysrgb&w=1200"

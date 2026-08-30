@@ -1,10 +1,10 @@
----
+﻿---
 title: "How to Order Samples of Cotton Bags for Seeds from India: A Step-by-Step Guide"
 date: "2026-08-30"
 excerpt: "Getting the sample right before committing to bulk production is the most important step in sourcing cotton bags for seeds from India. This guide covers what to specify in your sample request, what to physically check on arrival, and how to give feedback that gets you to a production-ready spec."
 tags: ["sample order cotton bags seeds India", "cotton bag samples UK USA", "pre-production sample seed bags", "how to order seed bag samples India", "cotton bag supplier sample process"]
 author: "Jash B."
-authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 ogImage: "https://images.pexels.com/photos/31112229/pexels-photo-31112229.jpeg?auto=compress&cs=tinysrgb&w=1200"
 ---
 

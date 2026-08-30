@@ -1,10 +1,10 @@
----
+﻿---
 title: "Custom Printed Corrugated Boxes from India: Complete Buyer's Guide for E-Commerce Brands"
 excerpt: "Planning to source custom printed corrugated boxes from India? This guide covers print methods, eco-certifications, MOQ considerations, and how to choose the right manufacturer for your e-commerce brand."
 date: "2026-08-13"
 tags: ["corrugated boxes", "custom packaging", "e-commerce packaging", "India sourcing", "sustainable packaging"]
 author: "Jash B."
-authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 image: "https://images.pexels.com/photos/31438304/pexels-photo-31438304.jpeg?auto=compress&cs=tinysrgb&w=1200"
 ---
 

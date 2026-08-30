@@ -1,4 +1,4 @@
-import Head from 'next/head';
+﻿import Head from 'next/head';
 import { useEffect } from 'react';
 
 export default function Layout({ children, title, description, canonical, schema, ogImage, ogType, navHtml, footerHtml }) {
@@ -161,7 +161,7 @@ export default function Layout({ children, title, description, canonical, schema
           </button>
           <div className="mm-dd-menu">
             <a href="/corrugated-boxes" className="mlink">&#128230; Corrugated Boxes</a>
-            <a href="/cotton-seed-bags" className="mlink">&#127807; Cotton Seed Bags</a>
+            <a href="/cotton-seed-bags" className="mlink">&#127807; Cotton Bags for Seeds</a>
           </div>
         </div>
         <a href="/about"    className="mlink">About</a>

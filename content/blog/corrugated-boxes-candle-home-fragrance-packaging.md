@@ -1,8 +1,8 @@
----
+﻿---
 title: "Corrugated Boxes for Candle and Home Fragrance Brands: Sourcing Secondary Packaging from India"
 date: "2026-08-25"
 author: "Jash B."
-authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US, UK, and the Middle East. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and cotton seed bags specialising in factory-direct B2B export."
+authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US, UK, and the Middle East. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 tags: ["corrugated boxes", "candle packaging", "home fragrance packaging", "secondary packaging India", "glass packaging protection", "custom printed boxes", "export packaging", "eco-friendly packaging"]
 excerpt: "Candle and home fragrance brands carry some of the most fragile primary packaging in retail. Sourcing corrugated secondary packaging factory-direct from India gives brands the protective specification, custom printing, and FSC credentials their wholesale and retail buyers require."
 ogImage: "https://images.unsplash.com/photo-1595246135406-803418233494?w=1200&q=80"
