@@ -66,7 +66,7 @@ const PAGES = {
       },
       {
         q: 'Can drawstring cotton bags be printed with our logo?',
-        a: 'Yes. Screen printing, rubber stamp printing, and heat transfer are all available on drawstring bags. For larger print areas or multi-colour designs, our custom printed cotton seed bags option provides additional printing flexibility.',
+        a: 'Yes. Screen printing, rubber stamp printing, and heat transfer are all available on drawstring bags. For larger print areas or multi-colour designs, our custom printed cotton bags for seeds option provides additional printing flexibility.',
       },
     ],
   },
@@ -132,7 +132,7 @@ const PAGES = {
         a: 'Yes, provided GOTS approved inks and printing processes are used. We use water-based inks that meet GOTS Annex 6 criteria for permitted substances. Printed bags retain their GOTS TC, though the print station must also be GOTS certified for the claim to extend to the finished printed bag.',
       },
       {
-        q: 'How should organic cotton seed bags be stored before use?',
+        q: 'How should organic cotton bags for seeds be stored before use?',
         a: 'Store in a cool, dry environment away from direct sunlight and moisture. Natural cotton can absorb ambient humidity, so airtight kraft or cardboard outer packaging (as supplied) helps maintain bag quality before use. Avoid storing near strong odours as cotton fibres can absorb smells.',
       },
     ],
@@ -183,7 +183,7 @@ const PAGES = {
         a: 'For screen printing, provide Adobe Illustrator (.ai) or PDF vector files with fonts outlined. For embroidery, provide high-resolution raster files (300 DPI PNG or TIFF) - our digitising team will convert artwork to embroidery format. For heat transfer, provide vector or high-res raster at actual print size.',
       },
       {
-        q: 'Can you print on both sides of a cotton seed bag?',
+        q: 'Can you print on both sides of a cotton bag for seeds?',
         a: 'Yes. Double-sided screen printing is available at additional cost. The second side is printed after the first side is fully cured. For drawstring bags, we print on the front face before bag assembly, then assemble and stitch to avoid ink cracking at seams.',
       },
       {
