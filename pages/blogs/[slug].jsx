@@ -169,6 +169,7 @@ export async function getServerSideProps({ params }) {
     let contentHtml = marked(content);
     contentHtml = contentHtml.replace(' loading="lazy"', ' fetchpriority="high"');
     contentHtml = contentHtml.replace(/^\s*<h1[^>]*>[\s\S]*?<\/h1>\n*/, '');
+    contentHtml = contentHtml.replace(/<table>/g, '<div class="blog-table-wrap"><table>').replace(/<\/table>/g, '</table></div>');
     const navHtml = fs.readFileSync(path.join(process.cwd(), 'page-content/nav-sub.html'), 'utf8');
     const footerHtml = fs.readFileSync(path.join(process.cwd(), 'page-content/footer.html'), 'utf8');
     const allPosts = getAllPosts();
