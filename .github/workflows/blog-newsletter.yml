@@ -5,6 +5,12 @@ on:
     branches: [main]
     paths:
       - 'content/blog/**.md'
+  workflow_dispatch:
+    inputs:
+      blog_slug:
+        description: 'Blog slug to send newsletter for (e.g. cotton-bags-seeds-germination-breathability-guide)'
+        required: true
+        type: string
 
 jobs:
   newsletter:
@@ -20,17 +26,32 @@ jobs:
       - name: Detect newly added blog files
         id: detect
         run: |
-          NEW_BLOGS=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'content/blog/*.md')
-          if [ -z "$NEW_BLOGS" ]; then
-            echo "No new blog files detected."
-            echo "has_new=false" >> $GITHUB_OUTPUT
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            SLUG="${{ inputs.blog_slug }}"
+            FILE="content/blog/${SLUG}.md"
+            if [ -f "$FILE" ]; then
+              echo "Manual trigger for: $FILE"
+              echo "has_new=true" >> $GITHUB_OUTPUT
+              echo "files<<EOF" >> $GITHUB_OUTPUT
+              echo "$FILE" >> $GITHUB_OUTPUT
+              echo "EOF" >> $GITHUB_OUTPUT
+            else
+              echo "File not found: $FILE"
+              echo "has_new=false" >> $GITHUB_OUTPUT
+            fi
           else
-            echo "New blogs detected:"
-            echo "$NEW_BLOGS"
-            echo "has_new=true" >> $GITHUB_OUTPUT
-            echo "files<<EOF" >> $GITHUB_OUTPUT
-            echo "$NEW_BLOGS" >> $GITHUB_OUTPUT
-            echo "EOF" >> $GITHUB_OUTPUT
+            NEW_BLOGS=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'content/blog/*.md')
+            if [ -z "$NEW_BLOGS" ]; then
+              echo "No new blog files detected."
+              echo "has_new=false" >> $GITHUB_OUTPUT
+            else
+              echo "New blogs detected:"
+              echo "$NEW_BLOGS"
+              echo "has_new=true" >> $GITHUB_OUTPUT
+              echo "files<<EOF" >> $GITHUB_OUTPUT
+              echo "$NEW_BLOGS" >> $GITHUB_OUTPUT
+              echo "EOF" >> $GITHUB_OUTPUT
+            fi
           fi
 
       - name: Set up Python
