@@ -36,7 +36,7 @@ The practical measure of whether packaging is working for seeds is germination r
 - In variable storage conditions (humidity ranging from 50% to 75%), cotton bags consistently show 5 to 12 percentage points higher germination rates than sealed plastic bags over a six-month period. The mechanism is condensation prevention.
 - For seeds stored more than six months, temperature-controlled sealed containers outperform both cotton and standard plastic bags. For very long-term storage, neither material is optimal without humidity control.
 
-For commercial seed distributors whose product moves through the supply chain within a season, cotton bags are a clear upgrade over unsealed or loosely sealed plastic bags.
+For commercial seed distributors whose product moves through the supply chain within a season, cotton bags are a clear upgrade over unsealed or loosely sealed plastic bags. For a technical breakdown of how cotton's weave structure prevents condensation and fungal damage at the fabric level, see our [guide to how breathable cotton bags protect seed germination rates](/blogs/cotton-bags-seeds-germination-breathability-guide).
 
 ---
 
