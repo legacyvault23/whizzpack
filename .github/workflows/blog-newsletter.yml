@@ -132,6 +132,7 @@ jobs:
 
               try:
                   url = f"{backend}/webhooks/whizzpack-blog"
+                  print(f"  POSTing to: {url}")
                   req = urllib.request.Request(url, data=payload, method="POST")
                   req.add_header("Content-Type", "application/json")
                   req.add_header("x-webhook-secret", secret)
@@ -140,6 +141,7 @@ jobs:
                       print(f"  Response {resp.status}: {body}")
               except Exception as e:
                   print(f"  Request failed: {e}")
+                  sys.exit(1)
 
           print("Done.")
           PYEOF
