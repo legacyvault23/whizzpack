@@ -100,6 +100,6 @@ The specification decisions - GSM, thread count, closure type, certification - d
 
 For seed merchants sourcing from India, Whizzpack manufactures cotton bags for seeds in Rajkot, Gujarat, with factory-direct export to the USA, UK, and Europe. We supply unbleached natural cotton bags, GOTS-certified options, custom-printed bags, and muslin bags across the full range of seed merchant applications - with ISO 9001 quality management throughout.
 
-**Request samples or a bulk quote:** [contact@whizzpack.in](mailto:contact@whizzpack.in) | +91 83209 07574
+**Request samples or a bulk quote:** [contact@whizzpack.in](mailto:contact@whizzpack.in)
 
 Explore the full range at [whizzpack.in/cotton-seed-bags](/cotton-seed-bags).
