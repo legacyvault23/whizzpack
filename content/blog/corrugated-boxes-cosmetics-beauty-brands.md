@@ -40,7 +40,7 @@ The category is not monolithic. Beauty brands typically use a combination of box
 
 **Gift set boxes.** Used for bundled sets, such as a moisturizer, serum, and face wash sold together. These use higher board grades, often with die-cut internal structure, and are fully printed with premium finishes.
 
-**Subscription boxes.** Monthly or quarterly curated boxes. These are fully custom, usually with internal branding, a lid-and-base or mailer construction, and sometimes with a custom printed inner sleeve.
+**Subscription boxes.** Monthly or quarterly curated boxes. These are fully custom, usually with internal branding, a lid-and-base or mailer construction, and sometimes with a custom printed inner sleeve. Food and beverage brands, including specialty tea and coffee companies, are among the fastest-growing users of this format alongside beauty brands. For packaging specifications specific to tea and coffee brands, see our [corrugated boxes for tea and coffee brands sourcing guide](/blogs/corrugated-boxes-tea-coffee-brands-india).
 
 ## Key Specifications: What Cosmetics Buyers Specify
 
