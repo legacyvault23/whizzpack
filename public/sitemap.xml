@@ -91,7 +91,7 @@
   </url>
   <url>
     <loc>https://www.whizzpack.in/blogs</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -332,6 +332,12 @@
   <url>
     <loc>https://www.whizzpack.in/blogs/corrugated-boxes-tea-coffee-brands-india</loc>
     <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.whizzpack.in/blogs/corrugated-boxes-wine-spirits-brands-india</loc>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url></urlset>

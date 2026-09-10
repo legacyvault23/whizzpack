@@ -34,7 +34,7 @@ The candle and home fragrance category uses corrugated packaging across several 
 
 ### Shipper Cartons
 
-The workhorse of the category. A shipper carton holds 6, 12, or 24 units of a candle or fragrance product for transport from a fulfilment centre or warehouse to a retail store or distribution hub. For glass containers, the carton needs internal partitions or cell dividers to prevent unit-to-unit contact during transit. These are built as flat-packed inserts that assemble at the packing station.
+The workhorse of the category. A shipper carton holds 6, 12, or 24 units of a candle or fragrance product for transport from a fulfilment centre or warehouse to a retail store or distribution hub. For glass containers, the carton needs internal partitions or cell dividers to prevent unit-to-unit contact during transit. These are built as flat-packed inserts that assemble at the packing station. Wine and spirits brands, which use the same cell-partition approach for glass bottles, will find detailed sourcing guidance in our [corrugated boxes for wine and spirits brands guide](/blogs/corrugated-boxes-wine-spirits-brands-india).
 
 B-flute single wall construction is the standard for most candle shipper cartons. For heavier products - large glass vessels, multi-piece gift sets, or heavy ceramic formats - BC double wall provides the additional top-load resistance needed for palletised ocean freight. Our guide on [single-wall vs double-wall corrugated boxes](/blogs/single-wall-vs-double-wall-corrugated-boxes) explains when to move up to double wall construction.
 

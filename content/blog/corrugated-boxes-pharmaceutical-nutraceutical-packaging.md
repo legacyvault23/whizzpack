@@ -50,7 +50,7 @@ Secondary corrugated packaging in the supplement and health product category tak
 
 The shipper carton is the workhorse of pharmaceutical secondary packaging. It is the RSC (Regular Slotted Container) box that holds 6, 12, or 24 units of a product for distribution from a fulfilment centre or warehouse. Shipper cartons need to be dimensionally accurate to the product inside, strong enough to be stacked on pallets in transit, and light enough to keep freight costs manageable.
 
-For most supplement bottles (60ct, 90ct, 120ct in standard sizes), an E-flute or B-flute single wall shipper carton provides sufficient compression strength for a standard palletised ocean freight journey. For heavier items - glass jars, multi-pack bundles, or bulk catering formats - BC double wall construction provides the additional top-load resistance needed.
+For most supplement bottles (60ct, 90ct, 120ct in standard sizes), an E-flute or B-flute single wall shipper carton provides sufficient compression strength for a standard palletised ocean freight journey. For heavier items - glass jars, multi-pack bundles, or bulk catering formats - BC double wall construction provides the additional top-load resistance needed. Wine and spirits brands, which ship glass bottles at similar weights and have their own glass-protection and FSC certification requirements, will find category-specific sourcing guidance in our [corrugated boxes for wine and spirits brands guide](/blogs/corrugated-boxes-wine-spirits-brands-india).
 
 ### Shelf-Ready Packaging (SRP)
 
