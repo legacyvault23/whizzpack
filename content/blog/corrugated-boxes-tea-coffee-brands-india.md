@@ -38,7 +38,7 @@ Getting the flute grade right is the most common mistake buyers make on a first 
 | Heavy glass jars, large-format tins | C flute or BC double | Stacking load and fragility protection |
 | Premium subscription boxes (DTC) | E flute or EB double | Print quality combined with rigidity |
 
-![Loose leaf tea bags with dried tea leaves scattered on a light surface, representing the variety of tea formats that require correctly specified corrugated secondary packaging for wholesale and DTC shipping](https://cdn.pixabay.com/photo/2020/04/12/21/37/drink-5035951_1280.jpg)
+![A barista pouring steamed milk into a latte, representing the premium coffee brands that require correctly specified corrugated secondary packaging for wholesale and DTC shipping from India](https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 ## Custom Printing for Tea and Coffee Brand Packaging
 
@@ -78,7 +78,7 @@ Before confirming a production run for tea or coffee packaging, ask these questi
 
 5. **What print registration tolerance do you work to?** For E flute cartons with brand colours and detailed artwork, a registration tolerance of 1.5mm or better is the industry standard.
 
-![A hand holding a sealed metallic tea tin against a bright blue sky, representing premium tea packaging formats that are secondary-packed inside corrugated export boxes from India](https://cdn.pixabay.com/photo/2016/09/05/09/38/tea-caddy-1646043_1280.jpg)
+![Herbal loose leaf tea in a glass bowl with fresh green leaves, representing premium loose leaf tea formats that are secondary-packed inside corrugated export boxes from India](https://images.pexels.com/photos/1638278/pexels-photo-1638278.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 ## Lead Times and MOQ for Tea and Coffee Brands
 

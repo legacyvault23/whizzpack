@@ -45,7 +45,7 @@ Getting the flute grade wrong is the most common mistake wine buyers make on a f
 
 ## Cell Partitions and Bottle Dividers
 
-![Wine glasses on a formally set restaurant table with linen napkins, representing the premium hospitality market that sources wine in glass-safe corrugated cases with cell partitions](https://cdn.pixabay.com/photo/2014/09/17/20/26/wine-449952_1280.jpg)
+![Two white wine glasses held side by side against warm lighting, representing the premium wine hospitality market that sources glass-safe corrugated cases with cell partitions](https://images.pexels.com/photos/1123260/pexels-photo-1123260.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 Cell partitions are the defining specification element for wine and spirits packaging. A wine case without partitions allows bottles to contact each other in transit, which means breakage even in well-made corrugated board.
 
