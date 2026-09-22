@@ -108,6 +108,65 @@ Any quote that does not include the board specification in writing should be tre
 
 ---
 
+## What Happens After You Send a Specification
+
+Understanding the typical sequence helps set realistic expectations and reduces the back-and-forth that slows most first-time import inquiries.
+
+**Day 1 to 2: Initial review and clarifications**
+The manufacturer reviews your specification and comes back with any gaps. Common omissions in first-time inquiries: no Incoterms preference stated, flute type not specified, print colours described as "our brand blue" without a Pantone reference. A fast response to these clarifications keeps the timeline moving.
+
+**Day 2 to 5: Quote and sample quote issued**
+You typically receive two figures - a sample cost (usually for 50 to 100 units, air-shipped to you) and a production cost at your stated quantity. Sample costs are often partially subsidised for first-time buyers on the understanding that a production order follows.
+
+**Day 5 to 12: Sample production and shipment**
+Samples are produced and air-shipped, typically taking 5 to 7 business days from confirmation. You check the sample against your product: does it fit cleanly, does the print match your colour references, does the board feel right for the application. Any adjustments - a dimension change, a different liner grade, a print colour correction - are fed back for a revised sample at minimal additional cost.
+
+**Day 12 to 15: Production order confirmation**
+Once a sample is approved in writing, the production order is confirmed with the purchase order and advance payment. The production queue is scheduled and a cargo ready date is confirmed in writing.
+
+This pre-production phase typically takes two to three weeks for a straightforward specification. Complex custom die-cut styles or four-colour print can extend it by a week. Factor this into your planning when the boxes have a firm arrival deadline.
+
+---
+
+## Retailer and Marketplace Compliance Requirements
+
+If your corrugated boxes will enter an Amazon fulfilment centre, a Walmart vendor programme, or a UK retail distribution centre, the specification that qualifies your boxes for your own warehouse may not qualify them for your retail customer. Check these requirements before finalising your quote.
+
+**Amazon FBA corrugated box requirements**
+Amazon's fulfilment centre receiving requirements specify minimum burst strength and box compression test (BCT) values depending on the packed product weight. For products up to 50 lbs, standard C flute single wall generally meets requirements; for heavier products, double wall BC is often needed. Amazon also sets requirements on maximum outer dimensions, labelling placement, and pallet overhang.
+
+If you are an Amazon FBA seller sourcing boxes from India, share the relevant Amazon packaging compliance guidance with your manufacturer at the quote stage. Our [Amazon FBA corrugated boxes guide](/blogs/amazon-fba-corrugated-boxes-india) covers Indian-manufactured box specifications for FBA compliance in detail.
+
+**Walmart and Target vendor packaging requirements**
+These retailers issue vendor compliance manuals that specify corrugated box performance standards. Common requirements include minimum ECT (edge crush test) values, maximum pallet overhangs, and specific labelling zones. Chargebacks for non-compliant packaging are a real cost - specifying correctly upfront is cheaper than failing compliance on arrival.
+
+**UK retail distribution requirements**
+UK distribution centres often specify BSEN ISO 2247 drop test requirements or internal vendor standards. The key compliance point for most UK importers is confirming that the burst strength or BCT values quoted by your Indian supplier are measured under the same test standards as the values your customer's manual references. Indian manufacturers familiar with UK export use ASTM and ISO standards and can cross-reference these for most UK retailer requirements on request.
+
+---
+
+## Frequently Asked Questions
+
+**How long does a corrugated box quote from India take to prepare?**
+For a complete specification, a professional manufacturer will return a quote within 24 to 48 hours. Incomplete specifications requiring clarification extend this. The fastest way to get a quote is to send all seven specification inputs listed in this guide in your first message.
+
+**Can I get samples before committing to a production order?**
+Yes. Most established Indian corrugated box manufacturers will produce samples in your exact specification. Samples are typically 50 to 100 units, air-shipped to you, with a lead time of 5 to 7 working days from confirmation. There is usually a sample cost, which may be credited against your first production order.
+
+**What payment terms should I expect from an Indian manufacturer?**
+The industry standard is 30% advance against purchase order and 70% against bill of lading copy. Established buyers with a track record of repeat orders may negotiate different terms over time, but 30/70 is the starting norm and protects both parties.
+
+**Is it possible to compare quotes from multiple Indian suppliers?**
+Yes, and it is sensible to do so for a first order. The important point is to ensure the quotes are for identical specifications - the same flute, the same liner GSM, the same print specification. A C flute / 150 GSM kraftliner quote is not comparable with a C flute / 100 GSM test liner quote even if the unit price appears similar. Always confirm the board specification before comparing prices.
+
+**What documents does an Indian corrugated box export shipment include?**
+A standard export shipment from India includes: commercial invoice, packing list, bill of lading (or airway bill), and certificate of origin. For buyers who request them, quality documents include burst strength and GSM test certificates. A fumigation certificate is available where required by the destination country, and a third-party pre-shipment inspection report can be arranged through SGS, Bureau Veritas, or Intertek.
+
+**What is the minimum order for a corrugated box quote to be commercially relevant?**
+Most Indian manufacturers quote commercially from 5,000 units upwards. At lower quantities, the economics of a custom production run, tooling, and sea freight rarely produce competitive landed unit costs compared to domestic sourcing. Some manufacturers will produce smaller quantities for sampling purposes only.
+
+---
+
 ## How to Get a Quote from Whizzpack
 
 Whizzpack manufactures corrugated boxes factory-direct from our facility in Rajkot, Gujarat, and exports to importers in the USA, UK, Europe, and worldwide. Our standard production covers B, C, E, and BC double wall flute in single-wall and double-wall constructions, with custom sizes, printing, and quality documentation on every order.

@@ -213,7 +213,7 @@ export default function About({ navHtml, footerHtml }) {
             </div>
             <div className="about-img">
               <img
-                src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&auto=format&fit=crop&q=80"
+                src="https://images.pexels.com/photos/4483610/pexels-photo-4483610.jpeg?auto=compress&cs=tinysrgb&w=800"
                 alt="Corrugated boxes packed and ready for export shipping from India"
                 width="800" height="380"
                 loading="lazy"
