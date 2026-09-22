@@ -1,7 +1,7 @@
 ﻿---
 title: "B Flute vs C Flute vs E Flute Corrugated Boxes: Which Is Right for Your Export?"
 date: "2026-08-07"
-excerpt: "A practical guide to corrugated flute types for US and UK importers. Understand B, C, E, and BC double wall configurations and choose the right board for your product."
+excerpt: "Importing corrugated boxes from India? This guide helps US and UK buyers choose between B, C, E, and BC double wall flute types to match their product weight, transit requirements, and retail specifications."
 tags: ["Corrugated Boxes", "Flute Types", "Export Packaging", "Box Specification"]
 author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
@@ -160,3 +160,18 @@ For exporters in the USA and UK, factory-direct sourcing from India typically of
 For detailed specification guides by box type, see our pages on [RSC corrugated boxes](/corrugated-boxes/rsc-boxes), [double wall corrugated boxes](/corrugated-boxes/double-wall), and [custom printed corrugated boxes](/corrugated-boxes/custom-printed).
 
 Whizzpack manufactures corrugated boxes in B, C, E, and BC double wall at our factory in Rajkot, Gujarat, and exports factory-direct to importers across the USA and UK. Visit our [corrugated boxes page](/corrugated-boxes) to discuss your flute specification and request samples.
+
+---
+
+## Ready to Source Corrugated Boxes from India?
+
+If you are at the specification stage, the next step is samples. Whizzpack produces sample boxes in your exact dimensions and board grade, air-shipped within 5 to 7 working days, so you can verify compression strength and print quality before committing to a production run.
+
+To start, use the enquiry form on our [corrugated boxes page](/corrugated-boxes) or reach us at [contact@whizzpack.in](mailto:contact@whizzpack.in) with:
+
+- Your box dimensions (L x W x H in mm or inches)
+- Flute type preference (B, C, E, BC double wall, or unsure)
+- Liner grade or required burst factor if known
+- Approximate order quantity and delivery destination
+
+We respond within 24 hours with a sample timeline and indicative lead time for production. If you are also sourcing [cotton bags for seeds](/cotton-seed-bags) or other packaging products, we can handle both from the same factory in Rajkot.

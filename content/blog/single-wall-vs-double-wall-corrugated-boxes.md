@@ -86,7 +86,7 @@ These are starting points, not final answers. Box dimensions change the math bec
 
 When you import corrugated boxes directly from an Indian factory, the specification conversation happens before production, not after a distributor's stock list. That is one of the main advantages of going factory-direct: the box is engineered for your product rather than approximated from whatever is on the shelf.
 
-A capable manufacturer will ask for your product weight, dimensions, stacking plan, and destination, then recommend a construction and board grade with samples to verify before the production run. At Whizzpack we manufacture single wall, double wall, and triple wall corrugated boxes from 3-ply to 7-ply at our factory in Rajkot, Gujarat, and ship export orders to the US and UK with full documentation.
+A capable manufacturer will ask for your product weight, dimensions, stacking plan, and destination, then recommend a construction and board grade with samples to verify before the production run. At Whizzpack we manufacture single wall, double wall, and triple wall corrugated boxes from 3-ply to 7-ply at our factory in Rajkot, Gujarat, and ship export orders to the US and UK with full documentation. We also produce [custom cotton bags for seeds](/cotton-seed-bags) from the same facility for buyers sourcing multiple packaging lines from a single Indian factory.
 
 If you are earlier in the process and still comparing sourcing options, our guides on [how to import corrugated boxes from India](/blogs/how-to-import-corrugated-boxes-from-india) and [why import packaging from India](/blogs/why-import-packaging-from-india) walk through the full process from specification to delivery.
 

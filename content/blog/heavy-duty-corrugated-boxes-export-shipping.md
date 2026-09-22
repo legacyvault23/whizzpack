@@ -180,7 +180,7 @@ Providing this specification upfront eliminates back-and-forth and allows manufa
 
 ## Next Steps
 
-Whizzpack manufactures heavy-duty corrugated boxes from India in single-wall, double-wall, and triple-wall constructions for export to the USA, UK, and Europe. Factory-direct supply with full quality documentation including burst strength test certificates.
+Whizzpack manufactures heavy-duty corrugated boxes from India in single-wall, double-wall, and triple-wall constructions for export to the USA, UK, and Europe. Factory-direct supply with full quality documentation including burst strength test certificates. We also manufacture [custom cotton bags for seeds](/cotton-seed-bags) for UK seed companies and US organic farms, so buyers sourcing multiple product lines can consolidate to a single supplier in Rajkot.
 
 For a comprehensive guide to importing corrugated boxes from India including documentation, lead times, and supplier evaluation, see our [complete importer's guide to corrugated boxes from India](/blogs/how-to-import-corrugated-boxes-from-india).
 
