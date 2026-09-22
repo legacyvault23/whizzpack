@@ -92,7 +92,7 @@ A manufacturer who handles both the corrugated board production and the printing
 
 Whizzpack manufactures custom printed corrugated boxes at our own factory in Rajkot, Gujarat. We produce E-flute and B-flute boxes with flexo print, and can discuss litho-laminated options for brands requiring photographic print quality.
 
-We supply subscription brands and DTC retailers in the US and UK directly - no broker, no intermediary. FSC-certified board is available, and we provide full export documentation including GSM test reports and chain-of-custody certificates.
+We supply subscription brands and DTC retailers in the US and UK directly - no broker, no intermediary. FSC-certified board is available, and we provide full export documentation including GSM test reports and chain-of-custody certificates. Pet food subscription services are one of the fastest-growing segments of the DTC category, and we cover the board and print specifications specific to that format in our [corrugated boxes for pet food brands guide](/blogs/corrugated-boxes-pet-food-brands-india).
 
 To see our custom print capabilities, visit our [custom printed corrugated boxes page](/corrugated-boxes/custom-printed). For broader context on how Indian corrugated imports work, see our [step-by-step import guide](/blogs/how-to-import-corrugated-boxes-from-india).
 

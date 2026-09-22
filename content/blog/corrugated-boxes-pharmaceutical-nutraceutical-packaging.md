@@ -40,7 +40,7 @@ For packaging that is in direct or close contact with food or supplements - sach
 
 **Mineral oil free board.** Mineral oil saturation hydrocarbons (MOSH/MOAH) are a known contamination risk when recycled board is used in close proximity to food products. Virgin fibre board or board certified for mineral oil compliance eliminates this risk for brands with strict compliance requirements.
 
-When specifying corrugated secondary packaging for a pharmaceutical or nutraceutical supply chain, clearly stating the food-contact status of the application allows the manufacturer to recommend the appropriate liner and ink specification. Our team works through this with every new client before sampling begins.
+When specifying corrugated secondary packaging for a pharmaceutical or nutraceutical supply chain, clearly stating the food-contact status of the application allows the manufacturer to recommend the appropriate liner and ink specification. Our team works through this with every new client before sampling begins. Pet food brands face the same food-safe board decisions and will find a detailed breakdown of liner and ink requirements in our [corrugated boxes for pet food brands guide](/blogs/corrugated-boxes-pet-food-brands-india).
 
 ## Box Types and Formats for Pharma and Nutraceutical Brands
 
