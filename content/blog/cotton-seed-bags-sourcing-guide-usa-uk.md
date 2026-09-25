@@ -66,7 +66,7 @@ Here's what experienced importers ask before placing a first order:
 
 **Can you send samples of the exact fabric weight and stitch I'll be ordering?** Catalogue photos don't show you what you need to know. Physical samples do.
 
-**What's your minimum order quantity?** MOQs vary considerably. Some manufacturers accommodate smaller first orders from buyers who are likely to reorder; others have fixed minimums regardless.
+**What's your minimum order quantity?** MOQs vary considerably. Some manufacturers accommodate smaller first orders from buyers who are likely to reorder; others have fixed minimums regardless. For wholesale buyers placing orders of 5,000 units and above - mills, farms, and seed companies - our [cotton seed bags wholesale supplier guide](/blogs/cotton-seed-bags-wholesale-supplier-india) covers MOQs, container economics, lead times, and the full specification process for volume orders.
 
 **Can you work to custom dimensions?** Almost all Indian bag manufacturers produce to custom specs. Give exact dimensions and confirm feasibility before proceeding.
 
