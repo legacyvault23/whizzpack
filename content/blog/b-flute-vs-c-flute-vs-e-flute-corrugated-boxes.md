@@ -1,7 +1,7 @@
 ﻿---
-title: "B Flute vs C Flute vs E Flute Corrugated Boxes: Which Is Right for Your Export?"
+title: "B Flute vs C Flute vs E Flute Corrugated Boxes"
 date: "2026-08-07"
-excerpt: "Importing corrugated boxes from India? This guide helps US and UK buyers choose between B, C, E, and BC double wall flute types to match their product weight, transit requirements, and retail specifications."
+excerpt: "Which corrugated flute type fits your product? B, C, E, and BC double wall compared for US and UK buyers - strength, cushioning, printability, and retailer compliance explained."
 tags: ["Corrugated Boxes", "Flute Types", "Export Packaging", "Box Specification"]
 author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
