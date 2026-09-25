@@ -5,12 +5,12 @@ excerpt: "Wholesale cotton seed bags from India. Custom pouches and bags for see
 tags: ["Cotton Seed Bags", "Wholesale", "India Supplier", "Seeds Packaging", "Mills"]
 author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
-ogImage: "https://images.pexels.com/photos/4033148/pexels-photo-4033148.jpeg?auto=compress&cs=tinysrgb&w=1200"
+ogImage: "https://images.pexels.com/photos/3850450/pexels-photo-3850450.jpeg?auto=compress&cs=tinysrgb&w=1200"
 ---
 
 Cotton seed bags and pouches are a volume product for mills, seed processing units, farms, and retail seed brands. This guide explains who buys them in wholesale volumes, what specifications matter for a wholesale inquiry, and how to source factory-direct from India.
 
-![Cotton pouches and seed bags in various sizes ready for wholesale export from India](https://images.pexels.com/photos/4033148/pexels-photo-4033148.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Natural cotton drawstring pouch ready for wholesale cotton seed bag export from India](https://images.pexels.com/photos/3850450/pexels-photo-3850450.jpeg?auto=compress&cs=tinysrgb&w=1200)
 *Cotton seed bags are manufactured in Gujarat, India, and exported wholesale to seed companies, organic farms, and grain mills across the US and UK.*
 
 ---
@@ -65,7 +65,7 @@ Sending a complete specification in your first inquiry produces an accurate quot
 
 ## Certifications That Matter
 
-![Organic cotton fabric and natural fibre materials for seed packaging certification](https://images.pexels.com/photos/6044269/pexels-photo-6044269.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Natural cotton mesh bag representing organic and OEKO-TEX certified cotton material for seed packaging](https://images.pexels.com/photos/3850460/pexels-photo-3850460.jpeg?auto=compress&cs=tinysrgb&w=1200)
 *OEKO-TEX Standard 100 certification covers the fabric, inks, thread, and accessories in the finished bag - relevant for food-contact seed and grain packaging.*
 
 **OEKO-TEX Standard 100** - Tests the fabric, dyes, inks, and accessories (drawstrings, thread, labels) for over 100 potentially harmful substances. This is the most relevant certification for wholesale seed bag buyers because it covers food-contact safety. A completed OEKO-TEX certificate can be shared with your downstream customers as evidence of product safety.
@@ -133,7 +133,7 @@ Muslin is a specific weave of cotton fabric - tightly woven and smooth-surfaced,
 
 ## Get a Wholesale Quote from Whizzpack
 
-![Shipping containers at an Indian port ready for cotton seed bag export to the US and UK](https://images.pexels.com/photos/4889802/pexels-photo-4889802.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Cargo container ship loaded for sea freight export from India to the US and UK](https://images.pexels.com/photos/1117210/pexels-photo-1117210.jpeg?auto=compress&cs=tinysrgb&w=1200)
 *Cotton seed bag wholesale orders from India ship by sea freight to US and UK ports, with transit times of 18 to 28 days depending on destination.*
 
 Whizzpack manufactures cotton seed bags and pouches factory-direct in Rajkot, Gujarat, and exports wholesale to seed companies, grain mills, organic farms, and retail brands in the US, UK, and worldwide.
