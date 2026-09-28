@@ -26,7 +26,7 @@ Before approaching any manufacturer, you need to know what you're actually buyin
 
 **Print specifications**: Single-colour flexo printing is cost-effective for simple branding. Four-colour offset printing delivers sharper results for retail-facing packaging. Both are widely available from Indian manufacturers.
 
-If you're unsure what you need, a good manufacturer will guide you, but you should arrive with a clear understanding of your product's weight, dimensions, and how the boxes will be used (warehouse stacking? direct-to-consumer shipping? retail display?).
+If you're unsure what you need, a good manufacturer will guide you, but you should arrive with a clear understanding of your product's weight, dimensions, and how the boxes will be used (warehouse stacking? direct-to-consumer shipping? retail display?). Fashion and apparel brands have additional requirements around garment dimensions and print quality - our [corrugated boxes for apparel brands guide](/blogs/corrugated-boxes-apparel-fashion-brands-india) covers the full specification process for clothing packaging.
 
 [See the full range of corrugated boxes we produce](/corrugated-boxes)
 

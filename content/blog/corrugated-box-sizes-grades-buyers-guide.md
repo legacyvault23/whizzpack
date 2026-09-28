@@ -92,7 +92,7 @@ Common corrugated box sizes used for export from India (internal dimensions, len
 
 For pallet efficiency, choose box dimensions that divide evenly into your pallet footprint with minimal gaps. A 600 × 400 mm base fits neatly onto both international and Euro pallet sizes with no wasted space.
 
-**Custom sizes:** Indian manufacturers produce corrugated boxes in any custom dimension. There is no meaningful price premium for custom sizes in orders above approximately 2,000 units, as the box dimensions are determined by the die-cut and scoring tooling, which is inexpensive to produce. Do not limit yourself to the sizes above if a different dimension suits your product better.
+**Custom sizes:** Indian manufacturers produce corrugated boxes in any custom dimension. There is no meaningful price premium for custom sizes in orders above approximately 2,000 units, as the box dimensions are determined by the die-cut and scoring tooling, which is inexpensive to produce. Do not limit yourself to the sizes above if a different dimension suits your product better. Apparel and fashion brands sourcing boxes for garment fulfilment almost always need custom dimensions to match folded garment sizes - our [corrugated boxes for apparel and fashion brands guide](/blogs/corrugated-boxes-apparel-fashion-brands-india) covers sizing, board grades, and print options specifically for clothing packaging.
 
 ---
 
