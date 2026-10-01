@@ -34,7 +34,7 @@ Single wall corrugated boxes are the correct specification more often than many 
 
 **The box travels short, controlled journeys.** Domestic distribution with limited handling points puts far less stress on a carton than international freight. If your boxes move from your warehouse to a regional customer on a single truck, single wall usually suffices.
 
-**Your product provides its own structure.** Rigid products packed snugly, such as canned goods or boxed electronics with internal packaging, share the stacking load with the box. The carton needs to contain and protect edges, not carry the full compression load alone.
+**Your product provides its own structure.** Rigid products packed snugly, such as canned goods or boxed electronics with internal packaging, share the stacking load with the box. The carton needs to contain and protect edges, not carry the full compression load alone. For electronics brands specifying outbound shipper cartons, how inner fitments and device housing interact with board grade is covered in our [corrugated boxes for electronics brands guide](/blogs/corrugated-boxes-electronics-brands-india).
 
 **You are optimising freight weight.** Lighter board means lighter shipments. Across a container of thousands of boxes, the weight difference between single and double wall affects your total landed cost.
 

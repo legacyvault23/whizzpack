@@ -23,7 +23,7 @@ Before specifying heavy-duty boxes, it helps to understand how corrugated board 
 
 A single-wall corrugated sheet consists of three layers: an outer liner (the flat outside face), a corrugated medium (the wavy fluted layer), and an inner liner (the flat inside face). This 3-ply construction is what most people mean when they say "cardboard box."
 
-**Double-wall corrugated** adds a second fluted medium and an additional liner between the two fluted layers, creating a 5-ply board. This roughly doubles the crush resistance compared to single-wall and is suitable for loads up to approximately 30 kg per box.
+**Double-wall corrugated** adds a second fluted medium and an additional liner between the two fluted layers, creating a 5-ply board. This roughly doubles the crush resistance compared to single-wall and is suitable for loads up to approximately 30 kg per box. Consumer electronics brands - shipping laptops, monitors, and audio equipment - are a common buyer of double-wall BC-flute; our [corrugated boxes for electronics brands guide](/blogs/corrugated-boxes-electronics-brands-india) covers the full board grade, fitment, and ESD specification for that application.
 
 **Triple-wall corrugated** adds a third fluted medium, creating a 7-ply board. Triple-wall is the strongest corrugated construction commercially available, approaching the structural properties of plywood in some applications. It can handle loads above 50 kg and is designed for the most demanding industrial and export applications.
 
