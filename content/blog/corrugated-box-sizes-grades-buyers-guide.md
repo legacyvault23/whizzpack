@@ -146,6 +146,30 @@ Providing this upfront eliminates multiple rounds of back-and-forth and ensures 
 
 ---
 
+## Frequently Asked Questions
+
+**What is the difference between 3 ply and 5 ply corrugated boxes?**
+
+3 ply (single wall) is one fluted layer between two flat liners - the standard construction for most consumer shipping boxes, handling loads up to around 20 kg per carton. 5 ply (double wall) adds a second fluted layer and a third liner, roughly doubling stacking strength. Indian manufacturers produce both; the right choice depends on product weight, stacking conditions, and transit distance from India to the US or UK.
+
+**What does GSM mean in corrugated board specifications from India?**
+
+GSM stands for grams per square metre and describes the weight of each paper layer in the board. A grade of 150/120/150 means an outer liner of 150 GSM, a corrugated medium of 120 GSM, and an inner liner of 150 GSM. Higher GSM means heavier, stronger paper at each layer. For export shipping from India to the US or UK, 150/120/150 (420 GSM total) is the standard starting specification for goods up to 15 kg per carton.
+
+**What ECT rating do I need for corrugated boxes shipped from India?**
+
+For most consumer goods exported from India by sea freight, an ECT rating of 32 lb/in (approximately 200 lb Mullen burst strength) is adequate for loads up to 15 kg per carton stacked 5 to 6 high on a pallet. For heavier goods or Amazon FBA requirements, specify ECT 44. Always ask your Indian manufacturer to include the ECT test certificate with your sample shipment before placing a production order.
+
+**What are standard corrugated box dimensions for export from India?**
+
+Indian manufacturers produce corrugated boxes in any internal dimension you specify. Common export carton dimensions range from 250 x 200 x 150mm for small consumer goods up to 600 x 400 x 400mm for bulk wholesale cases. Always specify internal dimensions (the usable space inside the closed box), not external. The board thickness adds approximately 3 to 6mm per wall to each external dimension depending on the flute profile.
+
+**How do I read a corrugated board grade like 150/120/150?**
+
+Each number represents the GSM of one paper layer, listed outer liner, medium, inner liner. 150/120/150 is a 3-ply single wall board. A double wall grade reads as five numbers: 150/120/150/120/150. Higher numbers mean heavier, stronger paper at that layer. When comparing quotes from Indian manufacturers, confirm all three or five numbers match your specification, since factories sometimes substitute a lower GSM on one layer to reduce cost without changing the quoted headline grade.
+
+---
+
 ## Sourcing Corrugated Boxes from India
 
 India produces corrugated boxes to international quality standards, with manufacturing concentrated in Gujarat (Ahmedabad, Surat), Maharashtra (Mumbai, Pune), and the Delhi NCR region. Factory-direct supply from Indian manufacturers typically offers 30–50% cost savings versus buying domestically in the USA or UK, even after freight costs.

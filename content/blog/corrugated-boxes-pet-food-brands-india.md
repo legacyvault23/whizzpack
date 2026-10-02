@@ -109,6 +109,28 @@ Minimum order quantities for pet food cases from India vary by format:
 
 For brands with multiple SKUs - a dry food range, a wet food range, and a treat line - Indian factories will sometimes combine SKUs in a single production run to help buyers reach minimums more efficiently.
 
+## Frequently Asked Questions
+
+**Do corrugated boxes for pet food need food-safe certification?**
+
+Corrugated secondary packaging for pet food does not typically contact the product directly: the primary bag, can, or pouch provides a full barrier. However, major UK retailers including Pets at Home and US platforms including Chewy and PetSmart increasingly require a food-contact declaration or food-safe board statement from secondary packaging suppliers. Indian export manufacturers can supply virgin fibre liner with a food-contact statement on request: confirm this requirement before ordering.
+
+**What is the standard corrugated box size for dry dog food bags?**
+
+Standard wholesale cases for dry dog food typically hold 4 to 6 bags per case, sized to match your primary bag dimensions. For a common 5 kg bag (approximately 400 x 300 x 120mm), a 4-unit case runs approximately 430 x 330 x 500mm internal. Always specify internal dimensions to your Indian manufacturer and allow 10 to 15mm clearance above the bag height for top flap closure without crushing. Indian manufacturers cut a custom die for your exact bag dimensions at no tooling premium for standard RSC formats.
+
+**Can I get moisture-resistant corrugated pet food cases from India?**
+
+Yes. Indian export manufacturers offer moisture-resistant kraft liner treated with a light water-resistant sizing agent, adequate for ambient distribution conditions up to approximately 75 to 80% relative humidity. For farm supply or outdoor retail environments with higher humidity exposure, specify a wax-coated liner or a fully moisture-resistant board. Request a board sample and test it in your specific storage environment before committing to a production run: moisture resistance requirements vary significantly by distribution channel.
+
+**What is the MOQ for custom printed pet food corrugated boxes from India?**
+
+Plain wholesale cases in standard dimensions start at 2,000 units per SKU. Custom flexo-printed cases start at 5,000 units per design. Litho-laminate DTC subscription boxes - with photographic print quality for branded unboxing experiences - run at 1,000 to 2,000 units depending on board grade and finish. Pet food brands with multiple product lines can combine SKUs on a shared base print with a SKU-specific overprint or label to reach minimum run requirements efficiently across the range.
+
+**How do DTC pet food subscription brands source corrugated boxes from India?**
+
+Pet food subscription services typically order litho-laminate E flute mailer boxes at 5,000 to 20,000 units per quarter from Indian manufacturers. The process: submit die-line and artwork, receive and approve a physical prototype, confirm production, then sea freight to a 3PL warehouse in the US or UK. Lead time from purchase order to warehouse receipt is 10 to 12 weeks for a first order. Repeat orders on established specifications run 6 to 8 weeks. Indian manufacturers in Gujarat supply US and UK DTC pet food brands directly without a broker or trading company.
+
 ## Why Source from India
 
 India has a well-developed corrugated manufacturing sector with export capability across all major markets. For pet food brands, three factors make India a compelling sourcing route.

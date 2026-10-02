@@ -92,6 +92,28 @@ The minimum order quantity for custom corrugated boxes from India varies by fact
 
 For brands with multiple SKUs, different tea varieties or coffee origin lines each needing their own box, Indian factories will sometimes combine SKUs in a single production run to help buyers reach minimum quantities more efficiently across the full range.
 
+## Frequently Asked Questions
+
+**What corrugated box is used for retail tea tin and coffee jar packaging?**
+
+Retail tea tins and glass coffee jars use E flute (1.2mm) corrugated cases for their smooth outer surface and high print fidelity. E flute handles loads up to 10 to 12 kg per case and takes flexographic or litho-laminate printing with sharper colour reproduction than thicker flute profiles. For wholesale master cartons carrying heavier multi-unit loads to a distributor or retailer, B flute (3mm) or C flute (4mm) provides the compression strength that E flute cannot.
+
+**Does corrugated packaging for tea and coffee require food-safe certification?**
+
+Corrugated secondary packaging for tea and coffee does not directly contact the product: the primary tin, jar, bag, or sachet provides the barrier. However, major grocery buyers including Tesco, Sainsbury's, and Waitrose in the UK, and Whole Foods in the US, often require food-contact board compliance confirmation on their supplier questionnaires. Indian corrugated manufacturers supplying the food and beverage export market can provide virgin fibre liner with food-contact statements: confirm this requirement in writing before finalising your specification.
+
+**What print method produces the best results on tea and coffee boxes from India?**
+
+Litho-laminate printing delivers the best results for premium tea and coffee packaging. A full-colour litho-printed sheet is laminated to the corrugated outer liner before box conversion, producing photo-quality images, smooth gradients, and the option for embossed or foil elements. Flexographic printing is the cost-efficient alternative for branded wholesale cases where sharp imagery is less critical. Both are available from Indian export manufacturers: request printed samples in both methods before deciding which suits your brand standard and volume.
+
+**What is the MOQ for custom corrugated tea and coffee boxes from India?**
+
+Custom flexo-printed wholesale cases start at 5,000 units per design from Indian manufacturers. Litho-laminate retail cartons or premium gift boxes start at 1,000 to 2,000 units per design at higher per-unit cost. Plain unprinted cases run from 2,000 units per size. Brands with multiple SKUs - a range of tea varieties or coffee origins - can combine SKUs on a shared base print and manage variety-specific information through a stitched or glued label to reach minimum run requirements efficiently.
+
+**How long does shipping take for tea and coffee packaging from India to the UK or US?**
+
+Sea freight from Mundra Port or JNPT (Mumbai) to UK ports (Felixstowe, Southampton) takes 18 to 22 days. Transit to the US East Coast (New York, Savannah, Baltimore) takes 22 to 28 days. Production lead time from approved artwork and board specification is 20 to 28 days. Total timeline from purchase order to UK or US warehouse is typically 8 to 10 weeks for a first order. For quarterly reorders, place your next order when you have 12 weeks of stock remaining to maintain continuity without air freight emergencies.
+
 ## Why Source Corrugated Boxes from India
 
 India has over 1,400 corrugated box manufacturers, concentrated in industrial clusters around Rajkot, Ahmedabad, Pune, Delhi-NCR, and Chennai. The sector has modernised significantly over the past decade and now serves food and beverage brand buyers in the UK, US, EU, and Australia directly.

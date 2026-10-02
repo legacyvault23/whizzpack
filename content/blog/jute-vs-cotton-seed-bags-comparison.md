@@ -186,6 +186,28 @@ When sourcing seed bags from an Indian manufacturer, the jute-vs-cotton decision
 
 **Combined orders:** Some seed companies order both from India - jute bags for bulk agricultural supply and cotton bags for retail-facing product lines. Whizzpack produces cotton bags; for jute, the recommendation is a specialist jute manufacturer in West Bengal or a trading company that handles both.
 
+## Frequently Asked Questions
+
+**Are jute bags safe for storing seeds?**
+
+Yes, with an important qualification. Standard jute bags are treated with jute batching oil (JBO), a petroleum-based lubricant used in processing. JBO is not food-safe and is not compatible with OEKO-TEX or organic certification. For seed companies supplying UK or US markets, specify JBO-free jute explicitly: untreated jute is available from Indian and Bangladeshi manufacturers at a modest cost premium and is safe for seed contact, including organic and food crop varieties.
+
+**What is the main difference between jute and cotton seed bags for retail use?**
+
+Cotton is the standard choice for retail-facing seed packaging. It takes screen and heat-transfer printing better than jute, holds its shape and colour over multiple retail seasons, and is widely available with OEKO-TEX Standard 100 certification that UK garden retailers and US specialty seed retailers increasingly require. Jute is better suited to bulk agricultural storage where load capacity and unit cost are the primary criteria and retail presentation is not required.
+
+**Which material is better for organic seed packaging - jute or cotton?**
+
+Cotton is the stronger choice for organic seed packaging. GOTS-certified organic cotton is commercially available from Indian manufacturers and provides a documented organic supply chain that most certification bodies accept. GOTS-certified jute is extremely rare in commercial quantities. OEKO-TEX Standard 100 cotton is a practical alternative to GOTS for seed companies that need to demonstrate the bag is free from harmful substances without certifying the full organic supply chain.
+
+**Can I source both jute and cotton seed bags from India?**
+
+Yes. India is one of the world's largest producers of both fibres. Cotton bags - including custom-printed, drawstring, and OEKO-TEX certified formats - are manufactured primarily in Rajkot (Gujarat) and Tirupur (Tamil Nadu). Jute bags are manufactured primarily in West Bengal (Kolkata) and Bihar. Some Indian suppliers handle both through trading arrangements. Whizzpack manufactures cotton seed bags from Rajkot; for JBO-free jute, a specialist West Bengal manufacturer is typically the more reliable source.
+
+**What certifications are available for jute and cotton seed bags from India?**
+
+For cotton: OEKO-TEX Standard 100 (tests for harmful substances in the finished bag) and GOTS (Global Organic Textile Standard, covering the full organic supply chain including the cotton farming stage) are both available from Indian manufacturers. For jute: OEKO-TEX certification requires JBO-free processing and is available but less common. GOTS for jute has an extremely limited commercial supply chain. For most UK and US seed companies, OEKO-TEX cotton provides the most practical combination of certification availability and commercial pricing.
+
 ## Making the Decision
 
 For most seed companies and agricultural operations supplying the US or UK market, cotton is the right choice - primarily because of OEKO-TEX availability, better moisture management, and superior retail aesthetics. UK buyers can find market-specific guidance on certifications, port logistics, and customs in our [Cotton Bags for Seeds UK buyers guide](/blogs/cotton-seed-bags-uk-buyers-guide).

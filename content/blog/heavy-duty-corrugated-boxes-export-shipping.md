@@ -159,6 +159,30 @@ India is a cost-effective source for heavy-duty corrugated boxes, with manufactu
 
 ---
 
+## Frequently Asked Questions
+
+**How much weight can a double wall corrugated box hold?**
+
+A standard double wall (5-ply BC flute) corrugated box handles loads of 20 to 35 kg per carton under normal warehouse and transit conditions. The exact load limit depends on the board grade (liner and medium GSM), box dimensions, and how high cartons are stacked. Always specify an ECT rating rather than relying on wall count alone: two double wall boxes with different liner grades can have very different compression performance.
+
+**What is the difference between double wall and triple wall corrugated boxes?**
+
+Double wall (5-ply) uses two fluted layers bonded with three liners and handles loads up to approximately 35 kg under normal stacking conditions. Triple wall (7-ply) adds a third fluted layer and a fourth liner, creating a board approaching plywood strength for loads above 50 kg. Triple wall is used for machinery components, bulk bins replacing wooden crates, and the most demanding industrial export applications. Both are manufactured by established Indian corrugated exporters.
+
+**What ECT rating do I need for heavy goods export from India?**
+
+For heavy industrial goods, double wall BC flute boxes are typically specified at ECT 44 to ECT 51 (equivalent to 275 to 350 lb Mullen burst strength). For triple wall applications handling 50 kg and above, ECT ratings of 71 to 90 are standard. Ask your Indian manufacturer to include ECT and burst strength test certificates with every sample shipment: board strength varies between mills and must be verified, not assumed from the board grade specification alone.
+
+**What is BC double wall corrugated board and when is it used?**
+
+BC double wall (7mm, 5-ply) combines a B flute inner layer with a C flute outer layer and a centre liner bonding them. The C flute outer provides cushioning and surface rigidity; the B flute inner provides flat crush resistance and stacking strength. BC double wall is the standard heavy-duty export specification from Indian manufacturers, used for machinery parts, agricultural products, industrial hardware, and any goods exceeding 20 kg per carton on sea freight routes to the US or UK.
+
+**What is the minimum order quantity for heavy-duty corrugated boxes from India?**
+
+Most Indian corrugated manufacturers require a minimum of 1,000 to 3,000 units for double wall RSC boxes in standard dimensions, rising to 5,000 units for custom die-cut or heavily printed formats. Triple wall boxes typically run at 1,000 to 2,000 units minimum due to the heavier paper usage per box. At these volumes, a 20ft FCL carries approximately 3,000 to 5,000 units depending on box dimensions, making container economics favourable from the first order.
+
+---
+
 ## Checklist: What to Specify When Ordering
 
 When requesting a quote for heavy-duty corrugated boxes, provide:

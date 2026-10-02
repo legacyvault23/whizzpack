@@ -113,6 +113,28 @@ Minimum order quantities for custom wine and spirits cases from India vary by co
 
 For brands with multiple SKUs, different varietals, a red and white range, or multiple spirits products, Indian factories will sometimes combine SKUs in a single production run to help buyers reach minimums more efficiently.
 
+## Frequently Asked Questions
+
+**What corrugated board is used for wine bottle packaging?**
+
+Standard wholesale wine cases (12 x 750ml) use C flute single wall (4mm, 3-ply) with a board grade of 150/120/150 or heavier. This provides the compression strength to support 15 to 18 kg of glass and liquid under palletised sea freight. Premium single-bottle gift boxes and DTC presentation cases use E flute (1.5mm) for a smooth surface that takes flexographic or litho-laminate printing cleanly. The correct flute depends on whether the box is a wholesale transit case or a branded retail or gift format.
+
+**How many bottles does a standard corrugated wine shipping case hold?**
+
+Standard wine shipping cases hold 6 or 12 x 750ml bottles. 12-bottle cases are the most common format for wholesale distribution to retailers and importers. 6-bottle cases are used where a smaller case weight is preferred: above 20 to 25 kg per case is considered too heavy for manual handling in distribution centres. Custom formats - 3 x magnums, 4 x 1-litre spirits, mixed packs - are produced to order by Indian corrugated manufacturers.
+
+**What are cell partitions in a wine case and do Indian suppliers include them?**
+
+Cell partitions are interlocking corrugated strips that divide the inside of a wine case into individual cells, one per bottle, preventing bottle-to-bottle contact during transit. A wine case without partitions will result in breakage even on short journeys. Indian corrugated manufacturers with food and beverage export experience produce slot-lock partitions in-house alongside the outer case. Confirm the manufacturer fabricates partitions in-house: sourcing the outer case and partitions from different suppliers creates specification risk.
+
+**What is the MOQ for custom corrugated wine cases from India?**
+
+Plain RSC wine cases with standard slot-lock partitions typically run at a minimum of 2,000 units per SKU from Indian manufacturers. Custom flexo-printed cases start at 5,000 units per design due to plate setup costs. Litho-laminate premium gift boxes typically run at 1,000 to 2,000 units per design at higher per-unit cost. For brands with multiple wine varietals, combining SKUs on a shared base print with a variety-specific overprint or label is the most cost-effective approach to reach minimums across the range.
+
+**How do I prevent wine bottle breakage during sea freight from India?**
+
+Specify C flute (not E flute) for wholesale transit cases carrying 12 bottles. Ensure slot-lock cell partitions are included and that cell depth matches your bottle shoulder height. Specify BC double wall for magnum-format or heavy bottles. Request a compression test (BCT) result alongside the ECT certificate from your manufacturer. Before approving production, fill a prototype case with representative bottles, seal it, and run a drop test: this is the only reliable verification that specification and construction are both correct.
+
 ## Why Source from India
 
 India has a mature corrugated manufacturing sector with export capability across all major markets. For wine and spirits brands, three factors make India a compelling sourcing route.

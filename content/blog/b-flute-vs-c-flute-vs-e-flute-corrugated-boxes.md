@@ -151,6 +151,30 @@ A manufacturer who only asks for box dimensions without asking about liner grade
 
 ---
 
+## Frequently Asked Questions
+
+**What is the difference between B flute and C flute corrugated board?**
+
+B flute (3mm) has a tighter, denser profile that gives better flat crush resistance and a smoother print surface. C flute (4mm) has taller arches that provide more cushioning and higher vertical stacking strength. For general export shipping from India to the US or UK, C flute is the standard specification. B flute is preferred when print quality is the priority or the product is lighter with retail display requirements.
+
+**Which corrugated flute type is best for export shipping from India?**
+
+C flute single wall is the standard for most export cartons from India. It handles 5 to 15 kg per carton, survives 22 to 28 days of sea freight, and provides an adequate surface for basic branding. For heavier loads above 20 kg, or fragile goods on long routes, upgrade to BC double wall. Any established Indian corrugated manufacturer produces both in-house with no tooling premium for choosing one over the other.
+
+**What is BC double wall corrugated and when should I use it?**
+
+BC double wall (7mm, 5-ply) combines a B flute inner layer and a C flute outer layer bonded by a centre liner. The result is significantly stronger than any single wall profile, with the C flute contributing cushioning depth and the B flute contributing surface stiffness. Use BC double wall when your product exceeds 20 kg per carton, faces tall warehouse stacking, or ships via sea freight routes where humidity cycles degrade single wall strength over 22 to 30 days at sea.
+
+**What is E flute corrugated board used for?**
+
+E flute (1.5mm) is the thinnest standard corrugated profile. Its smooth outer surface makes it ideal for high-quality flexographic or litho-laminate print, and its low thickness keeps boxes lightweight for last-mile delivery economics. E flute is used for retail cartons, premium mailer boxes, and DTC subscription packaging. It is not appropriate for standard export shipping cases where C or B flute provides the compression strength needed for palletised sea freight.
+
+**How do I choose the right flute type when ordering corrugated boxes from India?**
+
+Start with C flute single wall for most general export applications. Move to B flute if you need a better print surface or the product is lighter with retail requirements. Specify BC double wall for any carton carrying over 20 kg, or for goods on long sea freight routes where humidity exposure is a factor. Request samples in two flute types from your Indian manufacturer before committing to production: at sample quantities the cost difference is negligible, while on a failed sea freight shipment it is not.
+
+---
+
 ## Sourcing Corrugated Boxes from India by Flute Type
 
 Indian corrugated manufacturers produce all standard flute types in-house. B, C, E, and BC double wall are all standard production specifications, with no tooling premium for choosing one over another. The cost difference between flute types comes from raw material - more paper per square metre for double wall, different GSM liner specifications for different strength grades.
