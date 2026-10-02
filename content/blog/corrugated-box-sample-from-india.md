@@ -103,6 +103,8 @@ Factories respond well to specific, measured feedback. Vague notes like "the box
 
 ---
 
+![Person carrying two corrugated boxes representing the physical handling and inspection of corrugated box samples received from an Indian manufacturer](https://images.pexels.com/photos/6347541/pexels-photo-6347541.jpeg?auto=compress&cs=tinysrgb&w=1200)
+
 ## Converting a Sample Approval to a Production Order
 
 Once you have approved the sample, your purchase order to the factory should reference the approved sample explicitly. Include:

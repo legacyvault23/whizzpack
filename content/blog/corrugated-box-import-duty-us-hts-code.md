@@ -5,10 +5,10 @@ author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 tags: ["corrugated box HTS code USA", "corrugated box import duty USA", "corrugated boxes import USA India", "HTS 4819 corrugated boxes", "importing corrugated boxes USA customs"]
 excerpt: "US importers buying corrugated boxes from India need to know the correct HTS code, the current import duty rate, how Section 301 tariffs affect China but not India, and what customs documentation to expect from an Indian supplier."
-ogImage: "https://images.unsplash.com/photo-1601628828688-632f38a5a7d0?w=1200&auto=format&fit=crop&q=80"
+ogImage: "https://images.pexels.com/photos/1624694/pexels-photo-1624694.jpeg?auto=compress&cs=tinysrgb&w=1200"
 ---
 
-![US customs forms and shipping documents representing the import process for corrugated boxes entering the United States from India](https://images.unsplash.com/photo-1601628828688-632f38a5a7d0?w=1200&auto=format&fit=crop&q=80)
+![Shipping containers stacked at a port ready for export, representing the import process for corrugated boxes entering the United States from India](https://images.pexels.com/photos/1624694/pexels-photo-1624694.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 Before placing a bulk order for corrugated boxes from India, US importers need to know three things: the correct HTS (Harmonized Tariff Schedule) code, the duty rate that applies, and what documentation they will receive from an Indian manufacturer. Getting the HTS classification right matters because it determines your duty liability, and getting the documentation right determines how smoothly your customs entry clears.
 
@@ -48,6 +48,8 @@ India is a normal trade relations partner with the US and benefits from MFN tari
 ---
 
 ## US Customs Documentation from an Indian Supplier
+
+![Stacked corrugated boxes marked with shipping symbols and fragile labels, representing the documentation and handling requirements for corrugated box imports from India to the USA](https://images.pexels.com/photos/6169028/pexels-photo-6169028.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 For a standard corrugated box import from India, CBP requires the following documents:
 
@@ -92,6 +94,8 @@ To ensure your customs documentation is correct, give your Indian supplier:
 A well-organised Indian corrugated box manufacturer will have exported to the US before and will know what CBP expects. Ask upfront: "Have you exported corrugated boxes to the US previously?" and "Can you provide the documentation set I've described?" A clear yes to both, backed by a reference from a US buyer, gives you the right starting point.
 
 ---
+
+![Corrugated boxes with shipping labels and fragile markings stacked ready for US customs clearance, showing the packing and labelling standards expected by CBP for Indian packaging imports](https://images.pexels.com/photos/6170154/pexels-photo-6170154.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 ## Cotton Bags from India: Same HTS Heading, Different Chapter
 

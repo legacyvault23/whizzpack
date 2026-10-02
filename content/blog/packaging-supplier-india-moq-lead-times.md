@@ -86,6 +86,8 @@ Standard payment terms for factory-direct orders from Indian manufacturers:
 
 ---
 
+![Natural cotton drawstring bag representing one of the packaging products available factory-direct from Indian packaging suppliers alongside corrugated boxes and mailer boxes](https://images.pexels.com/photos/3850532/pexels-photo-3850532.jpeg?auto=compress&cs=tinysrgb&w=1200)
+
 ## Factory-Direct vs Broker: What Is the Difference?
 
 A **factory-direct supplier** is a manufacturing company that makes the product in its own facility and sells directly to buyers. There is no trading company, import agent, or intermediary in the supply chain.

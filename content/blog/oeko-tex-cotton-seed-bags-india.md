@@ -41,6 +41,8 @@ For seed companies that need organic supply chain certification rather than a fi
 
 ---
 
+![Cotton drawstring bag held open while seeds are poured in, representing the certified cotton seed bag products that OEKO-TEX Standard 100 covers for UK garden retailers and US seed companies](https://images.pexels.com/photos/5237828/pexels-photo-5237828.jpeg?auto=compress&cs=tinysrgb&w=1200)
+
 ## OEKO-TEX Product Classes: Which One Applies?
 
 OEKO-TEX Standard 100 divides products into four classes based on intended use:
@@ -93,6 +95,8 @@ When ordering OEKO-TEX certified cotton seed bags from India, confirm the follow
 | Custom | Any dimension from 6 x 10 cm upwards | Custom SKUs |
 
 ---
+
+![Cotton drawstring bags with organic seeds and natural herbs arranged on a wooden surface, representing the wholesale range of OEKO-TEX certified cotton seed bags produced in India for export to the UK and USA](https://images.pexels.com/photos/7262785/pexels-photo-7262785.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 ## MOQ and Lead Times for OEKO-TEX Cotton Seed Bags
 

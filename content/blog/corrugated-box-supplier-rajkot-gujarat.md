@@ -5,10 +5,10 @@ author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 tags: ["corrugated box supplier Rajkot", "corrugated boxes Gujarat India", "corrugated box manufacturer Rajkot Gujarat", "packaging supplier Rajkot India", "corrugated boxes India export USA UK"]
 excerpt: "Rajkot in Gujarat is one of India's major corrugated box manufacturing centres. Why Gujarat, what Rajkot factories produce, how to source factory-direct from Rajkot, and what MOQ and lead times look like for US and UK importers."
-ogImage: "https://images.pexels.com/photos/3825539/pexels-photo-3825539.jpeg?auto=compress&cs=tinysrgb&w=1200"
+ogImage: "https://images.pexels.com/photos/3581368/pexels-photo-3581368.jpeg?auto=compress&cs=tinysrgb&w=1200"
 ---
 
-![Aerial view of Rajkot city in Gujarat, India, representing the industrial manufacturing centre that produces corrugated boxes and packaging for export to the USA and UK](https://images.pexels.com/photos/3825539/pexels-photo-3825539.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Aerial view of an Indian city with a historic fort and industrial district, representing Gujarat's manufacturing and export hub where corrugated boxes are produced for the USA and UK](https://images.pexels.com/photos/3581368/pexels-photo-3581368.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 When US and UK buyers research corrugated box suppliers in India, Gujarat comes up immediately - and within Gujarat, Rajkot is one of the primary manufacturing centres. This guide explains why Gujarat concentrates so much of India's corrugated packaging production, what to expect from Rajkot-based manufacturers specifically, and how to source factory-direct from this region.
 
@@ -45,6 +45,8 @@ Rajkot-based corrugated manufacturers produce the full range of standard corruga
 **Mailer boxes:** E-flute and B-flute mailers for e-commerce and subscription box brands. Custom dimensions, full-colour printing inside and outside.
 
 ---
+
+![Corrugated boxes moving along a factory production line with an automatic sealing machine, representing the manufacturing capacity of Rajkot-based corrugated box producers exporting to the USA and UK](https://images.pexels.com/photos/6152271/pexels-photo-6152271.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 ## Cotton Bags from Rajkot
 
@@ -83,6 +85,8 @@ The most reliable approaches for connecting with genuine factory-direct manufact
 **Documentation at Mundra:** The full export documentation set (commercial invoice, packing list, bill of lading, Certificate of Origin, quality test certificates) is prepared by the factory's export department and the customs broker. A Gujarat-based manufacturer with active US and UK export relationships will have a documented process for this.
 
 ---
+
+![Corrugated boxes stacked high in an industrial warehouse representing the storage and export capacity of Rajkot packaging manufacturers supplying the USA and UK](https://images.pexels.com/photos/10834810/pexels-photo-10834810.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 ## Typical Specification and MOQ Summary
 

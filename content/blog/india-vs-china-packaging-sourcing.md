@@ -124,6 +124,8 @@ India is typically the better source when:
 - You need FSC-certified board for UK EPR compliance
 - Communication clarity matters to your specification management process
 
+![Overhead view of workers in a large industrial warehouse between shelves of packaged goods, representing the factory-direct supply capacity of Indian packaging manufacturers serving US and UK buyers](https://images.pexels.com/photos/4481324/pexels-photo-4481324.jpeg?auto=compress&cs=tinysrgb&w=1200)
+
 ## When China May Still Win
 
 China typically remains the better source when:

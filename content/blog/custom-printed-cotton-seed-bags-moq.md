@@ -37,6 +37,8 @@ Screen printing is the standard method for cotton seed bags at wholesale quantit
 | 3 colours | 1,500 to 2,000 units |
 | 4 colours | 2,000 units |
 
+![Screen printing machine applying ink to cotton fabric bags in a production facility, representing the custom print process for branded cotton seed bags manufactured in India](https://images.pexels.com/photos/9314012/pexels-photo-9314012.jpeg?auto=compress&cs=tinysrgb&w=1200)
+
 ### Heat Transfer (Sublimation)
 
 Sublimation printing transfers a photographic-quality, full-colour image onto the fabric via heat and pressure. It works best on white or very light fabric and produces vivid, detailed imagery including gradients, photography, and botanical illustrations.
@@ -121,6 +123,8 @@ No buyer should approve a production run of custom printed cotton seed bags from
 **Feedback format:** "Pantone 3395 TCX green is printing approximately 20% lighter than reference. Please increase ink density and resend." Specific, measurable feedback produces a faster and more accurate correction than general observations.
 
 ---
+
+![Printed cotton muslin bags with custom branding laid out together, representing the finished result of custom screen printing on cotton seed bags produced in India for wholesale seed brands](https://images.pexels.com/photos/11817139/pexels-photo-11817139.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 ## Managing Multi-SKU Seed Company Programmes
 

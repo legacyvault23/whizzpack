@@ -62,6 +62,8 @@ The BCT is the most useful strength specification for double wall boxes in sea f
 
 ---
 
+![Stack of corrugated boxes against a clean white wall showing the structural integrity and export-ready finish of double wall corrugated boxes manufactured in India](https://images.pexels.com/photos/4816480/pexels-photo-4816480.jpeg?auto=compress&cs=tinysrgb&w=1200)
+
 ## ECT (Edge Crush Test) Specifications
 
 ECT measures the compression resistance of the corrugated board itself (independent of box dimensions). For double wall boxes from India:
@@ -104,6 +106,8 @@ Double wall boxes are specified by the GSM of each of the five layers. Common sp
 Double wall boxes have higher MOQs than single wall because the heavier board requires a longer production run to reach paper batch efficiency. Expect MOQ to start at 3,000 units for standard sizes and rise to 5,000 to 8,000 for custom die-cut configurations.
 
 ---
+
+![Worker taping and sealing a heavy corrugated box, representing the production and packing process for double wall corrugated boxes exported from India to US and UK buyers](https://images.pexels.com/photos/4246120/pexels-photo-4246120.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 ## Custom Printed Double Wall Boxes from India
 

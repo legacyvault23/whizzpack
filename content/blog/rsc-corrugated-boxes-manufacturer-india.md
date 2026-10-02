@@ -47,6 +47,8 @@ A complete RSC specification for an Indian manufacturer includes:
 
 ---
 
+![Overhead view of warehouse workers between shelves stacked with packaged goods, representing the factory-direct supply and stock management capacity of Indian RSC corrugated box manufacturers](https://images.pexels.com/photos/4481323/pexels-photo-4481323.jpeg?auto=compress&cs=tinysrgb&w=1200)
+
 ## Standard RSC Sizes for Export from India
 
 There is no universal standard for RSC dimensions - boxes are made to fit the product. However, these sizes are common in export trade because they palletise efficiently against 1200 x 1000mm (ISO) or 1200 x 800mm (Euro) pallet footprints:
@@ -76,6 +78,38 @@ For most applications, RSC is the right choice. Consider upgrading to FOL (Full 
 FOL outer flaps fully overlap and are typically glued or taped, adding an extra layer of corrugated at top and bottom and improving top-to-bottom compression strength by 20 to 30% without a significant per-unit cost increase. For heavy industrial goods from India, FOL double wall is a common specification.
 
 ---
+
+## Custom Printing on RSC Boxes from India
+
+Custom printed RSC boxes are the most common printed corrugated format ordered by US and UK brands. The RSC's flat panel construction gives flexographic printing a consistent surface across the full length and width of each box face.
+
+**What to specify for printed RSC boxes:**
+
+- **Liner type:** White-top liner (white-coated kraft) gives the cleanest print surface for branded boxes. Brown kraft liner is standard for utilitarian export boxes with minimal printing (address, country of origin, fragile text).
+- **Print method:** Flexographic printing (up to 4 Pantone colours) is standard. For photo-quality or full-colour artwork, offset litho laminate is available - a sheet is printed offset and then laminated to the corrugated board. Litho laminate is more expensive and adds 5 to 7 working days to lead time.
+- **Print area:** Specify which panels require printing. Most branded RSC boxes print all four side panels plus the top flaps. Printing the bottom flaps is usually unnecessary.
+- **Pantone references:** Provide Pantone Coated (C) references for each colour. Water-based flexo inks are standard on corrugated.
+
+Custom printed RSC boxes from India for UK and US brands typically require a minimum of 5,000 units per print configuration. For smaller quantities (under 2,000 units) where custom printing is required, digital printing on E-flute board is an option worth discussing with the factory.
+
+---
+
+## RSC Boxes for E-Commerce and Amazon FBA
+
+RSC is the dominant format for Amazon FBA and direct-to-consumer e-commerce fulfilment because it is compatible with all major automated carton-sealing equipment (H-tape sealer, random case erectors) and palletises efficiently for both B2B replenishment orders and FBA inbound shipments.
+
+**FBA-specific requirements to check with your Indian manufacturer:**
+
+- **ISTA 2A or Amazon APASS testing:** Amazon requires packaging to survive ISTA 2A transit testing. If you are selling hazardous materials, oversized goods, or fragile items, the box must be tested to the correct protocol. Request an ISTA-tested sample specification from the factory, or run the testing yourself in the US before committing to production.
+- **Suffocation warning:** If the box ships with any polybag or plastic film inside, the outer corrugated box must carry a suffocation warning in accordance with Amazon's requirements.
+- **Label placement:** Ensure the box panel dimensions leave adequate clear zones for shipping labels and FNSKU barcodes without overlapping the artwork.
+- **Weight per box:** Amazon's standard FBA label requirements change at 50 lb (22.7 kg). Boxes above this weight require a "Team Lift" label. Specify the product weight per box when ordering so the factory can recommend the correct board grade and include space for the required label.
+
+For high-volume FBA replenishment (palletised inbound), RSC from India typically requires 8 to 16 weeks from specification to first warehouse delivery for a new customer. Repeat orders typically run 6 to 10 weeks.
+
+---
+
+![Close-up cross-section view of dark corrugated board layers showing the flute structure of RSC box material, representing the quality of board construction available from Indian corrugated box manufacturers](https://images.pexels.com/photos/1555199/pexels-photo-1555199.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 ## MOQ and Lead Times for RSC Boxes from India
 
