@@ -5,10 +5,10 @@ author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 tags: ["corrugated box quality India", "burst strength corrugated boxes India", "ECT certificate India corrugated", "corrugated box test certificate", "India corrugated box quality verification"]
 excerpt: "Importing corrugated boxes from India without verified quality data is a risk you do not need to take. This guide explains how burst strength, ECT, and GSM certificates work, what values to require, how to read an Indian test report, and what to do if your boxes arrive out of specification."
-ogImage: "https://images.pexels.com/photos/8961369/pexels-photo-8961369.jpeg?auto=compress&cs=tinysrgb&w=1200"
+ogImage: "https://images.pexels.com/photos/4481259/pexels-photo-4481259.jpeg?auto=compress&cs=tinysrgb&w=1200"
 ---
 
-![A quality control inspector carefully examining corrugated board at a manufacturing facility, checking for board consistency and defects before export](https://images.pexels.com/photos/8961369/pexels-photo-8961369.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Quality control team inspecting finished goods in an Indian corrugated box manufacturing warehouse before export to USA and UK buyers](https://images.pexels.com/photos/4481259/pexels-photo-4481259.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 One of the most common concerns US and UK buyers have about sourcing corrugated boxes from India is quality verification. How do you know the box you receive matches what you specified? How do you confirm the board grade is what the factory claims? And what do you do if boxes arrive and they are not right?
 
