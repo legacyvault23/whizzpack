@@ -88,6 +88,30 @@ Before selecting an Indian manufacturer for your mailer box programme, ask:
 
 A manufacturer who handles both the corrugated board production and the printing in-house has better quality control than one who outsources either step.
 
+## Frequently Asked Questions
+
+**Which companies in India export custom mailer boxes for subscription brands?**
+
+Corrugated mailer box manufacturers in Gujarat (Rajkot, Ahmedabad, Surat) and Maharashtra (Mumbai, Pune) are the main export clusters. The key distinction is factory-direct versus trading company: a factory-direct manufacturer controls board production and print in-house, which gives buyers direct access to quality documentation and faster resolution of any specification issues. Request verified export references from US or UK buyers before committing to a supplier.
+
+**What is the minimum order quantity for custom mailer boxes from India?**
+
+Most established Indian manufacturers work to an MOQ of 5,000 units per size and print configuration for E-flute custom mailer boxes. At this volume, a single production run covers die setup, plate making, and the corrugating pass efficiently. Litho-laminated boxes typically run higher - 5,000 to 10,000 units - due to the additional lamination setup. For subscription brands ordering monthly, the economics favour building a 2 to 3 month buffer stock rather than ordering smaller batches more frequently.
+
+**How long does it take to produce custom mailer boxes in India?**
+
+Production lead time from approved artwork and die-line to port loading is typically 20 to 30 working days for E-flute flexo-printed mailer boxes, and 25 to 35 working days for litho-laminated boxes. Add 22 to 28 days sea freight to US East Coast ports, or 18 to 22 days to UK ports. A first order including die-line approval and physical prototype should budget 10 to 14 weeks total from initial specification to warehouse receipt.
+
+**What print methods are available for subscription mailer boxes from India?**
+
+The two main options are flexographic print directly onto E-flute corrugated (suitable for 1 to 4 Pantone colours with solid design areas) and litho-laminate (a full-colour printed sheet laminated onto corrugated board, suitable for CMYK photographic designs). Flexo is more common for straightforward brand designs and is significantly cheaper at equivalent volumes. Litho-laminate produces sharper, richer colour reproduction and is the standard for premium unboxing experiences where photographic imagery is part of the brand.
+
+**How do I approve mailer box quality before the production run starts?**
+
+Request a physical die-cut prototype (sometimes called a pre-production sample or golden sample) before approving any bulk production run. A genuine Indian manufacturer produces a prototype using your approved die-line and artwork on the specified board. Evaluate the prototype against: structural integrity when assembled and filled with representative product weight, print colour accuracy against your Pantone or CMYK references, surface coating finish, and interior liner colour. Written approval of the prototype is the trigger for the production run - never approve from digital renders alone.
+
+---
+
 ## Working with Whizzpack
 
 Whizzpack manufactures custom printed corrugated boxes at our own factory in Rajkot, Gujarat. We produce E-flute and B-flute boxes with flexo print, and can discuss litho-laminated options for brands requiring photographic print quality.

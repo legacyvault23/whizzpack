@@ -162,4 +162,28 @@ For reference on specific box types and specifications, see our pages on [RSC co
 
 ---
 
+## Frequently Asked Questions
+
+**Who is the largest manufacturer of corrugated boxes in India?**
+
+India has several very large corrugated manufacturers, including companies like TGI Packaging, Canpac Trends, and B&B Triplewall Containers. However, for US and UK importers sourcing factory-direct, scale alone is not the right filter. The right question is: which manufacturers have verified export history to your destination market and can provide ECT test certificates with every order?
+
+**How do I verify a corrugated box manufacturer in India is factory-direct and not a broker?**
+
+Ask for the factory's GST registration number and cross-reference it on the Indian government's GST portal. Request the factory's IE (Import Export) code, which all registered Indian exporters hold. Ask for the physical factory address and cross-check it on Google Maps - a genuine manufacturer will have a visible production facility. Export data services like Volza and Panjiva show verified shipment records, so you can confirm whether the company has actually loaded containers at Indian ports.
+
+**What certifications should a corrugated box manufacturer in India hold?**
+
+For export to the US and UK, look for: ECT (Edge Crush Test) and burst strength test capability - the factory must be able to produce test certificates per order. ISO 9001:2015 certification indicates a documented quality management system. FSC (Forest Stewardship Council) certification is available from some Indian mills and relevant for buyers with sustainability requirements. OEKO-TEX is not typically required for corrugated boxes but may apply to cotton bags from the same supplier.
+
+**What is the typical MOQ when ordering corrugated boxes from an Indian manufacturer?**
+
+Most established Indian corrugated manufacturers work to an MOQ of 3,000 to 5,000 units per size and specification for standard RSC boxes. Custom die-cut boxes typically start at 5,000 units due to tooling setup costs. Custom printed boxes run 5,000 units and above per colour configuration. These figures reflect the batch economics of industrial corrugating - below these quantities, the setup cost per unit rises steeply.
+
+**How long does it take to get samples from a corrugated box manufacturer in India?**
+
+A capable Indian corrugated manufacturer sends physical samples by air freight within 10 to 15 working days from receiving your specification and artwork. Samples arrive in the US or UK within 3 to 5 days by air. Budget 2 to 4 weeks in total from specification submission to sample receipt, plus your internal review time. Approve samples in writing before confirming any production order.
+
+---
+
 Whizzpack is a corrugated box manufacturer in Rajkot, Gujarat. We have been exporting to the US and UK for over a decade, with ECT and burst strength test certificates on every order and references from active buyers available on request. Visit our [corrugated boxes page](/corrugated-boxes) to discuss your specification and start the sample process.

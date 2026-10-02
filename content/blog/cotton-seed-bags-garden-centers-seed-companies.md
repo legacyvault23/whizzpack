@@ -169,6 +169,30 @@ UK garden centres operate a distinct retail model from their US equivalents, and
 
 ---
 
+## Frequently Asked Questions
+
+**Do UK garden centres require OEKO-TEX certification on cotton seed bags?**
+
+Yes. Major UK garden centre chains including Dobbies, Blue Diamond, Haskins, Squires, and RHS-licensed retailers require OEKO-TEX Standard 100 documentation for any textile product in their range. This is a compliance gate at the range review stage, not a preference. Without a valid OEKO-TEX certificate number you can verify on oeko-tex.com, textile seed packaging will not make it onto the shelf.
+
+**What is the MOQ for wholesale custom printed cotton seed bags from India for UK garden retailers?**
+
+At Whizzpack, the MOQ is 5,000 units per design for custom printed cotton seed bags. Plain unprinted bags are also 5,000 units per size. For seed companies with multiple SKUs, the practical approach is to run a common base print (brand identity, fixed design elements) across all bags in a single production run, and manage variety-specific information through a sewn-on label or secondary overprint per SKU.
+
+**How long does shipping take from India for cotton seed bags to the UK?**
+
+Sea freight from Mundra Port in Gujarat takes 18 to 22 days to Felixstowe and 20 to 25 days to Southampton. Production lead time for custom printed cotton bags is 25 to 35 working days from approved sample. Total order-to-warehouse timeline for a first order is typically 10 to 14 weeks including sample production and review. Repeat orders on established specifications run 8 to 10 weeks.
+
+**What display mechanism do cotton seed bags need for UK garden centre displays?**
+
+UK garden centres typically use pegboard or wire grid displays for seed packets. Standard drawstring bags do not hang without modification. For UK garden centre supply, specify either a sewn-on header card with a punch hole, or a flat-bottom stand-up bag with a gusseted base that sits on a tiered shelf display. The header card can also carry variety-specific information, allowing a common bag body to be used across the full SKU range.
+
+**What fabric weight (GSM) works best for retail seed bags in UK garden centres?**
+
+160 to 200 GSM twill or canvas is the most common specification for garden centre retail seed bags. This weight provides enough body to hold shape on shelf without a separate stiffener, prints cleanly with 1 to 4 colour screen printing, and feels premium when handled by customers. Lighter muslin (80 to 120 GSM) is suitable for premium gift-pack applications where the bag sits inside outer packaging, but lacks structural rigidity for standalone shelf display.
+
+---
+
 ## Further Reading
 
 For a broader view of cotton bag sourcing from India and specifications relevant to garden and seed applications:

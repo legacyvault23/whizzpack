@@ -157,6 +157,18 @@ Transit times from major Indian ports are roughly 25 to 30 days to the US East C
 
 A standard export shipment includes: commercial invoice, packing list, bill of lading, certificate of origin, and the manufacturer's quality test report. If your order includes custom-printed boxes, also request the print proofs that were approved before production. Keep these on file for customs and for specifying repeat orders accurately.
 
+**What is the HTS code for corrugated boxes imported into the US from India?**
+
+Corrugated boxes from India enter the US under HTS heading 4819.10 (cartons, boxes and cases of corrugated paper or paperboard). The standard MFN (Most Favoured Nation) duty rate for this heading is free - there is currently no import duty on corrugated boxes from India entering the US. Confirm the exact classification with your customs broker, as the applicable subheading depends on the box construction and whether it is printed.
+
+**What import duty applies to corrugated boxes from India entering the UK?**
+
+Corrugated paper and paperboard boxes enter the UK under commodity code 4819.10.10. The standard UK MFN import duty rate is currently 0% for corrugated boxes from India. VAT at 20% applies at import and is recoverable for VAT-registered businesses. Your customs broker will confirm the current applicable rate and any changes in effect at the time of your shipment.
+
+**What is the minimum order quantity for importing corrugated boxes from India?**
+
+Most established Indian corrugated manufacturers work to an MOQ of 3,000 to 5,000 units per size and specification. Custom die-cut or heavily printed boxes typically start at 5,000 units due to tooling and plate setup costs. At these volumes, a single FCL (Full Container Load - 20ft or 40ft) is the standard freight unit. LCL (Less than Container Load) is available for smaller initial orders but carries a higher per-unit freight cost.
+
 **Do corrugated boxes from India comply with US or UK packaging regulations?**
 
 Indian manufacturers exporting to the US and UK are familiar with the relevant requirements, including ISPM 15 for wood packaging materials (relevant if wooden pallets are included), and standard customs documentation requirements. For food-contact applications, ask specifically about food-safe liner options and request the relevant documentation. Most experienced exporters can supply this; confirm before ordering rather than after. Supplement brands and pharmaceutical importers with specific food-safe liner and low-migration ink requirements will find our dedicated guide to [corrugated boxes for pharmaceutical and nutraceutical brands](/blogs/corrugated-boxes-pharmaceutical-nutraceutical-packaging) useful for understanding exactly what to specify.

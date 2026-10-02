@@ -138,6 +138,30 @@ For detailed corrugated specifications by box type, see our pages on [RSC corrug
 
 ---
 
+## Frequently Asked Questions
+
+**What is the maximum box size for Amazon FBA?**
+
+Amazon FBA shipment boxes must not exceed 25 inches (63.5 cm) on any single side. Maximum weight is 50 lb (22.7 kg) per box for standard items, or 100 lb (45.4 kg) for boxes labelled "Team Lift." Oversize item categories may have different rules - always check Seller Central for your specific ASIN before specifying boxes with an overseas manufacturer.
+
+**Does Amazon require corrugated boxes for FBA shipments?**
+
+Yes. Amazon requires boxes to be rigid, six-sided corrugated cartons with flaps meeting in the centre (RSC or full-overlap construction). Single-use packaging and boxes showing signs of reuse, damage, or water exposure are rejected at fulfilment centres. The minimum structural specification is single-wall (3-ply) corrugated at adequate ECT rating for your product weight - double wall (5-ply) is recommended for heavier items or long transit routes.
+
+**Who supplies corrugated boxes for Amazon sellers in India?**
+
+Multiple Indian corrugated manufacturers export FBA-compliant boxes to US and UK Amazon sellers. Factory-direct manufacturers in Gujarat (including Rajkot, Ahmedabad, and Surat) and Maharashtra have established export programmes specifically for FBA sellers. The key qualification for an FBA supplier is the ability to produce ECT test certificates and ISTA 2A test results, and to apply FNSKU labels and suffocation warning labels accurately before loading.
+
+**Can I source Amazon FBA-compliant corrugated boxes from India?**
+
+Yes, provided you specify the correct board grade and test requirements. Indian manufacturers can produce single-wall B and C flute and double-wall BC flute boxes that meet or exceed Amazon's structural requirements. The specification should include minimum ECT rating for your product weight, RSC flap construction, and explicit labelling positions for FNSKU and suffocation warnings. Always test production samples under ISTA 2A protocol before committing to a full run.
+
+**How long does shipping take for FBA boxes sourced from India?**
+
+Sea freight from Mundra Port (Gujarat) takes approximately 22 to 28 days to US East Coast ports (New York, Baltimore, Savannah) and 18 to 22 days to UK ports. Add 18 to 25 working days for production after sample approval. Total timeline from purchase order to Amazon FBA warehouse is typically 8 to 12 weeks for a first order. Repeat orders with established specifications run 6 to 8 weeks.
+
+---
+
 ## Sourcing FBA Boxes from Whizzpack
 
 Whizzpack manufactures RSC corrugated boxes in C flute, BC double wall, and B flute at our factory in Rajkot, Gujarat. We export factory-direct to FBA sellers and importers across the US and UK, with ECT and burst strength test certificates supplied with every order.
