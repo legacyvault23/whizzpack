@@ -53,7 +53,7 @@ A printed transfer film is applied to the fabric using heat and pressure. This m
 
 Heat transfer is a good option for brands with photographic product imagery, complex full-colour logos, or small-batch runs where screen setup costs would be prohibitive.
 
-**Best for:** full-colour photography, complex multi-colour logos, small runs of 200 to 500 units.
+**Best for:** full-colour photography, complex multi-colour logos, designs where the colour complexity makes screen setup impractical.
 
 **Limitations:** slightly raised feel on the fabric surface; less durable than screen printing over many wash cycles.
 
@@ -119,13 +119,13 @@ For most retail seed companies, **160 to 180 GSM** is the right weight: enough s
 
 MOQ for custom printed cotton bags depends on the complexity of the order:
 
-**Plain cotton bags (no print):** MOQ as low as 500 to 1,000 units per size. These can be ordered with blank space for your own labelling on arrival.
+**Plain cotton bags (no print):** MOQ 5,000 units per size. These can be ordered with blank space for your own labelling on arrival.
 
-**Screen printed (1-2 colours):** MOQ typically 1,000 to 2,000 units per size per design. Screen setup costs are spread across the run.
+**Screen printed (1-2 colours):** MOQ 5,000 units per design. Screen setup costs are absorbed into the per-unit price at this volume.
 
-**Screen printed (3-4 colours):** MOQ typically 2,000 to 5,000 units per size per design.
+**Screen printed (3-4 colours):** MOQ 5,000 units per design.
 
-**Heat transfer:** MOQ can be lower - sometimes 200 to 500 units - because there are no per-colour screens to set up.
+**Heat transfer:** MOQ 5,000 units per design.
 
 For seed companies just starting out with branded cotton packaging, ordering plain bags and applying your own printed labels on arrival is a cost-effective way to get started with a lower upfront commitment. As volumes grow, switching to full screen printing becomes more economical.
 

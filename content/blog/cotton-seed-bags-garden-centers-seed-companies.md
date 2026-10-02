@@ -69,7 +69,7 @@ Custom printing on cotton bags from India is available in several methods. Under
 
 Screen printing is the most cost-effective method for one to four-colour designs with defined areas of solid colour. Each colour requires a separate screen. Screen printing delivers excellent opacity, strong colour saturation, and durability through handling and washing. It is best suited for logo-forward designs without photographic gradients or fine detail.
 
-Minimum viable run per screen setup is typically 500 to 1,000 bags. For seed companies with many varieties, consider a base print (brand logo, fixed design elements in two colours) applied to all bags in a single production run, with a secondary variety-specific overprint or stitched-on label per SKU.
+MOQ at Whizzpack is 5,000 units per design. For seed companies with many varieties, consider a base print (brand logo, fixed design elements in two colours) applied to all bags in a single production run, with a secondary variety-specific overprint or stitched-on label per SKU.
 
 ![Seeds of various types displayed in custom printed cotton drawstring bags laid flat on a wooden surface, showing different seed variety labels clearly](https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=1200&q=80&auto=format&fit=crop)
 *Custom printed cotton bags allow seed companies to build a consistent brand identity across the full range of varieties. Screen printing delivers clean, durable results on natural cotton fabric at commercial volumes.*
@@ -120,9 +120,9 @@ For established accounts with repeat specifications, Indian suppliers can mainta
 
 Minimum order quantities for custom-printed cotton bags from India are typically:
 
-- **Unprinted plain bags:** 1,000 to 2,000 units per size
-- **Screen-printed 1 to 2 colours:** 500 to 1,000 units per design
-- **Screen-printed 3 to 4 colours:** 1,000 to 2,000 units per design
+- **Unprinted plain bags:** 5,000 units per size
+- **Screen-printed 1 to 2 colours:** 5,000 units per design
+- **Screen-printed 3 to 4 colours:** 5,000 units per design
 
 For a seed company with 50 or more varieties, ordering each design individually becomes impractical. The most cost-effective approach:
 

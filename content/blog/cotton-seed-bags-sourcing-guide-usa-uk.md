@@ -134,7 +134,7 @@ The GOTS public database at global-standard.org allows anyone to search for cert
 
 **Can I order custom printed cotton bags at small quantities?**
 
-Screen printing typically has setup costs that make it economical only above a certain volume, often 500 to 1,000 units per design. Below that, heat transfer printing or embroidery may be more practical options. Some manufacturers offer mixed orders where the same fabric and size runs at higher volume but with different print designs in smaller batches. Discuss your volume and design requirements before assuming a particular printing method is available.
+At Whizzpack, the MOQ is 5,000 units per design across all print methods - screen printing, heat transfer, and embroidery. Screen setup costs are absorbed into the per-unit price at this volume. For seed companies with many varieties, the most practical approach is a common base print across all SKUs in a single production run, with a variety-specific overprint or stitched-on label per SKU to manage SKU variety without multiplying separate production orders.
 
 **What is the practical difference between muslin and canvas for seed bags?**
 
