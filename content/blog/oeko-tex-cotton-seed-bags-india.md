@@ -102,9 +102,9 @@ When ordering OEKO-TEX certified cotton seed bags from India, confirm the follow
 
 Wholesale minimum order quantities from India:
 
-- Unprinted OEKO-TEX bags: 1,000 to 2,000 units per size
-- Screen-printed OEKO-TEX bags (1 to 2 colours): 1,000 to 2,000 units per design
-- Screen-printed OEKO-TEX bags (3 to 4 colours): 2,000 units per design
+- Unprinted OEKO-TEX bags: 5,000 units per size
+- Screen-printed OEKO-TEX bags (1 to 2 colours): 5,000 units per design
+- Screen-printed OEKO-TEX bags (3 to 4 colours): 5,000 units per design
 
 Production lead time is 25 to 35 working days from sample approval. Sea freight to UK ports (Felixstowe, Southampton): 18 to 25 days. Sea freight to US East Coast ports: 25 to 30 days.
 

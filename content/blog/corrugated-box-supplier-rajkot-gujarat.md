@@ -93,7 +93,7 @@ The most reliable approaches for connecting with genuine factory-direct manufact
 | Parameter | Typical Range from Rajkot |
 |-----------|--------------------------|
 | MOQ - corrugated boxes | 3,000 to 10,000 units per specification |
-| MOQ - cotton bags | 1,000 to 3,000 units per design |
+| MOQ - cotton bags | 5,000 units per design |
 | Production lead time | 18 to 30 working days |
 | Sea freight to US East Coast | 26 to 32 days from Mundra |
 | Sea freight to UK (Felixstowe) | 18 to 22 days from Mundra |
@@ -104,6 +104,6 @@ The most reliable approaches for connecting with genuine factory-direct manufact
 
 ---
 
-Whizzpack is a corrugated box and cotton bag manufacturer based in Rajkot, Gujarat. We export factory-direct to importers in the USA and UK with full quality documentation (ECT, burst strength, GSM certificates). Minimum order 5,000 units for corrugated boxes; 1,000 units for cotton bags.
+Whizzpack is a corrugated box and cotton bag manufacturer based in Rajkot, Gujarat. We export factory-direct to importers in the USA and UK with full quality documentation (ECT, burst strength, GSM certificates). Minimum order 5,000 units for corrugated boxes and cotton bags.
 
 To request a quote, physical samples, or further information about our Rajkot facility, visit our [corrugated boxes page](/corrugated-boxes) or [cotton bags for seeds page](/cotton-seed-bags), or contact [contact@whizzpack.in](mailto:contact@whizzpack.in).

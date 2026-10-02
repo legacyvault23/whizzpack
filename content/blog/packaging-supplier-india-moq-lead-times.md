@@ -24,9 +24,9 @@ MOQ varies by product type and factory. The figures below are typical for establ
 | Corrugated boxes (custom die-cut) | 5,000 to 10,000 units | Higher due to tooling cost |
 | Custom printed corrugated boxes | 5,000 units | Per colour configuration |
 | Double wall corrugated boxes | 3,000 to 5,000 units | Per size |
-| Cotton bags for seeds (plain) | 1,000 to 2,000 units | Per size |
-| Cotton bags for seeds (custom printed) | 1,000 to 2,000 units per design | Per screen print design |
-| Muslin bags (plain, unprinted) | 500 to 1,000 units | Per size |
+| Cotton bags for seeds (plain) | 5,000 units | Per size |
+| Cotton bags for seeds (custom printed) | 5,000 units per design | Per screen print design |
+| Muslin bags (plain, unprinted) | 5,000 units | Per size |
 | Mailer boxes (e-commerce) | 3,000 to 5,000 units | Per size and print configuration |
 
 **Why MOQs exist:** Indian manufacturers run production on batch equipment. The minimum order represents the smallest batch that covers the setup cost - die configuration, ink mixing, board run - while producing usable economics for both sides. Smaller quantities can sometimes be accommodated by paying a setup surcharge, but this rarely produces cost-effective per-unit pricing at less than 1,000 units.
@@ -130,7 +130,7 @@ Beyond MOQ and lead time, evaluate potential Indian suppliers on:
 
 ![Cotton bags for seeds and corrugated boxes stacked together in an Indian export factory warehouse, representing the multi-product packaging capability available from a single Indian supplier](https://images.pexels.com/photos/2226458/pexels-photo-2226458.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
-Whizzpack manufactures corrugated boxes and cotton bags for seeds at our factory in Rajkot, Gujarat. We supply US and UK importers factory-direct with a minimum order of 5,000 units for corrugated boxes and 1,000 units for cotton bags. Full quality documentation (ECT, burst strength, GSM certificates) is provided with every shipment.
+Whizzpack manufactures corrugated boxes and cotton bags for seeds at our factory in Rajkot, Gujarat. We supply US and UK importers factory-direct with a minimum order of 5,000 units for corrugated boxes and cotton bags. Full quality documentation (ECT, burst strength, GSM certificates) is provided with every shipment.
 
 To discuss MOQ, lead time, and specifications for your product range, visit our [corrugated boxes page](/corrugated-boxes) or [cotton bags for seeds page](/cotton-seed-bags), or contact [contact@whizzpack.in](mailto:contact@whizzpack.in).
 

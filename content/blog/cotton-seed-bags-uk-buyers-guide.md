@@ -22,7 +22,7 @@ Cotton Bag for Seeds manufacturing is concentrated in India - specifically in Gu
 
 **OEKO-TEX compliance.** OEKO-TEX Standard 100 tests finished textile products for harmful substances - pesticide residues, heavy metals, formaldehyde, and other compounds. Many Indian manufacturers of cotton bags carry OEKO-TEX certification, which is directly relevant to UK buyers supplying food-adjacent applications such as seed packaging, dried goods, or children's products.
 
-**MOQ flexibility and customisation.** Indian manufacturers can produce custom sizes, weights, closures, and prints from relatively low minimum order quantities - typically 500 to 1,000 units per specification. This is more flexible than comparable European suppliers at equivalent quality levels.
+**MOQ flexibility and customisation.** Indian manufacturers can produce custom sizes, weights, closures, and prints to your specification. MOQ at Whizzpack is 5,000 units per specification, which suits brands and seed companies placing seasonal or annual bulk orders. This compares favourably to comparable European suppliers on both price and quality.
 
 **Post-Brexit UK customs.** Cotton Bags for Seeds and plain cotton bags fall under HS codes 6305.20 (of cotton, for packing goods) or 6217.90 depending on specification. The UK import duty rate is 12 percent MFN for woven cotton bags of this type, which is worth factoring into the landed cost calculation. Buyers importing under significant volumes should check with their customs broker whether any UK Generalised Scheme of Preferences (GSP) rate applies.
 

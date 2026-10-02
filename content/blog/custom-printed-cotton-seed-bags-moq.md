@@ -138,7 +138,7 @@ Seed companies with 20 to 200 seed variety SKUs cannot realistically run a separ
 
 ---
 
-Whizzpack produces custom screen-printed cotton seed bags at our factory in Rajkot, Gujarat, with OEKO-TEX Standard 100 certified fabric available. We supply UK garden retailers and US seed companies with 1 to 4 colour screen printing, natural cotton drawstring closures, and physical sample approval before any production run. MOQ from 1,000 units per design.
+Whizzpack produces custom screen-printed cotton seed bags at our factory in Rajkot, Gujarat, with OEKO-TEX Standard 100 certified fabric available. We supply UK garden retailers and US seed companies with 1 to 4 colour screen printing, natural cotton drawstring closures, and physical sample approval before any production run. MOQ from 5,000 units per design.
 
 Visit our [cotton bags for seeds page](/cotton-seed-bags) or our [custom printed cotton bags page](/cotton-seed-bags/custom-printed) to discuss your print specification and request samples. Contact us at [contact@whizzpack.in](mailto:contact@whizzpack.in) with your bag dimensions, design brief, and target quantity.
 
