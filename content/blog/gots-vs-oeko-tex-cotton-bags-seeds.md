@@ -158,4 +158,14 @@ If your primary concern is consumer safety and harmful substance limits: specify
 
 If you need to satisfy an organic certification body's packaging requirements: check with your certifier which standard they recognise before specifying either one.
 
+## What This Means When Placing a Bulk Seed Bag Order from India
+
+When you place a cotton seed bag order with an Indian manufacturer, the certification decision has practical consequences for your order timeline and cost:
+
+**OEKO-TEX orders from India:** Most established cotton bag manufacturers in Rajkot and Tirupur hold current OEKO-TEX Standard 100 certificates. This means you can order OEKO-TEX compliant bags with no additional lead time or cost premium beyond the standard specification. Request the certificate number and verify it at oeko-tex.com before confirming your purchase order.
+
+**GOTS orders from India:** India is one of the world's largest producers of organic cotton. Gujarat and Madhya Pradesh have a significant number of GOTS-certified farms and mills. However, not every cotton bag factory in India holds a full GOTS chain-of-custody certificate. When requesting a GOTS order, ask for the manufacturer's current GOTS certificate number, verify it at global-standard.org, and confirm that finished cotton bags (not just yarn or fabric) are listed under their certified products. A Transaction Certificate (TC) for your production run is issued at the time of shipment and is what your organic certifier will require.
+
+**Cost difference in practice:** GOTS-certified cotton bags from India typically cost 8 to 15% more per unit than standard or OEKO-TEX bags, reflecting the premium cost of certified organic cotton fibre. For seed companies where the GOTS mark supports a retail premium on the seed product itself, this cost is usually absorbed easily. For commodity seed distributors, OEKO-TEX is the more cost-effective route.
+
 Whizzpack offers GOTS and OEKO-TEX certified cotton bags for seeds from our factory in Rajkot, Gujarat. To discuss certification requirements for your specific product range, contact us at [contact@whizzpack.in](mailto:contact@whizzpack.in) or visit our [cotton bags for seeds page](/cotton-seed-bags).

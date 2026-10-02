@@ -117,7 +117,7 @@ Plastic (particularly laminated woven PP) remains practical for:
 - Very high-volume, low-value seed distributions where per-unit cost is the primary driver
 - Automated filling lines not yet adapted for cotton
 
-For most commercial seed distributors in the US and UK, a cotton bag specification in the 150 to 200 GSM drawstring or flat bag format will outperform standard plastic bags for in-season storage and will significantly improve brand perception among farmers who handle the product.
+For most commercial seed distributors in the US and UK, a cotton bag specification in the 150 to 200 GSM drawstring or flat bag format will outperform standard plastic bags for in-season storage and will significantly improve brand perception among farmers who handle the product. For garden centres and seed companies supplying branded retail ranges - where the bag is a shelf display item as much as a storage vessel - see our dedicated guide to [cotton bags for seeds for garden centres and seed companies](/blogs/cotton-seed-bags-garden-centers-seed-companies), which covers OEKO-TEX compliance for UK garden retailers, display formats, and UK seasonal ordering timelines.
 
 For full product specifications on drawstring bags, organic cotton options, and custom printed Cotton Bags for Seeds, see our [Cotton Bags for Seeds pages](/cotton-seed-bags). You can also explore specific types: [drawstring Cotton Bags for Seeds](/cotton-seed-bags/drawstring), [organic Cotton Bags for Seeds](/cotton-seed-bags/organic), and [custom printed Cotton Bags for Seeds](/cotton-seed-bags/custom-printed).
 

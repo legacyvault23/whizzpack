@@ -105,13 +105,38 @@ This integrated supply chain in India produces muslin bags at a fraction of the 
 
 ---
 
-## Minimum Order Quantities and Lead Times
+## Muslin Bag GSM Guide: Which Weight for Which Application
 
-**Minimum order quantities (MOQ):** Most Indian muslin bag manufacturers set an MOQ of 500 to 1,000 bags per size and colour for plain (unprinted) bags. Printed bags typically require 1,000 to 2,000 units per design to amortise screen setup costs.
+GSM (grams per square metre) is the most important specification variable for muslin bags. The correct GSM depends on what the bag will contain and how it will be used.
 
-For wholesale buyers looking to carry multiple sizes or colours, the total order across all SKUs often needs to reach 5,000 units or more to qualify for freight-viable pricing from Indian manufacturers.
+| GSM | Weight Class | Common Applications |
+|-----|-------------|---------------------|
+| 60 to 80 GSM | Very light / sheer | Tea brewing bags, infusion sachets, reusable filter pouches - fine enough for liquid to pass through slowly |
+| 80 to 100 GSM | Light | Small seed packets, herb drying bags, light jewellery pouches, wedding favour bags - holds fine seeds without losing them through the weave |
+| 100 to 120 GSM | Medium | Seed storage bags, produce bags, cotton gift bags, spa sachets - this is the most versatile wholesale weight |
+| 120 to 160 GSM | Medium-heavy | Artisan food bags (coffee, spices, nuts), retail seed bags needing more body - takes screen printing cleanly |
+| 160 to 200 GSM | Heavy / canvas-like | Tool bags, heavy produce, craft supply storage - bags that need to stand upright or hold significant weight |
 
-**Production lead time:** 15 to 20 working days for plain bags; 20 to 30 working days for printed bags (additional time for screen preparation and drying between print runs).
+For seed storage specifically: 100 to 120 GSM is the standard range. Below 80 GSM, small seeds (carrot, lettuce, fine flower varieties) can sift through the weave. Above 160 GSM, the bag becomes more canvas than muslin and loses the lightweight character buyers associate with muslin.
+
+---
+
+## Minimum Order Quantities and Lead Times for Wholesale Buyers
+
+**Minimum order quantities (MOQ)** from India for wholesale muslin bag orders:
+
+| Specification | MOQ |
+|--------------|-----|
+| Plain (unprinted), one size | 500 to 1,000 units |
+| Plain, multiple sizes (combined) | 2,000 to 3,000 units total |
+| Screen printed, 1 colour | 1,000 units per design |
+| Screen printed, 2 to 4 colours | 1,500 to 2,000 units per design |
+| OEKO-TEX certified fabric | Same MOQ as standard, with 15 to 25% price premium |
+| GOTS certified fabric | Same MOQ, with 20 to 35% price premium |
+
+For wholesale distributors placing an initial stocking order across multiple sizes and weights, a total order of 5,000 to 10,000 units is the practical minimum for a cost-competitive per-unit price after sea freight is factored in.
+
+**Production lead time:** 15 to 20 working days for plain bags; 20 to 30 working days for printed bags.
 
 **Sea freight transit:** 22 to 28 days to US East Coast ports; 18 to 25 days to UK ports.
 

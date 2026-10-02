@@ -11,9 +11,9 @@ imageAlt: "A wine bottle surrounded by grapes, roses and fruit on a dark wooden 
 
 ![A wine bottle surrounded by grapes, roses and fruit on a dark wooden surface, representing the premium wine products that require specialist corrugated secondary packaging from India](https://images.pexels.com/photos/1407846/pexels-photo-1407846.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
-Wine and spirits is one of the most technically demanding categories in corrugated packaging. A standard 12-bottle wine case must hold up to 18kg of glass and liquid under palletised sea freight, resist humidity inside a shipping container, and arrive at a distributor or wine merchant with every bottle intact. Get the specification wrong and the losses compound quickly.
+If you are sourcing corrugated boxes for wine and spirits from India, you are working with one of the most technically demanding categories in corrugated packaging. A standard 12-bottle wine case must hold up to 18kg of glass and liquid under palletised sea freight, resist humidity inside a shipping container on a 22-day voyage to Felixstowe or a 28-day transit to the US East Coast, and arrive at a distributor or wine merchant with every bottle intact. Get the specification wrong on a 20,000-unit factory order and the losses compound fast.
 
-For wine and spirits brands sourcing corrugated boxes at scale, factory-direct procurement from India offers lower landed costs, FSC-certified board, and the customisation capability that premium brands require. This guide covers what buyers need to specify.
+Indian corrugated manufacturers - particularly those in Gujarat and Maharashtra - produce wine and spirits packaging to the compression and humidity standards that export logistics demand, at landed costs 30 to 40% below domestic UK or US sourcing. This guide covers what wine and spirits buyers need to specify when ordering from India.
 
 ## Two Very Different Use Cases
 

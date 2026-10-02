@@ -153,6 +153,22 @@ Before placing a bulk order for retail-facing seed bags, confirm:
 
 ---
 
+## UK Garden Centres: What to Know About the Market
+
+UK garden centres operate a distinct retail model from their US equivalents, and the cotton bag specification requirements reflect that. Key differences:
+
+**UK retailer compliance:** Major UK garden centre chains - including Dobbies, Blue Diamond, Haskins, Squires, and RHS-licensed retailers - require suppliers to provide OEKO-TEX Standard 100 documentation with their product submissions. This is not optional for any textile product entering their range. If you are supplying to UK garden centres, confirm OEKO-TEX certification with your Indian supplier before any range review meeting.
+
+**UK seed packet display:** UK garden centres typically use pegboard or wire grid displays for seed packets, meaning bags need a punch hole header or a hanging header card. Standard drawstring bags do not have a hanging mechanism. When ordering for UK garden centre supply, specify either a sewn-on header card with a punch hole, or a flat-bottom stand-up bag design that sits on a tiered display shelf.
+
+**RHS-affiliated suppliers:** The RHS (Royal Horticultural Society) endorsement appears on packaging from brands including Suttons, Thompson and Morgan, Mr Fothergill's, Unwins, and others. If you are supplying packaging to any RHS-endorsed seed brand, the cotton bag will appear in branded retail environments where consistent print quality and dimensional accuracy across SKUs are non-negotiable.
+
+**UK organic seed brands:** UK organic seed companies holding Soil Association certification for their seed product typically want GOTS-certified cotton bags to complete their organic supply chain story. Brands including Real Seeds, Tamar Organics, Kings Seeds, and The Organic Gardening Catalogue operate in this segment. A GOTS-certified cotton bag from India is a straightforward supply chain addition that gives these brands a consistent, documentable organic claim on the packaging.
+
+**Lead times for UK garden retail:** The UK spring seed season runs from January to April. Orders for spring must arrive at UK distribution centres by late December at the latest. Working back, this means UK garden centre buyers should place production orders by late September to October, allowing for 4 to 6 weeks production in India, 22 to 28 days sea freight to Felixstowe or Southampton, and 5 to 7 days for customs clearance and UK delivery.
+
+---
+
 ## Further Reading
 
 For a broader view of cotton bag sourcing from India and specifications relevant to garden and seed applications:

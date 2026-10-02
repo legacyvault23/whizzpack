@@ -1,18 +1,33 @@
 ﻿---
-title: "Corrugated Boxes from India: A Sourcing Guide for UK Importers"
+title: "Importing Corrugated Boxes from India to the UK: Duties, Customs Codes and HMRC"
 date: "2026-08-14"
 author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
-tags: ["corrugated boxes UK", "import from India", "UK packaging", "corrugated boxes", "India export", "FSC certified"]
-excerpt: "UK importers sourcing corrugated boxes are increasingly going direct to Indian manufacturers. Here is what the process looks like, what to specify, and what to check before committing."
+tags: ["corrugated boxes UK import India", "UK import duty corrugated boxes", "corrugated boxes HMRC commodity code", "corrugated boxes India UK", "UK packaging import India", "4819.10 commodity code UK"]
+excerpt: "UK-specific guide to importing corrugated boxes from India: commodity code 4819.10, current UK import duty rate, HMRC entry procedures, UK port options (Felixstowe, Southampton, London Gateway), UK EPR obligations, and FSC documentation."
 ogImage: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&auto=format&fit=crop&q=80"
 ---
 
-UK buyers sourcing corrugated boxes have historically relied on domestic suppliers or European manufacturers. That is changing. As freight routes mature and Indian manufacturers gain direct experience with UK compliance requirements, more importers in England, Scotland, and Wales are placing orders directly with factories in Gujarat and Maharashtra.
+If you are a UK importer sourcing corrugated boxes from India, this guide covers the UK-specific details: the correct commodity code for HMRC, the current import duty rate, how to complete UK customs entry, which UK ports handle most India container traffic, and what UK EPR obligations apply to imported packaging. For the step-by-step sourcing and ordering process that applies to both US and UK buyers, see our [complete import process guide](/blogs/how-to-import-corrugated-boxes-from-india).
 
-This guide is written specifically for UK buyers: UK port logistics, UK customs duties, UK packaging waste regulations, and what you should specify when ordering from an Indian corrugated box manufacturer.
+## UK Commodity Code for Corrugated Boxes
 
-If you are still evaluating whether India is the right sourcing market, our [broader guide on sourcing packaging from India](/blogs/why-import-packaging-from-india) covers the fundamentals first.
+Corrugated cardboard boxes imported from India enter the UK under **commodity code 4819.10.10** (cartons, boxes and cases of corrugated paper or paperboard) in the UK Global Trade Tariff. This is the code your customs broker will use on the import declaration.
+
+The current **UK MFN import duty rate** for corrugated cardboard boxes (4819.10.10) is **0%**. No anti-dumping duties, safeguard measures, or preferential tariff complications apply to corrugated packaging from India at the time of writing. UK VAT at 20% applies at the point of import and is reclaimable by VAT-registered businesses in the standard way.
+
+**Confirming the current rate:** Use the [UK Trade Tariff tool](https://www.trade-tariff.service.gov.uk) and enter commodity code 4819.10.10 to confirm the current rate before placing an order. Duty rates can change with UK Global Tariff reviews.
+
+## How UK Customs Entry Works (HMRC Process)
+
+UK import declarations are submitted through HMRC's Customs Declaration Service (CDS). Most UK importers use a customs broker or freight forwarder who handles CDS submissions as part of their service. The process for a corrugated box shipment from India:
+
+1. The Indian exporter provides the commercial invoice, packing list, bill of lading, and certificate of origin (Form A or equivalent, if any preferential rate applied - at 0% MFN there is no preferential benefit to claim, but the certificate of origin establishes the country of origin for statistical and any future duty purposes).
+2. Your customs broker submits an import declaration on CDS declaring: commodity code 4819.10.10, customs value (invoice value + freight + insurance at CIF arrival port), country of origin (India), and import VAT.
+3. HMRC issues a C88 import entry acceptance. Goods are released on a risk-based basis - most paper and board shipments are not physically inspected.
+4. Import VAT appears on your C79 certificate, which supports the VAT reclaim on your quarterly return.
+
+**Documents to request from your Indian supplier:** commercial invoice (stating unit price, total value, currency), packing list (carton count, gross weight, net weight), bill of lading (original or telex release), and a packing specification confirming board grade and recycled content (required for UK EPR reporting).
 
 ![Stacked corrugated boxes in a warehouse ready for export to UK importers](https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=900&auto=format&fit=crop&q=80)
 *Factory-direct corrugated boxes from India allow UK importers to control specification and reduce per-unit costs at volume.*

@@ -11,7 +11,7 @@ imageAlt: "A glass cup of clear herbal tea with fresh mint leaves resting on a j
 
 ![A glass cup of clear herbal tea with fresh mint leaves resting on a jute mat, representing the premium tea products that require specialist corrugated secondary packaging from India](https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
-Tea and coffee are among the most packaging-sensitive product categories in food retail. The product inside, whether it is a tin of Darjeeling first flush, a bag of single-origin espresso, or a retail display of herbal sachets, faces specific hazards during transit that generic corrugated solutions do not account for.
+If you are sourcing corrugated boxes for tea and coffee products from India, you are working with one of the most packaging-sensitive categories in food retail. The product inside - whether it is a tin of Darjeeling first flush, a bag of single-origin espresso, or a retail display of herbal sachets - faces specific hazards during the 22-to-28-day sea freight transit from India that generic corrugated specifications do not account for.
 
 Corrugated boxes for tea and coffee brands serve two distinct supply chain functions, and the specification requirements differ significantly between them.
 

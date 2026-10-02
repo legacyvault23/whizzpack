@@ -8,9 +8,9 @@ authorBio: "Jash B. has over a decade of experience in packaging export from Ind
 ---
 
 
-Corrugated boxes are not all the same. Two boxes that look identical on the outside can have dramatically different strength, weight capacity, and cost based on their grade, flute type, and paper specification. For buyers sourcing corrugated boxes from India in bulk quantities, understanding these differences upfront prevents costly mistakes: boxes that fail in transit, a shipment specification that doesn't match the application, or paying for strength you don't need.
+If you are sourcing corrugated boxes from India for import to the USA or UK, the specification conversation starts before production - and getting it wrong is expensive at sea freight scale. Two boxes that look identical can have dramatically different strength, weight capacity, and cost based on their grade, flute type, and paper specification.
 
-This guide covers the key variables  -  grades, sizes, flute types, and standard dimensions  -  in practical terms for USA and UK importers.
+This guide covers the key variables - grades, sizes, flute types, and standard dimensions - in practical terms for USA and UK importers ordering factory-direct from Indian manufacturers.
 
 ![Stack of corrugated boxes of varying sizes in a warehouse ready for export](https://images.unsplash.com/photo-1640193698858-31565d448f90?w=1200&q=80&auto=format&fit=crop)
 *Standard and custom corrugated box sizes for every application, manufactured in India for export*
@@ -110,7 +110,7 @@ Other styles you may encounter:
 
 **Die-cut custom shapes:** Trays, display boxes, partitioned inserts, and irregular shapes. These require custom cutting dies (typically $100–$300 USD per design), but the per-unit cost converges with RSC at moderate volumes.
 
-For most export applications, **RSC with C-flute or BC-flute construction** is the practical starting point.
+For most export applications, **RSC with C-flute or BC-flute construction** is the practical starting point. For US and UK buyers sourcing RSC boxes factory-direct from India - dimensions, board grades, flute combinations, and MOQ - see our [RSC corrugated box manufacturer guide from India](/blogs/rsc-corrugated-boxes-manufacturer-india).
 
 ---
 

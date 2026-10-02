@@ -1,6 +1,6 @@
 ﻿---
-title: "Heavy-Duty Corrugated Boxes for Export Shipping: Triple-Wall, Burst Strength, and What to Specify"
-excerpt: "Not every shipment fits in a standard single-wall box. This guide covers heavy-duty corrugated boxes for industrial and export applications: triple-wall construction, burst strength ratings, flute selection, and what to specify when ordering from India."
+title: "Heavy-Duty Corrugated Boxes from India: Double Wall, Triple Wall and What to Specify"
+excerpt: "Not every shipment fits in a standard single-wall box. If you are sourcing heavy-duty corrugated boxes from India, this guide covers double-wall and triple-wall construction, burst strength ratings, ECT values, and exactly what to specify to an Indian manufacturer for industrial and export applications."
 date: "2026-07-28"
 tags: ["heavy duty corrugated boxes", "triple wall boxes", "export packaging", "industrial boxes", "corrugated boxes India"]
 author: "Jash B."
@@ -8,7 +8,7 @@ authorBio: "Jash B. has over a decade of experience in packaging export from Ind
 ---
 
 
-Standard single-wall corrugated boxes work well for e-commerce parcels and light retail goods. But when you are shipping heavy machinery components, dense agricultural products, industrial tools, or goods that need to survive multiple handling events across a long sea freight journey, you need something fundamentally stronger.
+If you are sourcing corrugated boxes from India for heavy industrial goods or long sea freight routes to the US or UK, standard single-wall construction will not be enough. When you are importing heavy machinery components, dense agricultural products, industrial tools, or goods that must survive multiple handling events across a 25-to-30-day ocean voyage, you need double-wall or triple-wall construction with verifiable strength ratings.
 
 Heavy-duty corrugated boxes - double-wall and triple-wall constructions - are engineered for exactly these applications. This guide explains how they are built, how to read the specifications, what to look for when sourcing from Indian manufacturers, and how to match box construction to your actual shipping requirements.
 

@@ -176,6 +176,16 @@ For commodity seed applications where cost per bag is the primary driver, jute h
 
 ---
 
+## What This Means When Placing an Order from India
+
+When sourcing seed bags from an Indian manufacturer, the jute-vs-cotton decision has direct practical consequences:
+
+**Jute bags from India:** India and Bangladesh are the world's two largest jute producers, and Indian factories in West Bengal (Kolkata) and Bihar produce jute sacking in large volumes at low per-unit cost. The key question to ask any Indian jute bag supplier: is the fabric JBO-treated? Request confirmation that the jute is JBO-free if the bags will be used with seed intended for food consumption or organic certification. JBO-free jute bags carry a small cost premium but are the only acceptable option for most US and UK seed companies.
+
+**Cotton bags from India:** Rajkot in Gujarat and Tirupur in Tamil Nadu are the main cotton bag production centres in India. Cotton bags suitable for seed company retail programmes - with OEKO-TEX certification, custom screen printing, and natural drawstring closures - are standard production items from these facilities. Lead time for custom-printed cotton bags is 25 to 35 working days from sample approval. Sea freight from India to UK ports (Felixstowe, Southampton) runs 18 to 25 days; to US East Coast ports, 25 to 30 days.
+
+**Combined orders:** Some seed companies order both from India - jute bags for bulk agricultural supply and cotton bags for retail-facing product lines. Whizzpack produces cotton bags; for jute, the recommendation is a specialist jute manufacturer in West Bengal or a trading company that handles both.
+
 ## Making the Decision
 
 For most seed companies and agricultural operations supplying the US or UK market, cotton is the right choice - primarily because of OEKO-TEX availability, better moisture management, and superior retail aesthetics. UK buyers can find market-specific guidance on certifications, port logistics, and customs in our [Cotton Bags for Seeds UK buyers guide](/blogs/cotton-seed-bags-uk-buyers-guide).

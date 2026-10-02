@@ -61,7 +61,7 @@ You want B, C, E, and BC double wall as a minimum. For export work, C flute and 
 RSI flexographic printing (up to 4 colours) is standard. Offset printing on corrugated requires litho-lamination (printing on paperboard, then laminating to corrugated) and is less common in-house. For [custom printed corrugated boxes](/corrugated-boxes/custom-printed), confirm whether printing is done in-house or outsourced.
 
 "What are your standard box styles?"
-RSC (Regular Slotted Container) is the most common. A competent manufacturer should also produce Full Overlap (FOL), Half Slotted Container (HSC), and die-cut boxes. Ask specifically about the style you need.
+RSC (Regular Slotted Container) is the most common - for a full guide to RSC specifications, dimensions, and MOQ from India, see our [RSC corrugated box manufacturer guide](/blogs/rsc-corrugated-boxes-manufacturer-india). A competent manufacturer should also produce Full Overlap (FOL), Half Slotted Container (HSC), and die-cut boxes. Ask specifically about the style you need.
 
 ### Quality and testing
 

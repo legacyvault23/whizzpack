@@ -1,15 +1,35 @@
 ﻿---
-title: "Corrugated Boxes from India: Buyer Guide for US & UK Importers"
+title: "How to Import Corrugated Boxes from India: Complete Process Guide for US and UK Buyers"
 date: "2026-06-12"
 author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
-tags: ["corrugated boxes", "cardboard packaging", "India import", "packaging specs", "buyer guide", "box grades"]
-excerpt: "What US and UK buyers need to understand before importing corrugated boxes from India, specifications, quality standards, what to ask, and how to find a reliable manufacturer."
+tags: ["how to import corrugated boxes from India", "import corrugated boxes India", "corrugated boxes India buyer guide", "India packaging import process", "corrugated boxes USA UK import", "factory direct corrugated boxes India"]
+excerpt: "A step-by-step process guide for US and UK buyers importing corrugated boxes from India: how to find and evaluate a manufacturer, what to specify, how samples work, Incoterms, documentation, sea freight timelines, and customs clearance."
 ---
 
-Corrugated boxes are one of the most frequently imported packaging products from India, and for good reason. Indian manufacturers offer wide customisation across board grades, flute configurations, and print options, often at specifications that are difficult to source domestically without long lead times or high minimums.
+Importing corrugated boxes from India to the US or UK follows a consistent process - but buyers new to Indian supply chains often run into delays, specification mismatches, or documentation gaps that experienced importers have already worked through. This guide covers the complete import process from finding a manufacturer to goods arriving at your warehouse.
 
-But for buyers new to Indian imports, there's a learning curve. This guide cuts through it. If you're still deciding whether India is the right sourcing market for your business, our [general guide to sourcing packaging from India](/blogs/why-import-packaging-from-india) covers the full picture.
+If you are still deciding whether India is the right sourcing market, our [general guide to sourcing packaging from India](/blogs/why-import-packaging-from-india) covers that first. If you are specifically importing to the UK and need commodity codes, HMRC procedures, and EPR compliance details, see our dedicated [UK corrugated box import guide](/blogs/corrugated-boxes-uk-import-guide).
+
+## The Import Process: Step by Step
+
+A typical first import of corrugated boxes from India moves through these stages in sequence:
+
+**Step 1 - Define your specification.** Before approaching any manufacturer, know what you need: box dimensions (L x W x H internal), wall construction (single or double wall), flute type (B, C, BC), board grade (GSM or ECT rating), print requirements, and quantity. Manufacturers quoting on incomplete specs default to whatever they produce at highest volume, which may not match your application.
+
+**Step 2 - Source and evaluate manufacturers.** Reliable sources include IndiaMart, direct referrals from other importers, and verified manufacturer websites. Request a company profile, current export references (ask for buyers they have shipped to in the US or UK), and their quality documentation process. A manufacturer who cannot provide ECT or burst strength test certificates is not ready for export.
+
+**Step 3 - Request and review samples.** A credible Indian manufacturer sends physical samples by air freight within 10 to 15 working days. Samples should match your full specification: dimensions, board grade, flute, and print. Test them against your product's actual weight and stacking requirements before approving.
+
+**Step 4 - Confirm specification and place order.** Issue a purchase order with the complete specification in writing. Include: internal dimensions, wall construction, flute type, liner GSM (or ECT), print details (Pantone colours, artwork file format), packaging specification (pallet config, stretch wrap), port of loading, Incoterms, and delivery schedule.
+
+**Step 5 - Production and quality check.** Standard production lead time from an Indian corrugated manufacturer is 18 to 25 working days after sample approval and purchase order confirmation. Request a pre-shipment inspection or a video inspection of the production run. A reputable factory will provide this.
+
+**Step 6 - Shipping and documentation.** The manufacturer loads the container at port (FOB terms) or arranges inland transport to port (for CIF). Standard export documents are: commercial invoice, packing list, bill of lading, certificate of origin, quality test report. Ensure the bill of lading is consigned correctly for your customs broker.
+
+**Step 7 - Customs clearance and delivery.** Your freight forwarder handles import entry. For US importers, corrugated boxes enter under HTS heading 4819 with a standard MFN duty rate. For UK importers, see our [UK-specific import guide](/blogs/corrugated-boxes-uk-import-guide) for commodity code and duty rate details. Clearance typically takes 2 to 5 working days after vessel arrival.
+
+**Total timeline for a first order:** approximately 12 to 16 weeks from initial manufacturer contact to goods in your warehouse.
 
 ![Rows of open brown corrugated cardboard boxes ready for dispatch](https://images.unsplash.com/photo-1700165644892-3dd6b67b25bc?w=900&auto=format&fit=crop&q=80)
 *Indian corrugated box manufacturers offer a wide range of flute types, board grades, and custom print options for international buyers.*
