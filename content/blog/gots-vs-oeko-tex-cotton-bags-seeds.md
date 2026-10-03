@@ -158,6 +158,28 @@ If your primary concern is consumer safety and harmful substance limits: specify
 
 If you need to satisfy an organic certification body's packaging requirements: check with your certifier which standard they recognise before specifying either one.
 
+## Frequently Asked Questions
+
+**What is the difference between GOTS and OEKO-TEX certification for cotton bags?**
+
+GOTS (Global Organic Textile Standard) certifies the entire supply chain from organic cotton farm through finished bag, confirming the cotton was grown without synthetic pesticides and every processing stage was certified. OEKO-TEX Standard 100 certifies the finished product only, testing the bag for over 100 harmful substances. GOTS allows you to label the bag as "organic cotton"; OEKO-TEX confirms the bag is safe for consumer contact without making an organic supply chain claim.
+
+**Does OEKO-TEX certification mean cotton bags are safe for direct seed contact?**
+
+Yes, in practice. OEKO-TEX Standard 100 Class II certification confirms the fabric contains no harmful substances above regulatory limits for skin-contact applications, including pesticide residues and heavy metals. For cotton bags in contact with seeds intended for food crops, OEKO-TEX Class II is the standard most UK and US seed companies request. GOTS provides additional assurance by certifying the production method as well as the finished product.
+
+**Which certification do UK seed companies need for cotton bags sold through garden centres?**
+
+For most UK garden centre retail programmes, OEKO-TEX Standard 100 satisfies the textile packaging compliance requirements of major retail buyers including John Lewis, Wyevale, and independent garden centres. GOTS is required only if you hold Soil Association organic certification or your retail buyer specifically requires organic supply chain documentation. Check with your certifier or retail buyer before specifying one over the other.
+
+**Can I source cotton bags from India with both GOTS and OEKO-TEX certification?**
+
+Yes. GOTS-certified bags can also undergo OEKO-TEX testing, and some Indian manufacturers in Rajkot and Tirupur hold both certifications. In practice, it is rarely necessary because GOTS already includes chemical testing requirements in several categories stricter than OEKO-TEX. If your primary requirement is organic supply chain integrity, GOTS covers it. If your primary requirement is consumer safety testing, OEKO-TEX is sufficient.
+
+**How do I verify that an Indian supplier's GOTS or OEKO-TEX certificate is genuine?**
+
+Both certifications have public databases. For GOTS: search the certificate number at global-standard.org and confirm the certificate is current, covers finished cotton bags (not just yarn or fabric), and names the manufacturer you are working with. For OEKO-TEX: search at oeko-tex.com using the certificate number and verify the product class and expiry date. Never accept a supplier certificate without verifying it in the public database. For GOTS orders, also request a Transaction Certificate (TC) for your specific production run, which is the document your organic certifier will require.
+
 ## What This Means When Placing a Bulk Seed Bag Order from India
 
 When you place a cotton seed bag order with an Indian manufacturer, the certification decision has practical consequences for your order timeline and cost:

@@ -172,6 +172,28 @@ Request a quote with your specifications for accurate pricing. Always compare qu
 
 ---
 
+## Frequently Asked Questions
+
+**What is the minimum order quantity for muslin bags wholesale from India?**
+
+For wholesale buyers sourcing muslin bags from India, minimum order quantities depend on specification. Plain unprinted muslin bags in a single size start at 500 to 1,000 units. Printed bags (one colour screen print) start at 1,000 units per design. For buyers placing an initial stocking order across multiple sizes or weights, a combined total of 5,000 units is the practical minimum for cost-competitive pricing after sea freight from India to UK or US ports. OEKO-TEX or GOTS certified fabric can be sourced at the same MOQ with a 15 to 35% price premium over non-certified fabric.
+
+**What GSM muslin bag should I use for seed storage?**
+
+100 to 120 GSM is the standard range for seed storage muslin bags. Below 80 GSM, small seeds (carrot, lettuce, fine flower varieties) can sift through the weave. Above 160 GSM, the bag becomes more canvas than muslin, losing the lightweight breathability that makes muslin suitable for seed storage. For herb drying and infusion sachets, 60 to 80 GSM is used. For retail gift bags and jewellery pouches, 90 to 110 GSM gives enough body for screen printing without excessive weight.
+
+**Are muslin bags from India available with OEKO-TEX or GOTS certification?**
+
+Yes. OEKO-TEX Standard 100 certification is widely available from established Indian cotton bag manufacturers in Rajkot and Tirupur at no additional MOQ requirement. It tests the finished bag for harmful substances including pesticide residues, heavy metals, and formaldehyde. GOTS certification (Global Organic Textile Standard, covering the full organic cotton supply chain) is available from a smaller number of manufacturers and carries a 20 to 35% cost premium. For wholesale buyers supplying UK or US retail channels, OEKO-TEX is sufficient for most compliance requirements. Request the certificate number and verify it at oeko-tex.com or global-standard.org before confirming an order.
+
+**What is the difference between muslin bags and cotton canvas bags?**
+
+Muslin is a plain-weave cotton fabric typically produced at 60 to 160 GSM with a fine, soft texture. Canvas is a heavier plain or duck weave typically starting at 200 GSM with a stiffer, more structured feel. Muslin bags are suited to lighter-weight contents (herbs, teas, fine seeds, gifts), while canvas bags handle heavier loads (produce, tools, bulk agricultural seed). Both are made from cotton and are available with OEKO-TEX or GOTS certification. The practical boundary for wholesale buyers: if the bag needs to hold more than 2 to 3 kg or stand upright unsupported, move to canvas. For lighter applications, muslin gives a softer hand and better print definition at lower weight.
+
+**How long does it take to receive a wholesale muslin bag order from India?**
+
+Production lead time for plain muslin bags is 15 to 20 working days; for printed bags, 20 to 30 working days. Sea freight transit from India is 18 to 25 days to UK ports (Felixstowe, Southampton) and 22 to 28 days to US East Coast ports. Total order-to-delivery time is 8 to 12 weeks for a first order. For repeat orders on established specifications, 6 to 8 weeks is typical. Plan your first order with a 12-week buffer and establish a reorder schedule once you have 8 weeks of stock remaining.
+
 ## Sourcing Muslin Bags from Whizzpack
 
 Whizzpack manufactures cotton bags at our factory in Rajkot, including muslin and canvas specifications for agricultural, retail, and promotional applications. We export to wholesale buyers across the US and UK with full ECT and GSM documentation.

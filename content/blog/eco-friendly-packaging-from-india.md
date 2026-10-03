@@ -84,6 +84,28 @@ This means buyers can realistically request:
 
 None of these are exotic requests for a serious Indian manufacturer. They are part of the standard toolkit.
 
+## Frequently Asked Questions
+
+**Is corrugated board from India environmentally friendly?**
+
+Indian corrugated board produced for export typically uses 70 to 100% recycled fibre in the liner and medium layers, making it genuinely more resource-efficient than virgin-fibre board. Most large Indian export manufacturers hold FSC chain-of-custody certification covering responsibly sourced board, and water-based inks are the standard (no solvent emissions). Corrugated board is fully recyclable through standard curbside paper and cardboard streams in both the UK and US. Ask your supplier for a recycled content declaration and ink specification in writing.
+
+**What certifications should I look for when sourcing eco-friendly packaging from India?**
+
+For corrugated boxes: FSC chain-of-custody certification (verify at info.fsc.org), a recycled content declaration, and an ink specification confirming water-based inks. For cotton bags: OEKO-TEX Standard 100 (verify at oeko-tex.com) for consumer safety testing, or GOTS (verify at global-standard.org) if you need organic supply chain certification. For UK buyers, also request documentation supporting EPR (Extended Producer Responsibility) compliance, including material weights by type and recyclability statements.
+
+**What is the difference between FSC and GOTS certification for packaging?**
+
+FSC (Forest Stewardship Council) applies to wood-fibre products including corrugated board, certifying that the wood pulp came from responsibly managed forests. GOTS (Global Organic Textile Standard) applies to cotton textiles including cotton bags, certifying that the cotton was grown organically and processed through certified facilities. They cover different materials entirely: FSC is the standard to request for corrugated boxes, GOTS for organic cotton bags. Both are third-party certified and publicly verifiable.
+
+**Can Indian suppliers provide packaging that meets UK EPR compliance requirements?**
+
+Yes. UK EPR compliance for packaging is primarily a documentation requirement: accurate material weights by type, recyclability evidence, and FSC or recycled content declarations. Indian suppliers with experience exporting to the UK hold these documents as standard. Request a material data sheet specifying GSM per layer, fibre type, recycled content percentage, and an ink declaration confirming water-based inks. A supplier who has sold to UK buyers before should produce these without delay.
+
+**How do I verify that eco-friendly claims from Indian packaging suppliers are genuine?**
+
+Ask for documents, not descriptions. FSC, GOTS, OCS, and OEKO-TEX certifications all carry a verifiable certificate number in a public database. Ask the supplier for the certificate number and check it yourself before confirming an order. For recycled content claims, request a material data sheet specifying the percentage by layer. For ink claims, request a written declaration that water-based, low-VOC inks are used. Any supplier making genuine eco-friendly claims to export buyers will have these documents ready; reluctance to produce them is a useful quality signal.
+
 ## Lead Times and Sampling
 
 Eco-certified materials can add 5-10 days to sampling lead times versus standard materials, as the supplier may need to order specific certified inputs. Factor this into your timeline if you are running sustainability claims past a compliance team or need to submit samples to a retailer before placing a full order.
