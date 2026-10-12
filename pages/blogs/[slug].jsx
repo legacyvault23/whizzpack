@@ -4,6 +4,80 @@ import { marked } from 'marked';
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
+import { useState } from 'react';
+
+function NewsletterStrip() {
+  const [email, setEmail] = useState('');
+  const [name, setName] = useState('');
+  const [status, setStatus] = useState('idle'); // idle | loading | success | error
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+    if (!email) return;
+    setStatus('loading');
+    try {
+      const res = await fetch('/api/wp-inquiry', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type: 'newsletter', name, email, source: 'blog-footer-strip' }),
+      });
+      setStatus(res.ok ? 'success' : 'error');
+    } catch {
+      setStatus('error');
+    }
+  }
+
+  return (
+    <div style={{
+      background: 'linear-gradient(135deg, #0F1F4B 0%, #1a2f6e 100%)',
+      borderRadius: '14px',
+      padding: '36px 32px',
+      margin: '40px 0',
+      color: '#fff',
+    }}>
+      {status === 'success' ? (
+        <div style={{ textAlign: 'center', padding: '8px 0' }}>
+          <div style={{ fontSize: '2rem', marginBottom: '10px' }}>&#10003;</div>
+          <p style={{ fontWeight: 700, fontSize: '1.1rem', margin: '0 0 6px', color: '#fff' }}>You are on the list.</p>
+          <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '.9rem', margin: 0 }}>We will send you practical packaging sourcing tips - no spam, unsubscribe any time.</p>
+        </div>
+      ) : (
+        <>
+          <div style={{ marginBottom: '22px' }}>
+            <p style={{ fontSize: '.78rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: '#F05A28', margin: '0 0 8px' }}>Packaging Sourcing Tips</p>
+            <h3 style={{ margin: '0 0 8px', fontSize: '1.3rem', fontWeight: 800, color: '#fff', lineHeight: 1.3 }}>Get monthly tips sent to your inbox</h3>
+            <p style={{ margin: 0, fontSize: '.9rem', color: 'rgba(255,255,255,.65)', lineHeight: 1.6 }}>Board grades, MOQ guidance, certification decisions - practical sourcing advice for UK and US importers, once a month.</p>
+          </div>
+          <form onSubmit={handleSubmit} style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', alignItems: 'flex-end' }}>
+            <input
+              type="text"
+              placeholder="Your name"
+              value={name}
+              onChange={e => setName(e.target.value)}
+              style={{ flex: '1 1 140px', padding: '11px 14px', borderRadius: '8px', border: '1.5px solid rgba(255,255,255,.22)', background: 'rgba(255,255,255,.09)', color: '#fff', fontSize: '.9rem', outline: 'none' }}
+            />
+            <input
+              type="email"
+              placeholder="Work email"
+              value={email}
+              onChange={e => setEmail(e.target.value)}
+              required
+              style={{ flex: '2 1 200px', padding: '11px 14px', borderRadius: '8px', border: '1.5px solid rgba(255,255,255,.22)', background: 'rgba(255,255,255,.09)', color: '#fff', fontSize: '.9rem', outline: 'none' }}
+            />
+            <button
+              type="submit"
+              disabled={status === 'loading'}
+              style={{ padding: '11px 24px', background: '#F05A28', color: '#fff', border: 'none', borderRadius: '8px', fontWeight: 700, fontSize: '.92rem', cursor: 'pointer', whiteSpace: 'nowrap', opacity: status === 'loading' ? .7 : 1 }}
+            >
+              {status === 'loading' ? 'Subscribing...' : 'Subscribe'}
+            </button>
+          </form>
+          {status === 'error' && <p style={{ margin: '10px 0 0', fontSize: '.83rem', color: '#fca5a5' }}>Something went wrong. Email us at contact@whizzpack.in to subscribe.</p>}
+        </>
+      )}
+    </div>
+  );
+}
 
 // Custom renderer: add width/height to images to prevent CLS
 marked.use({
@@ -139,6 +213,7 @@ export default function BlogPost({ frontmatter, contentHtml, navHtml, footerHtml
               </div>
             </div>
           )}
+          <NewsletterStrip />
           {relatedPosts && relatedPosts.length > 0 && (
             <div className="blog-related">
               <div className="blog-related-header">
