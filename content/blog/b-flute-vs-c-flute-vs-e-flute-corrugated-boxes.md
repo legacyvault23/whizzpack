@@ -1,7 +1,7 @@
 ﻿---
-title: "B Flute vs C Flute vs E Flute: Which to Specify When Sourcing Corrugated Boxes from India"
+title: "B Flute vs C Flute vs E Flute Corrugated Boxes: Thickness, Strength and When to Use Each"
 date: "2026-08-07"
-excerpt: "Which corrugated flute type should you specify when ordering from an Indian manufacturer? B, C, E, and BC double wall compared for US and UK importers - strength, cushioning, printability, and export shipping performance."
+excerpt: "B flute (3mm) handles stacking loads, C flute (4mm) is the standard for general shipping, E flute (1.5mm) gives the cleanest print surface. Compares all four types on thickness, ECT ratings, weight limits and printability - so you can specify the right board without guessing."
 tags: ["Corrugated Boxes", "Flute Types", "corrugated boxes from India", "Export Packaging", "Box Specification", "India corrugated manufacturer", "corrugated boxes India export"]
 author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."

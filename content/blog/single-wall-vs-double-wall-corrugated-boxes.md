@@ -1,10 +1,10 @@
 ﻿---
-title: "Single Wall vs Double Wall Corrugated Boxes: India Export Sourcing Guide"
+title: "Single Wall vs Double Wall Corrugated Boxes: When to Use Each (With Weight Limits)"
 date: "2026-07-21"
 author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 tags: ["double wall corrugated boxes India", "single wall corrugated boxes India", "corrugated boxes from India", "export packaging India", "India box specification", "heavy duty shipping boxes", "wholesale boxes India"]
-excerpt: "If you are sourcing corrugated boxes from India for US or UK import, choosing between single wall and double wall construction is the first specification decision. Here is a practical guide to picking the right construction and what to specify to an Indian manufacturer."
+excerpt: "Single wall (3-7mm) is right for goods up to 25kg in standard transit. Double wall (7-10mm) is for heavy goods, long sea freight routes, and industrial applications. Comparison covers burst strength, ECT compression ratings, weight limits and cost difference - so you specify the right board the first time."
 ogImage: "https://images.unsplash.com/photo-1607166452427-7e4477079cb9?w=1200&auto=format&fit=crop&q=80"
 ---
 

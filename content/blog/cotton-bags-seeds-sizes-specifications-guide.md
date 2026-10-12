@@ -1,7 +1,7 @@
 ﻿---
-title: "Cotton Bags for Seeds: Sizes, Fabric Weights and Specifications Guide for UK and US Seed Companies"
+title: "Cotton Bags for Seeds: Size Chart, GSM Weights and Specification Guide"
 date: "2026-08-30"
-excerpt: "Ordering cotton bags for seeds without a clear specification leads to costly sample rounds and production delays. This guide covers every decision: GSM, bag size, weave type, closure, thread and cord material."
+excerpt: "Common cotton seed bag sizes: 3x5 in (small retail packets), 5x7 in (standard), 10x14 in (bulk/farm). Fabric: 100 GSM for light retail bags, 150-200 GSM for commercial farm sacks. Full specification chart covering GSM, weave type, closure options and cord material for UK and US seed companies."
 tags: ["cotton bags for seeds specifications", "seed bag sizes UK USA", "cotton bag GSM guide", "fabric weight cotton bags seeds", "custom cotton bags seed companies", "cotton bag specifications India"]
 author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
