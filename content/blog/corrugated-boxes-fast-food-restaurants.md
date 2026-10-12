@@ -68,7 +68,7 @@ Common formats in pastry packaging:
 - **Drawer-style boxes:** A sleeve and tray construction where the inner tray slides out from the outer sleeve - often used for macaron boxes, chocolate assortments, and similar premium items.
 - **Standard lid-and-tray:** The most common format - a tray base with a separate lid. Simple, stackable, and easy to fill on a production line.
 
-For franchise pastry chains and doughnut brands, corrugated boxes printed with the brand identity are a key part of the in-store and delivery experience.
+For franchise pastry chains and doughnut brands, corrugated boxes printed with the brand identity are a key part of the in-store and delivery experience. For ambient confectionery and snack brands distributing through UK or US grocery retail rather than food service, the brief shifts to shelf-ready secondary packaging; our guide to [corrugated boxes for snack food brands](/blogs/corrugated-boxes-snack-food-brands-india) covers the shelf-ready display specifications, FSC certification, and wholesale distribution packaging requirements that major grocery retailers expect.
 
 ## Delivery and Parcel Packaging for Food
 

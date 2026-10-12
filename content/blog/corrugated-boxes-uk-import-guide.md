@@ -90,7 +90,7 @@ To support EPR reporting, ask your Indian supplier for:
 - Material composition data sheet (liner GSM, fluting GSM, virgin vs recycled fibre)
 - FSC or PEFC chain-of-custody documentation (where applicable)
 
-A manufacturer who has supplied UK buyers before will have these documents prepared. They are standard export documentation for compliance-focused markets.
+A manufacturer who has supplied UK buyers before will have these documents prepared. They are standard export documentation for compliance-focused markets. UK buyers sourcing corrugated secondary packaging for snack food or ambient FMCG retail brands will find the full checklist of FSC, recycled content, and EPR documentation requirements covered in our [guide to corrugated boxes for snack food brands](/blogs/corrugated-boxes-snack-food-brands-india).
 
 ## Lead Times and Planning
 
