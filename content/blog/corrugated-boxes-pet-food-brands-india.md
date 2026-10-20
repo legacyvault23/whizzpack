@@ -48,7 +48,7 @@ The most common specifications for pet food corrugated packaging:
 | Display case | 3-ply | E flute | Treats, chews |
 | E-commerce mailer | 3-ply | E flute | DTC fulfilment |
 
-![Open corrugated box from above, showing clean kraft interior](https://cdn.pixabay.com/photo/2017/02/25/15/40/box-2098116_1280.jpg)
+![Brown kraft corrugated box on clean white background](https://images.pexels.com/photos/8015700/pexels-photo-8015700.jpeg?auto=compress&cs=tinysrgb&w=1200)
 
 For a full explanation of how single wall vs double wall affects compression strength and shipping performance, see our [single wall vs double wall corrugated boxes guide](/blogs/single-wall-vs-double-wall-corrugated-boxes).
 
