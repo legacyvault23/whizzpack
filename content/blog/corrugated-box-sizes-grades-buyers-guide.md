@@ -45,7 +45,7 @@ The flute  -  the wave-shaped corrugated layer  -  determines how the box handle
 
 
 ![Corrugated board cross-section showing B, C and E flute profiles used in export packaging from India](https://images.unsplash.com/photo-1772920908589-d6264e5d987f?w=1200&q=80&auto=format&fit=crop)
-**B-flute (3mm thick):** Smaller, tighter flutes. Good flat crush resistance and puncture resistance. Common for retail packaging, printed boxes, and goods where the box walls need to be relatively thin. B-flute is the standard for most printed shipping boxes.
+**B-flute (3mm thick):** Smaller, tighter flutes. Good flat crush resistance and puncture resistance. Common for retail packaging, printed boxes, and goods where the box walls need to be relatively thin. B-flute is the standard for most printed shipping boxes and for shelf-ready packaging in food categories such as pet food; we cover the specific board grades and food-safe liner requirements for that category in our [corrugated boxes for pet food brands guide](/blogs/corrugated-boxes-pet-food-brands-india).
 
 **C-flute (4mm thick):** The most widely used flute type globally. Balances cushioning, stacking strength, and printability. If you are ordering general-purpose corrugated boxes from India, you are most likely getting C-flute unless specified otherwise.
 
