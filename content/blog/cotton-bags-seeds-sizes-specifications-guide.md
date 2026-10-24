@@ -37,7 +37,7 @@ Getting GSM right matters because:
 
 For most seed companies serving retail garden channels in the UK and US, a 150 to 180 GSM twill or canvas is the most versatile specification. It prints cleanly, holds its shape without stiffening, and has enough weight to feel substantial in a customer's hand.
 
-For agricultural seed distributors moving bulk volumes of large-seed crops, 200 to 250 GSM canvas or drill provides the structural integrity needed for multi-use handling.
+For agricultural seed distributors moving bulk volumes of large-seed crops, 200 to 250 GSM canvas or drill provides the structural integrity needed for multi-use handling. The 160-200 GSM range also covers laboratory and field applications such as geological soil sampling, where 100% cotton thread throughout is required to ensure the bag survives oven drying at 105°C; see our [cotton bags for geological soil sampling guide](/blogs/cotton-bags-geological-soil-sampling-oven-drying) for those specific specifications.
 
 ---
 

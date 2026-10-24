@@ -22,7 +22,7 @@ But if you're new to sourcing from India, the process can feel uncertain. Here's
 
 **Cotton muslin bags**: Versatile and breathable, these work well for seeds, herbs, and food-adjacent applications. Often unbleached for a natural appearance.
 
-**Heavy cotton sacks**: Higher-capacity bags for bulk seed, grain, or agricultural storage. Heavier fabric weight (180 to 250+ GSM) and reinforced stitching.
+**Heavy cotton sacks**: Higher-capacity bags for bulk seed, grain, or agricultural storage. Heavier fabric weight (180 to 250+ GSM) and reinforced stitching. The same 150-200 GSM range with 100% cotton thread specification is also used for geological and soil sampling bags that must survive oven drying at 105°C; we cover those specifications in our [cotton bags for geological soil sampling guide](/blogs/cotton-bags-geological-soil-sampling-oven-drying).
 
 **Custom printed bags**: Screen printing and embroidery are both widely available for branded retail packaging. Print quality varies significantly between manufacturers; always request printed samples.
 
