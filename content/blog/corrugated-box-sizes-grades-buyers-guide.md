@@ -71,7 +71,7 @@ You will encounter two strength ratings when reviewing corrugated box specificat
 - Standard export (10–25 kg): 32 ECT minimum
 - Heavy goods (25–50 kg): 44 ECT or higher
 
-Request ECT test certificates from your Indian supplier before confirming an order. Reputable manufacturers test every board batch and can provide documentation.
+Request ECT test certificates from your Indian supplier before confirming an order. Reputable manufacturers test every board batch and can provide documentation. For a deeper comparison of ECT and Mullen Burst ratings, conversion values between US and UK standards, and board grade tables, see our [ECT rating vs Mullen Burst guide for UK and US buyers](/blogs/corrugated-box-ect-rating-vs-burst-strength).
 
 ---
 

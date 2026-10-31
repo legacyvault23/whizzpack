@@ -142,7 +142,7 @@ BC double wall is the most common double-wall specification for export from Indi
 
 ## A Note on Liner Grade
 
-Flute type determines the board's structural profile, but liner grade determines the board's actual strength. Two boxes can use the same C flute with very different burst strength ratings depending on whether the liners are 100 GSM test liner or 150 GSM kraftliner. When specifying a box, always state both the flute type and the liner GSM or the required burst factor (BF) or ECT (Edge Crush Test) value.
+Flute type determines the board's structural profile, but liner grade determines the board's actual strength. Two boxes can use the same C flute with very different burst strength ratings depending on whether the liners are 100 GSM test liner or 150 GSM kraftliner. When specifying a box, always state both the flute type and the liner GSM or the required burst factor (BF) or ECT (Edge Crush Test) value. For a full explanation of both ECT and Mullen Burst ratings and how to specify each when ordering from India, see our [corrugated box ECT vs burst strength guide](/blogs/corrugated-box-ect-rating-vs-burst-strength).
 
 A manufacturer who only asks for box dimensions without asking about liner grade or required strength is not asking the right questions. A well-specified corrugated box order will always include: dimensions (L x W x H), flute type, liner grade (or strength requirement), ply count, and printing specification. Our [corrugated box sizes and grades guide](/blogs/corrugated-box-sizes-grades-buyers-guide) explains common board grade formats and how to read ECT and GSM specifications when comparing quotes from Indian manufacturers.
 
