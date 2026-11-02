@@ -46,7 +46,7 @@ Double wall cardboard boxes cost more per unit and weigh more in freight. They e
 
 **Export shipments.** A container crossing the ocean experiences weeks of stacking pressure, humidity cycles, and multiple loading events. Sea freight humidity alone can reduce box compression strength significantly over the voyage. Double wall construction preserves a protective margin that single wall loses in these conditions.
 
-**Contents over 20 to 25 kg.** As carton weight climbs, the compression load on the bottom boxes of every pallet stack climbs with it. Double wall keeps stacks stable at weights where single wall begins to bulge and fail.
+**Contents over 20 to 25 kg.** As carton weight climbs, the compression load on the bottom boxes of every pallet stack climbs with it. Double wall keeps stacks stable at weights where single wall begins to bulge and fail. This applies across many home goods categories - cast iron cookware, heavy stoneware, and ceramic sets often push retail case weights above 8 to 12 kg, which is covered in detail in our [corrugated boxes for home goods and housewares guide](/blogs/corrugated-boxes-home-goods-housewares-india).
 
 **Tall warehouse stacking.** If your fulfilment operation stacks pallets two or three high, the bottom cartons carry enormous cumulative load for weeks or months. Stacking strength is the main reason distribution businesses standardise on double wall for storage cartons.
 
