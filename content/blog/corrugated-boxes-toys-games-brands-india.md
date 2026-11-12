@@ -80,7 +80,7 @@ This is an area that catches many brands off guard when ordering corrugated from
 
 Toy packaging must carry specific safety information under UK and US regulations. This is the brand's responsibility, not the packaging manufacturer's - but it has direct implications for what must be printed on the corrugated.
 
-**UK:** The UK Toy Safety Regulations 2011 (as retained post-Brexit, with UKCA marking replacing CE) require toys to carry the UKCA mark, the name and address of the UK responsible person, and age grading warnings where applicable. The minimum age warning must appear on the toy and its packaging. Packaging must also carry choking hazard warnings for products with small parts (under 3 years).
+**UK:** The UK Toy Safety Regulations 2011 (as retained post-Brexit, with UKCA marking replacing CE) require toys to carry the UKCA mark, the name and address of the UK responsible person, and age grading warnings where applicable. The minimum age warning must appear on the toy and its packaging. Packaging must also carry choking hazard warnings for products with small parts (under 3 years). For products aimed directly at the infant and baby segment, non-toxic ink requirements and Amazon FBA baby category compliance add further layers, all covered in our [corrugated boxes for baby products guide](/blogs/corrugated-boxes-baby-products-infant-brands-india).
 
 **EU (for brands also selling in Europe):** CE marking under the EU Toy Safety Directive (2009/48/EC). Equivalent requirements to the UK, with the CE mark and EU responsible person address on packaging.
 

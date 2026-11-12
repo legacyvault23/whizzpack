@@ -23,7 +23,7 @@ Amazon's Seller Central outlines the following requirements for FBA shipment box
 **Size limits:**
 - Maximum dimension on any single side: 25 inches (63.5 cm)
 - Maximum weight per box: 50 lb (22.7 kg) for standard items; 100 lb (45.4 kg) for items marked "Team Lift"
-- Oversize items may require different specifications - check Seller Central for your ASIN category
+- Oversize items may require different specifications - check Seller Central for your ASIN category. Brands in the Baby category face additional requirements including suffocation warning labels and drop test certification; we cover the full set in our guide to [corrugated boxes for baby products and infant brands](/blogs/corrugated-boxes-baby-products-infant-brands-india).
 
 **Structural requirements:**
 - Boxes must be six-sided with flaps meeting in the centre (RSC or full-overlap construction)
