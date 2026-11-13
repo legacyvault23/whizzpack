@@ -1,10 +1,10 @@
 ---
-title: "RSC Corrugated Box Manufacturer in India: Factory-Direct Export to USA and UK"
+title: "RSC Corrugated Boxes from India: UK and US Buyer Sourcing Guide"
 date: "2026-10-02"
 author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
-tags: ["RSC corrugated boxes India", "RSC boxes manufacturer India", "regular slotted carton India export", "RSC boxes supplier India USA UK", "corrugated boxes India manufacturer"]
-excerpt: "RSC corrugated boxes from India - regular slotted cartons in any size, board grade, or flute type. How RSC boxes are manufactured, what to specify for US or UK import, MOQ, lead times, and how factory-direct supply from India compares to domestic sourcing."
+tags: ["RSC corrugated boxes India UK US", "regular slotted carton India import", "RSC boxes sourcing guide UK buyers", "corrugated boxes India export USA", "RSC boxes MOQ lead times India"]
+excerpt: "RSC corrugated boxes are the standard six-sided, centre-meeting-flap carton used for most UK and US import shipments. This guide covers what to specify when ordering RSC boxes from India, board grades and flute types by application, MOQ, lead times, and how factory-direct sourcing from India compares to domestic UK or US supply."
 ogImage: "https://images.pexels.com/photos/4483610/pexels-photo-4483610.jpeg?auto=compress&cs=tinysrgb&w=1200"
 ---
 
@@ -143,4 +143,4 @@ Whizzpack manufactures RSC corrugated boxes at our factory in Rajkot, Gujarat fo
 
 To request a quote or samples, visit our [corrugated boxes page](/corrugated-boxes) or our [RSC boxes page](/corrugated-boxes/rsc-boxes). Contact us at [contact@whizzpack.in](mailto:contact@whizzpack.in) with your dimensions, board specification, and delivery destination.
 
-For more on the import process from India, see our [complete guide to importing corrugated boxes from India](/blogs/how-to-import-corrugated-boxes-from-india).
+For more on the import process from India, see our [complete guide to importing corrugated boxes from India](/blogs/how-to-import-corrugated-boxes-from-india). US buyers will find step-by-step coverage of HTS codes, customs clearance, and lead time planning in our [guide to importing corrugated boxes from India to the US](/blogs/importing-corrugated-boxes-from-india-to-usa).

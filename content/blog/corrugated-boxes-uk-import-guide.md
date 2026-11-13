@@ -127,7 +127,7 @@ Our corrugated box range covers RSC boxes, double wall heavy-duty construction, 
 
 For UK buyers placing a first order, we recommend starting with a sample request. We ship samples by air freight and can typically have them with you within 10-14 working days. Visit our [corrugated boxes page](/corrugated-boxes) to see the full range, or use the [contact form](/corrugated-boxes) to start a conversation about your requirements.
 
-For broader context on what UK importers can expect when sourcing packaging from India, see our [complete sourcing guide](/blogs/how-to-import-corrugated-boxes-from-india).
+For broader context on what UK importers can expect when sourcing packaging from India, see our [complete sourcing guide](/blogs/how-to-import-corrugated-boxes-from-india). For detailed guidance on UK retailer compliance, FSC documentation, UK pallet standards, and specifying boxes correctly for UK use, see our [UK buyer specification guide for corrugated boxes from India](/blogs/corrugated-boxes-india-for-uk-businesses).
 
 ---
 

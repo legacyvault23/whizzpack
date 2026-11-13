@@ -1,10 +1,10 @@
 ---
-title: "Corrugated Box Import Duty and HTS Code for US Importers"
+title: "HTS Code 4819.10 for Corrugated Boxes: US Import Duty Rate and Tariff Guide"
 date: "2026-10-02"
 author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
-tags: ["corrugated box HTS code USA", "corrugated box import duty USA", "corrugated boxes import USA India", "HTS 4819 corrugated boxes", "importing corrugated boxes USA customs"]
-excerpt: "US importers buying corrugated boxes from India need to know the correct HTS code, the current import duty rate, how Section 301 tariffs affect China but not India, and what customs documentation to expect from an Indian supplier."
+tags: ["corrugated box HTS code USA", "HTS 4819 corrugated boxes", "corrugated box import duty USA", "corrugated boxes from India US import", "Section 301 tariffs packaging India"]
+excerpt: "Corrugated boxes from India import under HTS 4819.20 at 0% US duty - no Section 301 tariff applies to India. This guide covers the correct 10-digit HTS code for RSC and folding cartons, the current MFN duty rate, MPF and HMF fees, and the customs documentation a US importer receives from an Indian manufacturer."
 ogImage: "https://images.pexels.com/photos/1624694/pexels-photo-1624694.jpeg?auto=compress&cs=tinysrgb&w=1200"
 ---
 
@@ -28,7 +28,7 @@ The specific subheading depends on the box type:
 
 Most standard RSC corrugated boxes from India classify under **4819.20.0020** or **4819.20.0040**. Your customs broker will confirm the correct 10-digit HTS code based on the exact product description on the commercial invoice.
 
-**Always confirm HTS classification with a licensed customs broker before importing.** HTS codes can change, and misclassification results in penalty duties or CBP (Customs and Border Protection) enforcement actions.
+**Always confirm HTS classification with a licensed customs broker before importing.** HTS codes can change, and misclassification results in penalty duties or CBP (Customs and Border Protection) enforcement actions. For a complete walkthrough of the US import process from specification to customs clearance, see our [guide to importing corrugated boxes from India to the US](/blogs/importing-corrugated-boxes-from-india-to-usa).
 
 ---
 

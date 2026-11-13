@@ -1,15 +1,17 @@
 ﻿---
-title: "B Flute vs C Flute vs E Flute Corrugated Boxes: Thickness, Strength and When to Use Each"
+title: "B Flute vs C Flute vs E Flute Corrugated Boxes: Which to Specify When Sourcing from India"
 date: "2026-08-07"
-excerpt: "B flute (3mm) handles stacking loads, C flute (4mm) is the standard for general shipping, E flute (1.5mm) gives the cleanest print surface. Compares all four types on thickness, ECT ratings, weight limits and printability - so you can specify the right board without guessing."
-tags: ["Corrugated Boxes", "Flute Types", "corrugated boxes from India", "Export Packaging", "Box Specification", "India corrugated manufacturer", "corrugated boxes India export"]
+excerpt: "UK and US buyers sourcing corrugated boxes from India need to specify the flute type correctly - B flute (3mm) for retail and stacking, C flute (4mm) for general sea freight, E flute (1.5mm) for high-print retail packaging. This guide compares all four types on thickness, ECT ratings, and use case so you can write a correct specification for your Indian manufacturer."
+tags: ["corrugated boxes from India", "flute types corrugated boxes", "sourcing corrugated boxes India UK US", "corrugated box specification UK buyers", "India packaging sourcing guide"]
 author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
 ---
 
-When you are specifying a corrugated box from a manufacturer in India, one of the first decisions is flute type. The flute is the wavy medium layer inside the corrugated board. Its size and shape determine the board's thickness, compression strength, cushioning performance, and printability. Choosing the wrong flute for your application can mean boxes that crush in transit, cost more than necessary, or fail a retailer's vendor compliance audit.
+UK and US buyers sourcing corrugated boxes from India frequently receive a quote request form asking for "flute type" - and many are unsure what to write. Getting this wrong means boxes that crush in a 40ft container on a 28-day ocean voyage, fail a retailer's vendor compliance audit, or cost more than the application requires. Indian manufacturers produce all four main flute types (B, C, E, and BC double wall) at equivalent quality - the choice is entirely down to the buyer's application.
 
-This guide covers the four flute types most commonly used in export packaging - B, C, E, and BC double wall - with clear guidance on when to use each.
+When you are specifying a corrugated box from a manufacturer in India, one of the first decisions is flute type. The flute is the wavy medium layer inside the corrugated board. Its size and shape determine the board's thickness, compression strength, cushioning performance, and printability.
+
+This guide covers the four flute types most commonly used in export packaging - B, C, E, and BC double wall - with clear guidance on when to use each for a UK or US import order.
 
 ![Close-up of corrugated cardboard showing the fluted medium layer inside the board](https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=900&auto=format&fit=crop&q=80)
 *The fluted medium is the defining structural element of corrugated board. Its profile determines almost everything about the box's performance.*
@@ -179,7 +181,7 @@ Start with C flute single wall for most general export applications. Move to B f
 
 Indian corrugated manufacturers produce all standard flute types in-house. B, C, E, and BC double wall are all standard production specifications, with no tooling premium for choosing one over another. The cost difference between flute types comes from raw material - more paper per square metre for double wall, different GSM liner specifications for different strength grades.
 
-For exporters in the USA and UK, factory-direct sourcing from India typically offers 30 to 50% savings versus domestic purchasing, even after sea freight costs. The key is specifying correctly upfront and requesting test data - burst strength, BCT, and GSM certificates - with your samples.
+For exporters in the USA and UK, factory-direct sourcing from India typically offers 30 to 50% savings versus domestic purchasing, even after sea freight costs. The key is specifying correctly upfront and requesting test data - burst strength, BCT, and GSM certificates - with your samples. UK buyers will find a full checklist of UK retailer compliance requirements, FSC documentation, and UK pallet standards in our [corrugated boxes from India guide for UK businesses](/blogs/corrugated-boxes-india-for-uk-businesses).
 
 For detailed specification guides by box type, see our pages on [RSC corrugated boxes](/corrugated-boxes/rsc-boxes), [double wall corrugated boxes](/corrugated-boxes/double-wall), and [custom printed corrugated boxes](/corrugated-boxes/custom-printed).
 
