@@ -110,7 +110,7 @@ Other styles you may encounter:
 
 **Die-cut custom shapes:** Trays, display boxes, partitioned inserts, and irregular shapes. These require custom cutting dies (typically $100–$300 USD per design), but the per-unit cost converges with RSC at moderate volumes.
 
-For most export applications, **RSC with C-flute or BC-flute construction** is the practical starting point. For US and UK buyers sourcing RSC boxes factory-direct from India - dimensions, board grades, flute combinations, and MOQ - see our [RSC corrugated box manufacturer guide from India](/blogs/rsc-corrugated-boxes-manufacturer-india).
+For most export applications, **RSC with C-flute or BC-flute construction** is the practical starting point. For US and UK buyers sourcing RSC boxes factory-direct from India - dimensions, board grades, flute combinations, and MOQ - see our [RSC corrugated boxes from India sourcing guide for UK and US buyers](/blogs/rsc-corrugated-boxes-manufacturer-india).
 
 ---
 

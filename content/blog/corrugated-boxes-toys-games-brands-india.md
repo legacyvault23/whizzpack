@@ -134,7 +134,7 @@ India is a cost-competitive source for corrugated toy packaging for brands with 
 
 **Lead time:** Production lead time from Whizzpack is typically 18-28 days. Sea freight from Rajkot (via Mundra or JNPT) to Felixstowe is approximately 21-24 days, and to US ports (Los Angeles, New York) approximately 22-28 days. Total lead time from approved artwork to UK delivery is 6-8 weeks. Plan for this in your production calendar, particularly for seasonal toy launches.
 
-**Tariffs:** For UK buyers, corrugated boxes under commodity code 4819.10 are zero-rated under the UK Global Tariff. For US buyers, corrugated from India is not subject to the Section 301 tariffs applied to Chinese-origin goods. See our [corrugated box import duty and HTS code guide](/blogs/corrugated-box-import-duty-us-hts-code) for current rates.
+**Tariffs:** For UK buyers, corrugated boxes under commodity code 4819.10 are zero-rated under the UK Global Tariff. For US buyers, corrugated from India is not subject to the Section 301 tariffs applied to Chinese-origin goods. See our [HTS code 4819.20 and US import duty guide for corrugated boxes](/blogs/corrugated-box-import-duty-us-hts-code) for current rates.
 
 **MOQ:** Minimum order at Whizzpack is 5,000 units per SKU. This covers custom dimensions, custom print in up to 4 colours, FSC certification, and choice of board grade. For brands launching multiple SKUs simultaneously, the same minimum applies per SKU.
 
