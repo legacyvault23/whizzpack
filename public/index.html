@@ -396,7 +396,7 @@ footer{background:var(--navy);color:rgba(255,255,255,.62);padding:64px 0 0}
 .fbotl{display:flex;gap:17px}
 
 /* WHATSAPP */
-.waf{position:fixed;bottom:25px;right:25px;width:54px;height:54px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(37,211,102,.38);z-index:990;transition:transform .2s,box-shadow .2s}
+.waf{position:fixed;bottom:25px;right:25px;width:54px;height:54px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(37,211,102,.38);z-index:1600;transition:transform .2s,box-shadow .2s}
 .waf:hover{transform:scale(1.1);box-shadow:0 12px 30px rgba(37,211,102,.48)}
 .waf svg{width:25px;height:25px;fill:#fff}
 
@@ -1462,7 +1462,7 @@ if(lenis)lenis.on('scroll',upd);else window.addEventListener('scroll',upd,{passi
 </script>
 <div id="ckb" role="dialog" aria-label="Cookie notice" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:1500;background:#0F1F4B;color:rgba(255,255,255,.85);padding:14px 24px;box-shadow:0 -6px 24px rgba(15,31,75,.3);align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;font-family:'Inter',system-ui,sans-serif">
   <p style="margin:0;font-size:.85rem;line-height:1.6;max-width:720px">We use cookies to keep the site running smoothly and understand how visitors use it. See our <a href="/privacy-policy" style="color:#F05A28;font-weight:600;text-decoration:underline">Privacy Policy</a> for details.</p>
-  <button id="ckb-ok" style="background:#fff;color:#0F1F4B;border:none;border-radius:8px;padding:10px 22px;font-size:.85rem;font-weight:700;cursor:pointer;font-family:inherit;flex-shrink:0">Got It</button>
+  <button id="ckb-ok" style="background:#F05A28;color:#fff;border:none;border-radius:8px;padding:10px 22px;font-size:.85rem;font-weight:700;cursor:pointer;font-family:inherit;flex-shrink:0">Got It</button>
 </div>
 <script>(function(){try{if(localStorage.getItem('wz_cookie_ok'))return;}catch(e){}var b=document.getElementById('ckb');if(!b)return;b.style.display='flex';var csr=document.getElementById('csr'),csrf=document.getElementById('csrf');b.querySelectorAll('a,button').forEach(function(el){el.addEventListener('mouseenter',function(){if(csr)csr.classList.add('lg');if(csrf)csrf.classList.add('lg');});el.addEventListener('mouseleave',function(){if(csr)csr.classList.remove('lg');if(csrf)csrf.classList.remove('lg');});});var ok=document.getElementById('ckb-ok');if(ok)ok.addEventListener('click',function(){try{localStorage.setItem('wz_cookie_ok','1');}catch(e){}b.style.display='none';});})();</script>
 </body>
