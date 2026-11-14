@@ -1,4 +1,5 @@
 ﻿import Head from 'next/head';
+import Script from 'next/script';
 import { useEffect } from 'react';
 
 export default function Layout({ children, title, description, canonical, schema, ogImage, ogType, navHtml, footerHtml }) {
@@ -138,12 +139,11 @@ export default function Layout({ children, title, description, canonical, schema
             dangerouslySetInnerHTML={{ __html: schema }}
           />
         )}
-        {/* Google Preferred Sources */}
-        <script async src="https://news.google.com/swg/js/v1/publisher.js" />
-        {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-W8N0CSLMYZ" />
-        <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-W8N0CSLMYZ');` }} />
       </Head>
+
+      {/* Google Analytics - deferred after page load to avoid blocking LCP */}
+      <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-W8N0CSLMYZ" />
+      <Script id="gtag-init" strategy="afterInteractive">{`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-W8N0CSLMYZ');gtag('config','AW-16815403269');`}</Script>
 
       {/* Cursor */}
       <div id="csr"></div>
