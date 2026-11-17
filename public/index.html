@@ -1,8 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Google Analytics - deferred after page load to avoid blocking LCP -->
-<script>(function(){function l(){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-W8N0CSLMYZ';document.head.appendChild(s);window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments);};gtag('js',new Date());gtag('config','G-W8N0CSLMYZ');gtag('config','AW-16815403269');}document.readyState==='complete'?l():window.addEventListener('load',l);})();</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Corrugated Box &amp; Seed Bag Manufacturer India | Whizzpack</title>
@@ -775,7 +773,7 @@ nav .logo-img{height:46px}
     function init(){pts=[];for(var i=0;i<55;i++)pts.push({bx:rnd(0,W),by:rnd(0,H),r:rnd(1,2),a:rnd(0.07,0.16),col:Math.random()<0.2?'240,90,40':'255,255,255',ox:rnd(0,6.28),oy:rnd(0,6.28),ax:rnd(10,26),ay:rnd(8,22),sx:rnd(0.0003,0.0007),sy:rnd(0.0003,0.0007)});}
     function resize(){W=c.offsetWidth;H=c.offsetHeight;c.width=W;c.height=H;init();}
     resize();window.addEventListener('resize',resize);
-    (function tick(){var t=Date.now();ctx.clearRect(0,0,W,H);for(var i=0;i<pts.length;i++){var p=pts[i],x=p.bx+Math.sin(t*p.sx+p.ox)*p.ax,y=p.by+Math.sin(t*p.sy+p.oy)*p.ay;ctx.beginPath();ctx.arc(x,y,p.r,0,6.283);ctx.fillStyle='rgba('+p.col+','+p.a+')';ctx.fill();}requestAnimationFrame(tick);})();
+    window.addEventListener('load',function(){(function tick(){var t=Date.now();ctx.clearRect(0,0,W,H);for(var i=0;i<pts.length;i++){var p=pts[i],x=p.bx+Math.sin(t*p.sx+p.ox)*p.ax,y=p.by+Math.sin(t*p.sy+p.oy)*p.ay;ctx.beginPath();ctx.arc(x,y,p.r,0,6.283);ctx.fillStyle='rgba('+p.col+','+p.a+')';ctx.fill();}requestAnimationFrame(tick);})();});
   })();
   </script>
 
@@ -1194,9 +1192,10 @@ nav .logo-img{height:46px}
 // lenis initialized on window.load (Lenis+GSAP scripts are deferred)
 var lenis;
 
-// 3. CURSOR (immediate - no Lenis/GSAP dependency)
+// 3. CURSOR (desktop only - no cursor on touch devices)
 var csr=document.getElementById('csr'),csrf=document.getElementById('csrf');
 var mx=window.innerWidth/2,my=window.innerHeight/2,cx=mx,cy=my;
+if(!('ontouchstart' in window)){
 document.addEventListener('mousemove',function(e){
   mx=e.clientX;my=e.clientY;
   if(csr){csr.style.left=mx+'px';csr.style.top=my+'px';}
@@ -1204,6 +1203,7 @@ document.addEventListener('mousemove',function(e){
   if(ml){ml.style.left=mx+'px';ml.style.top=my+'px';}
 });
 (function mc(){cx+=(mx-cx)*.1;cy+=(my-cy)*.1;if(csrf){csrf.style.left=cx+'px';csrf.style.top=cy+'px';}requestAnimationFrame(mc);})();
+}
 document.querySelectorAll('a,button,.pc,.ic,.tc2,.wc,.cm').forEach(function(el){
   el.addEventListener('mouseenter',function(){if(csr)csr.classList.add('lg');if(csrf)csrf.classList.add('lg');});
   el.addEventListener('mouseleave',function(){if(csr)csr.classList.remove('lg');if(csrf)csrf.classList.remove('lg');});
@@ -1237,10 +1237,10 @@ setTimeout(revealInView,250);
   co.observe(hst);
 })();
 
-// 10. THREE.JS PARTICLES (lazy-loaded after page renders)
+// 10. THREE.JS PARTICLES (desktop only - skip on mobile to save 600KB + GPU)
 (function(){
   var canvas=document.getElementById('heroCanvas');
-  if(!canvas)return;
+  if(!canvas||window.innerWidth<=768)return;
   var s=document.createElement('script');
   s.src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js';
   s.onload=function(){
@@ -1464,6 +1464,8 @@ if(lenis)lenis.on('scroll',upd);else window.addEventListener('scroll',upd,{passi
   <p style="margin:0;font-size:.85rem;line-height:1.6;max-width:720px">We use cookies to keep the site running smoothly and understand how visitors use it. See our <a href="/privacy-policy" style="color:#F05A28;font-weight:600;text-decoration:underline">Privacy Policy</a> for details.</p>
   <button id="ckb-ok" style="background:#F05A28;color:#fff;border:none;border-radius:8px;padding:10px 22px;font-size:.85rem;font-weight:700;cursor:pointer;font-family:inherit;flex-shrink:0">Got It</button>
 </div>
+<!-- Google Analytics - end of body to avoid blocking LCP -->
+<script>(function(){function l(){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-W8N0CSLMYZ';document.head.appendChild(s);window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments);};gtag('js',new Date());gtag('config','G-W8N0CSLMYZ');gtag('config','AW-16815403269');}document.readyState==='complete'?l():window.addEventListener('load',l);})();</script>
 <script>(function(){try{if(localStorage.getItem('wz_cookie_ok'))return;}catch(e){}var b=document.getElementById('ckb');if(!b)return;b.style.display='flex';var csr=document.getElementById('csr'),csrf=document.getElementById('csrf');b.querySelectorAll('a,button').forEach(function(el){el.addEventListener('mouseenter',function(){if(csr)csr.classList.add('lg');if(csrf)csrf.classList.add('lg');});el.addEventListener('mouseleave',function(){if(csr)csr.classList.remove('lg');if(csrf)csrf.classList.remove('lg');});});var ok=document.getElementById('ckb-ok');if(ok)ok.addEventListener('click',function(){try{localStorage.setItem('wz_cookie_ok','1');}catch(e){}b.style.display='none';});})();</script>
 </body>
 </html>
