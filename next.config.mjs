@@ -27,7 +27,7 @@ const nextConfig = {
     return [
       { source: '/(.*)', headers: securityHeaders },
       {
-        source: '/(|corrugated-boxes|cotton-seed-bags|privacy-policy)',
+        source: '/(|corrugated-boxes|cotton-seed-bags|pizza-boxes|privacy-policy)',
         headers: [{ key: 'Cache-Control', value: 's-maxage=86400, stale-while-revalidate=604800' }],
       },
     ];
@@ -51,6 +51,7 @@ const nextConfig = {
       { source: '/', destination: '/index.html' },
       { source: '/corrugated-boxes', destination: '/corrugated-boxes.html' },
       { source: '/cotton-seed-bags', destination: '/cotton-seed-bags.html' },
+      { source: '/pizza-boxes', destination: '/pizza-boxes.html' },
       { source: '/privacy-policy', destination: '/privacy-policy.html' },
       { source: '/thank-you', destination: '/thank-you.html' },
     ];
