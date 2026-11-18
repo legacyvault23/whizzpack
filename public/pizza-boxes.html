@@ -304,6 +304,29 @@ p{color:var(--gray);line-height:1.75}
 #cookie-accept{background:#F05A28;color:#fff;border:none;padding:9px 20px;border-radius:7px;font-weight:700;font-size:.82rem;cursor:pointer;white-space:nowrap;font-family:inherit;transition:background .2s}
 #cookie-accept:hover{background:#d94d20}
 
+/* FOOTER LOGO FIX - navy text invisible on dark bg */
+.fbrand .logo .nv{color:rgba(255,255,255,.88)!important}
+.fbrand .logo-sub{color:rgba(255,255,255,.45)!important}
+
+/* HERO IMAGE */
+.pizza-hero-wrap{position:relative;display:flex;align-items:center;justify-content:center}
+.phero-img{width:460px;max-width:100%;display:block;filter:drop-shadow(0 28px 52px rgba(15,31,75,.15)) drop-shadow(0 5px 16px rgba(15,31,75,.09));mix-blend-mode:multiply;animation:boxfloat 5.5s ease-in-out infinite}
+@keyframes boxfloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-16px)}}
+
+/* STATS */
+.hst .si h4{transition:color .3s}
+.hst .si h4.counting{color:var(--orange)}
+
+/* SECTION IMAGES */
+.simg-band{padding:0;background:var(--white)}
+.simg-band .wrap{padding:0;max-width:100%}
+.simg-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;overflow:hidden;box-shadow:var(--shl)}
+.simg-panel{position:relative;overflow:hidden;aspect-ratio:4/3}
+.simg-panel img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s}
+.simg-panel:hover img{transform:scale(1.06)}
+.simg-panel .simg-cap{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(15,31,75,.8));padding:18px 16px 14px;color:#fff;font-size:.78rem;font-weight:700;opacity:0;transition:opacity .3s}
+.simg-panel:hover .simg-cap{opacity:1}
+
 /* RESPONSIVE */
 @media(max-width:900px){
   .hi,.cinn,.fgi{grid-template-columns:1fr}
@@ -380,38 +403,27 @@ p{color:var(--gray);line-height:1.75}
           <span class="hbadge"><span class="dot r"></span>QSR Specialist</span>
           <span class="hbadge"><span class="dot"></span>Factory-Direct India</span>
         </div>
-        <h1 class="ht">Pizza Boxes That <span>Elevate</span> Every Slice</h1>
-        <p class="hs">Custom pizza boxes, burger packaging and QSR food boxes manufactured factory-direct in Rajkot, India. Food-grade liners, grease-resistant coating, full-colour print. Priced for chains, not retailers.</p>
+        <h1 class="ht">Pizza Box Manufacturer in India &ndash; <span>Direct from Factory</span></h1>
+        <p class="hs">Corrugated pizza boxes and QSR food packaging made in our Rajkot, India factory. Food-safe kraft liner, grease-resistant coating, up to 4-colour print. No distributor markup &ndash; factory-direct pricing for chains and food brands. MOQ 5,000 units.</p>
         <div class="ha">
           <a href="#contact" class="btn bp">Get a Free Quote &rarr;</a>
           <a href="#products" class="btn bs">See Box Types</a>
         </div>
-        <div class="hst">
-          <div class="si"><h4>5<span>K+</span></h4><p>MOQ per SKU</p></div>
-          <div class="si"><h4>15<span>-20</span></h4><p>Day lead time</p></div>
-          <div class="si"><h4>7<span>&#8211;16"</span></h4><p>All pizza sizes</p></div>
+        <div class="hst" id="heroStats">
+          <div class="si"><h4><span id="s1">5</span><span>K+</span></h4><p>MOQ per SKU</p></div>
+          <div class="si"><h4><span id="s2a">15</span><span>-</span><span id="s2b">20</span></h4><p>Day lead time</p></div>
+          <div class="si"><h4><span id="s3a">7</span><span>-</span><span id="s3b">16</span><span>"</span></h4><p>All pizza sizes</p></div>
         </div>
       </div>
       <div class="hv">
-        <div class="pizza-scene">
-          <div class="pizza-box-graphic">
-            <div class="pb-top"></div>
-            <div class="pb-shadow"></div>
-            <div class="pb-front">
-              <div class="pb-stripe"></div>
-              <div class="pb-pattern"></div>
-              <div class="pb-label-inner">
-                <div class="pbl-brand"><span>WHI</span>ZZ<span>PACK</span></div>
-                <div class="pbl-sub">Food Packaging</div>
-              </div>
-            </div>
-          </div>
+        <div class="pizza-hero-wrap">
+          <img src="/Whizzpack-Box.webp" alt="Custom corrugated pizza box from Whizzpack, India" class="phero-img" width="460" height="460">
           <div class="pz-chips">
             <div class="chip">Food-Grade Liner</div>
             <div class="chip">Custom Print</div>
             <div class="chip">Grease-Resistant</div>
           </div>
-          <div class="plabel">Factory-Direct from India</div>
+          <div class="plabel">Factory-Direct from Rajkot, India</div>
         </div>
       </div>
     </div>
@@ -473,8 +485,8 @@ p{color:var(--gray);line-height:1.75}
   <div class="wrap">
     <div class="sh tc anim">
       <span class="stag">Box Types</span>
-      <h2>Every Format Your Menu Needs</h2>
-      <p>From classic pizza rounds to gourmet burger stacks, we manufacture the full range of QSR food packaging. All food-grade, all custom-printable.</p>
+      <h2>Pizza Boxes &amp; Food Service Box Types</h2>
+      <p>From regular pizza rounds to burger boxes and cloud kitchen packaging, we make the full range of QSR food boxes at our Rajkot factory. Every box food-grade, every box custom-printable.</p>
     </div>
     <div class="pgrid">
       <div class="pc anim">
@@ -556,14 +568,34 @@ p{color:var(--gray);line-height:1.75}
   </div>
 </section>
 
+<!-- BOX GALLERY -->
+<section class="simg-band">
+  <div class="wrap">
+    <div class="simg-grid">
+      <div class="simg-panel">
+        <img src="/gallery-box-rsc.webp" alt="RSC corrugated pizza box manufactured at Whizzpack factory, Rajkot" loading="lazy">
+        <div class="simg-cap">RSC Pizza Box</div>
+      </div>
+      <div class="simg-panel">
+        <img src="/box-preview-photo.webp" alt="Custom printed food packaging box from Whizzpack" loading="lazy">
+        <div class="simg-cap">Custom Printed Box</div>
+      </div>
+      <div class="simg-panel">
+        <img src="/gallery-box-double-wall.webp" alt="Double-wall corrugated box for food service and delivery" loading="lazy">
+        <div class="simg-cap">Double-Wall Box</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- FOOD GRADE SECTION -->
 <section id="foodgrade">
   <div class="wrap">
     <div class="fgi">
       <div class="fgtext anim">
         <span class="stag g">Food Safety First</span>
-        <h2>Built to Food Industry Standards</h2>
-        <p>Every pizza box and burger box we manufacture uses food-contact safe materials throughout. No recycled liner on the food-contact surface. No solvent inks.</p>
+        <h2>Food-Safe Materials at Every Layer</h2>
+        <p>Every pizza box and burger box we make uses food-contact safe materials throughout. No recycled board on the food-contact surface. No solvent inks. Same specification year after year &ndash; your supply chain can count on it.</p>
         <ul class="fglist">
           <li><div class="fgck"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></div><span>Virgin kraft food-contact liner on all inner surfaces</span></li>
           <li><div class="fgck"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></div><span>Grease-resistant (GR) coating available as standard or upgrade</span></li>
@@ -574,6 +606,9 @@ p{color:var(--gray);line-height:1.75}
         <a href="#contact" class="btn bp">Request Food-Grade Samples &rarr;</a>
       </div>
       <div class="fgvisual anim">
+        <div class="fcard" style="grid-column:span 2;padding:0;overflow:hidden;border-radius:var(--rl);min-height:180px">
+          <img src="/gallery-box-custom-print.webp" alt="Custom printed corrugated box from Whizzpack" style="width:100%;height:220px;object-fit:cover;display:block">
+        </div>
         <div class="fcard">
           <div class="fcnum">100%</div>
           <div class="fclabel">Recyclable board</div>
@@ -584,11 +619,7 @@ p{color:var(--gray);line-height:1.75}
         </div>
         <div class="fcard">
           <div class="fcnum">GR</div>
-          <div class="fclabel">Grease-resistant liner</div>
-        </div>
-        <div class="fcard">
-          <div class="fcnum">Virgin</div>
-          <div class="fclabel">Food-contact kraft</div>
+          <div class="fclabel">Grease-resistant</div>
         </div>
         <div class="fcard full">
           <div class="fcnum">ECO</div>
@@ -660,8 +691,8 @@ p{color:var(--gray);line-height:1.75}
   <div class="wrap">
     <div class="sh tc anim">
       <span class="stag">Why Whizzpack</span>
-      <h2>The Difference in Every Box</h2>
-      <p>Thousands of pizza and burger boxes leave our factory every day. Here is what sets us apart from generic corrugated suppliers.</p>
+      <h2>Why Pizza Chains Order from Whizzpack</h2>
+      <p>Thousands of pizza and burger boxes leave our Rajkot factory every day. Here is what sets us apart from generic corrugated suppliers.</p>
     </div>
     <div class="wgrid">
       <div class="wc anim">
@@ -1064,6 +1095,40 @@ p{color:var(--gray);line-height:1.75}
       if(window.gtag)gtag('event','whatsapp_click',{event_category:'lead',event_label:'pizza_boxes'});
     });
   });
+
+  /* Stats countup animation */
+  (function(){
+    var statsEl=document.getElementById('heroStats');
+    if(!statsEl)return;
+    var fired=false;
+    function countTo(el,target,duration){
+      if(!el)return;
+      var startTime=null;
+      function step(ts){
+        if(!startTime)startTime=ts;
+        var progress=Math.min((ts-startTime)/duration,1);
+        var ease=1-Math.pow(1-progress,3);
+        el.textContent=Math.round(target*ease);
+        if(progress<1)requestAnimationFrame(step);
+        else el.textContent=target;
+      }
+      requestAnimationFrame(step);
+    }
+    var statsObs=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting && !fired){
+          fired=true;
+          countTo(document.getElementById('s1'),5,1200);
+          countTo(document.getElementById('s2a'),15,1000);
+          countTo(document.getElementById('s2b'),20,1300);
+          countTo(document.getElementById('s3a'),7,900);
+          countTo(document.getElementById('s3b'),16,1100);
+          statsObs.disconnect();
+        }
+      });
+    },{threshold:0.5});
+    statsObs.observe(statsEl);
+  })();
 })();
 </script>
 </body>
