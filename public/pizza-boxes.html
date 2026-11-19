@@ -229,6 +229,17 @@ nav .logo-img{height:46px}
 #proc{background:#fff}
 .psteps{display:grid;grid-template-columns:repeat(4,1fr);position:relative}
 .psteps::before{content:'';position:absolute;top:40px;left:12%;width:76%;height:2px;background:linear-gradient(90deg,var(--orange),var(--navy));z-index:0}
+/* Brand gallery carousel */
+#brand-gallery{padding:60px 0 70px;background:var(--navy);overflow:hidden}
+#brand-gallery .sh h2,#brand-gallery .sh p{color:#fff}
+#brand-gallery .sh p{opacity:.82}
+#brand-gallery .stag{background:rgba(255,255,255,.12);color:rgba(255,255,255,.8);border:1px solid rgba(255,255,255,.18)}
+.cgal-wrap{overflow:hidden;margin-top:36px}
+.cgal-track{display:flex;gap:18px;width:max-content;animation:cgal-scroll 40s linear infinite}
+.cgal-track:hover{animation-play-state:paused}
+.cgal-slide{flex-shrink:0;width:300px;border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 6px 28px rgba(0,0,0,.22)}
+.cgal-slide img{width:100%;height:220px;object-fit:cover;display:block}
+@keyframes cgal-scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 .pstep{text-align:center;padding:0 13px;position:relative;z-index:1}
 .snum{width:78px;height:78px;border-radius:50%;background:#fff;border:3px solid var(--orange);display:flex;align-items:center;justify-content:center;font-size:1.35rem;font-weight:900;color:var(--orange);margin:0 auto 16px;transition:transform .4s cubic-bezier(.34,1.56,.64,1),background .25s,color .25s}
 .snum.f{background:var(--orange);color:#fff}
@@ -594,6 +605,37 @@ footer{background:var(--navy);color:rgba(255,255,255,.62);padding:64px 0 0}
           <span class="ptag">Multi-Brand</span>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- BRAND GALLERY CAROUSEL -->
+<section id="brand-gallery">
+  <div class="wrap">
+    <div class="sh tc anim">
+      <span class="stag">Customise Freely</span>
+      <h2>Our Products, Your Brand</h2>
+      <p>Every box is custom-printed at our Rajkot factory — your logo, your colours, your design. Hover to pause.</p>
+    </div>
+  </div>
+  <div class="cgal-wrap">
+    <div class="cgal-track">
+      <div class="cgal-slide"><img src="/pizza-gallery/pizza-box-1.webp" loading="lazy" alt="White Italian-themed custom pizza box"></div>
+      <div class="cgal-slide"><img src="/pizza-gallery/pizza-box-2.webp" loading="lazy" alt="Navy premium branded pizza box"></div>
+      <div class="cgal-slide"><img src="/pizza-gallery/pizza-box-3.webp" loading="lazy" alt="White pizza box with orange checkerboard print"></div>
+      <div class="cgal-slide"><img src="/pizza-gallery/pizza-box-4.webp" loading="lazy" alt="Black premium pizza box with orange accent"></div>
+      <div class="cgal-slide"><img src="/pizza-gallery/pizza-box-5.webp" loading="lazy" alt="Kraft brown stacked branded pizza boxes"></div>
+      <div class="cgal-slide"><img src="/pizza-gallery/pizza-box-6.webp" loading="lazy" alt="Classic red gingham checkered pizza box"></div>
+      <div class="cgal-slide"><img src="/pizza-gallery/pizza-box-7.webp" loading="lazy" alt="Kraft box with Italian artisan pizza design"></div>
+      <div class="cgal-slide"><img src="/pizza-gallery/pizza-box-8.webp" loading="lazy" alt="White pizza box with circular vintage stamp print"></div>
+      <div class="cgal-slide"><img src="/pizza-gallery/pizza-box-1.webp" loading="lazy" alt="White Italian-themed custom pizza box"></div>
+      <div class="cgal-slide"><img src="/pizza-gallery/pizza-box-2.webp" loading="lazy" alt="Navy premium branded pizza box"></div>
+      <div class="cgal-slide"><img src="/pizza-gallery/pizza-box-3.webp" loading="lazy" alt="White pizza box with orange checkerboard print"></div>
+      <div class="cgal-slide"><img src="/pizza-gallery/pizza-box-4.webp" loading="lazy" alt="Black premium pizza box with orange accent"></div>
+      <div class="cgal-slide"><img src="/pizza-gallery/pizza-box-5.webp" loading="lazy" alt="Kraft brown stacked branded pizza boxes"></div>
+      <div class="cgal-slide"><img src="/pizza-gallery/pizza-box-6.webp" loading="lazy" alt="Classic red gingham checkered pizza box"></div>
+      <div class="cgal-slide"><img src="/pizza-gallery/pizza-box-7.webp" loading="lazy" alt="Kraft box with Italian artisan pizza design"></div>
+      <div class="cgal-slide"><img src="/pizza-gallery/pizza-box-8.webp" loading="lazy" alt="White pizza box with circular vintage stamp print"></div>
     </div>
   </div>
 </section>
