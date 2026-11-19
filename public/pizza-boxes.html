@@ -268,6 +268,48 @@ nav .logo-img{height:46px}
 .size-banner-link{display:block;margin:48px 0 0;border-radius:14px;overflow:hidden;cursor:pointer}
 .size-banner-link img{width:100%;height:auto;display:block;transition:transform .4s ease}
 .size-banner-link:hover img{transform:scale(1.01)}
+/* SAVINGS ESTIMATOR */
+#savings{background:var(--navy);padding:72px 0}
+#savings .sh p{color:rgba(255,255,255,.75)}
+.sav-widget{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:36px;max-width:700px;margin:36px auto 0}
+.sav-top-lbl{color:rgba(255,255,255,.5);font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;margin-bottom:8px}
+.sav-qty{font-size:2rem;font-weight:800;color:#fff;margin-bottom:18px}
+#savSlider{width:100%;-webkit-appearance:none;appearance:none;height:6px;border-radius:3px;outline:none;cursor:pointer;margin-bottom:28px}
+#savSlider::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;border-radius:50%;background:var(--orange);cursor:pointer;box-shadow:0 2px 10px rgba(240,90,40,.5)}
+#savSlider::-moz-range-thumb{width:22px;height:22px;border-radius:50%;background:var(--orange);cursor:pointer;border:none}
+.sav-cols{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:18px}
+.sav-box{background:rgba(255,255,255,.05);border-radius:12px;padding:18px 20px}
+.sav-box-lbl{font-size:.7rem;color:rgba(255,255,255,.45);font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px}
+.sav-box-val{font-size:1.55rem;font-weight:800;color:#fff}
+.sav-box-val.grn{color:#4ade80}
+.sav-box-sub{font-size:.7rem;color:rgba(255,255,255,.3);margin-top:3px}
+.sav-pill{background:rgba(240,90,40,.13);border:1px solid rgba(240,90,40,.3);border-radius:10px;padding:14px 18px;text-align:center;margin-bottom:22px}
+.sav-pill strong{color:var(--orange);font-size:1.05rem;display:block;margin-bottom:4px}
+.sav-pill span{font-size:.8rem;color:rgba(255,255,255,.6)}
+.sav-btn{display:block;background:var(--orange);color:#fff;font-weight:700;font-size:.95rem;padding:14px 24px;border-radius:8px;text-decoration:none;text-align:center;transition:opacity .2s}
+.sav-btn:hover{opacity:.88}
+.sav-disc{text-align:center;font-size:.7rem;color:rgba(255,255,255,.28);margin-top:16px;max-width:700px;margin-left:auto;margin-right:auto}
+@media(max-width:600px){.sav-cols{grid-template-columns:1fr}.sav-qty{font-size:1.5rem}}
+/* SAMPLE REQUEST */
+#sample{background:var(--light);padding:72px 0}
+.smp-grid{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:start;margin-top:40px}
+.smp-left p{color:var(--gray);font-size:.9rem;line-height:1.75;margin-bottom:24px}
+.smp-perk{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px}
+.smp-icon{width:34px;height:34px;border-radius:8px;background:rgba(240,90,40,.1);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.smp-icon svg{width:16px;height:16px;stroke:var(--orange);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.smp-perk-text strong{display:block;color:var(--navy);font-size:.87rem;font-weight:700}
+.smp-perk-text span{color:var(--gray);font-size:.8rem}
+.smp-box{background:#fff;border-radius:16px;padding:32px;box-shadow:var(--sh)}
+.smp-box>h3{font-size:1.1rem;color:var(--navy);font-weight:800;margin-bottom:6px}
+.smp-box>p{font-size:.82rem;color:var(--gray);margin-bottom:22px}
+#sampleForm .fgrid{grid-template-columns:1fr}
+.smp-submit{width:100%;background:var(--orange);color:#fff;border:none;border-radius:8px;padding:14px;font-size:.95rem;font-weight:700;cursor:pointer;transition:opacity .2s;margin-top:4px}
+.smp-submit:hover{opacity:.88}
+.smp-success{display:none;text-align:center;padding:32px 16px}
+.smp-success svg{width:52px;height:52px;stroke:var(--green);fill:none;stroke-width:1.5;margin-bottom:14px}
+.smp-success h3{color:var(--navy);font-size:1.1rem;font-weight:800;margin-bottom:8px}
+.smp-success p{color:var(--gray);font-size:.87rem}
+@media(max-width:768px){.smp-grid{grid-template-columns:1fr}}
 
 /* CTA BAND */
 #cta-band{background:linear-gradient(135deg,var(--navy),var(--navy2));padding:80px 0;position:relative;overflow:hidden}
@@ -916,6 +958,121 @@ footer{background:var(--navy);color:rgba(255,255,255,.62);padding:64px 0 0}
   </div>
 </section>
 
+<!-- SAVINGS ESTIMATOR -->
+<section id="savings">
+  <div class="wrap">
+    <div class="sh tc anim">
+      <span class="stag">Cost Calculator</span>
+      <h2>How Much Could You Save?</h2>
+      <p>Factory-direct from Rajkot vs buying through a US or UK distributor. Drag the slider to your volume.</p>
+    </div>
+    <div class="sav-widget anim">
+      <div class="sav-top-lbl">Monthly pizza box order</div>
+      <div class="sav-qty" id="savQty">5,000 boxes / month</div>
+      <input type="range" id="savSlider" min="1000" max="50000" step="500" value="5000">
+      <div class="sav-cols">
+        <div class="sav-box">
+          <div class="sav-box-lbl">Typical US/UK distributor</div>
+          <div class="sav-box-val" id="savDistAnn">$33k</div>
+          <div class="sav-box-sub">estimated annual spend</div>
+        </div>
+        <div class="sav-box">
+          <div class="sav-box-lbl">Whizzpack factory-direct</div>
+          <div class="sav-box-val grn" id="savWpAnn">$23k</div>
+          <div class="sav-box-sub">estimated annual spend</div>
+        </div>
+      </div>
+      <div class="sav-pill">
+        <strong id="savRange">$8k &ndash; $12k saved per year</strong>
+        <span>equivalent to <strong id="savMonths" style="color:#fff">3</strong> months of boxes for free</span>
+      </div>
+      <a href="#contact" class="sav-btn">Get an exact quote for my volume &rarr;</a>
+    </div>
+    <p class="sav-disc">Estimates use a typical US/UK distributor rate of $0.55 per custom-printed corrugated pizza box. Actual savings depend on specification, volume, and destination. Factory-direct saving range: 25&ndash;35%.</p>
+  </div>
+</section>
+
+<!-- SAMPLE REQUEST -->
+<section id="sample">
+  <div class="wrap">
+    <div class="sh tc anim">
+      <span class="stag">Free Samples</span>
+      <h2>Try Before You Order</h2>
+      <p>Printed sample boxes to your exact spec, air-shipped to your door within 5-7 days. No commitment required.</p>
+    </div>
+    <div class="smp-grid">
+      <div class="smp-left anim">
+        <p>Every production order at Whizzpack starts with a sample. We print your logo, your colours, your dimensions and ship it to you so you can test it with your actual pizza before committing to a container order.</p>
+        <div class="smp-perk">
+          <div class="smp-icon"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></div>
+          <div class="smp-perk-text"><strong>Printed to your spec</strong><span>Your logo, Pantone colours, exact box dimensions</span></div>
+        </div>
+        <div class="smp-perk">
+          <div class="smp-icon"><svg viewBox="0 0 24 24"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg></div>
+          <div class="smp-perk-text"><strong>Air-shipped in 5-7 days</strong><span>DHL or FedEx to anywhere in the world</span></div>
+        </div>
+        <div class="smp-perk">
+          <div class="smp-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <div class="smp-perk-text"><strong>Food-safe and grease-resistant</strong><span>Test the box with your actual pizza before approving</span></div>
+        </div>
+        <div class="smp-perk">
+          <div class="smp-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <div class="smp-perk-text"><strong>No obligation</strong><span>Sample cost credited back on your first production order</span></div>
+        </div>
+      </div>
+      <div class="smp-box anim">
+        <h3>Request Your Free Sample</h3>
+        <p>Fill in your details and we will confirm your sample within 24 hours.</p>
+        <div class="smp-success" id="smpSuccess">
+          <svg viewBox="0 0 24 24" style="width:52px;height:52px;stroke:#16a34a;fill:none;stroke-width:1.5;margin-bottom:14px;display:block;margin-left:auto;margin-right:auto"><circle cx="12" cy="12" r="10"/><path d="M9 12l2 2 4-4"/></svg>
+          <h3 style="color:var(--navy);font-size:1.1rem;font-weight:800;margin-bottom:8px">Sample Request Received</h3>
+          <p style="color:var(--gray);font-size:.87rem">We will confirm your sample and shipping details within 24 hours.</p>
+        </div>
+        <form id="sampleForm" action="https://formspree.io/f/xdoqkgyw" method="POST" novalidate>
+          <input type="hidden" name="enquiry_type" value="SAMPLE REQUEST">
+          <div class="fgrid" style="grid-template-columns:1fr">
+            <div class="fg"><label for="smpName">Your Name *</label><input type="text" id="smpName" name="name" placeholder="Name" required></div>
+            <div class="fg"><label for="smpEmail">Email Address *</label><input type="email" id="smpEmail" name="email" placeholder="email@company.com" required></div>
+            <div class="fg"><label for="smpCompany">Company / Restaurant *</label><input type="text" id="smpCompany" name="company" placeholder="Pizza Palace Ltd" required></div>
+            <div class="fg"><label for="smpBoxSize">Pizza Box Size *</label>
+              <select id="smpBoxSize" name="box_size" required>
+                <option value="">Select size...</option>
+                <option>7-inch round</option>
+                <option>8-inch round</option>
+                <option>9-inch round</option>
+                <option>10-inch round</option>
+                <option>12-inch round</option>
+                <option>14-inch round</option>
+                <option>16-inch round</option>
+                <option>Custom dimensions</option>
+                <option>Multiple sizes</option>
+              </select>
+            </div>
+            <div class="fg"><label for="smpCountry">Country *</label>
+              <select id="smpCountry" name="country" required>
+                <option value="">Select country...</option>
+                <option>United States</option>
+                <option>United Kingdom</option>
+                <option>United Arab Emirates</option>
+                <option>Australia</option>
+                <option>Canada</option>
+                <option>Germany</option>
+                <option>France</option>
+                <option>Netherlands</option>
+                <option>Singapore</option>
+                <option>New Zealand</option>
+                <option>South Africa</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+          <button type="submit" class="smp-submit">Request Free Sample &rarr;</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- CONTACT -->
 <section id="contact">
   <div class="wrap">
@@ -1316,6 +1473,51 @@ footer{background:var(--navy);color:rgba(255,255,255,.62);padding:64px 0 0}
   /* Box size custom field */
   var bs=document.getElementById('boxsize'),csw=document.getElementById('customSizeWrap'),cs=document.getElementById('customSize');
   if(bs&&csw){bs.addEventListener('change',function(){var show=bs.value==='Custom / Non-Standard'||bs.value==='Multiple Sizes';csw.style.display=show?'':'none';if(cs)cs.required=show;});}
+
+  /* Savings estimator */
+  (function(){
+    var sl=document.getElementById('savSlider');
+    if(!sl)return;
+    function fmt(n){
+      if(n>=1000000)return'$'+(n/1e6).toFixed(1)+'M';
+      if(n>=10000)return'$'+Math.round(n/1000)+'k';
+      return'$'+(n/1000).toFixed(1)+'k';
+    }
+    function upd(){
+      var qty=parseInt(sl.value);
+      var pct=(qty-1000)/(50000-1000)*100;
+      sl.style.background='linear-gradient(to right,var(--orange) '+pct+'%,rgba(255,255,255,.18) '+pct+'%)';
+      document.getElementById('savQty').textContent=qty.toLocaleString()+' boxes / month';
+      var dist=Math.round(qty*12*0.55/100)*100;
+      var wp=Math.round(dist*0.70/100)*100;
+      var savL=Math.round(dist*0.25/100)*100;
+      var savH=Math.round(dist*0.35/100)*100;
+      var mos=Math.max(1,Math.round((savL+savH)/2/(0.55*qty)));
+      document.getElementById('savDistAnn').textContent=fmt(dist);
+      document.getElementById('savWpAnn').textContent=fmt(wp);
+      document.getElementById('savRange').textContent=fmt(savL)+' – '+fmt(savH)+' saved per year';
+      document.getElementById('savMonths').textContent=mos;
+    }
+    sl.addEventListener('input',upd);
+    upd();
+  })();
+
+  /* Sample form AJAX */
+  (function(){
+    var f=document.getElementById('sampleForm');
+    if(!f)return;
+    f.addEventListener('submit',function(e){
+      e.preventDefault();
+      var btn=f.querySelector('.smp-submit');
+      btn.textContent='Sending...';btn.disabled=true;
+      fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}})
+        .then(function(r){
+          if(r.ok){f.style.display='none';document.getElementById('smpSuccess').style.display='block';}
+          else{btn.textContent='Request Free Sample →';btn.disabled=false;}
+        })
+        .catch(function(){btn.textContent='Request Free Sample →';btn.disabled=false;});
+    });
+  })();
 
   /* Form submit */
   var form=document.getElementById('enqForm'),msg=document.getElementById('formMsg');
