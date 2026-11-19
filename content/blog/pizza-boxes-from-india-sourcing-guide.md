@@ -132,7 +132,7 @@ Whizzpack is a corrugated box and cotton bag manufacturer based in Rajkot, Gujar
 
 We handle custom specifications including printed and unprinted boxes, B-flute and E-flute construction, Kraft and white liner options, and a range of standard and custom sizes. We can provide FDA compliance documentation and arrange pre-shipment inspection for first-time buyers.
 
-If you are evaluating Indian suppliers for pizza box imports, we are happy to provide samples, share our export documentation, and discuss your volume and timeline. You can reach us through the [contact form on our website](/#contact).
+If you are evaluating Indian suppliers for pizza box imports, we are happy to provide samples, share our export documentation, and discuss your volume and timeline. Visit our [pizza boxes page](/pizza-boxes) to see the full range of formats, sizes, grease-resistant liner options, and custom print specifications we offer, or reach us through the [contact form](/pizza-boxes#contact) to request a sample.
 
 For broader box sourcing beyond pizza, see our guides on [cardboard shipping boxes in bulk](/blogs/cardboard-shipping-boxes-bulk-guide) and [custom printed boxes with your logo](/blogs/custom-printed-boxes-with-logo-buyers-guide).
 

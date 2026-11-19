@@ -40,7 +40,7 @@ The key specifications for pizza boxes:
 - **Vent holes:** Many pizza box designs include die-cut vent holes on the sides or top to release steam without making the base soggy.
 - **Custom sizes:** 8-inch, 10-inch, 12-inch, 14-inch, and 16-inch are the common diameters, but any custom size can be tooled for orders of sufficient volume.
 
-For chains ordering consistent volumes, having your own custom-printed pizza box rather than a plain kraft or generic branded box from a distributor creates a significantly more professional presentation. See our detailed guide on [pizza boxes from India](/blogs/pizza-boxes-from-india-sourcing-guide) for everything on specifications and minimum order quantities.
+For chains ordering consistent volumes, having your own custom-printed pizza box rather than a plain kraft or generic branded box from a distributor creates a significantly more professional presentation. See our detailed guide on [pizza boxes from India](/blogs/pizza-boxes-from-india-sourcing-guide) for everything on specifications and minimum order quantities, or visit our [pizza boxes page](/pizza-boxes) to see the full product range, size options, and grease-resistant liner specifications.
 
 ## Burger and Hotdog Boxes
 

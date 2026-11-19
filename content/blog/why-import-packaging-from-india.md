@@ -99,7 +99,7 @@ Repeat orders move substantially faster. Once specifications are locked in and t
 
 India's corrugated box manufacturing is concentrated in Gujarat, Maharashtra, and the Delhi NCR region. The Gujarat cluster - centred on Ahmedabad, Rajkot, Vadodara, and Surat - is the largest, benefiting from proximity to Mundra and Kandla ports and a large domestic paper mill base.
 
-Indian corrugated manufacturers produce all standard international specifications: B, C, E, and BC double wall flute; single wall to triple wall construction; flexographic printing from one to four colours; custom sizes and die-cut styles. Our guide on [B, C, and E flute corrugated boxes](/blogs/b-flute-vs-c-flute-vs-e-flute-corrugated-boxes) covers specification decisions in detail for importers who are not yet sure which board type they need.
+Indian corrugated manufacturers produce all standard international specifications: B, C, E, and BC double wall flute; single wall to triple wall construction; flexographic printing from one to four colours; custom sizes and die-cut styles. Our guide on [B, C, and E flute corrugated boxes](/blogs/b-flute-vs-c-flute-vs-e-flute-corrugated-boxes) covers specification decisions in detail for importers who are not yet sure which board type they need. Food service operators sourcing pizza boxes and QSR packaging will find specific product information, grease-resistant liner options, and size references on our [pizza boxes page](/pizza-boxes).
 
 For US importers, corrugated boxes from India ship most cost-effectively by sea freight, and the unit economics at FCL (full container load) volumes are strong relative to domestic US purchasing or China sourcing.
 
