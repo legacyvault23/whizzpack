@@ -125,6 +125,8 @@ export default function Layout({ children, title, description, canonical, schema
         {ogImage && <meta property="og:image:height" content="630" />}
         {ogImage && <meta name="twitter:card" content="summary_large_image" />}
         {ogImage && <meta name="twitter:image" content={ogImage} />}
+        {title && <meta name="twitter:title" content={title} />}
+        {description && <meta name="twitter:description" content={description} />}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
