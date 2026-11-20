@@ -110,14 +110,15 @@ export default function About({ navHtml, footerHtml }) {
         .value-card p{font-size:.88rem;color:#666;margin:0;line-height:1.7}
         @media(max-width:700px){.values-grid{grid-template-columns:1fr}}
 
-        .about-cta{background:linear-gradient(135deg,#0F1F4B 0%,#1a3268 100%);padding:80px 0;text-align:center}
+        .about-cta{background:#F05A28;padding:80px 0;text-align:center;margin-bottom:0}
         .about-cta h2{font-size:clamp(1.7rem,3.5vw,2.4rem);font-weight:900;color:#fff;margin:0 0 16px}
-        .about-cta p{font-size:1.05rem;color:rgba(255,255,255,.75);max-width:520px;margin:0 auto 32px;line-height:1.7}
+        .about-cta p{font-size:1.05rem;color:rgba(255,255,255,.88);max-width:520px;margin:0 auto 32px;line-height:1.7}
+        main{display:block;margin-bottom:0;padding-bottom:0}
         .cta-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
         .btn-white{background:#fff;color:#0F1F4B;border:none;padding:14px 30px;border-radius:8px;font-weight:700;font-size:.95rem;cursor:pointer;text-decoration:none;transition:transform .2s,box-shadow .2s}
         .btn-white:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.15)}
-        .btn-outline-white{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.4);padding:13px 28px;border-radius:8px;font-weight:700;font-size:.95rem;cursor:pointer;text-decoration:none;transition:border-color .2s,background .2s}
-        .btn-outline-white:hover{border-color:#fff;background:rgba(255,255,255,.08)}
+        .btn-outline-white{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.65);padding:13px 28px;border-radius:8px;font-weight:700;font-size:.95rem;cursor:pointer;text-decoration:none;transition:border-color .2s,background .2s}
+        .btn-outline-white:hover{border-color:#fff;background:rgba(255,255,255,.12)}
 
         .breadcrumb-bar{background:#f3f4f8;border-bottom:1px solid #e4e9f0;padding:12px 0}
         .breadcrumb-bar .wrap{max-width:1100px;margin:0 auto;padding:0 24px}
