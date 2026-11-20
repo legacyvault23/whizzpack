@@ -189,8 +189,9 @@ nav .logo-img{height:46px}
 .fgtext>p{margin-bottom:24px;font-size:.98rem}
 .fglist{list-style:none;display:flex;flex-direction:column;gap:12px;margin-bottom:28px}
 .fglist li{display:flex;align-items:flex-start;gap:12px;font-size:.9rem;font-weight:500;color:var(--dark)}
-.fgck{width:22px;height:22px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
-.fgck svg{width:11px;height:11px;fill:#fff}
+.fgck{width:20px;height:20px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:0;color:var(--orange);font-size:1rem;font-weight:800;line-height:1}
+.fgck svg{display:none}
+.fgck::after{content:"→"}
 .fgvisual{display:grid;grid-template-columns:1fr 1fr 1fr;gap:13px}
 .fcard{background:var(--light);border:1px solid var(--border);border-radius:var(--rl);padding:22px;text-align:center;transition:border-color .3s,box-shadow .3s,transform .3s}
 .fcard:hover{border-color:var(--orange);box-shadow:var(--sh);transform:translateY(-3px)}
@@ -270,6 +271,7 @@ nav .logo-img{height:46px}
 .size-banner-link:hover img{transform:scale(1.01)}
 /* SAVINGS ESTIMATOR */
 #savings{background:var(--navy);padding:48px 0}
+#savings .sh h2{color:#fff}
 #savings .sh p{color:rgba(255,255,255,.75)}
 #savings .sh{margin-bottom:0}
 .sav-widget{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:24px;max-width:640px;margin:24px auto 0}
@@ -364,7 +366,8 @@ nav .logo-img{height:46px}
 .ctrust{display:flex;flex-direction:column;gap:8px;padding:18px;background:var(--light);border-radius:var(--r);border:1px solid var(--border)}
 .ctrust h4{font-size:.86rem;font-weight:700;color:var(--navy);margin-bottom:4px}
 .ctitem{display:flex;align-items:center;gap:9px;font-size:.8rem;color:var(--gray)}
-.ctitem svg{width:13px;height:13px;fill:var(--green);flex-shrink:0}
+.ctitem svg{display:none}
+.ctitem::before{content:"→";color:var(--orange);font-weight:700;font-size:.85rem;flex-shrink:0}
 
 /* FOOTER */
 footer{background:var(--navy);color:rgba(255,255,255,.62);padding:64px 0 0}
