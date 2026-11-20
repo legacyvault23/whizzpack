@@ -110,7 +110,7 @@ export default function About({ navHtml, footerHtml }) {
         .value-card p{font-size:.88rem;color:#666;margin:0;line-height:1.7}
         @media(max-width:700px){.values-grid{grid-template-columns:1fr}}
 
-        .about-cta{background:#F05A28;padding:80px 0;text-align:center;margin-bottom:0}
+        .about-cta{background:linear-gradient(135deg,#e84d1c 0%,#F05A28 45%,#f47235 100%);padding:80px 0;text-align:center;margin-bottom:0}
         .about-cta h2{font-size:clamp(1.7rem,3.5vw,2.4rem);font-weight:900;color:#fff;margin:0 0 16px}
         .about-cta p{font-size:1.05rem;color:rgba(255,255,255,.88);max-width:520px;margin:0 auto 32px;line-height:1.7}
         main{display:block;margin-bottom:0;padding-bottom:0}
