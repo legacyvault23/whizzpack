@@ -489,6 +489,30 @@ nav .logo-img{height:46px}
   .mm-dd-menu a.mlink{padding-left:20px;font-size:.88rem;color:#6b7280;font-weight:500}
   .mm a.btn{display:flex;justify-content:center;text-align:center}
 }
+/* PIZZA SPOTLIGHT */
+#pizza-spotlight{padding:80px 0;background:#fff;border-top:1px solid var(--border)}
+.pz-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.pz-left .stag{margin-bottom:14px}
+.pz-left h2{font-size:clamp(1.75rem,3vw,2.4rem);line-height:1.15;color:var(--navy);margin:0 0 16px}
+.pz-left>p{color:var(--gray);font-size:.93rem;line-height:1.75;margin-bottom:26px}
+.pz-sizelbl{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--gray);margin-bottom:10px}
+.pz-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px}
+.pz-chip{padding:5px 13px;border-radius:6px;font-size:.8rem;font-weight:600;background:var(--light);color:var(--navy)}
+.pz-chip.on{background:var(--orange);color:#fff}
+.pz-feats{display:grid;gap:14px;margin-bottom:30px}
+.pz-feat{display:flex;align-items:flex-start;gap:12px}
+.pz-fi{width:36px;height:36px;border-radius:8px;background:rgba(240,90,40,.1);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.pz-fi svg{width:16px;height:16px}
+.pz-feat strong{display:block;color:var(--navy);font-size:.87rem;font-weight:700}
+.pz-feat span{color:var(--gray);font-size:.8rem}
+.pz-imgw{position:relative;border-radius:var(--rl);overflow:hidden;box-shadow:var(--shl)}
+.pz-imgw img{width:100%;height:420px;object-fit:cover;display:block}
+.pz-badge{position:absolute;bottom:20px;right:20px;background:var(--navy);color:#fff;border-radius:12px;padding:14px 18px;text-align:center;min-width:100px}
+.pz-badge-n{display:block;font-size:1.6rem;font-weight:800;color:var(--orange);line-height:1}
+.pz-badge-t{font-size:.7rem;color:rgba(255,255,255,.75);line-height:1.4;display:block;margin-top:4px}
+.pz-cta{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:8px;font-size:.88rem;font-weight:700;background:var(--navy);color:#fff;text-decoration:none;transition:opacity .2s}
+.pz-cta:hover{opacity:.88}
+@media(max-width:768px){.pz-grid{grid-template-columns:1fr;gap:36px}.pz-imgw img{height:260px}.pz-badge{bottom:16px;right:16px}}
 </style>
 
   <link rel="alternate" hreflang="en" href="https://www.whizzpack.in/" />
@@ -701,6 +725,53 @@ nav .logo-img{height:46px}
   </div>
 </section>
 
+<!-- PIZZA BOXES SPOTLIGHT -->
+<section id="pizza-spotlight" aria-label="Pizza Boxes for QSR">
+  <div class="wrap">
+    <div class="pz-grid">
+      <div class="pz-left anim">
+        <span class="stag">QSR &amp; Food Service</span>
+        <h2>Custom Pizza Boxes,<br>Factory-Direct from India</h2>
+        <p>Purpose-built for restaurant chains, QSR franchises, and food service distributors. B-flute and E-flute construction with grease-resistant food-safe liners, full Pantone-matched print, and FDA food-contact compliance documentation.</p>
+        <div class="pz-sizelbl">Available Sizes</div>
+        <div class="pz-chips">
+          <span class="pz-chip">7&rdquo;</span>
+          <span class="pz-chip">8&rdquo;</span>
+          <span class="pz-chip">9&rdquo;</span>
+          <span class="pz-chip">10&rdquo;</span>
+          <span class="pz-chip on">12&rdquo;</span>
+          <span class="pz-chip">14&rdquo;</span>
+          <span class="pz-chip">16&rdquo;</span>
+          <span class="pz-chip">Custom</span>
+        </div>
+        <div class="pz-feats">
+          <div class="pz-feat">
+            <div class="pz-fi"><svg viewBox="0 0 24 24" fill="none" stroke="#F05A28" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <div><strong>FDA food-contact compliant</strong><span>Grease-resistant inner liner, virgin and recycled options available</span></div>
+          </div>
+          <div class="pz-feat">
+            <div class="pz-fi"><svg viewBox="0 0 24 24" fill="none" stroke="#F05A28" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg></div>
+            <div><strong>Samples air-shipped in 5-7 days</strong><span>Printed to your exact spec with your logo and Pantone colours</span></div>
+          </div>
+          <div class="pz-feat">
+            <div class="pz-fi"><svg viewBox="0 0 24 24" fill="none" stroke="#F05A28" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M3 8l9-5 9 5"/><path d="M12 8v13"/></svg></div>
+            <div><strong>MOQ from 5,000 units</strong><span>FCL and LCL sea freight from Mundra port to US, UK, and worldwide</span></div>
+          </div>
+        </div>
+        <a href="/pizza-boxes" class="pz-cta">Explore Pizza Boxes &rarr;</a>
+      </div>
+      <div class="pz-right anim">
+        <div class="pz-imgw">
+          <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&auto=format&fit=crop&q=80" alt="Custom printed corrugated pizza boxes for restaurant chains and QSR brands" loading="lazy">
+          <div class="pz-badge">
+            <span class="pz-badge-n">20-40%</span>
+            <span class="pz-badge-t">cheaper than<br>US distributor</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section id="about" aria-labelledby="abouth">
   <div class="about-hero">
