@@ -161,6 +161,7 @@ export default function Layout({ children, title, description, canonical, schema
           </button>
           <div className="mm-dd-menu">
             <a href="/corrugated-boxes" className="mlink">&#128230; Corrugated Boxes</a>
+            <a href="/pizza-boxes" className="mlink">&#127829; Pizza Boxes</a>
             <a href="/cotton-seed-bags" className="mlink">&#127807; Cotton Bags for Seeds</a>
           </div>
         </div>
