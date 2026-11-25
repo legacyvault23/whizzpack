@@ -47,6 +47,16 @@ India is a normal trade relations partner with the US and benefits from MFN tari
 
 ---
 
+<div style="background:linear-gradient(135deg,#0F1F4B 0%,#162a6b 100%);border-radius:12px;padding:28px 28px 24px;margin:36px 0;border-left:4px solid #F05A28">
+  <p style="font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#F05A28;margin:0 0 8px">Source from India</p>
+  <h3 style="color:#fff;font-size:1.2rem;font-weight:800;margin:0 0 10px;line-height:1.3">Ready to import corrugated boxes at 0% US duty?</h3>
+  <p style="color:rgba(255,255,255,.75);font-size:.92rem;margin:0 0 20px;line-height:1.6">Whizzpack manufactures corrugated boxes in Rajkot, India and ships directly to US importers under HTS 4819.20 at 0% MFN duty. MOQ 5,000 units. Sample boxes air-shipped in 5 to 7 days.</p>
+  <div style="display:flex;flex-wrap:wrap;gap:10px">
+    <a href="/corrugated-boxes" style="display:inline-block;padding:11px 22px;background:#F05A28;color:#fff;border-radius:8px;font-weight:700;font-size:.9rem;text-decoration:none">Request samples</a>
+    <a href="/corrugated-boxes" style="display:inline-block;padding:11px 22px;background:rgba(255,255,255,.12);color:#fff;border-radius:8px;font-weight:700;font-size:.9rem;text-decoration:none">Get a quote</a>
+  </div>
+</div>
+
 ## US Customs Documentation from an Indian Supplier
 
 ![Stacked corrugated boxes marked with shipping symbols and fragile labels, representing the documentation and handling requirements for corrugated box imports from India to the USA](https://images.pexels.com/photos/6169028/pexels-photo-6169028.jpeg?auto=compress&cs=tinysrgb&w=1200)
