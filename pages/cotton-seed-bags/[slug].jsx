@@ -6,7 +6,7 @@ import Link from 'next/link';
 const PAGES = {
   'drawstring': {
     ctaTitle: 'Ready to Order Drawstring Cotton Bags for Seeds?',
-    title: 'Drawstring Cotton Bags for Seeds | Muslin Seed Pouches Factory India | Whizzpack',
+    title: 'Drawstring Cotton Bags for Seeds | Muslin Seed Pouches from India | Whizzpack',
     description: 'Custom drawstring cotton bags for seeds, made to your spec in Rajkot, India. Retail garden pouches to farm sacks. OEKO-TEX compliant. MOQ 5,000 units. Exporting to UK seed brands and US organic farms.',
     h1: 'Drawstring Cotton Bags for Seeds',
     subtitle: 'Reusable, biodegradable drawstring cotton bags for seed packaging - from retail garden pouches to bulk farm storage, manufactured factory-direct from India for UK and US seed brands',
@@ -73,7 +73,7 @@ const PAGES = {
 
   'organic': {
     ctaTitle: 'Ready to Order Organic Cotton Bags for Seeds?',
-    title: 'Organic Cotton Bags for Seeds | GOTS Certified Seed Packaging India | Whizzpack',
+    title: 'Organic Cotton Bags for Seeds | GOTS Certified, Sourced from India | Whizzpack',
     description: 'GOTS certified organic cotton bags for seeds, from Rajkot, India. Verified supply chain, Transaction Certificates provided. For UK organic seed brands, US USDA NOP operations, and EU organic retailers. MOQ 5,000 units.',
     h1: 'Organic Cotton Bags for Seeds',
     subtitle: 'GOTS certified, undyed, fully biodegradable cotton bags for seed packaging - for UK organic garden brands, US USDA NOP farms, and EU organic retailers sourcing factory-direct from India',
@@ -140,7 +140,7 @@ const PAGES = {
 
   'custom-printed': {
     ctaTitle: 'Ready to Order Custom Printed Cotton Bags for Seeds?',
-    title: 'Custom Printed Cotton Bags for Seeds | Screen Print Factory India | Whizzpack',
+    title: 'Custom Printed Cotton Bags for Seeds | Screen Print from India | Whizzpack',
     description: 'Custom printed cotton bags for seed brands - screen print, Pantone matching, OEKO-TEX compliant inks. Factory-direct from Rajkot, India to UK and US seed companies. MOQ 5,000 units.',
     h1: 'Custom Printed Cotton Bags for Seeds',
     subtitle: 'Branded cotton bags for seed companies - full-colour screen printing, Pantone colour matching, and OEKO-TEX safe inks, factory-direct from India to UK and US seed brands',

@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const PAGES = {
   'rsc-boxes': {
-    title: 'RSC Corrugated Boxes Manufacturer India | Regular Slotted Containers | Whizzpack',
+    title: 'RSC Corrugated Boxes from India | Regular Slotted Containers for USA & UK | Whizzpack',
     description: 'Factory-direct RSC corrugated boxes from Rajkot, India. Single and double wall, all flute types, custom sizes. ISO certified exporter to USA, UK, and worldwide. MOQ 5,000 units.',
     h1: 'Regular Slotted Corrugated Boxes (RSC)',
     subtitle: 'The most versatile corrugated box style for export shipping - manufactured factory-direct from Rajkot, India',
@@ -70,7 +70,7 @@ const PAGES = {
   },
 
   'double-wall': {
-    title: 'Double Wall Corrugated Boxes India | Heavy Duty 5-Ply Export Boxes | Whizzpack',
+    title: 'Double Wall Corrugated Boxes from India | Heavy-Duty 5-Ply Export Boxes | Whizzpack',
     description: 'Factory-direct double wall corrugated boxes from Rajkot, India. BC and EB flute, 5-ply construction, ECT 44-51. Heavy-duty protection for industrial export. MOQ 5,000 units.',
     h1: 'Double Wall Corrugated Boxes',
     subtitle: 'Heavy-duty 5-ply construction for industrial export and fragile goods - factory-direct from India',
@@ -131,7 +131,7 @@ const PAGES = {
   },
 
   'custom-printed': {
-    title: 'Custom Printed Corrugated Boxes India | Logo Printed Shipping Boxes | Whizzpack',
+    title: 'Custom Printed Corrugated Boxes from India | Logo Printed Shipping Boxes | Whizzpack',
     description: 'Factory-direct custom printed corrugated boxes from India. 1-4 colour flexo print, litho-laminate options, eco-friendly inks. Branded packaging for retail, e-commerce, and export. MOQ 5,000 units.',
     h1: 'Custom Printed Corrugated Boxes',
     subtitle: 'Branded corrugated packaging with eco-friendly flexo and litho printing - factory-direct from Rajkot, India',

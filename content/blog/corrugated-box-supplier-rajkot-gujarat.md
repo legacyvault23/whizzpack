@@ -1,5 +1,5 @@
 ---
-title: "Corrugated Box Supplier in Rajkot, Gujarat: Factory-Direct Export to USA and UK"
+title: "Sourcing Corrugated Boxes from Rajkot, Gujarat: What US and UK Importers Need to Know"
 date: "2026-10-02"
 author: "Jash B."
 authorBio: "Jash B. has over a decade of experience in packaging export from India, working with importers across the US and UK. He oversees production and client operations at Whizzpack, a Rajkot-based manufacturer of corrugated boxes and Cotton Bags for Seeds specialising in factory-direct B2B export."
